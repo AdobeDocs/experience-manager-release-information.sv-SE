@@ -2,10 +2,10 @@
 title: '[!DNL Adobe Experience Manager] lanserar färdplan'
 description: '[!DNL Adobe Experience Manager] lanserar färdplan'
 translation-type: tm+mt
-source-git-commit: 7394d2d8a9b1f4264004e5623ee1e44e2e8f35cd
+source-git-commit: 36b873676460cf1d276e9b1a0ee7ecfb7fb26932
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 4%
+source-wordcount: '403'
+ht-degree: 5%
 
 ---
 
@@ -29,6 +29,12 @@ ht-degree: 4%
 | [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.3.0 | 2021.3.0 | Månadsrelease | 25 mars 2021 |
 | [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.4.0 | 2021.4.0 | Månadsrelease | 29 april 2021 |
 | [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.5.0 | 2021.5.0 | Månadsrelease | 27 maj 2021 |
+| [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.6.0 | 2021.6.0 | Månadsrelease | 24 juni 2021 |
+| [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.7.0 | 2021.7.0 | Månadsrelease | 29 juli 2021 |
+| [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.8.0 | 2021.8.0 | Månadsrelease | 26 augusti 2021 |
+| [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.9.0 | 2021.9.0 | Månadsrelease | 30 september 2021 |
+| [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.10.0 | 2021.10.0 | Månadsrelease | 28 oktober 2021 |
+| [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.11.0 | 2021.11.0 | Månadsrelease | 2 december 2021 |
 
 Förutom de månatliga releaserna finns olika viktiga uppdateringar i [!DNL Experience Manager] som [!DNL Cloud Service] med en daglig versionsfrekvens.
 
