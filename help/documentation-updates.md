@@ -3,9 +3,9 @@ title: '[!DNL Experience Manager] senaste dokumentationsuppdateringar'
 description: Vad som är nytt, uppdaterat eller ändrat i  [!DNL Experience Manager] dokumentationen
 contentOwner: trushton
 translation-type: tm+mt
-source-git-commit: 2e6a43b1608d07adfcafe5a5db6747b9ec966977
+source-git-commit: 94a5511d9f88f023fa8947dd4cf4ff7a43979dac
 workflow-type: tm+mt
-source-wordcount: '3219'
+source-wordcount: '3220'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Du kan även visa [tidigare dokumentationsuppdateringar](previous-documentation-
 >
 >AEM när en Cloud Service släpps varje månad.
 >
->I [versionsinformationen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html) finns dokumentation om de enskilda versionerna (aktuella AMD-versioner).
+>I [versionsinformationen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html) finns dokumentation om de enskilda versionerna (aktuella och tidigare versioner).
 
 | Date | Ämne | Ändringar |
 | --- | --- | --- |
