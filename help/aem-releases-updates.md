@@ -3,9 +3,9 @@ title: '[!DNL Adobe Experience Manager] uppdaterar'
 description: '[!DNL Adobe Experience Manager] uppdaterar'
 contentOwner: AK
 translation-type: tm+mt
-source-git-commit: 2e6a43b1608d07adfcafe5a5db6747b9ec966977
+source-git-commit: 73b15ea55fcd259dd514be990cb2c78e86737591
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '314'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ I den här artikeln listas den senaste versionen för varje versionskategori och
 
 [!DNL Experience Manager] som en  [!DNL Cloud Service] följd av en månadsvis lanseringsstängsel. Därför finns nya funktioner tillgängliga som kontinuerliga uppdateringar av [!DNL Experience Manager] varje månad.
 
-Mer information om den aktuella (senaste) versionen finns i [[!DNL Experience Manager] som a [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html). Här kan du även navigera till information om tidigare versioner (ordnade kronologiskt).
+Information om den aktuella/senaste versionen finns i [Aktuell versionsinformation för [!DNL Experience Manager] som en [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html). Här kan du även navigera till information om tidigare versioner (ordnade kronologiskt).
 
 ## [!DNL Experience Manager] lokala och hanterade tjänster  {#aem-on-prem-managed-services}
 
