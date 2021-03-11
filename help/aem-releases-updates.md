@@ -3,7 +3,7 @@ title: '[!DNL Adobe Experience Manager] uppdaterar'
 description: '[!DNL Adobe Experience Manager] uppdaterar'
 contentOwner: AK
 translation-type: tm+mt
-source-git-commit: 73b15ea55fcd259dd514be990cb2c78e86737591
+source-git-commit: 4303e4f7b0e0e544434221d8f7dbf9fef44164f9
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 2%
@@ -33,7 +33,7 @@ För Managed Services och lokalt installerade erbjudanden listas den senaste ver
 
 [!DNL Experience Manager] 6.5 produktuppdateringar levereras via kvartalsvisa servicepaket. Det gäller nya funktioner, förbättringar och felkorrigeringar.
 
-* [[!DNL Experience Manager] 6.5 Service Pack 7](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html)
+* [[!DNL Experience Manager] 6.5 Service Pack 8](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html)
 
 * [[!DNL Experience Manager] 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/release-notes.html)
 
@@ -43,7 +43,7 @@ En lista över funktioner som introducerats finns i [vad som är nytt i [!DNL Ex
 
 [!DNL Experience Manager] 6.4 Produktuppdateringar levereras genom kvartalsuppgifter för bestruket finpapper. Detta inkluderar felkorrigeringar.
 
-* [[!DNL Experience Manager] 6.4 Service Pack 8 Cumulative Fix Pack 3](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html)
+* [[!DNL Experience Manager] 6.4 Service Pack 8 Cumulative Fix Pack 4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html)
 
 * [[!DNL Experience Manager] 6.4 Service Pack 8](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html)
 
