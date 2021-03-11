@@ -3,9 +3,9 @@ title: '[!DNL Experience Manager] senaste dokumentationsuppdateringar'
 description: Vad som är nytt, uppdaterat eller ändrat i  [!DNL Experience Manager] dokumentationen
 contentOwner: trushton
 translation-type: tm+mt
-source-git-commit: aafdb3e36e9f856de37d5462af923aad32a73f6d
+source-git-commit: 4303e4f7b0e0e544434221d8f7dbf9fef44164f9
 workflow-type: tm+mt
-source-wordcount: '3220'
+source-wordcount: '3254'
 ht-degree: 2%
 
 ---
@@ -58,6 +58,7 @@ Du kan även visa [tidigare dokumentationsuppdateringar](previous-documentation-
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 11 mars 2021 | [!DNL Experience Manager] 6.5 Service Pack 8 | [[!DNL Experience Manager] 6.5 Service Pack 8](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html#service-pack) är tillgängligt. |
 | 25 november 2020 | Tillgänglighet i Dynamic Media | Dynamic Media- och Dynamic Media-visningsprogram har stöd för tangentbordskontroll och hjälpmedelstekniker, som JAWS och NVDA-skärmläsare, i hela användargränssnittet. Se [Tillgänglighet i Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/accessibility-dm.html#dynamic). |
 | 26 november 2020 | [!DNL Experience Manager] 6.5 Service Pack 7 | [[!DNL Experience Manager] 6.5 Service Pack 7](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html#service-pack) är tillgängligt. |
 | 3 september 2020 | CDN-validering i Dynamic Media | Du kan nu skicka en begäran från Dynamic Media om att CDN-cachen ska upphöra att gälla inom några minuter. Den här funktionen är användbar när du uppdaterar resurser och du vill att ändringarna ska börja gälla direkt på webbplatsen.<br>Se  [Invalidera CDN-cachen med Dynamic Media.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/invalidate-cdn-cache-dynamic-media.html) |
@@ -79,6 +80,7 @@ Du kan även visa [tidigare dokumentationsuppdateringar](previous-documentation-
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 25 februari 2021 | [!DNL Experience Manager] 6.4 Service Pack 8 Cumulative Fix Pack 4 | [[!DNL Experience Manager] 6.4 Service Pack 8 Cumulative Fix Pack 4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html) finns tillgängligt. |
 | 26 november 2020 | [!DNL Experience Manager] 6.4 Service Pack 8 Cumulative Fix Pack 3 | [[!DNL Experience Manager] 6.4 Service Pack 8 Cumulative Fix Pack 3](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html) är tillgängligt. |
 | 3 september 2020 | [!DNL Experience Manager] 6.4 Service Pack 8 Cumulative Fix Pack 2 | [[!DNL Experience Manager] 6.4 Service Pack 8 Cumulative Fix Pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/cfp-release-notes.html) är tillgängligt. |
 | 29 juli 2020 | [Multi Site Manager] | Uppdateringar har gjorts i procedurerna [Skapa en ny synkroniseringsåtgärd](https://docs.adobe.com/content/help/en/experience-manager-64/developing/extending-aem/extending-msm.html#creating-a-new-synchronization-action) och [Skapa en ny utrullningskonfiguration.](https://docs.adobe.com/content/help/en/experience-manager-64/developing/extending-aem/extending-msm.html#creating-a-new-rollout-configuration) |
