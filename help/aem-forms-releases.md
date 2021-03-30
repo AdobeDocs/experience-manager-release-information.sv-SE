@@ -3,9 +3,9 @@ title: AEM Forms
 description: Innehåller en lista över alla AEM Forms-versioner och motsvarande paket
 contentOwner: khsingh
 translation-type: tm+mt
-source-git-commit: e15774a3cc034e946ec7443a51181e4c636debaf
+source-git-commit: ad6014815c1b15b66e549653bf0f66fc26b1d2f4
 workflow-type: tm+mt
-source-wordcount: '13231'
+source-wordcount: '13263'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ Följande lista innehåller alla AEM [!DNL Forms]-tilläggspaket som har släppt
       <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/adobe-aemfd-win-pkg-6.0.334.zip">AEM Forms tilläggspaket för Windows</a></li> 
       <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/adobe-aemfd-osx-pkg-6.0.334.zip">AEM Forms tilläggspaket för Mac OS X [2]</a></li>
       <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/compatpack/adobe-aemfd-compat-pkg-2.0.36.zip">AEM Forms-kompatibilitetspaket</a></li>
+      <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/Designer-Patch/650-014/aem-forms-designer-6.5.0-English.msp">AEM Forms Designer Patch</a></li>
       <br><b>JEE patch installers</b></br>
       <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEMForms-6-5-0-0025/JBoss/Win/AEMForms-6.5.0-0025_jboss_win.zip">JBoss-fönster</a></li>
       <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEMForms-6-5-0-0025/JBoss/Linux/AEMForms-6.5.0-0025_jboss_linux.tar.gz">JBoss Linux</a></li>
@@ -55,7 +56,7 @@ Följande lista innehåller alla AEM [!DNL Forms]-tilläggspaket som har släppt
       <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEMForms-6-5-0-0025/WebSphere/AIX/AEMForms-6.5.0-0025_websphere_aix.tar.gz">WebSphere AIX</a></li>
       <li>AEM Forms Client SDK [1]</li>  
      </ul> </td> 
-    <td><p>AEM Forms JEE-installationsprogram: AEMForms-6.5.0-0025<br /> </p> AEM Forms Add-on Packages: 6.0.334</p> <p>AEM Forms-kompatibilitetspaket: 2.0.36</p><p>Klient-SDK: 6.0.334<br /> </p></td> 
+    <td><p>AEM Forms JEE-installationsprogram: AEMForms-6.5.0-0025<br /> </p> AEM Forms Add-on Packages: 6.0.334</p> <p>AEM Forms-kompatibilitetspaket: 2.0.36</p><p>Klient-SDK: 6.0.334<br /> </p><p>AEM Forms Designer Patch: 650.014</p></td> 
    </tr>
    <tr> 
     <td>3 dec 2020</td> 
@@ -319,7 +320,7 @@ Följande lista innehåller alla AEM [!DNL Forms]-tilläggspaket som har släppt
   <tr> 
    <td>12 dec 2019</td> 
    <td><a href="https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html">AEM Forms Service Pack 7 Forms tilläggspaket för AEM 6.4.7.0</a></td> 
-   <td><a href="https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html">AEM 6.4.3.0</a></td> 
+   <td><a href="https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html">AEM 6.4.7.0</a></td> 
    <td> 
     <ul> 
      <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/servicepack/fd/AEM-FORMS-6.4.7.0-LX.zip">AEM Forms tilläggspaket för Linux</a><br /> </li> 
