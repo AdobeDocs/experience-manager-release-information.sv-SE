@@ -7,9 +7,9 @@ user-guide-title: Adobe Experience Manager Release Updates and Roadmap
 breadcrumb-title: AEM versionsinformation
 user-guide-description: Se de senaste AEM.
 feature-set: Experience Manager
-feature: Versionsinformation
+feature: Release Information
 role: Leader, Architect, Developer, Data Architect, Data Engineer, Administrator, Business Practitioner
-level: Nybörjare, medelhög, upplevelse
+level: Beginner, Intermediate, Experienced
 translation-type: tm+mt
 source-git-commit: 7377dceaae71f356b1b14670df64ade13e8992ea
 workflow-type: tm+mt
