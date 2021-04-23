@@ -1,14 +1,14 @@
 ---
 title: Äldre versioner av AEM, CQ och CRX
 description: Dokumentationspaket för äldre versioner av Adobe Experience Manager, CQ och CRX.
+exl-id: c210eadb-58ec-4d40-ba72-5e4b11564510
 translation-type: tm+mt
-source-git-commit: c8e7f79be233c94d33b7605c73e586dce022412c
+source-git-commit: 30feacd82cd68428b8c06044d6290f8f5328aa7a
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
-
 
 # Äldre versioner av [!DNL Adobe Experience Manager], CQ och CRX {#older-versions-aem-cq-crx}
 
@@ -71,13 +71,17 @@ Om du vill installera ett äldre dokumentationspaket måste du ha [!DNL Experien
 
 ### Installera paketet på den lokala instansen {#install-package-local-instance}
 
+>[!NOTE]
+>
+>För AEM 6.2 kan du behöva starta den lokala instansen med en ökad maxstackstorlek genom att använda det här kommandot, till exempel: ` java -jar -XX:MaxPermSize=2048m aem-author.jar`
+
 1. Öppna [!DNL Experience Manager]-användargränssnittet. I en webbläsare anger du: `http://localhost:4502/`. Logga in som administratör.
 
 1. Välj **[!UICONTROL Tools]** > **[!UICONTROL Deployment]** > **[!UICONTROL Packages]**.
 
 1. Välj **[!UICONTROL Upload Package]** i pakethanterarens användargränssnitt.
 
-1. Bläddra till den plats där du hämtade AEM 5.6.1-paketet (aem-docs-5-6-1.zip).
+1. Bläddra till den plats där du hämtade AEM.
 
 1. Markera paketet och klicka på **[!UICONTROL OK]**.
 
