@@ -3,7 +3,7 @@ title: '[!DNL Adobe Experience Manager] lanserar färdplan'
 description: '[!DNL Adobe Experience Manager] lanserar färdplan'
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
 translation-type: tm+mt
-source-git-commit: f0ebb9285b6702dadd8827ad66e9b83a4095a8b9
+source-git-commit: e73837adaeb3407c4c92de0c927e92e0044dac27
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 | Frigör | Version | Typ | Schema |
 |---|---|---|---|
-| [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.4.0 | 2021.4.0 | Månadsrelease | 29 april 2021 |
+| [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.4.0 | 2021.4.0 | Månadsrelease | 6 maj 2021 |
 | [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.5.0 | 2021.5.0 | Månadsrelease | 27 maj 2021 |
 | [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.6.0 | 2021.6.0 | Månadsrelease | 24 juni 2021 |
 | [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.7.0 | 2021.7.0 | Månadsrelease | 29 juli 2021 |
