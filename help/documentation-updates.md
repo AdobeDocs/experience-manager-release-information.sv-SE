@@ -2,14 +2,14 @@
 title: '[!DNL Experience Manager] senaste dokumentationsuppdateringar'
 description: Vad som är nytt, uppdaterat eller ändrat i  [!DNL Experience Manager] dokumentationen
 contentOwner: trushton
+exl-id: 8c136a03-f961-4854-af38-45457b85d289
 translation-type: tm+mt
-source-git-commit: 3299408b2206020ab8d31d905307d24f96c95368
+source-git-commit: fa68729be0642a7369e2a1bef643fac32a76bc3e
 workflow-type: tm+mt
 source-wordcount: '3247'
 ht-degree: 2%
 
 ---
-
 
 # [!DNL Experience Manager] Dokumentation: Senaste dokumentationsuppdateringar  {#aem-documentation-recent-documentation-updates}
 
@@ -27,7 +27,7 @@ Du kan även visa [tidigare dokumentationsuppdateringar](previous-documentation-
 
 | Date | Ämne | Ändringar |
 | --- | --- | --- |
-| 2 december 2020 | Förinställningar för gruppuppsättning | Lär dig automatisera framtagning av bilduppsättningar och snurra uppsättningar med hjälp av gruppuppsättningsförinställningar i Dynamic Media. Se [Gruppuppsättningsförinställningar](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/batch-set-presets-dm.html#dynamicmedia). |
+| 2 december 2020 | Förinställningar för gruppuppsättning | Lär dig automatisera framtagning av bilduppsättningar och snurra uppsättningar med hjälp av gruppuppsättningsförinställningar i Dynamic Media. Se [Gruppuppsättningsförinställningar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/batch-set-presets-dm.html#dynamicmedia). |
 | 2 december 2020 | Tillgänglighet i Dynamic Media | Dynamic Media- och Dynamic Media-visningsprogram har stöd för tangentbordskontroll och hjälpmedelstekniker, som JAWS och NVDA-skärmläsare, i hela användargränssnittet. Se [Tillgänglighet i Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/accessibility-dm.html#dynamicmedia). |
 | 29 oktober 2020 | Kärnkomponenter | Core Components version 2.12.0 innehåller en ny formulärhanterare för POST; möjlighet att inkludera anpassade CSS-, JavaScript- och metadatataggar via kontextmedveten konfiguration, och ett **DataLayerBuilderverktyg** som förenklar integrering av datalager i anpassade komponenter. Versionen är tillgänglig tillsammans med [redigeringsdokumentation](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) och [utvecklarinformation och projektnedladdning tillgänglig på GitHub.](https://github.com/adobe/aem-core-wcm-components) |
 | 24 september 2020 | Inkorgsmeddelande efter en ny Dynamic Media-konfiguration | När konfigurationen av en ny Dynamic Media-konfiguration är klar får du ett statusmeddelande i inkorgen [!DNL Experience Manager]. Det här meddelandet informerar dig om konfigurationen lyckades. Om konfigurationen misslyckas får du en felkod i meddelandet. Använd den här felkoden när du kontaktar Adobe Care.<br>Se  [Felsöka en ny Dynamic Media-konfiguration.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/dynamicmedia/config-dm.html#troubleshoot-dm-config) |
