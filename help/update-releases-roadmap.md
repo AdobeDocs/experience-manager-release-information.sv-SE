@@ -2,10 +2,9 @@
 title: '[!DNL Adobe Experience Manager] lanserar färdplan'
 description: '[!DNL Adobe Experience Manager] lanserar färdplan'
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-translation-type: tm+mt
-source-git-commit: e73837adaeb3407c4c92de0c927e92e0044dac27
+source-git-commit: 0926a739fe07b10b425d198317a92724fcc85503
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '335'
 ht-degree: 4%
 
 ---
@@ -24,7 +23,6 @@ ht-degree: 4%
 
 | Frigör | Version | Typ | Schema |
 |---|---|---|---|
-| [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.4.0 | 2021.4.0 | Månadsrelease | 6 maj 2021 |
 | [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.5.0 | 2021.5.0 | Månadsrelease | 27 maj 2021 |
 | [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.6.0 | 2021.6.0 | Månadsrelease | 24 juni 2021 |
 | [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.7.0 | 2021.7.0 | Månadsrelease | 29 juli 2021 |
@@ -39,7 +37,7 @@ Förutom de månatliga releaserna finns olika viktiga uppdateringar i [!DNL Expe
 
 Produktuppdateringar i form av nya funktioner, förbättringar och felkorrigeringar för [!DNL Experience Manager] på plats- och hanterade tjänster som stöds levereras via kvartalsvisa servicepaket och Cumulative Fix Packs (CFP). Det gör det möjligt att snabbare ta till sig produktuppdateringar genom ofta förekommande releaser. Schemat för kommande produktuppdateringar är följande.
 
-### [!DNL Experience Manager] 6.5  {#aem65}
+### [!DNL Experience Manager] 6.5 {#aem65}
 
 [!DNL Experience Manager] 6.5 produktuppdateringar levereras via kvartalsvisa servicepaket. Det gäller nya funktioner, förbättringar och felkorrigeringar. Mer information om det senaste frisläppta Service Pack-versionen finns i [[!DNL Experience Manager] 6.5 Versionsinformation för Service Pack](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html).
 
@@ -53,7 +51,7 @@ Produktuppdateringar i form av nya funktioner, förbättringar och felkorrigerin
 >
 >[!DNL Experience Manager] Forms släpper tilläggspaketen en vecka efter det schemalagda datumet för  [!DNL Experience Manager] Service Pack.
 
-### [!DNL Experience Manager] 6.4  {#aem64}
+### [!DNL Experience Manager] 6.4 {#aem64}
 
 [!DNL Experience Manager] 6.4 Service Pack 8 CFP 4 är den sista bestruket finpapper för  [!DNL Experience Manager] 6.4. Mer information om den senaste versionen av CFP finns i  [[!DNL Experience Manager] 6.4 Versionsinformation](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html) om Cumulative Fix Pack.
 
