@@ -2,14 +2,13 @@
 title: '[!DNL Adobe Experience Manager] uppdaterar'
 description: '[!DNL Adobe Experience Manager] uppdaterar'
 contentOwner: AK
-translation-type: tm+mt
-source-git-commit: 4303e4f7b0e0e544434221d8f7dbf9fef44164f9
+exl-id: 103e1c40-364e-450d-92d3-6b952e33d47c
+source-git-commit: faf5d9e8303daec9484062f756f430428e280dd7
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 2%
 
 ---
-
 
 # [!DNL Adobe Experience Manager] releaser och uppdateringar  {#aem-releases-and-updates}
 
@@ -33,7 +32,7 @@ För Managed Services och lokalt installerade erbjudanden listas den senaste ver
 
 [!DNL Experience Manager] 6.5 produktuppdateringar levereras via kvartalsvisa servicepaket. Det gäller nya funktioner, förbättringar och felkorrigeringar.
 
-* [[!DNL Experience Manager] 6.5 Service Pack 8](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html)
+* [[!DNL Experience Manager] 6.5 Service Pack 9](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html)
 
 * [[!DNL Experience Manager] 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/release-notes.html)
 
