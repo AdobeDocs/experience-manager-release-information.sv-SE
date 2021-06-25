@@ -2,10 +2,9 @@
 title: Äldre versioner av AEM, CQ och CRX
 description: Dokumentationspaket för äldre versioner av Adobe Experience Manager, CQ och CRX.
 exl-id: c210eadb-58ec-4d40-ba72-5e4b11564510
-translation-type: tm+mt
-source-git-commit: 30feacd82cd68428b8c06044d6290f8f5328aa7a
+source-git-commit: 8c3d816af4db91ea06cb26041376027767fac6bc
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -31,7 +30,7 @@ Innan du laddar ned paketet bör du bestämma vem som ska konsumera innehållet.
 >
 >Användare måste vara inloggade i [!DNL Experience Manager]-instansen för att komma åt det här innehållet på [!DNL Experience Manager] Author. Det här innehållet är inte tillgängligt som standard i AEM Publish (som det finns under /libs).
 
-## Platser för programvarudistribution {#software-distribution-locations}
+## Platser för programdistribution {#software-distribution-locations}
 
 Du behöver en giltig Adobe ID:
 
@@ -40,6 +39,7 @@ Om du behöver hjälp med att skapa eller hantera din Adobe ID [kan du läsa den
 
 | [!DNL Experience Manager] Version | Software Distribution Link |
 |:-----------:|:--------------------------------------------------:|
+| [!DNL Experience Manager] 6.3 | [Ladda ned AEM-DOCS-6.3 från Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem-docs/aem-docs-6-3.zip) |
 | [!DNL Experience Manager] 6.2 | [Ladda ned AEM-DOCS-6.2 från Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem-docs/aem-docs-6-2.zip) |
 | [!DNL Experience Manager] 6.1 | [Hämta AEM-DOCS-6.1 från programvarudistribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem-docs/aem-6-1.zip) |
 | [!DNL Experience Manager] 6.0 | [Ladda ned AEM-DOCS-6.0 från Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem-docs/aem-docs-6-0.zip) |
