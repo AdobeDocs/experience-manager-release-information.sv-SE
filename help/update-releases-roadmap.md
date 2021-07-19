@@ -2,14 +2,14 @@
 title: '[!DNL Adobe Experience Manager] lanserar färdplan'
 description: '[!DNL Adobe Experience Manager] lanserar färdplan'
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: faf5d9e8303daec9484062f756f430428e280dd7
+source-git-commit: 964950fcd6ae02c5a1cb67f2673b3134a55ee12a
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '317'
 ht-degree: 4%
 
 ---
 
-# [!DNL Experience Manager] lanserar färdplan  {#aem-releases-roadmap}
+# [!DNL Experience Manager] lanserar färdplan {#aem-releases-roadmap}
 
 [!DNL Adobe Experience Manager] ger kontinuerligt nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar för användare som använder  [!DNL Cloud Service]Managed Services, och installationserbjudanden för produkten. I den här artikeln listas kommande versioner för [!DNL Experience Manager].
 
@@ -23,8 +23,6 @@ ht-degree: 4%
 
 | Frigör | Version | Typ | Schema |
 |---|---|---|---|
-| [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.5.0 | 2021.5.0 | Månadsrelease | 27 maj 2021 |
-| [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.6.0 | 2021.6.0 | Månadsrelease | 24 juni 2021 |
 | [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.7.0 | 2021.7.0 | Månadsrelease | 29 juli 2021 |
 | [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.8.0 | 2021.8.0 | Månadsrelease | 26 augusti 2021 |
 | [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.9.0 | 2021.9.0 | Månadsrelease | 30 september 2021 |
@@ -33,7 +31,7 @@ ht-degree: 4%
 
 Förutom de månatliga releaserna finns olika viktiga uppdateringar i [!DNL Experience Manager] som [!DNL Cloud Service] med en daglig versionsfrekvens.
 
-## [!DNL Experience Manager] lokala och hanterade tjänster  {#aem-on-prem-managed-services}
+## [!DNL Experience Manager] lokala och hanterade tjänster {#aem-on-prem-managed-services}
 
 Produktuppdateringar i form av nya funktioner, förbättringar och felkorrigeringar för [!DNL Experience Manager] på plats- och hanterade tjänster som stöds levereras via kvartalsvisa servicepaket och Cumulative Fix Packs (CFP). Det gör det möjligt att snabbare ta till sig produktuppdateringar genom ofta förekommande releaser. Schemat för kommande produktuppdateringar är följande.
 
