@@ -3,14 +3,14 @@ title: '[!DNL Experience Manager] senaste dokumentationsuppdateringar'
 description: Vad som är nytt, uppdaterat eller ändrat i  [!DNL Experience Manager] dokumentationen
 contentOwner: trushton
 exl-id: 8c136a03-f961-4854-af38-45457b85d289
-source-git-commit: faf5d9e8303daec9484062f756f430428e280dd7
+source-git-commit: 7f3c4561a27f124099319a21f149750fe7001f33
 workflow-type: tm+mt
-source-wordcount: '3262'
+source-wordcount: '3277'
 ht-degree: 2%
 
 ---
 
-# [!DNL Experience Manager] Dokumentation: Senaste dokumentationsuppdateringar  {#aem-documentation-recent-documentation-updates}
+# [!DNL Experience Manager] Dokumentation: Senaste dokumentationsuppdateringar {#aem-documentation-recent-documentation-updates}
 
 På den här sidan visas viktiga dokumentationsändringar och uppdateringar för [!DNL Adobe Experience Manager].
 
@@ -53,10 +53,11 @@ Du kan även visa [tidigare dokumentationsuppdateringar](previous-documentation-
 | 25 februari 2020 | Rollbaserade behörigheter | Cloud Manager har förkonfigurerade roller med lämpliga behörigheter. Var och en av rollerna har specifika behörigheter, förkonfigurerade uppgifter eller behörigheter som är kopplade till varje roll. [Rollbaserade ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/onboarding/what-is-required/role-based-permissions.html) behörighetssidor visar de tillgängliga funktionerna och de roller som kan utföra funktionen. |
 | 15 februari 2020 | Dispatcher i molnet | Avdelningarna [Dispatcher och CDN](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/dispatcher/overview.html#dispatcher-cdn) och [Explicit Dispatcher cache invalidation](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/dispatcher/overview.html#explicit-invalidation) uppdaterades för att klargöra vilka alternativ som är tillgängliga och hur de fungerar. |
 
-## [!DNL Experience Manager] 6.5  {#aem-65}
+## [!DNL Experience Manager] 6.5 {#aem-65}
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 26 augusti 2021 | [!DNL Experience Manager] 6.5 Service Pack 10 | [[!DNL Experience Manager] 6.5 Service Pack 10 ](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html#service-pack) är tillgängligt. |
 | 27 maj 2021 | [!DNL Experience Manager] 6.5 Service Pack 9 | [[!DNL Experience Manager] 6.5 Service Pack 9](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html#service-pack) är tillgängligt. |
 | 11 mars 2021 | [!DNL Experience Manager] 6.5 Service Pack 8 | [[!DNL Experience Manager] 6.5 Service Pack 8](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html#service-pack) är tillgängligt. |
 | 25 november 2020 | Tillgänglighet i Dynamic Media | Dynamic Media- och Dynamic Media-visningsprogram har stöd för tangentbordskontroll och hjälpmedelstekniker, som JAWS och NVDA-skärmläsare, i hela användargränssnittet. Se [Tillgänglighet i Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/accessibility-dm.html#dynamic). |
@@ -76,7 +77,7 @@ Du kan även visa [tidigare dokumentationsuppdateringar](previous-documentation-
 | 5 mars 2020 | [!DNL Experience Manager] 6.5 Service Pack 4 | [[!DNL Experience Manager] 6.5 Service Pack 4](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/sp-release-notes.html) är tillgängligt. |
 | 4 mars 2020 | Konfigurera Dynamic Media - Scene7-läge | Ett nytt alternativ för Synkronisera allt innehåll finns nu på Dynamic Media konfigurationssida som finns i Verktyg > Cloud Services.<br>Se  [Skapa en Dynamic Media-konfiguration.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/config-dms7.html#configuring-dynamic-media-cloud-services) |
 
-## [!DNL Experience Manager] 6.4  {#aem-64}
+## [!DNL Experience Manager] 6.4 {#aem-64}
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
@@ -90,7 +91,7 @@ Du kan även visa [tidigare dokumentationsuppdateringar](previous-documentation-
 | 30 mars 2020 | Dynamic Media - Smart Imaging | Hela hjälpavsnittet för Smart Imaging uppdaterades med ny information, inklusive exempel på bildresurser som visar den nya optimeringen av smarta bilder.<br>Se  [Smart bildbehandling.](https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/imaging-faq.html) |
 | 5 mars 2020 | [!DNL Experience Manager] 6.4 Service Pack 8 | [[!DNL Experience Manager] 6.4 Service Pack 8](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) är tillgängligt. |
 
-## [!DNL Experience Manager] 6.3  {#aem-2}
+## [!DNL Experience Manager] 6.3 {#aem-2}
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
@@ -98,19 +99,19 @@ Du kan även visa [tidigare dokumentationsuppdateringar](previous-documentation-
 | 30 mars 2020 | Dynamic Media - Smart Imaging | Hela hjälpavsnittet för Smart Imaging uppdaterades med ny information.<br>Se  [Smart bildbehandling.](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html) |
 | 5 mars 2020 | [!DNL Experience Manager] 6.3.3.8 | [Kumulativt korrigeringspaket 6.3.3.8](https://helpx.adobe.com/experience-manager/release-notes--aem-6-3-cumulative-fix-pack.html) för  [!DNL Experience Manager] 6.3 finns tillgängligt. |
 
-## [!DNL Experience Manager] 6.2  {#aem-62}
+## [!DNL Experience Manager] 6.2 {#aem-62}
 
 | Datum | Ämne | Ändringar |
 |---|---|---|
 | 19 juni 2020 | Adobe Experience Manager | På Adobe vill vi använda en rättvis terminologi i hela vår kod, vår dokumentation och våra upplevelser.<br>Därför har vi gjort en serie uppdateringar av den här dokumentationsuppsättningen och kommer att fortsätta göra det i framtiden. |
 
-## [!DNL Experience Manager] 6.1  {#aem-61}
+## [!DNL Experience Manager] 6.1 {#aem-61}
 
 | Datum | Ämnen | Ändringar |
 |---|---|---|
 | 19 juni 2020 | Adobe Experience Manager | På Adobe vill vi använda en rättvis terminologi i hela vår kod, vår dokumentation och våra upplevelser.<br>Därför har vi gjort en serie uppdateringar av den här dokumentationsuppsättningen och kommer att fortsätta göra det i framtiden. |
 
-## [!DNL Experience Manager] datorprogram  {#aem-desktop-app}
+## [!DNL Experience Manager] datorprogram {#aem-desktop-app}
 
 | Datum | Ämnen | Ändringar |
 |---|---|---|

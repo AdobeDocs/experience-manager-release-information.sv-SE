@@ -2,10 +2,10 @@
 title: '[!DNL Adobe Experience Manager] lanserar färdplan'
 description: '[!DNL Adobe Experience Manager] lanserar färdplan'
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 964950fcd6ae02c5a1cb67f2673b3134a55ee12a
+source-git-commit: 7f3c4561a27f124099319a21f149750fe7001f33
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 4%
+source-wordcount: '299'
+ht-degree: 3%
 
 ---
 
@@ -23,8 +23,6 @@ ht-degree: 4%
 
 | Frigör | Version | Typ | Schema |
 |---|---|---|---|
-| [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.7.0 | 2021.7.0 | Månadsrelease | 29 juli 2021 |
-| [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.8.0 | 2021.8.0 | Månadsrelease | 26 augusti 2021 |
 | [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.9.0 | 2021.9.0 | Månadsrelease | 30 september 2021 |
 | [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.10.0 | 2021.10.0 | Månadsrelease | 28 oktober 2021 |
 | [!DNL Experience Manager] som  [!DNL Cloud Service] 2021.11.0 | 2021.11.0 | Månadsrelease | 2 december 2021 |
@@ -41,7 +39,6 @@ Produktuppdateringar i form av nya funktioner, förbättringar och felkorrigerin
 
 | Frigör | Version | Typ | Schema |
 |---|---|---|---|
-| [!DNL Experience Manager] 6.5 Service Pack 10 | 6.5.10.0 | Service Pack | 26 aug 2021 |
 | [!DNL Experience Manager] 6.5 Service Pack 11 | 6.5.11.0 | Service Pack | 25 nov 2021 |
 
 >[!NOTE]

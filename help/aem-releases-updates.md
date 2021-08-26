@@ -3,14 +3,14 @@ title: '[!DNL Adobe Experience Manager] uppdaterar'
 description: '[!DNL Adobe Experience Manager] uppdaterar'
 contentOwner: AK
 exl-id: 103e1c40-364e-450d-92d3-6b952e33d47c
-source-git-commit: faf5d9e8303daec9484062f756f430428e280dd7
+source-git-commit: 7f3c4561a27f124099319a21f149750fe7001f33
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 2%
 
 ---
 
-# [!DNL Adobe Experience Manager] releaser och uppdateringar  {#aem-releases-and-updates}
+# [!DNL Adobe Experience Manager] releaser och uppdateringar {#aem-releases-and-updates}
 
 ![[!DNL Experience Manager] nya releaser](assets/new-aem-releases1.jpeg)
 
@@ -24,21 +24,21 @@ I den här artikeln listas den senaste versionen för varje versionskategori och
 
 Information om den aktuella/senaste versionen finns i [Aktuell versionsinformation för [!DNL Experience Manager] som en [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html). Här kan du även navigera till information om tidigare versioner (ordnade kronologiskt).
 
-## [!DNL Experience Manager] lokala och hanterade tjänster  {#aem-on-prem-managed-services}
+## [!DNL Experience Manager] lokala och hanterade tjänster {#aem-on-prem-managed-services}
 
 För Managed Services och lokalt installerade erbjudanden listas den senaste versionen av Cumulative Fix Pack, den senaste versionen av Service Pack samt huvudversionen och du uppmanas att läsa dokumentationen för dessa versioner. [!DNL Adobe] rekommenderar att du granskar och installerar det senaste Service Pack-versionen följt av det senaste kumulativa korrigeringspaketet för din  [!DNL Experience Manager] version så att distributionen är stabil, säker och aktuell.
 
-### [!DNL Experience Manager] 6.5  {#aem-65}
+### [!DNL Experience Manager] 6.5 {#aem-65}
 
 [!DNL Experience Manager] 6.5 produktuppdateringar levereras via kvartalsvisa servicepaket. Det gäller nya funktioner, förbättringar och felkorrigeringar.
 
-* [[!DNL Experience Manager] 6.5 Service Pack 9](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html)
+* [[!DNL Experience Manager] 6.5 Service Pack 10](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html)
 
 * [[!DNL Experience Manager] 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/release-notes.html)
 
 En lista över funktioner som introducerats finns i [vad som är nytt i [!DNL Experience Manager] 6.5 Service Packs](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/new-features-latest-service-pack.html).
 
-### [!DNL Experience Manager] 6.4  {#aem-64}
+### [!DNL Experience Manager] 6.4 {#aem-64}
 
 [!DNL Experience Manager] 6.4 Produktuppdateringar levereras genom kvartalsuppgifter för bestruket finpapper. Detta inkluderar felkorrigeringar.
 
@@ -48,7 +48,7 @@ En lista över funktioner som introducerats finns i [vad som är nytt i [!DNL Ex
 
 * [[!DNL Experience Manager] 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/release-notes.html)
 
-### [!DNL Experience Manager] 6.3  {#aem-63}
+### [!DNL Experience Manager] 6.3 {#aem-63}
 
 * [[!DNL Experience Manager] 6.3 Service Pack 3 Kumulativt korrigeringspaket 8](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/release-notes-aem-6-3-cumulative-fix-pack.html)
 
@@ -56,7 +56,7 @@ En lista över funktioner som introducerats finns i [vad som är nytt i [!DNL Ex
 
 * [[!DNL Experience Manager] 6.3](https://helpx.adobe.com/experience-manager/6-3/release-notes.html)
 
-### [!DNL Experience Manager] 6.2  {#aem-62}
+### [!DNL Experience Manager] 6.2 {#aem-62}
 
 <!-- TBD: This content will soon be archived and new links can move to aem-previous-versions.md article. See status in UGP-1894.
 -->
