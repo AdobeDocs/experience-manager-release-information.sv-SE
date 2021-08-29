@@ -3,14 +3,14 @@ title: AEM Forms
 description: Innehåller en lista över alla AEM Forms-versioner och motsvarande paket
 contentOwner: khsingh
 exl-id: 65cb9c6b-fb3f-4bf1-aa42-2d724914439a
-source-git-commit: 72b614eb73537ae73915a986a0e933e423caf568
+source-git-commit: 7ad2dc86027f0c3a64922c1328f154e2fd8f403f
 workflow-type: tm+mt
-source-wordcount: '13746'
+source-wordcount: '10036'
 ht-degree: 0%
 
 ---
 
-# AEM [!DNL Forms] releaser {#aem-forms-releases}
+# AEM [!DNL Forms]-versioner {#aem-forms-releases}
 
 Adobe Experience Manager [!DNL Forms] är ett program som distribueras till AEM. Det utvidgar engagerande webb- och mobilupplevelser till företagsblanketter och dokument, vilket gör det möjligt för organisationer att slutföra komplexa digitala interaktioner samtidigt som användarupplevelserna förbättras och affärsverksamheten får ett vidgat utrymme. AEM [!DNL Forms] som ingår i AEM snabbstart har en begränsad uppsättning funktioner. AEM [!DNL Forms]-tilläggspaketet innehåller avancerade funktioner som integrering med [!DNL Adobe Analytics], [!DNL Adobe Sign], dokumenttjänster, arbetsflödesmotor och många andra.
 
@@ -20,7 +20,7 @@ Adobe Experience Manager [!DNL Forms] är ett program som distribueras till AEM.
 
 Följande lista innehåller alla AEM [!DNL Forms]-tilläggspaket som har släppts fram till idag, motsvarande AEM (krav), hämtningslänkar för paket och annan användbar information:
 
-## AEM 6.5 [!DNL Forms] versioner {#aem-65-forms-releases}
+## AEM 6.5 [!DNL Forms]-versioner {#aem-65-forms-releases}
 
 <table> 
   <tbody> 
@@ -230,7 +230,7 @@ Följande lista innehåller alla AEM [!DNL Forms]-tilläggspaket som har släppt
 
 `[3]` AEM  [!DNL Forms] kompatibilitetspaket för 6.5.4.0 är fortfarande detsamma som i version 6.5.3.0.
 
-## AEM 6.4 [!DNL Forms] versioner {#aem-64-forms-releases}
+## AEM 6.4 [!DNL Forms]-versioner {#aem-64-forms-releases}
 
 <table> 
  <tbody> 
@@ -488,7 +488,7 @@ Följande lista innehåller alla AEM [!DNL Forms]-tilläggspaket som har släppt
 
 `[3]` AEM  [!DNL Forms] kompatibilitetspaket för 6.4.8.0 är fortfarande detsamma som i version 6.4.7.0.
 
-## AEM 6.3 [!DNL Forms] versioner {#aem-63-forms-releases}
+## AEM 6.3 [!DNL Forms]-versioner {#aem-63-forms-releases}
 
 <table> 
  <tbody> 
@@ -810,396 +810,398 @@ Kontakta  [Adobe ](https://www.adobe.com/account/sign-in.supportportal.html) Sup
 
 `[3]` **VIKTIGT**: Installera  [AEM Cumulative Fix Pack 6.3.1.1](/help/release-notes-aem-6-3-cumulative-fix-pack.md) och kontrollera att versionen av  **Apache Sling Authentication** Service bundle är 1.4.0 eller mer innan du installerar inbäddningspaketet för LiveCycle. Annars kan servern sluta svara och gå att återställa. Du kan kontrollera paketversionen på `http://[server]:[port]/system/console/bundles`.
 
-## AEM 6.2 [!DNL Forms] versioner {#aem-62-forms-releases}
+<!--
+## AEM 6.2 [!DNL Forms] releases {#aem-62-forms-releases}
 
 <table> 
  <tbody> 
   <tr> 
    <th><strong>Date</strong><br /> </th> 
-   <td><strong> AEM Forms </strong></td> 
-   <td><strong>Förutsättning</strong></td> 
-   <td><strong>Tillgängliga paket</strong></td> 
-   <td><strong>Skapa versioner</strong></td> 
+   <td><strong> AEM Forms releases </strong></td> 
+   <td><strong>Prerequisite</strong></td> 
+   <td><strong>Available packages</strong></td> 
+   <td><strong>Build Versions</strong></td> 
   </tr> 
   <tr> 
-   <td>6 juni 2019</td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms">AEM Forms tilläggspaket för AEM 6.2 Cumulative Fix Pack 20</a></td> 
+   <td>06 Jun 2019</td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms">AEM Forms add-on package for AEM 6.2 Cumulative Fix Pack 20</a></td> 
    <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md">AEM 6.2 Cumulative Fix Pack 20</a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP20-AIX">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP20-LX">AEM Forms tilläggspaket för Linux </a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP20-WIN">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP20-SOL">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP20-OSX">AEM Forms tilläggspaket för Mac OSX [3]</a></li> 
-     <li>AEM Forms JEE-installationsprogram [2]</li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP20-AIX">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP20-LX">AEM Forms add-on package for Linux </a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP20-WIN">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP20-SOL">AEM Forms add-on package for Solaris</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP20-OSX">AEM Forms add-on package for Mac OSX [3]</a></li> 
+     <li>AEM Forms JEE installer [2]</li> 
      <li>AEM Forms Client SDK [2]</li> 
     </ul> </td> 
    <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.212</strong></p> <p>AEM Forms JEE Installer: <strong>6.2.0-0043</strong></p> </td> 
   </tr> 
   <tr> 
-   <td>7 mars 2019</td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms">AEM Forms tilläggspaket för AEM 6.2 Cumulative Fix Pack 19</a></td> 
+   <td>07 Mar 2019</td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms">AEM Forms add-on package for AEM 6.2 Cumulative Fix Pack 19</a></td> 
    <td>AEM 6.2 Cumulative Fix Pack 19</td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP19-AIX">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP19-LX">AEM Forms tilläggspaket för Linux </a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP19-WIN">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP19-SOL">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP19-OSX">AEM Forms tilläggspaket för Mac OSX <sup>[3]</sup></a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP19-AIX">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP19-LX">AEM Forms add-on package for Linux </a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP19-WIN">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP19-SOL">AEM Forms add-on package for Solaris</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP19-OSX">AEM Forms add-on package for Mac OSX <sup>[3]</sup></a></li> 
      <li>AEM Forms Client SDK <sup>[2]</sup></li> 
     </ul> </td> 
    <td><p>AEM Forms Add-on Packages &amp; Client SDK: 3.2.202</p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td>11 dec 2018</td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms">AEM Forms tilläggspaket för AEM 6.2 Cumulative Fix Pack 18</a></td> 
+   <td>11 Dec 2018</td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms">AEM Forms add-on package for AEM 6.2 Cumulative Fix Pack 18</a></td> 
    <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md">AEM 6.2 Cumulative Fix Pack 18</a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP18-AIX">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP18-LX">AEM Forms tilläggspaket för Linux </a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP18-WIN">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP18-SOL">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP18-OSX">AEM Forms tilläggspaket för Mac OSX <sup>[3]</sup></a></li> 
-     <li>AEM Forms JEE-installationsprogram<sup> [2]</sup></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP18-AIX">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP18-LX">AEM Forms add-on package for Linux </a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP18-WIN">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP18-SOL">AEM Forms add-on package for Solaris</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP18-OSX">AEM Forms add-on package for Mac OSX <sup>[3]</sup></a></li> 
+     <li>AEM Forms JEE installer<sup> [2]</sup></li> 
      <li>AEM Forms Client SDK <sup>[2]</sup></li> 
     </ul> </td> 
    <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.194</strong></p> <p>AEM Forms JEE Installer: <strong>6.2.0-0042</strong></p> </td> 
   </tr> 
   <tr> 
-   <td>10 okt 2018</td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms">AEM Forms tilläggspaket för AEM 6.2 Cumulative Fix Pack 17</a></td> 
+   <td>10 Oct 2018</td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms">AEM Forms add-on package for AEM 6.2 Cumulative Fix Pack 17</a></td> 
    <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md">AEM 6.2 Cumulative Fix Pack 17</a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP17-AIX">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP17-LX">AEM Forms tilläggspaket för Linux</a> </li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP17-WIN">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP17-SOL">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP17-OSX">AEM Forms tilläggspaket för Mac OSX <sup>[3]</sup></a></li> 
-     <li>AEM Forms JEE-installationsprogram<sup> [2]</sup></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP17-AIX">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP17-LX">AEM Forms add-on package for Linux</a> </li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP17-WIN">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP17-SOL">AEM Forms add-on package for Solaris</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP17-OSX">AEM Forms add-on package for Mac OSX <sup>[3]</sup></a></li> 
+     <li>AEM Forms JEE installer<sup> [2]</sup></li> 
      <li>AEM Forms Client SDK <sup>[2]</sup></li> 
     </ul> </td> 
    <td><p> </p> <p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.190</strong></p> <p>AEM Forms JEE Installer: <strong>6.2.0-0041</strong></p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td>3 aug 2018</td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms">AEM Forms tilläggspaket för AEM 6.2 Cumulative Fix Pack 16</a></td> 
+   <td>3 Aug 2018</td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms">AEM Forms add-on package for AEM 6.2 Cumulative Fix Pack 16</a></td> 
    <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM 6.2 Cumulative Fix Pack 16</a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP16-AIX">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP16-LX">AEM Forms tilläggspaket för Linux</a> </li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP16-WIN">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP16-SOL">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP16-OSX">AEM Forms tilläggspaket för Mac OSX <sup>[3]</sup></a></li> 
-     <li>AEM Forms JEE-installationsprogram<sup> [2]</sup></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP16-AIX">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP16-LX">AEM Forms add-on package for Linux</a> </li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP16-WIN">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP16-SOL">AEM Forms add-on package for Solaris</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP16-OSX">AEM Forms add-on package for Mac OSX <sup>[3]</sup></a></li> 
+     <li>AEM Forms JEE installer<sup> [2]</sup></li> 
     </ul> </td> 
-   <td><p>AEM Forms tilläggspaket: <strong>3.2.186</strong></p> <p>AEM Forms JEE Installer: <strong>6.2.0-0040</strong></p> </td> 
+   <td><p>AEM Forms Add-on Package: <strong>3.2.186</strong></p> <p>AEM Forms JEE Installer: <strong>6.2.0-0040</strong></p> </td> 
   </tr> 
   <tr> 
-   <td>11 juni 2018</td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms" target="_blank">AEM Forms tilläggspaket för AEM 6.2 Cumulative Fix Pack 15</a></td> 
+   <td>11 Jun 2018</td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms" target="_blank">AEM Forms add-on package for AEM 6.2 Cumulative Fix Pack 15</a></td> 
    <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM 6.2 Cumulative Fix Pack 15</a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP15-AIX" target="_blank">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP15-LX" target="_blank">AEM Forms tilläggspaket för Linux</a> </li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP15-WIN">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP15-SOL">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP15-OSX" target="_blank">AEM Forms tilläggspaket för Mac OSX <sup>[3]</sup></a></li> 
-     <li>AEM Forms JEE-installationsprogram<sup> [2]</sup></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP15-AIX" target="_blank">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP15-LX" target="_blank">AEM Forms add-on package for Linux</a> </li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP15-WIN">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP15-SOL">AEM Forms add-on package for Solaris</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP15-OSX" target="_blank">AEM Forms add-on package for Mac OSX <sup>[3]</sup></a></li> 
+     <li>AEM Forms JEE installer<sup> [2]</sup></li> 
      <li>AEM Forms Client SDK <sup>[2]</sup></li> 
     </ul> </td> 
    <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.178</strong></p> <p>AEM Forms JEE Installer: <strong>6.2.0-0038</strong></p> </td> 
   </tr> 
   <tr> 
-   <td>10 apr 2018</td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms" target="_blank">AEM Forms tilläggspaket för AEM 6.2 Cumulative Fix Pack 14</a></td> 
+   <td>10 Apr 2018</td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms" target="_blank">AEM Forms add-on package for AEM 6.2 Cumulative Fix Pack 14</a></td> 
    <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM 6.2 Cumulative Fix Pack 14</a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP14-AIX" target="_blank">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP14-LX" target="_blank">AEM Forms tilläggspaket för Linux</a> </li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP14-WIN" target="_blank">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP14-SOL" target="_blank">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP14-OSX" target="_blank">AEM Forms tilläggspaket för Mac OSX <sup>[3]</sup></a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP14-AIX" target="_blank">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP14-LX" target="_blank">AEM Forms add-on package for Linux</a> </li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP14-WIN" target="_blank">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP14-SOL" target="_blank">AEM Forms add-on package for Solaris</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP14-OSX" target="_blank">AEM Forms add-on package for Mac OSX <sup>[3]</sup></a></li> 
      <li>AEM Forms Client SDK <sup>[2]</sup></li> 
     </ul> </td> 
    <td>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.170</strong></td> 
   </tr> 
   <tr> 
-   <td>12 mars 2018</td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM Forms tilläggspaket för AEM 6.2 Cumulative Fix Pack 13</a></td> 
+   <td>12 Mar 2018</td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM Forms add-on package for AEM 6.2 Cumulative Fix Pack 13</a></td> 
    <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM 6.2 Cumulative Fix Pack 13</a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP13-AIX" target="_blank">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP13-LX" target="_blank">AEM Forms tilläggspaket för Linux </a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP13-WIN" target="_blank">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP13-SOL" target="_blank">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP13-OSX" target="_blank">AEM Forms tilläggspaket för Mac OSX <sup>[3]</sup></a></li> 
-     <li>AEM Forms JEE-installationsprogram<sup> [2]</sup></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP13-AIX" target="_blank">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP13-LX" target="_blank">AEM Forms add-on package for Linux </a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP13-WIN" target="_blank">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP13-SOL" target="_blank">AEM Forms add-on package for Solaris</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP13-OSX" target="_blank">AEM Forms add-on package for Mac OSX <sup>[3]</sup></a></li> 
+     <li>AEM Forms JEE installer<sup> [2]</sup></li> 
      <li>AEM Forms Client SDK <sup>[2]</sup></li> 
     </ul> </td> 
-   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.166</strong></p> <p>AEM Forms JEE-installationsprogram: <strong>6.2.0-0031</strong></p> </td> 
+   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.166</strong></p> <p>AEM Forms JEE installer: <strong>6.2.0-0031</strong></p> </td> 
   </tr> 
   <tr> 
-   <td>13 feb 2018</td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM Forms tilläggspaket för AEM 6.2 Cumulative Fix Pack 12.1</a></td> 
+   <td>13 Feb 2018</td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM Forms add-on package for AEM 6.2 Cumulative Fix Pack 12.1</a></td> 
    <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM 6.2 Cumulative Fix Pack 12.1</a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP12-AIX" target="_blank">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP12-LX" target="_blank">AEM Forms tilläggspaket för Linux </a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP12-WIN" target="_blank">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP12-SOL" target="_blank">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP12-OSX" target="_blank">AEM Forms tilläggspaket för Mac OSX <sup>[3]</sup></a></li> 
-     <li>AEM Forms JEE-installationsprogram<sup> [2]</sup></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP12-AIX" target="_blank">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP12-LX" target="_blank">AEM Forms add-on package for Linux </a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP12-WIN" target="_blank">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP12-SOL" target="_blank">AEM Forms add-on package for Solaris</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP12-OSX" target="_blank">AEM Forms add-on package for Mac OSX <sup>[3]</sup></a></li> 
+     <li>AEM Forms JEE installer<sup> [2]</sup></li> 
      <li>AEM Forms Client SDK <sup>[2]</sup><br /> </li> 
     </ul> </td> 
-   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.158</strong></p> <p>AEM Forms JEE-installationsprogram: <strong>6.2.0-0030</strong></p> </td> 
+   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.158</strong></p> <p>AEM Forms JEE installer: <strong>6.2.0-0030</strong></p> </td> 
   </tr> 
   <tr> 
-   <td>18 jan 2018</td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM Forms tilläggspaket för AEM 6.2 Cumulative Fix Pack 11</a></td> 
+   <td>18 Jan 2018</td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM Forms add-on package for AEM 6.2 Cumulative Fix Pack 11</a></td> 
    <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM 6.2 Cumulative Fix Pack 11</a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP11-AIX" target="_blank">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP11-LX" target="_blank">AEM Forms tilläggspaket för Linux </a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP11-WIN" target="_blank">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP11-SOL" target="_blank">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP11-OSX" target="_blank">AEM Forms tilläggspaket för Mac OSX <sup>[3]</sup></a></li> 
-     <li>AEM Forms JEE-installationsprogram <sup>[2]</sup></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP11-AIX" target="_blank">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP11-LX" target="_blank">AEM Forms add-on package for Linux </a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP11-WIN" target="_blank">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP11-SOL" target="_blank">AEM Forms add-on package for Solaris</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP11-OSX" target="_blank">AEM Forms add-on package for Mac OSX <sup>[3]</sup></a></li> 
+     <li>AEM Forms JEE installer <sup>[2]</sup></li> 
      <li>AEM Forms Client SDK <sup>[2]</sup></li> 
      <li>AEM Workbench Hotfix <sup>[2]<br /> </sup></li> 
     </ul> </td> 
-   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.146</strong></p> <p>AEM Forms JEE-installationsprogram: <strong>6.2.0-0029</strong></p> <p>AEM Workbench Hotfix: <strong>1028-014</strong></p> </td> 
+   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.146</strong></p> <p>AEM Forms JEE installer: <strong>6.2.0-0029</strong></p> <p>AEM Workbench Hotfix: <strong>1028-014</strong></p> </td> 
   </tr> 
   <tr> 
-   <td>8 dec 2017</td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM Forms tilläggspaket för AEM 6.2 Cumulative Fix Pack 10</a></td> 
+   <td>8 Dec 2017</td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM Forms add-on package for AEM 6.2 Cumulative Fix Pack 10</a></td> 
    <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM 6.2 Cumulative Fix Pack 10</a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP10-AIX" target="_blank">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP10-LX">AEM Forms tilläggspaket för Linux</a> </li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP10-WIN" target="_blank">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP10-SOL">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP10-OSX">AEM Forms tilläggspaket för Mac OSX [3]</a></li> 
-     <li>AEM Forms JEE-installationsprogram <sup>[2]</sup></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP10-AIX" target="_blank">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP10-LX">AEM Forms add-on package for Linux</a> </li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP10-WIN" target="_blank">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP10-SOL">AEM Forms add-on package for Solaris</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP10-OSX">AEM Forms add-on package for Mac OSX [3]</a></li> 
+     <li>AEM Forms JEE installer <sup>[2]</sup></li> 
      <li>AEM Forms Client SDK <sup>[2]</sup></li> 
     </ul> </td> 
-   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.138</strong></p> <p>AEM Forms JEE-installationsprogram: <strong>6.2.0-0028</strong></p> </td> 
+   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.138</strong></p> <p>AEM Forms JEE installer: <strong>6.2.0-0028</strong></p> </td> 
   </tr> 
   <tr> 
-   <td>9 nov 2017</td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM Forms tilläggspaket för AEM 6.2 Cumulative Fix Pack 9</a></td> 
+   <td>9 Nov 2017</td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM Forms add-on package for AEM 6.2 Cumulative Fix Pack 9</a></td> 
    <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM 6.2 Cumulative Fix Pack 9</a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP9-AIX" target="_blank">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP9-LX" target="_blank">AEM Forms tilläggspaket för Linux</a> </li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP9-WIN" target="_blank">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP9-SOL" target="_blank">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP9-OSX">AEM Forms tilläggspaket för Mac OSX [3]</a></li> 
-     <li>AEM Forms JEE-installationsprogram <sup>[2]</sup></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP9-AIX" target="_blank">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP9-LX" target="_blank">AEM Forms add-on package for Linux</a> </li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP9-WIN" target="_blank">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP9-SOL" target="_blank">AEM Forms add-on package for Solaris</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP9-OSX">AEM Forms add-on package for Mac OSX [3]</a></li> 
+     <li>AEM Forms JEE installer <sup>[2]</sup></li> 
      <li>AEM Forms Client SDK <sup>[2]</sup></li> 
     </ul> </td> 
-   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.134</strong></p> <p>AEM Forms JEE-installationsprogram: <strong>6.2.0-0023</strong></p> </td> 
+   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.134</strong></p> <p>AEM Forms JEE installer: <strong>6.2.0-0023</strong></p> </td> 
   </tr> 
   <tr> 
-   <td>9 okt 2017</td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM Forms tilläggspaket för AEM 6.2 Cumulative Fix Pack 8</a></td> 
+   <td>9 Oct 2017</td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM Forms add-on package for AEM 6.2 Cumulative Fix Pack 8</a></td> 
    <td><p><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM 6.2 Cumulative Fix Pack 8</a></p> </td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP8-AIX" target="_blank">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP8-LX" target="_blank">AEM Forms tilläggspaket för Linux</a> </li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP8-WIN" target="_blank">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP8-SOL" target="_blank">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP8-OSX" target="_blank">AEM Forms tilläggspaket för Mac OSX [3]</a></li> 
-     <li>AEM Forms JEE-installationsprogram <sup>[2]</sup></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP8-AIX" target="_blank">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP8-LX" target="_blank">AEM Forms add-on package for Linux</a> </li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP8-WIN" target="_blank">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP8-SOL" target="_blank">AEM Forms add-on package for Solaris</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP8-OSX" target="_blank">AEM Forms add-on package for Mac OSX [3]</a></li> 
+     <li>AEM Forms JEE installer <sup>[2]</sup></li> 
      <li>AEM Forms Client SDK<sup> [2]</sup></li> 
     </ul> </td> 
-   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.128</strong></p> <p>AEM Forms JEE-installationsprogram: <strong>6.2.0-0021</strong></p> </td> 
+   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.128</strong></p> <p>AEM Forms JEE installer: <strong>6.2.0-0021</strong></p> </td> 
   </tr> 
   <tr> 
-   <td>12 sep 2017</td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#main-pars_header_1881174372" target="_blank">AEM Forms tilläggspaket för AEM 6.2 Cumulative Fix Pack 7</a></td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM 6.2 Kumulativt korrigeringspaket 7</a></td> 
+   <td>12 Sep 2017</td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#main-pars_header_1881174372" target="_blank">AEM Forms add-on package for AEM 6.2 Cumulative Fix Pack 7</a></td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM 6.2 Cumulative Fix Pack 7</a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP7-AIX" target="_blank">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP7-LX" target="_blank">AEM Forms tilläggspaket för Linux </a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP7-WIN" target="_blank">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP7-SOL" target="_blank">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP7-OSX" target="_blank">AEM Forms tilläggspaket för Mac OSX [3]</a></li> 
-     <li>AEM Forms JEE-installationsprogram<sup> [2]</sup></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP7-AIX" target="_blank">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP7-LX" target="_blank">AEM Forms add-on package for Linux </a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP7-WIN" target="_blank">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP7-SOL" target="_blank">AEM Forms add-on package for Solaris</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP7-OSX" target="_blank">AEM Forms add-on package for Mac OSX [3]</a></li> 
+     <li>AEM Forms JEE installer<sup> [2]</sup></li> 
      <li>AEM Forms Client SDK <sup>[2]</sup></li> 
     </ul> </td> 
-   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.124</strong></p> <p>AEM Forms JEE-installationsprogram: <strong>6.2.0-0018</strong></p> </td> 
+   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.124</strong></p> <p>AEM Forms JEE installer: <strong>6.2.0-0018</strong></p> </td> 
   </tr> 
   <tr> 
-   <td>11 aug 2017</td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#main-pars_header_1881174372" target="_blank">AEM Forms tilläggspaket för AEM 6.2 Cumulative Fix Pack 6</a></td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM 6.2 Kumulativt korrigeringspaket 6 </a></td> 
+   <td>11 Aug 2017</td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#main-pars_header_1881174372" target="_blank">AEM Forms add-on package for AEM 6.2 Cumulative Fix Pack 6</a></td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM 6.2 Cumulative Fix Pack 6 </a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP6-AIX" target="_blank">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP6-LX" target="_blank">AEM Forms tilläggspaket för Linux</a> </li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP6-WIN">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP6-SOL" target="_blank">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP6-OSX">AEM Forms tilläggspaket för Mac OS X [3]</a></li> 
-     <li>AEM Forms JEE-installationsprogram<sup> [2]</sup></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP6-AIX" target="_blank">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP6-LX" target="_blank">AEM Forms add-on package for Linux</a> </li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP6-WIN">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP6-SOL" target="_blank">AEM Forms add-on package for Solaris</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP6-OSX">AEM Forms add-on package for Mac OS X [3]</a></li> 
+     <li>AEM Forms JEE installer<sup> [2]</sup></li> 
      <li>AEM Forms Client SDK <sup>[2]</sup></li> 
     </ul> </td> 
-   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.112</strong></p> <p>AEM Forms JEE-installationsprogram: <strong>6.2.0-0017</strong></p> </td> 
+   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.112</strong></p> <p>AEM Forms JEE installer: <strong>6.2.0-0017</strong></p> </td> 
   </tr> 
   <tr> 
-   <td>5 juli 2017</td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#main-pars_header_1881174372">AEM Forms tilläggspaket för AEM 6.2 Cumulative Fix Pack 5</a></td> 
+   <td>5 Jul 2017</td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#main-pars_header_1881174372">AEM Forms add-on package for AEM 6.2 Cumulative Fix Pack 5</a></td> 
    <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md">AEM 6.2 Cumulative Fix Pack 5</a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP5-AIX">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP5-LX">AEM Forms tilläggspaket för Linux</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP5-WIN">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP5-SOL">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP5-OSX">AEM Forms tilläggspaket för Mac OS X</a> <sup>[3]</sup></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP5-JEE-PKG" target="_blank">AEM Forms JEE-paket</a></li> 
-     <li>AEM Forms JEE-installationsprogram <sup>[2]</sup><br /> </li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP5-AIX">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP5-LX">AEM Forms add-on package for Linux</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP5-WIN">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP5-SOL">AEM Forms add-on package for Solaris</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP5-OSX">AEM Forms add-on package for Mac OS X</a> <sup>[3]</sup></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP5-JEE-PKG" target="_blank">AEM Forms JEE package</a></li> 
+     <li>AEM Forms JEE installer <sup>[2]</sup><br /> </li> 
      <li>AEM Forms Client SDK <sup>[2]</sup></li> 
     </ul> </td> 
-   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.106</strong></p> <p>AEM Forms JEE-installationsprogram: <strong>6.2.0-0015</strong></p> </td> 
+   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.106</strong></p> <p>AEM Forms JEE installer: <strong>6.2.0-0015</strong></p> </td> 
   </tr> 
   <tr> 
-   <td>5 juni 2017</td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#main-pars_header_1881174372" target="_blank">AEM Forms tilläggspaket för AEM 6.2 Cumulative Fix Pack 4</a></td> 
+   <td>5 Jun 2017</td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#main-pars_header_1881174372" target="_blank">AEM Forms add-on package for AEM 6.2 Cumulative Fix Pack 4</a></td> 
    <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM 6.2 Cumulative Fix Pack 4</a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP4-AIX" target="_blank">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP4-LX" target="_blank">AEM Forms tilläggspaket för Linux</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP4-WIN" target="_blank">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP4-SOL" target="_blank">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li>AEM Forms JEE-installationsprogram <sup>[2]</sup><br /> </li> 
-     <li>Installationsprogrammet för AEM Forms Designer <sup>[2]</sup></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP4-AIX" target="_blank">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP4-LX" target="_blank">AEM Forms add-on package for Linux</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP4-WIN" target="_blank">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP4-SOL" target="_blank">AEM Forms add-on package for Solaris</a></li> 
+     <li>AEM Forms JEE installer <sup>[2]</sup><br /> </li> 
+     <li>AEM Forms Designer installer <sup>[2]</sup></li> 
      <li>AEM Forms Client SDK<sup> [2]</sup></li> 
     </ul> </td> 
-   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.102</strong></p> <p>AEM Forms JEE-installationsprogram: <strong>6.2.0-0012</strong></p> </td> 
+   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>3.2.102</strong></p> <p>AEM Forms JEE installer: <strong>6.2.0-0012</strong></p> </td> 
   </tr> 
   <tr> 
-   <td>9 maj 2017</td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM Forms tilläggspaket för AEM 6.2 Cumulative Fix Pack 3</a></td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#main-pars_header_1220661420" target="_blank">AEM 6.2 Kumulativt korrigeringspaket 3</a></td> 
+   <td>9 May 2017</td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md" target="_blank">AEM Forms add-on package for AEM 6.2 Cumulative Fix Pack 3</a></td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#main-pars_header_1220661420" target="_blank">AEM 6.2 Cumulative Fix Pack 3</a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP3-AIX" target="_blank">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP3-LX" target="_blank">AEM Forms tilläggspaket för Linux</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP3-WIN" target="_blank">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP3-SOL" target="_blank">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li>AEM Forms JEE-installationsprogram<sup> [2]</sup><br /> </li> 
-     <li>Installationsprogrammet för AEM Forms Designer <sup>[2]</sup></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP3-AIX" target="_blank">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP3-LX" target="_blank">AEM Forms add-on package for Linux</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP3-WIN" target="_blank">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP3-SOL" target="_blank">AEM Forms add-on package for Solaris</a></li> 
+     <li>AEM Forms JEE installer<sup> [2]</sup><br /> </li> 
+     <li>AEM Forms Designer installer <sup>[2]</sup></li> 
     </ul> </td> 
-   <td><p>AEM Forms Add-on Packages: <strong>3.2.88</strong></p> <p>AEM Forms JEE-installationsprogram: <strong>6.2.0-0011</strong></p> </td> 
+   <td><p>AEM Forms Add-on Packages: <strong>3.2.88</strong></p> <p>AEM Forms JEE installer: <strong>6.2.0-0011</strong></p> </td> 
   </tr> 
   <tr> 
-   <td>5 apr 2017</td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms">AEM Forms tilläggspaket för AEM 6.2 Cumulative Fix Pack 2</a><br /> <br /> <br /> </td> 
+   <td>5 Apr 2017</td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms">AEM Forms add-on package for AEM 6.2 Cumulative Fix Pack 2</a><br /> <br /> <br /> </td> 
    <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms" target="_blank">AEM 6.2 Cumulative Fix Pack 2</a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP2-AIX">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP2-LX" target="_blank">AEM Forms tilläggspaket för Linux</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP2-WIN" target="_blank">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP2-SOL" target="_blank">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li>AEM Forms JEE-installationsprogram<sup> [2]</sup></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP2-AIX">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP2-LX" target="_blank">AEM Forms add-on package for Linux</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP2-WIN" target="_blank">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP2-SOL" target="_blank">AEM Forms add-on package for Solaris</a></li> 
+     <li>AEM Forms JEE installer<sup> [2]</sup></li> 
      <li>AEM Forms App Source<sup> [2]</sup></li> 
     </ul> </td> 
-   <td><p>AEM Forms Add-on Packages: <strong>3.2.78</strong></p> <p>AEM Forms JEE-installationsprogram: <strong>6.2.0-0010</strong></p> <p>AEM Forms App Source: <strong>2.2.18</strong></p> </td> 
+   <td><p>AEM Forms Add-on Packages: <strong>3.2.78</strong></p> <p>AEM Forms JEE installer: <strong>6.2.0-0010</strong></p> <p>AEM Forms App Source: <strong>2.2.18</strong></p> </td> 
   </tr> 
   <tr> 
-   <td>8 mars 2017</td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms">AEM Forms tilläggspaket för AEM 6.2 Cumulative Fix Pack 1</a></td> 
-   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms">AEM 6.2 Kumulativt korrigeringspaket 1</a></td> 
+   <td>8 Mar 2017</td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms">AEM Forms add-on package for AEM 6.2 Cumulative Fix Pack 1</a></td> 
+   <td><a href="/help/release-notes-aem-6-2-cumulative-fix-pack.md#forms">AEM 6.2 Cumulative Fix Pack 1</a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP1-AIX">AEM Forms tilläggspaket för AIX</a><br /> </li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP1-LX">AEM Forms tilläggspaket för Linux</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP1-WIN">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP1-SOL">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li>AEM Forms JEE-installationsprogram <sup>[2]</sup></li> 
-     <li>Installationsprogrammet för AEM Forms Designer <sup>[2]</sup></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP1-AIX">AEM Forms add-on package for AIX</a><br /> </li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP1-LX">AEM Forms add-on package for Linux</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP1-WIN">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/fd/AEM-FORMS-6.2-SP1-CFP1-SOL">AEM Forms add-on package for Solaris</a></li> 
+     <li>AEM Forms JEE installer <sup>[2]</sup></li> 
+     <li>AEM Forms Designer installer <sup>[2]</sup></li> 
     </ul> </td> 
-   <td><p>AEM Forms Add-on Packages: <strong>3.2.70</strong></p> <p>AEM Forms JEE-installationsprogram: <strong>6.2.0-0009</strong></p> </td> 
+   <td><p>AEM Forms Add-on Packages: <strong>3.2.70</strong></p> <p>AEM Forms JEE installer: <strong>6.2.0-0009</strong></p> </td> 
   </tr> 
   <tr> 
-   <td>19 dec 2016</td> 
-   <td><a href="https://docs.adobe.com/docs/en/aem/6-2/release-notes/sp1.html" target="_blank">AEM 6.2 Service Pack 1 Forms tilläggspaket</a></td> 
+   <td>19 Dec 2016</td> 
+   <td><a href="https://docs.adobe.com/docs/en/aem/6-2/release-notes/sp1.html" target="_blank">AEM 6.2 Service Pack 1 Forms add-on package</a></td> 
    <td><a href="https://docs.adobe.com/docs/en/aem/6-2/release-notes/sp1.html" target="_blank">AEM 6.2 Service Pack 1</a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/servicepack/fd/AEM-Forms-6.2-SP1-AIX" target="_blank">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/servicepack/fd/AEM-Forms-6.2-SP1-LX" target="_blank">AEM Forms tilläggspaket för Linux</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/servicepack/fd/AEM-Forms-6.2-SP1-WIN" target="_blank">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/servicepack/fd/AEM-Forms-6.2-SP1-SOL" target="_blank">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/servicepack/fd/AEM-Forms-6.2-SP1-OSX" target="_blank">AEM Forms tilläggspaket för Mac OS X  </a><sup>[3]</sup></li> 
-     <li><sup> </sup>AEM Forms JEE-installationsprogram  <sup>[2]</sup></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/servicepack/fd/AEM-Forms-6.2-SP1-AIX" target="_blank">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/servicepack/fd/AEM-Forms-6.2-SP1-LX" target="_blank">AEM Forms add-on package for Linux</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/servicepack/fd/AEM-Forms-6.2-SP1-WIN" target="_blank">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/servicepack/fd/AEM-Forms-6.2-SP1-SOL" target="_blank">AEM Forms add-on package for Solaris</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/servicepack/fd/AEM-Forms-6.2-SP1-OSX" target="_blank">AEM Forms add-on package for Mac OS X </a><sup>[3]</sup></li> 
+     <li><sup> </sup>AEM Forms JEE installer <sup>[2]</sup></li> 
     </ul> </td> 
    <td><p> </p> <p>AEM Forms Add-on Packages: <strong>3.2.50</strong></p> <p> </p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td>30 juni 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/forms/using/cf1-release-notes.html" target="_blank">AEM 6.2 Forms kumulativ fix 10325</a> <sup>[1]</sup></td> 
+   <td>30 June 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/forms/using/cf1-release-notes.html" target="_blank">AEM 6.2 Forms cumulative fix 10325</a> <sup>[1]</sup></td> 
    <td><a href="https://docs.adobe.com/docs/en/aem/6-2/deploy.html#par_title">AEM 6.2</a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/hotfix/fd/AEM-FORMS-6.2-AIX-HOTFIX-10325">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/hotfix/fd/AEM-FORMS-6.2-LX-HOTFIX-10325">AEM Forms tilläggspaket för Linux</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/hotfix/fd/AEM-FORMS-6.2-WIN-HOTFIX-10325">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/hotfix/fd/AEM-FORMS-6.2-SOL-HOTFIX-10325">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/hotfix/fd/AEM-FORMS-6.2-OSX-HOTFIX-10325">AEM Forms tilläggspaket för Mac OS X  </a><sup>[3]</sup><br /> </li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/hotfix/fd/AEM-FORMS-6.2-FORMS-APP-SRC-PKG-HOTFIX-10325">Källkod för AEM Forms-program</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/hotfix/fd/AEM-FORMS-6.2-AIX-HOTFIX-10325">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/hotfix/fd/AEM-FORMS-6.2-LX-HOTFIX-10325">AEM Forms add-on package for Linux</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/hotfix/fd/AEM-FORMS-6.2-WIN-HOTFIX-10325">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/hotfix/fd/AEM-FORMS-6.2-SOL-HOTFIX-10325">AEM Forms add-on package for Solaris</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/hotfix/fd/AEM-FORMS-6.2-OSX-HOTFIX-10325">AEM Forms add-on package for Mac OS X </a><sup>[3]</sup><br /> </li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/hotfix/fd/AEM-FORMS-6.2-FORMS-APP-SRC-PKG-HOTFIX-10325">Source code of AEM Forms app</a></li> 
     </ul> </td> 
    <td><p> </p> <p> </p> <p>AEM Forms Add-on Packages: <strong>3.2.4</strong></p> <p> </p> <p> </p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td>21 april 2016</td> 
-   <td>AEM 6.2 Forms tilläggspaket</td> 
+   <td>21 April 2016</td> 
+   <td>AEM 6.2 Forms add-on package</td> 
    <td><a href="https://docs.adobe.com/docs/en/aem/6-2/deploy.html#par_title">AEM 6.2</a></td> 
    <td> 
     <ul> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/fd/AEM-FORMS-6.2-AIX">AEM Forms tilläggspaket för AIX</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/fd/AEM-FORMS-6.2-LX">AEM Forms tilläggspaket för Linux</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/fd/AEM-FORMS-6.2-WIN">AEM Forms tilläggspaket för Windows</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/fd/AEM-FORMS-6.2-SOL">AEM Forms tilläggspaket för Solaris</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/fd/AEM-FORMS-6.2-OSX">AEM Forms tilläggspaket för Mac OS X</a> <sup>[3]</sup><br /> </li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/fd/AEM-FORMS-6.2-CMB">Central migreringsbrygga och Skicka till skrivare</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/fd/AEM-FORMS-6.2-CM-MIGRATION-PKG">Migreringsverktyg för korrespondenshantering</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/fd/AEM-FORMS-6.2-FORMS-APP-SRC-PKG">Källkod för AEM Forms-program</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/fd/cq-geometrixx-gov-all-pkg">Tilläggspaket för Geometrixx Gov-referenswebbplats</a></li> 
-     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/fd/cq-geometrixx-finance-pkg">Tilläggspaket för Geometrixx Finance-referenswebbplats</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/fd/AEM-FORMS-6.2-AIX">AEM Forms add-on package for AIX</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/fd/AEM-FORMS-6.2-LX">AEM Forms add-on package for Linux</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/fd/AEM-FORMS-6.2-WIN">AEM Forms add-on package for Windows</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/fd/AEM-FORMS-6.2-SOL">AEM Forms add-on package for Solaris</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/fd/AEM-FORMS-6.2-OSX">AEM Forms add-on package for Mac OS X</a> <sup>[3]</sup><br /> </li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/fd/AEM-FORMS-6.2-CMB">Central Migration Bridge and Send to printer</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/fd/AEM-FORMS-6.2-CM-MIGRATION-PKG">Correspondence Management Migration Utility</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/fd/AEM-FORMS-6.2-FORMS-APP-SRC-PKG">Source code of AEM Forms app</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/fd/cq-geometrixx-gov-all-pkg">Geometrixx Gov reference site add-on package</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem62/fd/cq-geometrixx-finance-pkg">Geometrixx Finance reference site add-on package</a></li> 
     </ul> </td> 
-   <td><p> </p> <p>AEM Forms Add-on Packages: <strong>3.1.22</strong></p> <p>Central migreringsbrygga: <strong>20160413</strong></p> <p>Migreringsverktyg för korrespondenshantering: <strong>20160413</strong></p> <p>Källkod för AEM Forms-program: <strong>2.2.26</strong></p> <p> </p> </td> 
+   <td><p> </p> <p>AEM Forms Add-on Packages: <strong>3.1.22</strong></p> <p>Central Migration Bridge: <strong>20160413</strong></p> <p>Correspondence Management Migration Utility: <strong>20160413</strong></p> <p>Source code of AEM Forms app: <strong>2.2.26</strong></p> <p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-`[1]` Förutom AEM  [!DNL Forms] tilläggspaket och källkod för AEM  [!DNL Forms] program finns det också en uppdaterad version av AEM  [!DNL Forms] Document Security Extension för Microsoft Office, samt programfixar för AEM  [!DNL Forms] i komponenterna JEE Core och Document Security. Mer information finns i [versionsinformation för AEM 6.2 [!DNL Forms] kumulativ fix 10325](https://helpx.adobe.com/experience-manager/6-2/forms/using/cf1-release-notes.html).
+`[1]` In addition to AEM [!DNL Forms] add-on packages and source code for AEM [!DNL Forms] app, an updated version of AEM [!DNL Forms] Document Security Extension for Microsoft Office, and hot fixes for AEM [!DNL Forms] on JEE Core and Document Security components are also released. For detailed information, see [release notes of AEM 6.2 [!DNL Forms] cumulative fix 10325](https://helpx.adobe.com/experience-manager/6-2/forms/using/cf1-release-notes.html).
 
-`[2]` Kontakta  [Adobe ](https://www.adobe.com/account/sign-in.supportportal.html) Support för att få AEM  [!DNL Forms] JEE, AEM  [!DNL Forms] App Source eller AEM  [!DNL Forms Designer] installationsprogram, AEM  [!DNL Forms Workbench] Hotfix eller AEM-fd Client SDK (om tillämpligt för releasen).
+`[2]` Contact [Adobe Support](https://www.adobe.com/account/sign-in.supportportal.html) to obtain the AEM [!DNL Forms] JEE, AEM [!DNL Forms] App Source or the AEM [!DNL Forms Designer] installer, AEM [!DNL Forms Workbench] Hotfix, or AEM-fd Client SDK (if applicable for the release). 
 
-`[3]` AEM  [!DNL Forms] tilläggspaket för Mac OS X stöds inte i produktionsmiljön och bör endast användas i demonstrationssyfte. PDF-generatorfunktionen är inte tillgänglig för Mac OS X-paket.
+`[3]` AEM [!DNL Forms] add-on package for Mac OS X is not supported in production environment and should be used only for demonstration purposes. PDF Generator capability is not available for Mac OS X package.
 
 >[!NOTE]
 >
->AEM [!DNL Forms] släpper regelbundet programfixar eller snabbkorrigeringar för att åtgärda fel och förbättra användbarheten och prestandan för programvaran. Om du stöter på ett problem med att använda AEM [!DNL Forms] är det möjligt att det redan åtgärdas via en korrigering eller snabbkorrigering. Mer information om snabbkorrigeringar finns i [Snabbkorrigeringar för Adobe Experience Manager 6.2.](https://helpx.adobe.com/experience-manager/kb/aem62-available-hotfixes.html)
+>AEM [!DNL Forms] regularly releases patches or quick fixes to address bugs and to improve the usability and performance of the software. If you are encountering an issue with using AEM [!DNL Forms], it is possible that it is already addressed through a patch or Quick Fixes. For details about the available Quick Fixes, see [Adobe Experience Manager 6.2 hot fixes.](https://helpx.adobe.com/experience-manager/kb/aem62-available-hotfixes.html)
+-->
 
-## Tänk på {#things-to-remember}
+## Saker att komma ihåg {#things-to-remember}
 
 * AEM Forms tilläggspaket som anges ovan gäller både AEM [!DNL Forms] i OSGi och AEM [!DNL Forms] i JEE.
 * Alla AEM [!DNL Forms] tilläggspaket och snabbkorrigeringar är kumulativa; dvs. ett tilläggspaket och Snabbkorrigering innehåller alla föregående tillägg och snabbkorrigeringar för en komponent för motsvarande version. Om du till exempel installerar Quick Fix 2.4.50 innehåller den redan AEM [!DNL Forms]-tilläggspaketet 2.4.26.
