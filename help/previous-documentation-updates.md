@@ -2,20 +2,19 @@
 title: Tidigare dokumentationsuppdateringar
 description: På den här sidan visas äldre viktiga dokumentationsändringar och uppdateringar för [!DNL Adobe Experience Manager].
 contentOwner: alvawb
-translation-type: tm+mt
-source-git-commit: 47b391ed659264b611f08d2fa9e45a923be5c445
+exl-id: e68cdadf-43c1-47d9-99cf-420d582cb575
+source-git-commit: 83a535170db2fb2c2d4b306710935298c2ee8cf5
 workflow-type: tm+mt
-source-wordcount: '9351'
-ht-degree: 2%
+source-wordcount: '9196'
+ht-degree: 1%
 
 ---
-
 
 # Tidigare dokumentationsuppdateringar{#previous-documentation-updates}
 
 På den här sidan visas äldre viktiga dokumentationsändringar och uppdateringar för [!DNL Adobe Experience Manager]. Du kan visa [Senaste dokumentationsuppdateringar](documentation-updates.md) här.
 
-## [!DNL Adobe Experience Manager] 6.5  {#aem-65}
+## [!DNL Adobe Experience Manager] 6.5 {#aem-65}
 
 <table>
  <tbody>
@@ -27,17 +26,17 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
    <tr>
    <td>12 dec 2019</td> 
    <td>Förhandsgranska 3D-resurser<br /> </td> 
-   <td><p>AEM stöder överföring, leverans och interaktiv förhandsgranskning av 3D-resurser som en del av utvecklingsprocessen. Det interaktiva 3D-visningsprogrammet är tillgängligt från sidan med resursinformation i AEM. Visningsprogrammet innehåller bland annat en samling interaktiva kamerakontroller som du kan använda för att rotera, zooma och panorera 3D-resursen.</p> <p>Se <a href="https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/previewing-3d-assets.html" target="_blank">Förhandsgranska 3D-resurser</a>.</p> </td> 
+   <td><p>AEM stöder överföring, leverans och interaktiv förhandsgranskning av 3D-resurser som en del av utvecklingsprocessen. Det interaktiva 3D-visningsprogrammet är tillgängligt från sidan med resursinformation i AEM. Visningsprogrammet innehåller bland annat en samling interaktiva kamerakontroller som du kan använda för att rotera, zooma och panorera 3D-resursen.</p> <p>Se <a href="https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/previewing-3d-assets.html?lang=en" target="_blank">Förhandsgranska 3D-resurser</a>.</p> </td> 
   </tr>
   <tr>
    <td>12 dec 2019</td> 
    <td>AEM 6.5 Service Pack 3<br /> </td> 
-   <td><a href="https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/sp-release-notes.html">AEM 6.5 Service Pack 3</a> är tillgängligt.</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/sp-release-notes.html?lang=en">AEM 6.5 Service Pack 3</a> är tillgängligt.</td> 
   </tr>
   <tr>
    <td>5 dec 2019</td> 
    <td>Kärnkomponenter<br /> </td> 
-   <td>Core Components version 2.8.0, inklusive massor av korrigeringar, finns nu tillgängliga tillsammans med <a href="https://github.com/adobe/aem-core-wcm-components">utvecklarinformation och projektnedladdning på GitHub</a>.</td> 
+   <td>Core Components version 2.8.0, inklusive många korrigeringar, finns nu tillsammans med <a href="https://github.com/adobe/aem-core-wcm-components">utvecklarinformation och projektnedladdning på GitHub</a>.</td> 
   </tr>
   <tr>
    <td>20 nov 2019</td> 
@@ -52,17 +51,17 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>18 okt 2019<br /> </td> 
    <td>Headless Experience Management<br /> </td> 
-   <td>Funktioner för <a href="https://docs.adobe.com/content/help/en/experience-manager-65/developing/headless/spas/spa-ssr.html#remote-content-renderer-configuration">Remote Content Renderer</a>, som används för serveråtergivning av enkelsidiga program, har dokumenterats.<br /> </td> 
+   <td>Funktioner för <a href="https://experienceleague.adobe.com/docs/experience-manager-65/developing/headless/spas/spa-ssr.html?lang=en">Remote Content Renderer</a>, som används för serveråtergivning av enkelsidiga program, har dokumenterats.<br /> </td> 
   </tr>
   <tr>
    <td>11 oktober 2019</td> 
    <td>Activity Map</td> 
-   <td><p>På grund av säkerhetsändringar i Adobe Analytics API är det inte längre möjligt att använda den version av Activity Map som ingår i AEM. Se <a href="https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-users/activitymap-install.html" target="_blank">ActivityMap-plugin från Adobe Analytics</a> bör nu användas. </p> </td> 
+   <td><p>På grund av säkerhetsändringar i Adobe Analytics API är det inte längre möjligt att använda den version av Activity Map som ingår i AEM. Se <a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-users/activitymap-install.html?lang=en" target="_blank">ActivityMap-plugin från Adobe Analytics</a> bör nu användas. </p> </td> 
   </tr>
   <tr>
    <td>10 oktober 2019</td> 
    <td>Cloud Manager</td> 
-   <td><p>Cloud Manager version 2019.10.0 släpptes 10 oktober 2019.</p> <p>Se <a href="https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-current.html">Versionsinformation för 2019.10.0</a> som markerar <i>Nyheter</i> och uppdateringar om distributionssteg och versionshantering av maven project.<br /> </p> </td> 
+   <td><p>Cloud Manager version 2019.10.0 släpptes 10 oktober 2019.</p> <p>Se <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=en">Versionsinformation för 2019.10.0</a> som markerar <i>Nyheter</i> och uppdateringar om distributionssteg och versionshantering av maven project.<br /> </p> </td> 
   </tr>
   <tr>
    <td>8 okt 2019</td> 
@@ -87,17 +86,17 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>25 september 2019</td> 
    <td>AEM Assets search<br /> </td> 
-   <td>Nytt innehåll om sökning och identifiering av resurser är en enda butik med information om hur du använder, konfigurerar, felsöker, begränsar och ger tips. Ta en titt på <a href="https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/search-assets.html" target="_blank">sökresurser</a>.</td> 
+   <td>Nytt innehåll om sökning och identifiering av resurser är en enda butik med information om hur du använder, konfigurerar, felsöker, begränsar och ger tips. Ta en titt på <a href="https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html?lang=en" target="_blank">sökresurser</a>.</td> 
   </tr>
   <tr>
    <td>25 september 2019</td> 
    <td>Scene7: Arbetsflöde för att bearbeta resurser<br /> </td> 
-   <td><p>Du kan nu bearbeta resurser i en mapp som redan har en befintlig bearbetningsprofil som du senare ändrade.</p> <p>Se <a href="https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/processing-profiles.html#reprocessing-assets" target="_blank">Återbearbeta resurser i en mapp</a>.<br /> </p> </td> 
+   <td><p>Du kan nu bearbeta resurser i en mapp som redan har en befintlig bearbetningsprofil som du senare ändrade.</p> <p>Se <a href="https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/processing-profiles.html?lang=en#reprocessing-assets" target="_blank">Återbearbeta resurser i en mapp</a>.<br /> </p> </td> 
   </tr>
   <tr>
    <td>25 september 2019</td> 
    <td>Integrera Dynamic Media Viewers med Adobe Analytics och Adobe Launch</td> 
-   <td><p>Med Dynamic Media Viewers-tillägget för Adobe Launch, tillsammans med versionen av Dynamic Media Viewers 5.13, kan kunder som använder Dynamic Media, Adobe Analytics och Adobe Launch använda händelser och data som är specifika för Dynamic Media Viewers i sin Adobe Launch-konfiguration.</p> <p>Se <a href="https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/launch.html" target="_blank">Integrera Dynamic Media-visningsprogram med Adobe Analytics och Adobe Launch</a>. </p> </td> 
+   <td><p>Med Dynamic Media Viewers-tillägget för Adobe Launch, tillsammans med versionen av Dynamic Media Viewers 5.13, kan kunder som använder Dynamic Media, Adobe Analytics och Adobe Launch använda händelser och data som är specifika för Dynamic Media Viewers i sin Adobe Launch-konfiguration.</p> <p>Se <a href="https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/tags.html?lang=en" target="_blank">Integrera Dynamic Media-visningsprogram med Adobe Analytics och Adobe Launch</a>. </p> </td> 
   </tr>
   <tr>
    <td>19 september 2019</td> 
@@ -142,7 +141,7 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>12 juli 2019</td> 
    <td>Överföra filer i Dynamic Media Classic</td> 
-   <td>Avsnittet <a href="https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/uploading-files.html#upload-options">Alternativ för överföring av jobb</a> i Dynamic Media Classic har skrivits om och uppdaterats.</td> 
+   <td>Avsnittet <a href="https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/uploading-files.html?lang=en#upload-options">Alternativ för överföring av jobb</a> i Dynamic Media Classic har skrivits om och uppdaterats.</td> 
   </tr>
   <tr>
    <td>8 juli 2019</td> 
@@ -187,17 +186,17 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>14 maj 2019</td> 
    <td>Referenshandbok för visningsprogram</td> 
-   <td>Modifierarförinläsningen för videospelaren i <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/video/command-reference-configuration-attributes-video/r-html5-video-viewer-conf-attrib-videoplayer-preload.html">Video</a>, <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/video360/command-reference-configuration-attributes-video360/r-html5-aem-video360-config-attrib-video360player-preload.html">Video360</a>-visningsprogrammet är nu dokumenterad.</td> 
+   <td>Modifierarförinläsningen för videospelaren i <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/video/command-reference-configuration-attributes-video/r-html5-video-viewer-conf-attrib-videoplayer-preload.html?lang=en">Video</a>, <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/video360/command-reference-configuration-attributes-video360/r-html5-aem-video360-config-attrib-video360player-preload.html?lang=en">Video360</a>-visningsprogrammet är nu dokumenterad.</td> 
   </tr>
   <tr>
    <td>14 maj 2019</td> 
-   <td>Dynamic Media Classic (tidigare Scene7)</td> 
-   <td>Användarhandboken för Adobe Scene7 heter nu <i>Adobe Dynamic Media Classic</i>. Se <a href="https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html">Dynamic Media Classic-dokumentation</a>.<br /> </td> 
+   <td>Dynamic Media Classic</td> 
+   <td>Användarhandboken för Adobe Scene7 heter nu <i>Adobe Dynamic Media Classic</i>. Se <a href="https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=en">Dynamic Media Classic-dokumentation</a>.<br /> </td> 
   </tr>
   <tr>
    <td>13 maj 2019</td> 
    <td>IS/IR API</td> 
-   <td>Nya BFC-värden (Browser Format Conversion) har lagts till i <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-bfc.html">referensavsnittet för bildkatalogsattribut</a>.</td> 
+   <td>Nya BFC-värden (Browser Format Conversion) har lagts till i <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-bfc.html?lang=en">referensavsnittet för bildkatalogsattribut</a>.</td> 
   </tr>
   <tr>
    <td>8 maj 2019</td> 
@@ -207,7 +206,7 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>1 maj 2019</td> 
    <td>Referenshandbok för visningsprogram</td> 
-   <td><p>Ny <a href="https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/360-video.html">360/VR-videodokumentation</a>.</p> </td> 
+   <td><p>Ny <a href="https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/360-video.html?lang=en">360/VR-videodokumentation</a>.</p> </td> 
   </tr>
   <tr>
    <td>18 april 2019</td> 
@@ -236,7 +235,7 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
  </tbody>
 </table>
 
-## [!DNL Adobe Experience Manager] 6.4  {#aem-64}
+## [!DNL Adobe Experience Manager] 6.4 {#aem-64}
 
 <table> 
  <tbody>
@@ -258,7 +257,7 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>25 september 2019</td> 
    <td>Scene7: Arbetsflödet Bearbeta resurser igen</td> 
-   <td><p>Du kan nu bearbeta resurser i en mapp som redan har en befintlig bearbetningsprofil som du senare ändrade.</p> <p>Se <a href="https://docs.adobe.com/content/help/en/experience-manager-64/assets/administer/processing-profiles.html#reprocessing-assets" target="_blank">Återbearbeta resurser i en mapp</a>.</p> </td> 
+   <td><p>Du kan nu bearbeta resurser i en mapp som redan har en befintlig bearbetningsprofil som du senare ändrade.</p> <p>Se <a href="https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/processing-profiles.html?lang=en#reprocessing-assets" target="_blank">Återbearbeta resurser i en mapp</a>.</p> </td> 
   </tr>
   <tr>
    <td>19 september 2019</td> 
@@ -355,7 +354,7 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>11 december 2018</td> 
    <td>Enkelsidiga program<br /> </td> 
-   <td>En <a href="https://docs.adobe.com/content/help/en/experience-manager-64/developing/headless/spas/spa-getting-started-angular.html">guide för att komma igång</a> är nu tillgänglig för vinkelramverket.<br /> </td> 
+   <td>En <a href="https://docs.adobe.com/content/help/en/experience-manager-64/developing/headless/spas/spa-getting-started-angular.html">guide för att komma igång</a> är nu tillgänglig för Angularnas ramverk.<br /> </td> 
   </tr>
   <tr>
    <td>7 december 2018</td> 
@@ -383,11 +382,6 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
    <td>Snabbstartsida för utvecklare, som visar hur du använder <a href="https://docs.adobe.com/content/help/en/experience-manager-64/developing/bestpractices/we-retail/we-retail-experience-fragments.html">Experience Fragments in We.Retail</a>.<br /> </td> 
   </tr>
   <tr>
-   <td>16 november 2018</td> 
-   <td>AEM 3D-resurser</td> 
-   <td>Det här funktionspaketet för AEM 6.4.2.0 innehåller stöd för Adobe Dimension (.dn)-resurser och GL-överföringsformat (.glTF- och .glb)-resurser. Se <a href="https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/aem3d-release-notes.html">AEM 3D-versionsinformation</a>.</td> 
-  </tr>
-  <tr>
    <td>2 november 2018</td> 
    <td>AEM Screens</td> 
    <td>AEM Screens-dokumentationen har flyttats från grenen Platser till den exklusiva grenen Skärmar. Se <a href="https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html">AEM Screens användarhandbok</a> för fullständig konsoliderad dokumentation.</td> 
@@ -395,12 +389,12 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>1 november 2018</td> 
    <td>Cloud Manager</td> 
-   <td>Cloud Manager 2018.9.0-utgåvan innehåller stöd för ett Adobe I/O-baserat API, inklusive händelser, för integrering av Cloud Managers CI/CD-pipeline med andra system. Det börjar också skriva om UI-lagret i React. Följ <a href="https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-2018-9-0.html">versionsinformationen för 2018.9.0</a> för mer information.</td> 
+   <td>Cloud Manager 2018.9.0-utgåvan har stöd för ett Adobe I/O-baserat API, inklusive händelser, för integrering av Cloud Managers CI/CD-pipeline med andra system. Det börjar också skriva om UI-lagret i React. Följ <a href="https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-2018-9-0.html">versionsinformationen för 2018.9.0</a> för mer information.</td> 
   </tr>
   <tr>
    <td>25 oktober 2018</td> 
    <td>Hotlink Protection i Dynamic Media</td> 
-   <td>Se <a href="https://helpx.adobe.com/experience-manager/6-4/assets/using/hotlink-protection.html" target="_blank">Aktivera hotlink-skydd i Dynamic Media</a>.</td> 
+   <td>Se <a href="https://experienceleague.adobe.com/docs/experience-manager-64/assets/dynamic/hotlink-protection.html?lang=en" target="_blank">Aktivera hotlink-skydd i Dynamic Media</a>.</td> 
   </tr>
   <tr>
    <td>16 oktober 2018</td> 
@@ -435,7 +429,7 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>29 augusti 2018<br /> </td> 
    <td>AEM Assets</td> 
-   <td>För att konfigurera autentiseringsintegreringar finns Adobe I/O gateway-tjänsten tillgänglig i <a href="https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/configure-assets-cc-integration.html" target="_blank">konfigurera AEM Assets-integrering</a> och <a href="https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html" target="_blank">konfigurera Assets-integrering med Brand Portal</a>-artiklar.</td> 
+   <td>Om du vill konfigurera autentiseringsintegreringar finns Adobe I/O-gatewaytjänsten tillgänglig på <a href="https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/configure-assets-cc-integration.html" target="_blank">konfigurera AEM Assets-integrering</a> och <a href="https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=en" target="_blank">konfigurera Assets-integrering med Brand Portal</a>-artiklar.</td> 
   </tr>
   <tr>
    <td>24 augusti 2018</td> 
@@ -460,22 +454,17 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>19 juli 2018</td> 
    <td>API för bildleverans och bildåtergivning</td> 
-   <td><p>Image Serving 6.6.1 och Image Rendering 6.6.1 finns nu för Dynamic Media AEM och Dynamic Media Classic (Scene7).</p> <p>Se <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/r-about-this-release.html">Om den här versionen</a>.</p> </td> 
+   <td><p>Image Serving 6.6.1 och Image Rendering 6.6.1 finns nu för Dynamic Media AEM och Dynamic Media Classic.</p> <p>Se <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/r-about-this-release.html?lang=en">Om den här versionen</a>.</p> </td> 
   </tr>
   <tr>
    <td>17 juli 2018</td> 
    <td>Referenshandbok för visningsprogram</td> 
-   <td><p>Viewer 5.10.1 finns nu för Dynamic Media AEM och Dynamic Media Classic (Scene7).</p> <p>Se <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-release-notes/archive/c-rn-07-17-18.html">Viewer Release Notes (5.10.1)</a>.</p> </td> 
-  </tr>
-  <tr>
-   <td>16 juli 2018</td> 
-   <td>AEM 3D Assets 3.0.1</td> 
-   <td>Det här funktionspaketet för AEM 6.4.1.0 lägger till 3D-funktioner i AEM Assets/Dynamic Media - hybrid-läge. Mer information och installationsanvisningar finns i <a href="https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/aem3d-release-notes.html">AEM 3D Release Notes</a>.</td> 
+   <td><p>Viewer 5.10.1 finns nu för Dynamic Media AEM och Dynamic Media Classic.</p> <p>Se <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-release-notes/archive/c-rn-07-17-18.html?lang=en">Viewer Release Notes (5.10.1)</a>.</p> </td> 
   </tr>
   <tr>
    <td>13 juli 2018</td> 
    <td>Videorapportering</td> 
-   <td><p>Nu kan du konfigurera videorapportering för flera installationer av AEM Dynamic Media - hybrid-läge.</p> <p>Se <a href="https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/config-dynamic.html">Konfigurera videorapportering</a>.</p> </td> 
+   <td><p>Nu kan du konfigurera videorapportering för flera installationer av AEM Dynamic Media - hybrid-läge.</p> <p>Se <a href="https://experienceleague.adobe.com/docs/experience-manager-64/assets/dynamic/config-dynamic.html?lang=en">Konfigurera videorapportering</a>.</p> </td> 
   </tr>
   <tr>
    <td>11 juli 2018</td> 
@@ -561,7 +550,7 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>25 april 2018</td> 
    <td>Dynamic Media: Carousel Viewer</td> 
-   <td>I nya <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/carousel/c-html5-aem-carousel.html" target="_blank">Carousel Viewer i Dynamic Media</a> visas en karusell med icke-zoombara banderollbilder med klickbara hotspot-områden. Syftet med detta visningsprogram är att implementera en shoppingupplevelse där användare kan välja en hotspot eller en region över banderollbilden och omdirigeras till en Quickview- eller produktinformationssida på kundens webbplats. Den är utformad för att fungera på stationära datorer och mobila enheter.</td> 
+   <td>I nya <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/carousel/c-html5-aem-carousel.html?lang=en" target="_blank">Carousel Viewer i Dynamic Media</a> visas en karusell med icke-zoombara banderollbilder med klickbara hotspot-områden. Syftet med detta visningsprogram är att implementera en shoppingupplevelse där användare kan välja en hotspot eller en region över banderollbilden och omdirigeras till en Quickview- eller produktinformationssida på kundens webbplats. Den är utformad för att fungera på stationära datorer och mobila enheter.</td> 
   </tr>
   <tr>
    <td>24 april 2018<br /> </td> 
@@ -614,7 +603,7 @@ Följande versioner har flyttats:
  </tbody>
 </table>
 
-## [!DNL Adobe Experience Manager] 6.3  {#aem-1}
+## [!DNL Adobe Experience Manager] 6.3 {#aem-1}
 
 <table> 
  <tbody>
@@ -701,7 +690,7 @@ Följande versioner har flyttats:
   <tr>
    <td>29 augusti 2018</td> 
    <td>AEM Assets</td> 
-   <td>För att konfigurera autentiseringsintegreringar finns Adobe I/O gateway-tjänsten tillgänglig i <a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/configure-assets-cc-integration.html" target="_blank">konfigurera AEM Assets-integrering</a> och <a href="https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html" target="_blank">konfigurera Assets-integrering med Brand Portal</a>-artiklar.<br /> </td> 
+   <td>Om du vill konfigurera autentiseringsintegreringar finns Adobe I/O gatewaytjänsten tillgänglig på <a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/configure-assets-cc-integration.html" target="_blank">konfigurera AEM Assets-integrering</a> och <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html" target="_blank">konfigurera Assets-integrering med Brand Portal</a>-artiklar.<br /> </td> 
   </tr>
   <tr>
    <td>24 augusti 2018</td> 
@@ -816,7 +805,7 @@ Följande versioner har flyttats:
   <tr>
    <td>14 november 2017 </td> 
    <td>Smart bildbehandling</td> 
-   <td><p>Vanliga frågor och svar om den nya funktionen smart bildbehandling i Dynamic Media Classic (Scene7)/Dynamic Media.<br /> </p> <p>Se <a href="https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html">Smart bildbehandling</a>.</p> </td> 
+   <td><p>Vanliga frågor och svar om den nya funktionen smart bildbehandling i Dynamic Media Classic/Dynamic Media.<br /> </p> <p>Se <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Smart bildbehandling</a>.</p> </td> 
   </tr>
   <tr>
    <td>13 oktober 2017</td> 
@@ -826,7 +815,7 @@ Följande versioner har flyttats:
   <tr>
    <td>11 oktober 2017</td> 
    <td>Content Fragment Updates and Content Services - Feature Pack</td> 
-   <td>Den här uppsättningen funktionspaket innehåller uppdateringar av innehållsfragment, JSON-exporteraren och kärnkomponenter. Se <a href="https://helpx.adobe.com/experience-manager/6-3/release-notes/dynamic-media-featurepack-14410.html">Content Fragment Updates and Content Services - Feature Pack Release Notes</a>.</td> 
+   <td>Den här uppsättningen funktionspaket innehåller uppdateringar av innehållsfragment, JSON-exporteraren och kärnkomponenter. Se <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Content Fragment Updates and Content Services - Feature Pack Release Notes</a>.</td> 
   </tr>
   <tr>
    <td>3 oktober 2017</td> 
@@ -846,7 +835,7 @@ Följande versioner har flyttats:
   <tr>
    <td>5 september 2017</td> 
    <td>Dynamic Media Feature Packs 14410 och 18912</td> 
-   <td><p>Det här funktionspaketet innehåller nya funktioner för automatisering och leverans för Dynamic Media-kunder och är en uppgradering för Dynamic Media Classic-kunder (Scene7) att gå över till Dynamic Media. </p> <p><a href="https://helpx.adobe.com/experience-manager/6-3/assets/using/config-dynamic-fp-14410.html">Konfigurera Dynamic Media med Feature Pack 14410 och 18912</a></p> </td> 
+   <td><p>Det här funktionspaketet innehåller nya funktioner för automatisering och leverans för Dynamic Media-kunder och är en uppgradering för Dynamic Media Classic-kunder som vill gå över till Dynamic Media. </p> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Konfigurera Dynamic Media med Feature Pack 14410 och 18912</a></p> </td> 
   </tr>
   <tr>
    <td>31 augusti 2017</td> 
@@ -962,7 +951,7 @@ Följande versioner har flyttats:
  </tbody>
 </table>
 
-## [!DNL Adobe Experience Manager] 6.2  {#aem-2}
+## [!DNL Adobe Experience Manager] 6.2 {#aem-2}
 
 <table> 
  <tbody>
@@ -999,7 +988,7 @@ Följande versioner har flyttats:
   <tr>
    <td>29 augusti 2018</td> 
    <td>AEM Assets</td> 
-   <td>Om du vill konfigurera autentiseringsintegreringar finns Adobe I/O gateway-tjänsten tillgänglig på <a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/configure-assets-cc-integration.html" target="_blank">konfigurera AEM Assets-integrering</a>-artikeln.</td> 
+   <td>Om du vill konfigurera autentiseringsintegreringar kan du läsa <a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/configure-assets-cc-integration.html" target="_blank">konfigurera AEM Assets-integrering</a> i Adobe I/O gateway-tjänsten.</td> 
   </tr>
   <tr>
    <td>16 augusti 2018</td> 
@@ -1243,18 +1232,18 @@ Följande versioner har flyttats:
   </tr>
   <tr>
    <td>17 augusti 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/config-dynamic.html#setting%2520up%2520authentication">Konfigurera autentisering</a></td> 
-   <td>Bevarar <a href="https://helpx.adobe.com/se/experience-manager/6-2/assets/using/config-dynamic.html">Konfigurera Dynamic Media</a>.<br /> Förbättrade steg för att skapa tydligare autentisering.<br /> </td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Konfigurera autentisering</a></td> 
+   <td>Bevarar <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Konfigurera Dynamic Media</a>.<br /> Förbättrade steg för att skapa tydligare autentisering.<br /> </td> 
   </tr>
   <tr>
    <td>17 augusti 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/config-dynamic.html#ConfiguringImageReplication">Konfigurera replikeringsagenten</a></td> 
-   <td>Bevarar <a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/config-dynamic.html">Konfigurera Dynamic Media</a>.<br /> Förbättrade steg för att göra konfigurationen av replikeringsagenten tydligare.</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Konfigurera replikeringsagenten</a></td> 
+   <td>Bevarar <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Konfigurera Dynamic Media</a>.<br /> Förbättrade steg för att göra konfigurationen av replikeringsagenten tydligare.</td> 
   </tr>
   <tr>
    <td>17 augusti 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/config-dynamic.html#troubleshooting%2520authentication">Felsökning av autentisering</a></td> 
-   <td>Bevarar <a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/config-dynamic.html">Konfigurera Dynamic Media</a>.<br /> Tre nya felsökningsämnen för autentisering har lagts till.</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Felsökning av autentisering</a></td> 
+   <td>Bevarar <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Konfigurera Dynamic Media</a>.<br /> Tre nya felsökningsämnen för autentisering har lagts till.</td> 
   </tr>
   <tr>
    <td>4 augusti 2016</td> 
@@ -1304,8 +1293,8 @@ Följande versioner har flyttats:
   </tr>
   <tr>
    <td>22 december 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/aem-assets-6-2-feature-pack-2.html">AEM Assets 6.2 FP2</a></td> 
-   <td>Det här funktionspaketet innehåller nya förbättringar för skalbarhet, prestanda och användbarhet för AEM 6.2-kunder. Funktionspaketet innehåller även stöd för anpassade videominiatyrer och dynamiska färghanteringsfunktioner för media.</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">AEM Assets 6.2 FP2</a></td> 
+   <td>Det här funktionspaketet innehåller nya förbättringar för skalbarhet, prestanda och användbarhet för AEM 6.2-kunder. Funktionspaketet innehåller även stöd för anpassade videominiatyrer och Dynamic Media färghanteringsfunktioner.</td> 
   </tr>
   <tr>
    <td>22 november 2016</td> 
@@ -1314,12 +1303,12 @@ Följande versioner har flyttats:
   </tr>
   <tr>
    <td>18 november 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/config-dynamic.html#configuring%20dynamic%20media%20color%20management">Dynamic Media färgkorrigering</a></td> 
-   <td>Instruktioner om hur du kan färgkorrigera dynamiska medieresurser innan du förhandsgranskar dem.</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Dynamic Media färgkorrigering</a></td> 
+   <td>Instruktioner om hur du kan färgkorrigera Dynamic Media-resurser innan du förhandsgranskar dem.</td> 
   </tr>
   <tr>
    <td>18 november 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/config-dynamic.html#ConfiguringImageReplication">Konfigurerar avbildningsreplikering</a></td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Konfigurerar avbildningsreplikering</a></td> 
    <td>Bevarar nya instruktioner för konfiguration av bildreplikering.</td> 
   </tr>
   <tr>
@@ -1329,7 +1318,7 @@ Följande versioner har flyttats:
   </tr>
   <tr>
    <td>3 november 2016</td> 
-   <td>Uppdaterade Dynamic Media tekniska krav <a href="https://helpx.adobe.com/ca/experience-manager/aem-previous-versions.html">6.1</a>, <a href="https://helpx.adobe.com/experience-manager/6-2/sites/deploying/using/technical-requirements.html#dynamic-media%20add-on%20prerequisites">6.2</a></td> 
+   <td>Uppdaterade Dynamic Media tekniska krav <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">6.1</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">6.2</a></td> 
    <td>Omdistribuerbara Visual Studio C++-filer har uppdaterats för tekniska krav.</td> 
   </tr>
   <tr>
@@ -1344,23 +1333,13 @@ Följande versioner har flyttats:
   </tr>
   <tr>
    <td>17 oktober 2016</td> 
-   <td><a href="https://docs.adobe.com/content/docs/en/aem/6-1/administer/content/dynamic-media/viewer-presets.html">Dynamic Media Viewers</a></td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Dynamic Media Viewers</a></td> 
    <td>AEM 6.2-visningsprogram finns nu i AEM 6.1.</td> 
   </tr>
   <tr>
    <td>11 oktober 2016</td> 
-   <td><a href="https://docs.adobe.com/content/docs/en/aem/6-1/administer/content/dynamic-media/config-dynamic.html#Configuring%20Dynamic%20Media%20Color%20Management">Dynamic Media Color Management</a></td> 
-   <td>Nytt funktionspaket för AEM 6.1 där du kan färgkorrigera dynamiska medieresurser innan du förhandsgranskar dem.</td> 
-  </tr>
-  <tr>
-   <td>26 september 2016</td> 
-   <td>AEM 3D-resurser</td> 
-   <td>Adobe Experience Manager 3D Assets är ett nytt tillägg till AEM som gör att du kan överföra, hantera, visa och återge 3D-innehåll. Stöd för visning och återgivning är optimerat för enskilda objekt.
-    <ul> 
-     <li><a href="https://helpx.adobe.com/experience-manager/6-2/release-notes/aem3d-release-notes.html">Versionsinformation om AEM 3D-resurser</a></li> 
-     <li><a href="https://helpx.adobe.com/experience-manager/6-2/release-notes/aem3d-release-notes.html#InstallingandconfiguringAEM3D">Installera och konfigurera AEM 3D-resurser</a></li> 
-     <li><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/3d-assets.html">Arbeta med 3D-resurser</a></li> 
-    </ul> </td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Dynamic Media Color Management</a></td> 
+   <td>Nytt funktionspaket för AEM 6.1 som gör att du kan färgkorrigera Dynamic Media-resurser innan du förhandsgranskar dem.</td> 
   </tr>
   <tr>
    <td>21 september 2016</td> 
@@ -1379,18 +1358,18 @@ Följande versioner har flyttats:
   </tr>
   <tr>
    <td>17 augusti 2016</td> 
-   <td><a href="https://docs.adobe.com/content/docs/en/aem/6-1/administer/content/dynamic-media/config-dynamic.html#Setting%20up%20Authentication">Konfigurera autentisering</a></td> 
-   <td>Bevarar <a href="https://docs.adobe.com/content/docs/en/aem/6-1/administer/content/dynamic-media/config-dynamic.html">Konfigurera Dynamic Media</a>.<br /> Förbättrade steg för att skapa tydligare autentisering.</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Konfigurera autentisering</a></td> 
+   <td>Bevarar <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Konfigurera Dynamic Media</a>.<br /> Förbättrade steg för att skapa tydligare autentisering.</td> 
   </tr>
   <tr>
    <td>17 augusti 2016<br /> </td> 
-   <td><a href="https://docs.adobe.com/content/docs/en/aem/6-1/administer/content/dynamic-media/config-dynamic.html#Configuring%20the%20Replication%20Agent">Konfigurera replikeringsagenten</a></td> 
-   <td>Bevarar <a href="https://docs.adobe.com/content/docs/en/aem/6-1/administer/content/dynamic-media/config-dynamic.html">Konfigurera Dynamic Media</a>.<br /> Förbättrade steg för att göra konfigurationen av replikeringsagenten tydligare.</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Konfigurera replikeringsagenten</a></td> 
+   <td>Bevarar <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Konfigurera Dynamic Media</a>.<br /> Förbättrade steg för att göra konfigurationen av replikeringsagenten tydligare.</td> 
   </tr>
   <tr>
    <td>17 augusti 2016</td> 
-   <td><a href="https://docs.adobe.com/content/docs/en/aem/6-1/administer/content/dynamic-media/config-dynamic.html#Troubleshooting%20Authentication">Felsökning av autentisering</a></td> 
-   <td>Bevarar <a href="https://docs.adobe.com/content/docs/en/aem/6-1/administer/content/dynamic-media/config-dynamic.html">Konfigurera Dynamic Media</a>.<br /> Tre nya felsökningsämnen för autentisering har lagts till.</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Felsökning av autentisering</a></td> 
+   <td>Bevarar <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Konfigurera Dynamic Media</a>.<br /> Tre nya felsökningsämnen för autentisering har lagts till.</td> 
   </tr>
   <tr>
    <td>12 augusti 2016</td> 
@@ -1453,7 +1432,7 @@ Följande versioner har flyttats:
   </tr>
   <tr>
    <td>23 februari 2017</td> 
-   <td><a href="http://answers.livefyre.com/product/studio-v2/streams/creating-streams/add-rules-for-your-stream/add-instagram-rules/">Lägg till mellanrumsregler</a></td> 
+   <td><a href="http://answers.livefyre.com/product/studio-v2/streams/creating-streams/add-rules-for-your-stream/add-instagram-rules/">Lägg till Instagram-regler</a></td> 
    <td>Studio-användare kan nu skapa strömregler som inkluderar en specifik incheckningsplats på Instagram.</td> 
   </tr>
   <tr>
@@ -1519,7 +1498,7 @@ Följande versioner har flyttats:
   <tr>
    <td>22 september 2016<a href="https://answers.livefyre.com/product/features-2/content-integration/#FriendMentions"></a></td> 
    <td><a href="https://answers.livefyre.com/product/features-2/content-integration/#FriendMentions">Vänomnämnanden</a></td> 
-   <td>Borttagen dokumentation som felaktigt angav att du kan @nämna någon i kommentarer med Twitter.</td> 
+   <td>Borttagen dokumentation som felaktigt angav att du kan @nge någon i kommentarer med Twitter.</td> 
   </tr>
   <tr>
    <td>22 september 2016</td> 
@@ -1541,42 +1520,42 @@ Följande versioner har flyttats:
   <tr>
    <td>20 dec 2019</td> 
    <td>Konfigurationsvideor och vanliga frågor och svar har uppdaterats</td> 
-   <td><p>Brand Portal 6.4.5 är en funktionsrelease som fokuserar på att ge användare av varumärkesportalen (externa byråer/team) möjlighet att ladda upp material till varumärkesportalen och publicera till AEM Assets, utan att behöva ha tillgång till redigeringsmiljön. Den här funktionen kallas <strong>Resurshantering i varumärkesportalen</strong>.</p> <p>Dokumentationen innehåller följande viktiga uppdateringar:</p> 
+   <td><p>Brand Portal 6.4.5 är en funktionsrelease som fokuserar på att ge Brand Portal-användare (externa byråer/team) möjlighet att överföra innehåll till Brand Portal och publicera till AEM Assets, utan att de behöver ha tillgång till redigeringsmiljön. Den här funktionen kallas <strong>Resurshantering i Brand Portal</strong>.</p> <p>Dokumentationen innehåller följande viktiga uppdateringar:</p> 
     <ul> 
-     <li><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html">En </a> videofilm som demonstrerar det övergripande arbetsflödet för Resurser i varumärkesportalen.<br /> </li> 
+     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en">En </a> videofilm som demonstrerar det övergripande arbetsflödet för Resurser i Brand Portal.<br /> </li> 
      <li>Ny video lades till <a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-configure-asset-sourcing.html">How to Configure Asset Source in AEM Assets</a>.</li> 
      <li>Ny video har lagts till <a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/configure-contribution-folder/brand-portal-contribution-folder.html">Konfigurera Contribute-mapp i AEM Assets</a>.</li> 
-     <li><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/brand-portal-faqs.html">Vanliga frågor och </a> svar om resursanskaffning.</li> 
+     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-faqs.html?lang=en">Vanliga frågor och </a> svar om resursanskaffning.</li> 
     </ul> </td> 
   </tr>
   <tr>
    <td>20 nov 2019 </td> 
    <td>Funktionsvideor och konfigurationsartiklar för resurskälla</td> 
-   <td><p>Brand Portal 6.4.5 är en funktionsrelease som fokuserar på att ge användare av varumärkesportalen (externa byråer/team) möjlighet att ladda upp material till varumärkesportalen och publicera till AEM Assets, utan att behöva ha tillgång till redigeringsmiljön. Den här funktionen kallas <strong>Resurshantering i varumärkesportalen</strong>.</p> <p>Dokumentationen innehåller följande viktiga uppdateringar:</p> 
+   <td><p>Brand Portal 6.4.5 är en funktionsrelease som fokuserar på att ge Brand Portal-användare (externa byråer/team) möjlighet att överföra innehåll till Brand Portal och publicera till AEM Assets, utan att de behöver ha tillgång till redigeringsmiljön. Den här funktionen kallas <strong>Resurshantering i Brand Portal</strong>.</p> <p>Dokumentationen innehåller följande viktiga uppdateringar:</p> 
     <ul> 
-     <li><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html">En </a> videofilm som demonstrerar det övergripande arbetsflödet för Resurser i varumärkesportalen.</li> 
+     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en">En </a> videofilm som demonstrerar det övergripande arbetsflödet för Resurser i Brand Portal.</li> 
      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/configure-contribution-folder/brand-portal-contribution-folder.html">Konfigurera Contribute-mappen i AEM Assets</a></li> 
      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/using-asset-sourcing/brand-portal-overiew-using-asset-sourcing.html">Använda Resurser för att publicera material i mappen för bidrag till AEM Assets</a></li> 
     </ul> </td> 
   </tr>
   <tr>
    <td>11 nov 2019 </td> 
-   <td>Frågor och svar om varumärkesportalen introducerades</td> 
+   <td>Brand Portal FAQs introducerades</td> 
    <td>Dokumentationen innehåller följande viktiga uppdateringar:
     <ul> 
-     <li><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/brand-portal-faqs.html">Vanliga frågor och </a> svar i Källa för varumärkesportaltillgångar.</li> 
-     <li>Uppdaterad dokumentation för <a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html">Resurshantering i varumärkesportalen</a>.</li> 
+     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-faqs.html?lang=en">Vanliga frågor och </a> svar om Brand Portal Resurser.</li> 
+     <li>Uppdaterad dokumentation för <a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en">Resurshantering i Brand Portal</a>.</li> 
     </ul> </td> 
   </tr>
   <tr>
    <td>10 oktober 2019 </td> 
-   <td>Resurshantering i varumärkesportalen</td> 
-   <td><p>Dokumentation om hur du konfigurerar Resurser i AEM Assets och relaterade artiklar.</p> <p>Mer information om funktionen finns i <a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html">Resurshantering i varumärkesportalen</a>.</p> </td> 
+   <td>Resurshantering i Brand Portal</td> 
+   <td><p>Dokumentation om hur du konfigurerar Resurser i AEM Assets och relaterade artiklar.</p> <p>Mer information om funktionen finns i <a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en">Resurshantering i Brand Portal</a>.</p> </td> 
   </tr>
   <tr>
    <td>28 september 2019</td> 
    <td>AEM Assets Brand Portal 6.4.5</td> 
-   <td><p>Brand Portal 6.4.5 är en funktionsrelease som fokuserar på att ge användare av varumärkesportalen (externa byråer/team) möjlighet att ladda upp material till varumärkesportalen och publicera till AEM Assets, utan att behöva ha tillgång till redigeringsmiljön. Den här funktionen kallas <strong>Resurshantering i varumärkesportalen</strong>.</p> <p><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/whats-new.html#what-changed-in-645">Nyheter i varumärkesportalen 6.4.5</a></p> </td> 
+   <td><p>Brand Portal 6.4.5 är en funktionsrelease som fokuserar på att ge Brand Portal-användare (externa byråer/team) möjlighet att överföra innehåll till Brand Portal och publicera till AEM Assets, utan att de behöver ha tillgång till redigeringsmiljön. Den här funktionen kallas <strong>Resurshantering i Brand Portal</strong>.</p> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/whats-new.html?lang=en#what-changed-in-645">Nyheter i Brand Portal 6.4.5</a></p> </td> 
   </tr>
   <tr>
    <td>8 augusti 2019</td> 
@@ -1585,38 +1564,38 @@ Följande versioner har flyttats:
     <ul> 
      <li><strong>BP 6.4.4.7</strong> - Optimera användarsynkroniseringsprocessen för att förhindra samtidig körning.</li> 
      <li><strong>BP 6.4.4.6</strong> - Prestandaoptimeringar för generering av hämtningsrapporter.</li> 
-    </ul> <p><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html">Versionsinformation om varumärkesportalen</a></p> </td> 
+    </ul> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html?lang=en">Versionsinformation för Brand Portal</a></p> </td> 
   </tr>
   <tr>
    <td>13 februari 2019</td> 
    <td>AEM Assets Brand Portal 6.4.4 </td> 
-   <td><p>Utgåvan av varumärkesportalen 6.4.4 fokuserar på förbättringar av textsökning och de vanligaste kundförfrågningarna.</p> <p>Dokumentationen innehåller följande viktiga uppdateringar:</p> 
+   <td><p>Brand Portal 6.4.4 fokuserar på förbättringar av textsökningar och kundförfrågningar.</p> <p>Dokumentationen innehåller följande viktiga uppdateringar:</p> 
     <ul> 
      <li>Egenskapspredikatet i sökfiltret har nu stöd för sökning efter partiella fraser.</li> 
      <li>Egenskapspredikatet i sökfiltret har nu stöd för sökningar med jokertecken (*).</li> 
-    </ul> <p><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/whats-new.html">Versionsinformation om varumärkesportalen</a></p> <p><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/whats-new.html">Användarhandbok för varumärkesportalen</a></p> </td> 
+    </ul> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/whats-new.html?lang=en">Versionsinformation för Brand Portal</a></p> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/whats-new.html?lang=en">Användarhandbok för Brand Portal</a></p> </td> 
   </tr>
   <tr>
    <td>1 november 2018 </td> 
    <td>AEM Assets Brand Portal 6.4.3</td> 
-   <td><p>Brand Portal 6.4.3 innehåller förbättringar som berikar kundupplevelsen och ger större kontroll till organisationer.</p> <p>Dokumentationen innehåller följande viktiga uppdateringar:</p> 
+   <td><p>Brand Portal 6.4.3 innehåller förbättringar som berikar kundupplevelsen och ger större kontroll till företag.</p> <p>Dokumentationen innehåller följande viktiga uppdateringar:</p> 
     <ul> 
-     <li>Organisationer kan begära en alternativ URL förutom den befintliga URL:en för Brand Portal-åtkomst genom att ha ett alternativt prefix i URL:en.</li> 
+     <li>Organisationer kan begära en alternativ URL förutom den befintliga Brand Portal-åtkomstURL:en genom att ha ett alternativt prefix i URL:en.</li> 
      <li>Ny konfiguration som aktiverar mapphierarki för icke-adminanvändare.</li> 
-     <li>Förhandsgranska, spela upp och ladda ned de dynamiska medieåtergivningarna.</li> 
-     <li>Schemalagd publicering från AEM Author-instansen till varumärkesportalen.</li> 
+     <li>Förhandsgranska, spela upp och ladda ned Dynamic Media-renderingar.</li> 
+     <li>Schemalagd publicering från AEM Author-instansen till Brand Portal.</li> 
      <li>Ny konfiguration som konfigurerar inställningarna för Dynamic Media bildserver.</li> 
      <li>Det predikat för sökvägsläsaren som introducerades i sökformuläret.</li> 
      <li>Hämtning via e-postlänk upphör efter 45 dagar. </li> 
-    </ul> <p><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/whats-new.html/brand-portal/release-notes/brand-portal-release-notes-643.html" target="_blank">Versionsinformation om varumärkesportalen</a></p> <p><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html" target="_blank">Användarhandbok för varumärkesportalen</a></p> </td> 
+    </ul> <p><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/whats-new.html/brand-portal/release-notes/brand-portal-release-notes-643.html" target="_blank">Versionsinformation för Brand Portal</a></p> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en" target="_blank">Användarhandbok för Brand Portal</a></p> </td> 
   </tr>
   <tr>
    <td>16 augusti 2018 </td> 
    <td>AEM Assets Brand Portal 6.4.2</td> 
    <td><p>Brand Portal 6.4.2 innehåller funktioner för att hantera resursdistributionsbehov i organisationer och hjälpa dem att nå ut till ett stort antal användare globalt via Gästs åtkomstfunktioner och optimera användarupplevelsen med snabbare nedladdningar. Den här versionen ger bättre kontroll till organisationer genom nya konfigurationer för administratörer.</p> <p>Dokumentationen innehåller följande viktiga uppdateringar:</p> 
     <ul> 
-     <li>Gäståtkomst till varumärkesportalen.</li> 
-     <li>Möjlighet att snabba upp hämtningen av resursfiler från Brand Portal och delade länkar.</li> 
+     <li>Gäståtkomst till Brand Portal.</li> 
+     <li>Möjlighet att snabba upp nedladdningen av resursfiler från Brand Portal och delade länkar.</li> 
      <li>Ny rapport för användarinloggning som spårar inloggningsaktiviteten.</li> 
      <li>Begränsa åtkomsten till de ursprungliga återgivningarna (.psd, .indd) till vissa användargrupper samtidigt som de får åtkomst till lågupplösta återgivningar.</li> 
      <li>Mapphierarkiinformation på mappkort i kortvyn för icke-adminanvändare (gästanvändare, visningsprogram, redigerare), för att hjälpa till att skilja de delade undermapparna åt med liknande namn som tillhör olika överordnade mappar.<br /> </li> 
@@ -1624,12 +1603,12 @@ Följande versioner har flyttats:
      <li>Stöd för icke-skiftlägeskänslig sökning efter egenskapsprediat och multivalue-egenskapsprediat i sökfiltret.</li> 
      <li>Sex nya konfigurationer för att ge större kontroll till organisationer och göra det möjligt för dem att tillgodose enskilda affärsbehov.</li> 
      <li>Gränssnittet för konfigurering av autentiseringsintegreringar finns nu på <a href="https://legacy-oauth.cloud.adobe.io/">https://legacy-oauth.cloud.adobe.io/</a>.</li> 
-    </ul> <p><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html">Användarhandbok för varumärkesportalen</a></p> </td> 
+    </ul> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en">Användarhandbok för Brand Portal</a></p> </td> 
   </tr>
   <tr>
    <td>17 maj 2018</td> 
    <td>AEM Assets Brand Portal 6.4.1</td> 
-   <td><p>AEM Assets Brand Portal 6.4.1 var en plattformsuppgraderingsversion som innehöll flera nya funktioner och viktiga förbättringar, som bläddring, sökning och prestandaförbättringar för att uppfylla kundupplevelserna. Dokumentationen innehåller följande viktiga uppdateringar:</p> 
+   <td><p>AEM Assets Brand Portal 6.4.1 var en plattformsuppgraderingsversion som innehöll flera nya funktioner och viktiga förbättringar som bläddring, sökning och prestandaförbättringar för att uppfylla kundupplevelserna. Dokumentationen innehåller följande viktiga uppdateringar:</p> 
     <ul> 
      <li>Navigera snabbt i en resurshierarki genom att navigera i innehållsträden.</li> 
      <li>Visa inställningar för att anpassa kortvyn och listvyn.</li> 
@@ -1638,26 +1617,26 @@ Följande versioner har flyttats:
      <li>En ny rapport om länkdelning introducerades.</li> 
      <li>Rapportgränssnittet har blivit mer intuitivt med detaljfunktioner för att anpassa rapporter.</li> 
      <li>Resurssökningen har förbättrats med exakta tidsstämpelfilter, nytt åtkomsttypsfilter, nya sökalternativ i filtypssökfiltret samt möjlighet att gå tillbaka till sökresultaten.</li> 
-    </ul> <p><a href="https://helpx.adobe.com/se/experience-manager/brand-portal/user-guide.html">Användarhandbok för varumärkesportalen</a></p> </td> 
+    </ul> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en">Användarhandbok för Brand Portal</a></p> </td> 
   </tr>
   <tr>
    <td>26 oktober 2017</td> 
    <td>AEM Assets Brand Portal 6.3.1 release<br /> </td> 
-   <td><p>AEM Assets Brand Portal 6.3.1 innehåller nya Brand Portal-gränssnittet och en förbättrad dokumentationsupplevelse. Dokumentationen innehåller följande viktiga uppdateringar:</p> 
+   <td><p>AEM Assets Brand Portal 6.3.1 innehåller nya Brand Portal användargränssnitt och förbättrad dokumentation. Dokumentationen innehåller följande viktiga uppdateringar:</p> 
     <ul> 
      <li>Förbättrad navigering, sortering, sökning och nedladdning</li> 
      <li>Förbättrade kontroller för bakgrundsbilder på inloggningsskärmen</li> 
      <li>Fullständig publicering av metadatamatchning från Assets till Brand Portal</li> 
      <li>Förbättrade rapporteringsfunktioner - material som laddats ned, gått ut och publicerats</li> 
      <li>Nya DRM-funktioner - kontroller för förfallodatum för resurser och meddelanden</li> 
-     <li>Ny <a href="https://helpx.adobe.com/experience-manager/brand-portal/using/whats-new.html">artikel</a> om du vill veta mer om de nya och uppdaterade funktionerna</li> 
-     <li>Ny version-agnostic <a href="https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html">Användarhandbok för varumärkesportalen</a> oberoende av AEM Assets användarhandbok</li> 
+     <li>Ny <a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/whats-new.html?lang=en">artikel</a> om du vill veta mer om de nya och uppdaterade funktionerna</li> 
+     <li>Ny version-agnostic <a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en">Brand Portal användarhandbok</a> oberoende av AEM Assets användarhandbok</li> 
     </ul> </td> 
   </tr>
  </tbody>
 </table>
 
-## [!DNL Adobe Experience Manager] datorprogram  {#aem-desktop-app}
+## [!DNL Adobe Experience Manager] datorprogram {#aem-desktop-app}
 
 <table> 
  <tbody>
@@ -1669,7 +1648,7 @@ Följande versioner har flyttats:
   <tr>
    <td>5 juli 2018</td> 
    <td>Versionsoberoende artiklar</td> 
-   <td>Uppdaterade artiklar i skrivbordsappen (<a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/install-upgrade.html">Installera</a>, <a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html">RN</a> och <a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/archive/best-practices-for-v1.html">Bästa praxis</a>) för att frigöra från version AEM 6.4. Appen fungerar med flera releaser och artiklarna är nu versionseftersom.</td> 
+   <td>Artiklar i skrivbordsappen (<a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/install-upgrade.html">Installera</a>, <a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html">RN</a> och <a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/archive/best-practices-for-v1.html">Bästa praxis</a>) för att frigöra från AEM 6.4-utgåvan. Appen fungerar med flera releaser och artiklarna är nu versionseftersom.</td> 
   </tr>
   <tr>
    <td>21 juni 2018</td> 
