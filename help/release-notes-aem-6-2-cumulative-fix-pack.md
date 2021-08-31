@@ -1,9 +1,9 @@
 ---
 title: AEM 6.2 Cumulative Fix Pack
 description: AEM 6.2 Cumulative Fix Pack Release Notes.
-source-git-commit: 3c798116db7314f4220f8a183a989c2b37678054
+source-git-commit: 69f4db4e2ef94c370ed590ec7e9859781a909270
 workflow-type: tm+mt
-source-wordcount: '19915'
+source-wordcount: '19890'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 | **Produkt** | Adobe Experience Manager |
 |---|---|
 | **Version** | 6.2 |
-| **Frigör** | [Kumulativt korrigeringspaket 6.2 SP1-CFP20](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/AEM-6.2-SP1-CFP20) |
+| **Frigör** | Kumulativt korrigeringspaket 6.2 SP1-CFP20 |
 | **Förutsättning** | [AEM 6.2 Service Pack 1](https://docs.adobe.com/docs/en/aem/6-2/release-notes/sp1.html) |
 | **Allmän tillgänglighet** | 6 juni 2019 |
 
@@ -514,7 +514,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 
 ### WCM - Foundation Components {#wcm-foundation-components-2}
 
-* CAPTCHA-komponenten har tagits bort för bättre säkerhet, och om du använder CAPTCHA-komponenten visas meddelandet&quot;Captcha-komponenten är föråldrad och bör inte längre användas&quot;. visas efter installation av version 6.2 SP2-CFP15 eller senare. AEM kan anpassas så att de innehåller reCAPTCHA för bättre säkerhet NPR-22151: Programfix för CQ-4220052
+* CAPTCHA-komponenten har tagits bort för bättre säkerhet, och om du använder CAPTCHA-komponenten visas meddelandet&quot;Captcha-komponenten är föråldrad och bör inte längre användas&quot;. visas efter installation av version 6.2 SP2-CFP15 eller senare. AEM kan anpassas så att de innehåller reCAPTCHA för bättre säkerhet NPR-22151: Programfix för CQ-4224052
 * WCM Foundation-komponenten Table är sårbar för lagrade korsskriptning mellan webbplatser. NPR-23206: Programfix för CQ-4240760
 
 ### Sårbarhet {#vulnerability-2}
@@ -734,7 +734,7 @@ AEM Forms-korrigeringar levereras via tilläggspaket och andra patch-installerar
 #### Adaptiv Forms {#adaptive-forms-5}
 
 * XML-injektion av extern enhet (XXE) i Adaptiv Forms. NPR-21982: Programfix för CQ-109878
-* (iOS11) När du klickar på en komponent för bifogad fil öppnas kameran i stället för enhetens filläsare. NPR-21926: Programfix för CQ-4214348
+* (iOS11) När du klickar på en komponent för bifogad fil öppnas kameran i stället för enhetens filläsare. NPR-21928: Programfix för CQ-4214348
 * Titel som saknas i gränssnittet för att skapa teman orsakar undantag och återgivning av dialogrutan misslyckas. Programfix för CQ-4236143
 
 #### Korrespondenshantering {#correspondence-management-1}
@@ -2206,7 +2206,7 @@ I det här avsnittet går du igenom kraven och stegen för att installera bestru
 
 * AEM 6.2 Service Pack 1 är en förutsättning för den gemensamma fiskeripolitiken. Installationsanvisningar finns i [AEM 6.2 Service Pack 1 versionsinformation](https://docs.adobe.com/docs/en/aem/6-2/release-notes/sp1.html).
 
-* Hämtningen av Cumulative Fix Pack är tillgänglig på [Programdistribution](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/cumulativefixpack/AEM-6.2-SP1-CFP20), som du kommer åt direkt från AEM.
+* Hämtningen av Cumulative Fix Pack är tillgänglig på [Programdistribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html), som du kommer åt direkt från AEM.
 * För en klusterdistribution med ( RDBMK eller MongoDB) kan CFP-paketet installeras på alla Author-instanser som använder Package Manager.
 
 * Innan du installerar det kumulativa korrigeringspaketet bör du ta en ögonblicksbild eller skapa en säkerhetskopia av AEM.

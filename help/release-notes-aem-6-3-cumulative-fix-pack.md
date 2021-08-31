@@ -1,9 +1,9 @@
 ---
 title: AEM 6.3 Cumulative Fix Pack
 description: AEM 6.3 Cumulative Fix Pack Release Notes.
-source-git-commit: 3c798116db7314f4220f8a183a989c2b37678054
+source-git-commit: 69f4db4e2ef94c370ed590ec7e9859781a909270
 workflow-type: tm+mt
-source-wordcount: '15906'
+source-wordcount: '15883'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 | **Produkt** | Adobe Experience Manager |
 |---|---|
 | **Version** | 6.3 |
-| **Frigör** | Kumulativt korrigeringspaket 6.3.3.8 på [PackageShare](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/cumulativefixpack/AEM-CFP-6.3.3.8), [Software Distribution(Beta)](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq630/cumulativefixpack/aem-6.3.3-cfp-8.0.zip) |
+| **Frigör** | Kumulativt korrigeringspaket 6.3.3.8 på [Programdistribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq630/cumulativefixpack/aem-6.3.3-cfp-8.0.zip) |
 | **Förutsättning** | [AEM 6.3 Service Pack 3 (6.3.3.0)](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) |
 | **Allmän tillgänglighet** | 5 mars 2020 |
 
@@ -1105,7 +1105,7 @@ Huvudinnehållet i **AEM Cumulative Fix Pack** är:
 
 * iParsys skapar positionsförflyttningen efter avmarkering av kryssrutan Avbryt/inaktivera arv. NPR-21905: Programfix för CQ-4230951
 * Visa/dölj-funktionen för den nedrullningsbara formulärkomponenten fungerar inte som förväntat. NPR-22327: Programfix för CQ-422853
-* CAPTCHA-komponenten har tagits bort för bättre säkerhet, och om du använder CAPTCHA-komponenten visas meddelandet&quot;Captcha-komponenten är föråldrad och bör inte längre användas&quot;. kommer att visas när 6.3.2.1-versionen eller senare har installerats. AEM kan anpassas så att de innehåller reCAPTCHA för bättre säkerhet NPR-22151: Programfix för CQ-4220052
+* CAPTCHA-komponenten har tagits bort för bättre säkerhet, och om du använder CAPTCHA-komponenten visas meddelandet&quot;Captcha-komponenten är föråldrad och bör inte längre användas&quot;. kommer att visas när 6.3.2.1-versionen eller senare har installerats. AEM kan anpassas så att de innehåller reCAPTCHA för bättre säkerhet NPR-22151: Programfix för CQ-4224052
 
 ### WCM - sidredigeraren {#wcm-page-editor}
 
@@ -1201,7 +1201,7 @@ AEM Forms i korthet:
 
 #### Workbench {#workbench}
 
-* Aktiverad certifikatautentisering för Workbench-användare. NPR-20644: Programfix för CQ-4214488
+* Aktiverad certifikatautentisering för Workbench-användare. NPR-20644: Programfix för CQ-4214486
 * Det går bara att hämta serverlogg med Workbench för en server medan det inte fungerar för den andra servern. NPR-21079: Programfix för CQ-4229842
 
 #### Processhantering {#process-management-1}
@@ -1721,7 +1721,7 @@ AEM Cumulative Fix Pack 6.3.0.1 är en viktig uppdatering som innehåller flera 
 
 ## Ladda ned instruktioner för CFP via Software Distribution {#download-instructions-for-cfp-via-package-share}
 
-Du kan hämta CFP-paketet direkt från [Software Distribution](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/cumulativefixpack/AEM-CFP-6.3.3.8) eller utföra följande steg:
+Du kan hämta CFP-paketet direkt från [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) eller utföra följande steg:
 
 1. Öppna [Programvarudistribution](https://experience.adobe.com/downloads). Du behöver en Adobe ID för att logga in på Software Distribution.
 1. Tryck på **[!UICONTROL Adobe Experience Manager]** som finns i rubrikmenyn.

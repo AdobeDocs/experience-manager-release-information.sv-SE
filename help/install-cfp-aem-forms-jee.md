@@ -2,14 +2,13 @@
 title: Installera kumulativa korrigeringspaket på AEM Forms JEE
 description: Sammanfattning av steg för att installera och konfigurera Cumulative Fix Pack (CFP) på AEM Forms JEE
 contentOwner: AK
-translation-type: tm+mt
-source-git-commit: 050be3e2fc20242d222344bc9202752eda336b2e
+exl-id: eed01a42-f4ab-4392-8b8e-eb5bbe2410a0
+source-git-commit: 69f4db4e2ef94c370ed590ec7e9859781a909270
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
-
 
 # Installerar kumulativa korrigeringspaket på AEM[!DNL  Forms] JEE{#installing-cumulative-fix-packs-on-aem-forms-jee}
 
@@ -22,9 +21,9 @@ Utför följande steg i den angivna sekvensen för att installera kumulativa kor
 1. Installera den senaste AEM CFP [6.3.3.x](release-notes-aem-6-3-cumulative-fix-pack.md)
 1. Installera [!DNL Forms]-tilläggspaketet för AEM CFP [6.3.3.x](aem-forms-releases.md)
 
-### Installera AEM [!DNL Forms JEE] paketpaket {#install-aem-forms-jee-bundles-package}
+### Installera AEM [!DNL Forms JEE]-paketpaket {#install-aem-forms-jee-bundles-package}
 
-[[!DNL  Forms JEE] AEMpackage](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/cumulativefixpack/fd/AEM-FORMS-6.3-CFP1-JEE-PKG) (aemfd-jee-bundles-package-6.3CFP1; version 1.0.2) ger  [!DNL Forms] användaren AEM  [!DNL Forms JEE] samma rättigheter och funktioner som AEM  [!DNL Forms OSGi]. Kontrollera de installerade paketen i Package Manager och installera paketet om det inte redan är installerat.
+AEM [!DNL  Forms JEE]-paket (aemfd-jee-bundles-package-6.3CFP1; version 1.0.2) ger [!DNL Forms] användare på AEM [!DNL Forms JEE] samma rättigheter och funktioner som på AEM [!DNL Forms OSGi]. Kontrollera de installerade paketen i Package Manager och installera paketet om det inte redan är installerat.
 
 ### Ytterligare instruktioner för CQ-4208044 {#additional-instructions-for-cq}
 
@@ -49,20 +48,20 @@ Utför följande steg i den angivna sekvensen för att installera kumulativa kor
 
 1. Kontakta [Adobe Support](https://www.adobe.com/account/sign-in.supportportal.html) för att få AEM 6.2 [!DNL Forms JEE] installationsprogram för CFP.
 1. Kör CFP-installationsprogrammet och konfigurera AEM [!DNL Forms JEE] enligt beskrivningen i [Installera och konfigurera AEM [!DNL Forms JEE]](install-cfp-aem-forms-jee.md#install-and-configure-aem-forms-jee).
-1. Installera [AEM hotfix 12785 version 7.0](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/hotfix/cq-6.2.0-hotfix-12785).
+1. Installera AEM hotfix 12785 version 7.0.
 1. Installera [AEM 6.2 Service Pack 1](https://docs.adobe.com/docs/en/aem/6-2/release-notes/sp1.html).
 1. Installera den senaste [AEM 6.2 Service Pack1 CFP](release-notes-aem-6-2-cumulative-fix-pack.md).
 1. Installera [!DNL Forms]-tilläggspaketet för [AEM 6.2 Service Pack 1 CFP](aem-forms-releases.md).
 
-### Installera AEM [!DNL Forms JEE] paketpaket {#install-aem-forms-jee-bundles-package-1}
+### Installera AEM [!DNL Forms JEE]-paketpaket {#install-aem-forms-jee-bundles-package-1}
 
-[AEM Forms JEE package](https://www.adobeaemcloud.com/content/packageshare/tools/login.html?resource=%2Fcontent%2Fmarketplace%2FmarketplaceProxy.html%3FpackagePath%3D%2Fcontent%2Fcompanies%2Fpublic%2Fadobe%2Fpackages%2Fcq620%2Fcumulativefixpack%2Ffd%2FAEM-FORMS-6.2-SP1-CFP5-JEE-PKG&amp;$$login$$=%24%24login%24%24) (aemfd-jee-bundles-package-6.2CFP5; version 1.0.2) ger  [!DNL Forms] användaren AEM  [!DNL Forms JEE] samma rättigheter och funktioner som AEM  [!DNL Forms OSGi]. Kontrollera de installerade paketen i Package Manager och installera paketet om det inte redan är installerat.
+AEM Forms JEE-paket (aemfd-jee-bundles-package-6.2CFP5; version 1.0.2) ger [!DNL Forms] användare på AEM [!DNL Forms JEE] samma rättigheter och funktioner som på AEM [!DNL Forms OSGi]. Kontrollera de installerade paketen i Package Manager och installera paketet om det inte redan är installerat.
 
 ### Konfigurera timeout för åtgärder på komponentnivå (NPR-16774) {#configuring-timeout-for-operations-at-component-level-npr}
 
 >[!NOTE]
 >
->Efter AEM 6.2 CFP4 kan du använda följande anvisningar för att konfigurera timeout för DSC-åtgärder om du får problem på grund av timeout under uppgraderingsprocessen. (Se NPR-16774 i [AEM 6.2 Versionsinformation för CFP4](release-notes-aem-6-2-cumulative-fix-pack.md)).
+>Efter AEM 6.2 CFP4 kan du använda följande instruktioner för att konfigurera timeout-värdet för DSC-åtgärder om du får problem på grund av timeout under uppgraderingsprocessen. (Se NPR-16774 i [AEM 6.2 Versionsinformation för CFP4](release-notes-aem-6-2-cumulative-fix-pack.md)).
 
 DSC-distributionen tar en varierande tid på grund av att den kan misslyckas. Om du vill ändra tidsgränsen för DSC-åtgärder som Install, Load, Start och Stop måste du ange `adobe.component.registry.timeout` med JVM-argumentet med alternativet -D.
 
