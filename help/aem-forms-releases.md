@@ -3,9 +3,9 @@ title: AEM Forms
 description: Innehåller en lista över alla AEM Forms-versioner och motsvarande paket
 contentOwner: khsingh
 exl-id: 65cb9c6b-fb3f-4bf1-aa42-2d724914439a
-source-git-commit: 2a236007b057269c3f6fab059f4a426f9b40c70a
+source-git-commit: ca29e401c462861c07befd91914f21660a0fd44a
 workflow-type: tm+mt
-source-wordcount: '10241'
+source-wordcount: '10253'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Följande lista innehåller alla AEM [!DNL Forms]-tilläggspaket som har släppt
       <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEMForms-6-5-0-0030/WebSphere/Solaris/AEMForms-6.5.0-0030_websphere_solaris.tar.gz">WebSphere Solaris</a></li>
       <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEMForms-6-5-0-0030/WebSphere/AIX/AEMForms-6.5.0-0030_websphere_aix.tar.gz">WebSphere AIX</a></li>
       <br><b>SDK</b></br>
-      <li><a href="https://repo1.maven.org/maven2/com/adobe/aemfd/aemfd-client-sdk/6.0.490/">AEM Forms Client SDK</a></li>      
+      <li><a href="https://mvnrepository.com/artifact/com.adobe.aemfd/aemfd-client-sdk">AEM Forms Client SDK</a></li>      
      </ul> </td> 
     <td><p>AEM Forms JEE-installationsprogram: AEMForms-6.5.0-0030<br /> </p> AEM Forms Add-on Packages: 6.0.490</p> <p>Klient-SDK: 6.0.490<br /> </p><p>AEM Forms-kompatibilitetspaket: 2.0.40</p><p>AEM Forms Designer Patch: 650.017</p><p>AEM Forms on JEE embed package: 5.0.18</p></td> 
    </tr>
@@ -67,7 +67,7 @@ Följande lista innehåller alla AEM [!DNL Forms]-tilläggspaket som har släppt
       <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/adobe-aemfd-linux-pkg-6.0.434.zip">AEM Forms tilläggspaket för Linux</a></li> 
       <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/adobe-aemfd-win-pkg-6.0.434.zip">AEM Forms tilläggspaket för Windows</a></li> 
       <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/adobe-aemfd-osx-pkg-6.0.434.zip">AEM Forms tilläggspaket för Mac OS X [2]</a></li>
-      <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/featurepack/livecycle-embed-pkg-5.0.14.zip">LiveCycle Embed-paket</a></li>      
+      <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/featurepack/livecycle-embed-pkg-5.0.14.zip">AEM Forms on JEE Embed</a></li>      
       <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/fd/workbench/6-5-0-20210524-1-938669/Workbench_DVD.zip">AEM Forms Workbench</a></li>      
       <br><b>JEE patch installers</b></br>
       <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/aemforms-6-5-0-0028/jboss/Win/AEMForms-6.5.0-0028_jboss_win.zip">JBoss-fönster</a></li>
@@ -82,7 +82,7 @@ Följande lista innehåller alla AEM [!DNL Forms]-tilläggspaket som har släppt
       <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/aemforms-6-5-0-0028/websphere/aix/AEMForms-6.5.0-0028_websphere_aix.tar.gz">WebSphere AIX</a></li>
       <li>AEM Forms Client SDK [1]</li>  
      </ul> </td> 
-    <td><p>AEM Forms JEE-installationsprogram: AEMForms-6.5.0-0028<br /> </p> AEM Forms Add-on Packages: 6.0.434</p> <p>Klient-SDK: 6.0.434<br /> </p><p>AEM Forms Workbench: 6.5.0.20210524.1.938669</p><p>Paket för LiveCycle-inbäddning: 5.0.14</p></td> 
+    <td><p>AEM Forms JEE-installationsprogram: AEMForms-6.5.0-0028<br /> </p> AEM Forms Add-on Packages: 6.0.434</p> <p>Klient-SDK: 6.0.434<br /> </p><p>AEM Forms Workbench: 6.5.0.20210524.1.938669</p><p>AEM Forms on JEE embed package: 5.0.14</p></td> 
    </tr>
    <tr> 
     <td>18 mars 2021</td> 
@@ -372,7 +372,7 @@ Följande lista innehåller alla AEM [!DNL Forms]-tilläggspaket som har släppt
   <tr> 
    <td>12 dec 2019</td> 
    <td><a href="https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html">AEM Forms Service Pack 7 Forms tilläggspaket för AEM 6.4.7.0</a></td> 
-   <td><a href="https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html">AEM 6.4.3.0</a></td> 
+   <td><a href="https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html">AEM 6.4.7.0</a></td> 
    <td> 
     <ul> 
      <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/servicepack/fd/AEM-FORMS-6.4.7.0-LX.zip">AEM Forms tilläggspaket för Linux</a><br /> </li> 
@@ -506,7 +506,7 @@ Följande lista innehåller alla AEM [!DNL Forms]-tilläggspaket som har släppt
  </tbody> 
 </table>
 
-`[1]` Kontakta  [Adobe ](https://www.adobe.com/account/sign-in.supportportal.html) Support för att få installationsprogram för AEM  [!DNL Forms JEE], AEM  [!DNL Forms] Client SDK,  [!DNL LiveCycle] inbäddningspaket, AEM  [!DNL Forms Designer], RMCSDK, PPL och EnhancedPPL.
+`[1]` Kontakta  [Adobe ](https://www.adobe.com/account/sign-in.supportportal.html) Support för att få installationsprogram för AEM  [!DNL Forms JEE], AEM  [!DNL Forms] Client SDK,  [!DNL AEM Forms on JEE] inbäddningspaket, AEM  [!DNL Forms Designer], RMCSDK, PPL och EnhancedPPL.
 
 `[2]` AEM  [!DNL Forms] tilläggspaket för Mac OS X stöds inte i produktionsmiljön och bör endast användas i demonstrationssyfte. PDF-generatorfunktionen är inte tillgänglig för Mac OS X-paket.
 
@@ -743,10 +743,10 @@ Följande lista innehåller alla AEM [!DNL Forms]-tilläggspaket som har släppt
      <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq630/cumulativefixpack/fd/AEM-FORMS-6.3.1.1-OSX">AEM Forms tilläggspaket för Mac OS X</a><sup> [2]  </sup></li> 
      <li>AEM Forms JEE-installationsprogram <sup>[1]</sup></li> 
      <li>AEM Forms Client SDK <sup>[1]</sup></li> 
-     <li>LiveCycle embed package <sup>[1] [3]</sup></li> 
+     <li>AEM Forms on JEE embed package <sup>[1] [3]</sup></li> 
      <li>AEM Forms App Source<sup> [1]</sup></li> 
     </ul> </td> 
-   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>4.1.36</strong></p> <p>AEM Forms JEE-installationsprogram: <strong>6.3.0-0013</strong></p> <p> Paket för LiveCycle-inbäddning: <strong>4.0.20</strong></p> <p>AEM Forms App Source: <strong>3.1.16</strong></p> <p> </p> <p> </p> </td> 
+   <td><p>AEM Forms Add-on Packages &amp; Client SDK: <strong>4.1.36</strong></p> <p>AEM Forms JEE-installationsprogram: <strong>6.3.0-0013</strong></p> <p> AEM Forms on JEE embed package: <strong>4.0.20</strong></p> <p>AEM Forms App Source: <strong>3.1.16</strong></p> <p> </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>13 okt 2017</td> 
@@ -817,11 +817,11 @@ Följande lista innehåller alla AEM [!DNL Forms]-tilläggspaket som har släppt
 </table>
 
 `[1]`
-Kontakta  [Adobe ](https://www.adobe.com/account/sign-in.supportportal.html) Support för att få installationsprogram för AEM  [!DNL Forms] JEE, AEM  [!DNL Forms] Client SDK,  [!DNL LiveCycle] inbäddningspaket, AEM  [!DNL Forms Designer], RMCSDK, PPL och EnhancedPPL.
+Kontakta  [Adobe ](https://www.adobe.com/account/sign-in.supportportal.html) Support för att få installationsprogram för AEM  [!DNL Forms] JEE, AEM  [!DNL Forms] Client SDK,  [!DNL AEM Forms on JEE] inbäddningspaket, AEM  [!DNL Forms Designer], RMCSDK, PPL och EnhancedPPL.
 
 `[2]` AEM  [!DNL Forms] tilläggspaket för Mac OS X stöds inte i produktionsmiljön och bör endast användas i demonstrationssyfte. PDF-generatorfunktionen är inte tillgänglig för Mac OS X-paket.
 
-`[3]` **VIKTIGT**: Installera  [AEM Cumulative Fix Pack 6.3.1.1](/help/release-notes-aem-6-3-cumulative-fix-pack.md) och kontrollera att versionen av  **Apache Sling Authentication** Service bundle är 1.4.0 eller mer innan du installerar inbäddningspaketet för LiveCycle. Annars kan servern sluta svara och gå att återställa. Du kan kontrollera paketversionen på `http://[server]:[port]/system/console/bundles`.
+`[3]` **VIKTIGT**: Innan du installerar AEM Forms på JEE-inbäddningspaketet installerar du  [AEM Cumulative Fix Pack 6.3.1.1](/help/release-notes-aem-6-3-cumulative-fix-pack.md)  och ser till att versionen av  **Apache Sling Authentication** Service bundle är 1.4.0 eller mer, annars kan servern sluta svara och inte återställas. Du kan kontrollera paketversionen på `http://[server]:[port]/system/console/bundles`.
 
 <!--
 ## AEM 6.2 [!DNL Forms] releases {#aem-62-forms-releases}
