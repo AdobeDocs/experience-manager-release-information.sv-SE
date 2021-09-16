@@ -1,11 +1,9 @@
 ---
 cloud: Experience Cloud
-solution: Experience Cloud
 type: Documentation
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-release-information.sv-SE
 index: true
-translation-type: tm+mt
-source-git-commit: 461b4d84d7e8512d433cc3c2a00ede133de05e36
+source-git-commit: 56ad6aa6c57b997f001c33abc43e9644ebd43447
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
