@@ -2,10 +2,10 @@
 title: '[!DNL Adobe Experience Manager] lanserar färdplan'
 description: '[!DNL Adobe Experience Manager] lanserar färdplan'
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 4fbe23dcd632ed39fee44b84c18d4d71a3447b1d
+source-git-commit: 92a62256c873371aa95c2afce1d7b02773e9f3b7
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 3%
+source-wordcount: '323'
+ht-degree: 4%
 
 ---
 
@@ -40,6 +40,11 @@ Produktuppdateringar i form av nya funktioner, förbättringar och felkorrigerin
 | Frigör | Version | Typ | Schema |
 |---|---|---|---|
 | [!DNL Experience Manager] 6.5 Service Pack 11 | 6.5.11.0 | Service Pack | 25 nov 2021 |
+| [!DNL Experience Manager] 6.5 Service Pack 12 | 6.5.12.0 | Service Pack | 24 feb 2022 |
+| [!DNL Experience Manager] 6.5 Service Pack 13 | 6.5.13.0 | Service Pack | 26 maj 2022 |
+| [!DNL Experience Manager] 6.5 Service Pack 14 | 6.5.14.0 | Service Pack | 25 aug 2022 |
+| [!DNL Experience Manager] 6.5 Service Pack 15 | 6.5.15.0 | Service Pack | 24 nov 2022 |
+
 
 >[!NOTE]
 >
