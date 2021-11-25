@@ -3,9 +3,9 @@ title: '[!DNL Experience Manager] senaste dokumentationsuppdateringar'
 description: Vad är nytt, uppdaterat eller ändrat i [!DNL Experience Manager] dokumentation
 contentOwner: trushton
 exl-id: 8c136a03-f961-4854-af38-45457b85d289
-source-git-commit: 51d938030ea26948b99384a4b19d1730a568e350
+source-git-commit: 977c8667a9eb1fac4959064b82266f6812d78333
 workflow-type: tm+mt
-source-wordcount: '4402'
+source-wordcount: '4417'
 ht-degree: 1%
 
 ---
@@ -65,6 +65,7 @@ Du kan också visa [tidigare dokumentationsuppdateringar](previous-documentation
 
 | Datum | Ämne | Ändringar |
 | --- | --- | --- |
+| 25 november 2021 | [!DNL Experience Manager] 6.5 Service Pack 11 | [[!DNL Experience Manager] 6.5 Service Pack 11](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html#service-pack) är tillgängligt. |
 | 3 november 2021 | API för visningsprogram för smart beskärning | Nytt [API-dokumentation för Smart Crop Video Viewer finns nu tillgänglig](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/smartcropvideo/c-html5-aem-smartcropvideo-viewer-reference.html?lang=en) i referenshandboken för Dynamic Media Viewer. |
 | 26 augusti 2021 | [!DNL Experience Manager] 6.5 Service Pack 10 | [[!DNL Experience Manager] 6.5 Service Pack 10](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html#service-pack) är tillgängligt. |
 | 27 maj 2021 | [!DNL Experience Manager] 6.5 Service Pack 9 | [[!DNL Experience Manager] 6.5 Service Pack 9](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html#service-pack) är tillgängligt. |
@@ -82,7 +83,7 @@ Du kan också visa [tidigare dokumentationsuppdateringar](previous-documentation
 | 25 maj 2020 | Tillgänglighet och WCAG 2.1. riktlinjer | Uppdateringar i förhållande till WCAG 2.1-riktlinjerna:<br>- [Adobe Experience Manager as a Cloud Service och riktlinjerna för webbtillgänglighet](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/onboarding/accessibility/web-accessibility.html)<br>- [En snabbguide till WCAG 2.1](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/onboarding/accessibility/quick-guide-wcag.html)<br>- [Skapa hjälpmedelsanpassat innehåll (WCAG 2.1-överensstämmelse](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 | 13 april 2020 | Resursversionshantering | Uppdaterat innehåll och videoklipp om hur du skapar, förhandsgranskar och återgår till [versioner av mediefiler i Experience Manager.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#asset-versioning) |
 | 13 april 2020 | Resursbearbetning | En ny översikt läggs till om hur arbetsflöden används för att bearbeta resurser. I ett nytt avsnitt beskrivs även hur du [starta arbetsflöde automatiskt för att bearbeta resurser.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/assets-workflow.html) |
-| 30 mars 2020 | Dynamic Media - Smart Imaging | Hela hjälpavsnittet för Smart Imaging uppdaterades med ny information, inklusive exempel på bildresurser som visar den nya optimeringen av smarta bilder.<br>Se [Smart bildbehandling.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/imaging-faq.html) |
+| 30 mars 2020 | Dynamic Media - Smart Imaging | Hela hjälpavsnittet för Smart Imaging uppdaterades med ny information, inklusive exempel på bildresurser som visar den nya optimeringen av Smart Imaging.<br>Se [Smart bildbehandling.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/imaging-faq.html) |
 | 5 mars 2020 | Experience Manager 6.5 Service Pack 4 | [Experience Manager 6.5 Service Pack 4](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/sp-release-notes.html) är tillgängligt. |
 | 4 mars 2020 | Konfigurera Dynamic Media - Scene7-läge | Ett nytt alternativ för Synkronisera allt innehåll finns nu på Dynamic Media konfigurationssida som finns i Verktyg > Cloud Services.<br>Se [Skapa en Dynamic Media-konfiguration.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/config-dms7.html#configuring-dynamic-media-cloud-services) |
 
@@ -97,7 +98,7 @@ Du kan också visa [tidigare dokumentationsuppdateringar](previous-documentation
 | 19 juni 2020 | Adobe Experience Manager | Adobe avser att använda en rättvis terminologi i hela sin kod, dokumentation och upplevelse.<br>Därför gjordes en rad uppdateringar av denna dokumentation som återspeglar detta kapital. |
 | 4 juni 2020 | Experience Manager 6.4 Service Pack 8 Cumulative Fix Pack 1 | [Experience Manager 6.4 Service Pack 8 Cumulative Fix Pack 1](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/cfp-release-notes.html) är tillgängligt. |
 | 13 april 2020 | Resursbearbetning | En ny översikt läggs till om hur arbetsflöden används för att bearbeta resurser. I ett nytt avsnitt beskrivs även hur du [starta arbetsflöde automatiskt för att bearbeta resurser.](https://docs.adobe.com/content/help/en/experience-manager-64/assets/using/assets-workflow.html) |
-| 30 mars 2020 | Dynamic Media - Smart Imaging | Hela hjälpavsnittet för Smart Imaging uppdaterades med ny information, inklusive exempel på bildresurser som visar den nya optimeringen av smarta bilder.<br>Se [Smart bildbehandling.](https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/imaging-faq.html) |
+| 30 mars 2020 | Dynamic Media - Smart Imaging | Hela hjälpavsnittet för Smart Imaging uppdaterades med ny information, inklusive exempel på bildresurser som visar den nya optimeringen av Smart Imaging.<br>Se [Smart bildbehandling.](https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/imaging-faq.html) |
 | 5 mars 2020 | Experience Manager 6.4 Service Pack 8 | [Experience Manager 6.4 Service Pack 8](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) är tillgängligt. |
 
 ## [!DNL Experience Manager] 6.3 {#aem-63}
@@ -116,7 +117,7 @@ Du kan också visa [tidigare dokumentationsuppdateringar](previous-documentation
 | 25 maj 2020 | Tillgänglighet och WCAG 2.1. riktlinjer | Uppdateringar i förhållande till WCAG 2.1-riktlinjerna:<br>- [Adobe Experience Manager som [!DNL Cloud Service] och riktlinjerna för webbtillgänglighet](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/onboarding/accessibility/web-accessibility.html)<br>- [En snabbguide till WCAG 2.1](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/onboarding/accessibility/quick-guide-wcag.html)<br>- [Skapa hjälpmedelsanpassat innehåll (WCAG 2.1-överensstämmelse](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 | 13 april 2020 | Resursversionshantering | Uppdaterat innehåll och videoklipp om hur du skapar, förhandsgranskar och återgår till [versioner av resurser i [!DNL Experience Manager].](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#asset-versioning) |
 | 13 april 2020 | Resursbearbetning | En ny översikt läggs till om hur arbetsflöden används för att bearbeta resurser. I ett nytt avsnitt beskrivs även hur du [starta arbetsflöde automatiskt för att bearbeta resurser.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/assets-workflow.html) |
-| 30 mars 2020 | Dynamic Media - Smart Imaging | Hela hjälpavsnittet för Smart Imaging uppdaterades med ny information, inklusive exempel på bildresurser som visar den nya optimeringen av smarta bilder.<br>Se [Smart bildbehandling.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/imaging-faq.html) |
+| 30 mars 2020 | Dynamic Media - Smart Imaging | Hela hjälpavsnittet för Smart Imaging uppdaterades med ny information, inklusive exempel på bildresurser som visar den nya optimeringen av Smart Imaging.<br>Se [Smart bildbehandling.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/imaging-faq.html) |
 | 5 mars 2020 | [!DNL Experience Manager] 6.5 Service Pack 4 | [[!DNL Experience Manager] 6.5 Service Pack 4](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/sp-release-notes.html) är tillgängligt. |
 | 4 mars 2020 | Konfigurera Dynamic Media - Scene7-läge | Ett nytt alternativ för Synkronisera allt innehåll finns nu på Dynamic Media konfigurationssida som finns i Verktyg > Cloud Services.<br>Se [Skapa en Dynamic Media-konfiguration.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/config-dms7.html#configuring-dynamic-media-cloud-services) |
 | 25 februari 2021 | [!DNL Experience Manager] 6.4 Service Pack 8 Cumulative Fix Pack 4 | [[!DNL Experience Manager] 6.4 Service Pack 8 Cumulative Fix Pack 4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html) är tillgängligt. |
@@ -126,7 +127,7 @@ Du kan också visa [tidigare dokumentationsuppdateringar](previous-documentation
 | 19 juni 2020 | Adobe Experience Manager | På Adobe vill vi använda en rättvis terminologi i hela vår kod, vår dokumentation och våra upplevelser.<br>Därför har vi gjort en serie uppdateringar av den här dokumentationsuppsättningen och kommer att fortsätta göra det i framtiden. |
 | 4 juni 2020 | [!DNL Experience Manager] 6.4 Service Pack 8 Cumulative Fix Pack 1 | [[!DNL Experience Manager] 6.4 Service Pack 8 Cumulative Fix Pack 1](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/cfp-release-notes.html) är tillgängligt. |
 | 13 april 2020 | Resursbearbetning | En ny översikt läggs till om hur arbetsflöden används för att bearbeta resurser. I ett nytt avsnitt beskrivs även hur du [starta arbetsflöde automatiskt för att bearbeta resurser.](https://docs.adobe.com/content/help/en/experience-manager-64/assets/using/assets-workflow.html) |
-| 30 mars 2020 | Dynamic Media - Smart Imaging | Hela hjälpavsnittet för Smart Imaging uppdaterades med ny information, inklusive exempel på bildresurser som visar den nya optimeringen av smarta bilder.<br>Se [Smart bildbehandling.](https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/imaging-faq.html) |
+| 30 mars 2020 | Dynamic Media - Smart Imaging | Hela hjälpavsnittet för Smart Imaging uppdaterades med ny information, inklusive exempel på bildresurser som visar den nya optimeringen av Smart Imaging.<br>Se [Smart bildbehandling.](https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/imaging-faq.html) |
 | 5 mars 2020 | [!DNL Experience Manager] 6.4 Service Pack 8 | [[!DNL Experience Manager] 6.4 Service Pack 8](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) är tillgängligt. |
 
 
