@@ -3,9 +3,9 @@ title: '[!DNL Experience Manager] senaste dokumentationsuppdateringar'
 description: Vad är nytt, uppdaterat eller ändrat i [!DNL Experience Manager] dokumentation
 contentOwner: trushton
 exl-id: 8c136a03-f961-4854-af38-45457b85d289
-source-git-commit: 977c8667a9eb1fac4959064b82266f6812d78333
+source-git-commit: a64bc67f185aaefd41d9376e1119e72a56cce598
 workflow-type: tm+mt
-source-wordcount: '4417'
+source-wordcount: '4493'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,7 @@ Du kan också visa [tidigare dokumentationsuppdateringar](previous-documentation
 
 | Date | Ämne | Ändringar |
 | --- | --- | --- |
+| 25 november 2021 | AEM med Dynamic Media - konfiguration | Nu kan du konfigurera Allmänna inställningar och Publiceringsinställningar direkt från Dynamic Media på AEM istället för att använda Dynamic Media-datorprogrammet.<br>Se [Konfigurera allmänna inställningar för Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/dm-general-settings.html) och [Konfigurera Dynamic Media Publish Setup för Image Server](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/dm-publish-settings.html).<br>Se även [Konfigurera Dynamic Media - Scene7-läge](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html) |
 | 4 november 2021 | AEM med Dynamic Media - Smart Crop | Förbättrad smart beskärning och smarta färgrutor för bildresurser med de senaste Adobe Sensei-tjänsterna. Dokumentationsuppdateringarna innehåller följande:<br>・ Nytt **[!UICONTROL Preserve crop content across target resolutions]** i dialogrutan Beskärningsalternativ i Bildprofiler.<br>・ När du manuellt justerar eller ändrar storlek på det smarta beskärningsfönstret för flera resurser bevaras och bevaras redigeringarna, även om du senare bestämmer dig för att bearbeta om dessa resurser. Om du däremot redigerar bredden, höjden eller både och i **[!UICONTROL Responsive Image Crop]** i bildprofilen, bearbetas dessa resurser.<br>・ Ny tabell över bildfilsformat som stöds för Smart Crop och Color Swatches.<br>Se [Bildprofiler](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/image-profiles.html) för dessa uppdateringar. |
 | 3 november 2021 | API för visningsprogram för smart beskärning | Nytt [API-dokumentation för Smart Crop Video Viewer finns nu tillgänglig](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/smartcropvideo/c-html5-aem-smartcropvideo-viewer-reference.html?lang=en) i referenshandboken för Dynamic Media Viewer. |
 | 2 december 2020 | Förinställningar för gruppuppsättning | Lär dig automatisera framtagning av bilduppsättningar och snurra uppsättningar med hjälp av gruppuppsättningsförinställningar i Dynamic Media. Se [Förinställningar för gruppuppsättning](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/batch-set-presets-dm.html#dynamicmedia). |
