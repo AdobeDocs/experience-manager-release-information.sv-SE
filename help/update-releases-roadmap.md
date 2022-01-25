@@ -2,7 +2,7 @@
 title: '[!DNL Adobe Experience Manager] lanserar färdplan'
 description: '[!DNL Adobe Experience Manager] lanserar färdplan'
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: baca4b11a2fa6e0187275c74a7223058ec927589
+source-git-commit: 1106bf1d4503a6f66eee104ba6fa27e29cd88798
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 | Frigör | Version | Typ | Schema |
 |---|---|---|---|
 | [!DNL Experience Manager] som [!DNL Cloud Service] 2021.11.0 | 2021.11.0 | Månadsrelease | 16 december 2021 |
-| [!DNL Experience Manager] som [!DNL Cloud Service] 2022.1.0 | 2022.1.0 | Månadsrelease | 27 januari 2022 |
+| [!DNL Experience Manager] som [!DNL Cloud Service] 2022.1.0 | 2022.1.0 | Månadsrelease | 3 februari 2022 |
 | [!DNL Experience Manager] som [!DNL Cloud Service] 2022.2.0 | 2022.2.0 | Månadsrelease | 24 februari 2022 |
 | [!DNL Experience Manager] som [!DNL Cloud Service] 2022.3.0 | 2022.3.0 | Månadsrelease | 31 mars 2022 |
 | [!DNL Experience Manager] som [!DNL Cloud Service] 2022.4.0 | 2022.4.0 | Månadsrelease | 28 april 2022 |
