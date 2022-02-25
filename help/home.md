@@ -1,18 +1,17 @@
 ---
-title: '[!DNL Adobe Experience Manager] Versionsuppdateringar och färdplan'
-description: '[!DNL Adobe Experience Manager] Versionsuppdateringar och färdplan'
-translation-type: tm+mt
-source-git-commit: 050be3e2fc20242d222344bc9202752eda336b2e
+title: '"[!DNL Adobe Experience Manager] Versionsuppdateringar och färdplan"'
+description: '"[!DNL Adobe Experience Manager] Versionsuppdateringar och färdplan"'
+exl-id: 861337af-1604-4a8d-aeda-23d80315c544
+source-git-commit: 9da699a3337991afc277bfb774c2538f1b4dc320
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 0%
 
 ---
 
-
 # Adobe Experience Manager Release Updates and Roadmap
 
-Den här guiden innehåller information om [!DNL Adobe Experience Manager] lanseringar av färdplan, uppdateringar av tidigare versioner och dokumentationsuppdateringar.
+Den här guiden innehåller information om [!DNL Adobe Experience Manager] lanserar färdplan, uppdateringar av tidigare versioner och dokumentationsuppdateringar.
 
 * [[!DNL Experience Manager] uppdaterar](aem-releases-updates.md)
 * [[!DNL Experience Manager] lanserar färdplan](update-releases-roadmap.md)
@@ -26,7 +25,7 @@ Den här guiden innehåller information om [!DNL Adobe Experience Manager] lanse
 ## [!DNL Experience Manager] Uppdateringar om Forms
 
 * [[!DNL Experience Manager] Forms](aem-forms-releases.md)
-* [Installera Cumulative Fix Packs  [!DNL Experience Manager] onForms JEE](install-cfp-aem-forms-jee.md)
+* [Installera kumulativa korrigeringspaket på [!DNL Experience Manager] Forms JEE](install-cfp-aem-forms-jee.md)
 
 ## Dokumentationsuppdateringar
 
