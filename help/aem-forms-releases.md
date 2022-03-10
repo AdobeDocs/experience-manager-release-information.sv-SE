@@ -3,9 +3,9 @@ title: AEM Forms
 description: Innehåller en lista över alla AEM Forms-versioner och motsvarande paket
 contentOwner: khsingh
 exl-id: 65cb9c6b-fb3f-4bf1-aa42-2d724914439a
-source-git-commit: 66fa1fe6c5d104dd263098754c5785b8794ccf30
+source-git-commit: e231653f1fe5027d7ce8bbe5b4cdaf949479872d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '12175'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Följande lista innehåller alla AEM [!DNL Forms] tilläggspaket som släppts fr
     <td><strong>Skapa versioner</strong></td>
    </tr>
    <tr>
-    <td>3 februari 2022</td>
+    <td>3 mars 2022</td>
     <td><a href="https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/service-pack/sp-release-notes.html">AEM Forms Service Pack 12 Forms tilläggspaket för AEM 6.5.12.0</a></td>
     <td><a href="https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/service-pack/sp-release-notes.html">AEM 6.5.12.0</a></td>
     <td>
