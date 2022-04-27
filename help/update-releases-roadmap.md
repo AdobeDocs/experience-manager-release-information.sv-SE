@@ -2,7 +2,7 @@
 title: '"[!DNL Adobe Experience Manager] releases roadmap"'
 description: '"[!DNL Adobe Experience Manager] releases roadmap"'
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: cb13da360f7c4e6adcfd08b5d0eb7710dc3c8f21
+source-git-commit: b4b4a8a54940a05f886af5b0f93e04faa5c1d0d1
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 | Frigör | Version | Typ | Schema |
 |---|---|---|---|
 | [!DNL Experience Manager] som [!DNL Cloud Service] 2022.3.0 | 2022.3.0 | Funktionsrelease | 31 mars 2022 |
-| [!DNL Experience Manager] som [!DNL Cloud Service] 2022.4.0 | 2022.4.0 | Funktionsrelease | 28 april 2022 |
+| [!DNL Experience Manager] som [!DNL Cloud Service] 2022.4.0 | 2022.4.0 | Funktionsrelease | 5 maj 2022 |
 | [!DNL Experience Manager] som [!DNL Cloud Service] 2022.5.0 | 2022.5.0 | Funktionsrelease | 26 maj 2022 |
 
 Förutom funktionsreleaser finns viktiga fel- och säkerhetskorrigeringar i [!DNL Experience Manager] som [!DNL Cloud Service] i form av underhållsreleaser, med en motsvarande underhållsuppdatering som vanligtvis sker varje vecka.
