@@ -3,38 +3,38 @@ title: Installera kumulativa korrigeringspaket på AEM Forms JEE
 description: Sammanfattning av steg för att installera och konfigurera Cumulative Fix Pack (CFP) på AEM Forms JEE
 contentOwner: AK
 exl-id: eed01a42-f4ab-4392-8b8e-eb5bbe2410a0
-source-git-commit: 69f4db4e2ef94c370ed590ec7e9859781a909270
+source-git-commit: d0fc94d3b8eba65fe9829245724632b1f2f8214f
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 0%
+source-wordcount: '890'
+ht-degree: 1%
 
 ---
 
-# Installerar kumulativa korrigeringspaket på AEM[!DNL  Forms] JEE{#installing-cumulative-fix-packs-on-aem-forms-jee}
+# Installera kumulativa korrigeringspaket på AEM[!DNL  Forms] JEE{#installing-cumulative-fix-packs-on-aem-forms-jee}
 
 ## Installera CFP på AEM 6.3 [!DNL Forms JEE] {#install-cfp-forms-6-3}
 
 Utför följande steg i den angivna sekvensen för att installera kumulativa korrigeringspaket på AEM 6.3 [!DNL Forms JEE].
 
-1. Kontakta [Adobe Support](https://www.adobe.com/account/sign-in.supportportal.html) för att få AEM 6.3 [!DNL Forms JEE] installationsprogram för CFP.
-1. Kör CFP-installationsprogrammet och konfigurera AEM [!DNL Forms JEE] enligt beskrivningen i [Installera och konfigurera AEM [!DNL Forms JEE]](#install-and-configure-aem-forms-jee).
-1. Installera den senaste AEM CFP [6.3.3.x](release-notes-aem-6-3-cumulative-fix-pack.md)
-1. Installera [!DNL Forms]-tilläggspaketet för AEM CFP [6.3.3.x](aem-forms-releases.md)
+1. Kontakt [Stöd för Adobe](https://www.adobe.com/account/sign-in.supportportal.html) för att få AEM 6.3 [!DNL Forms JEE] installationsprogram för CFP.
+1. Kör CFP-installationsprogrammet och konfigurera AEM [!DNL Forms JEE] enligt beskrivning i [Installera och konfigurera AEM [!DNL Forms JEE]](#install-and-configure-aem-forms-jee).
+1. Installera den senaste AEM CFP 6.3.3.x
+1. Installera [!DNL Forms] Tilläggspaket för AEM CFP [6.3.3.x](aem-forms-releases.md)
 
-### Installera AEM [!DNL Forms JEE]-paketpaket {#install-aem-forms-jee-bundles-package}
+### Installera AEM [!DNL Forms JEE] paket {#install-aem-forms-jee-bundles-package}
 
-AEM [!DNL  Forms JEE]-paket (aemfd-jee-bundles-package-6.3CFP1; version 1.0.2) ger [!DNL Forms] användare på AEM [!DNL Forms JEE] samma rättigheter och funktioner som på AEM [!DNL Forms OSGi]. Kontrollera de installerade paketen i Package Manager och installera paketet om det inte redan är installerat.
+AEM [!DNL  Forms JEE] paket (aemfd-jee-bundles-package-6.3CFP1; version 1.0.2) innehåller [!DNL Forms] Användare på AEM [!DNL Forms JEE] samma rättigheter och funktioner som AEM [!DNL Forms OSGi]. Kontrollera de installerade paketen i Package Manager och installera paketet om det inte redan är installerat.
 
 ### Ytterligare instruktioner för CQ-4208044 {#additional-instructions-for-cq}
 
-Om du använder AEM 6.3 [!DNL Forms JEE]-server med Oracle-databas konfigurerar du följande inställningar efter distributionen av CFP1, det vill säga efter att Configuration Manager har körts. Den här inställningen krävs för att synkronisera användare, grupper och gruppmedlemmar när företagsdomänsynkroniseringen körs. Se utgåva CQ-4208044 i [AEM 6.3 versionsinformation](release-notes-aem-6-3-cumulative-fix-pack.md#main-pars-header-853219205).
+Om du använder AEM 6.3 [!DNL Forms JEE] oracle med konfigurationsdatabas konfigurerar du följande inställningar efter distributionen av CFP1, det vill säga efter att Configuration Manager har körts. Den här inställningen krävs för att synkronisera användare, grupper och gruppmedlemmar när företagsdomänsynkroniseringen körs.
 
-1. Logga in på gränssnittet **Admin**.
+1. Logga in på **Administratör** Gränssnitt.
 1. Navigera till **[!UICONTROL Settings]** > **[!UICONTROL User Management]** > **[!UICONTROL Configuration]** > **[!UICONTROL Import and Export Configuration File]**
 1. Exportera filen config.xml.
-1. Ändra posten för `groupMemberDBQueryBatchSize` under dina domänkonfigurationer i *config.xml*. Exempelpost:
+1. Ändra posten för &quot; `groupMemberDBQueryBatchSize`&quot; under dina domänkonfigurationer i *config.xml*. Exempelpost:
 
-   &lt;entry key=&quot;groupMemberDBQueryBatchSize&quot; value=&quot;999&quot; />
+   &lt;entry key=&quot;groupMemberDBQueryBatchSize&quot; value=&quot;999&quot;/>
 
 1. Importera den ändrade filen igen och kör sedan synkroniseringen igen.
 
@@ -42,26 +42,22 @@ Om du använder AEM 6.3 [!DNL Forms JEE]-server med Oracle-databas konfigurerar 
 
 Utför följande steg i den angivna sekvensen för att installera kumulativa korrigeringspaket på AEM 6.2 [!DNL Forms JEE].
 
->[!NOTE]
->
->Om du använder AEM 6.2 [!DNL Forms OSGi] följer du installationsanvisningarna i [versionsinformationen för den gemensamma fiskeripolitiken AEM 6.2.](release-notes-aem-6-2-cumulative-fix-pack.md)
-
-1. Kontakta [Adobe Support](https://www.adobe.com/account/sign-in.supportportal.html) för att få AEM 6.2 [!DNL Forms JEE] installationsprogram för CFP.
-1. Kör CFP-installationsprogrammet och konfigurera AEM [!DNL Forms JEE] enligt beskrivningen i [Installera och konfigurera AEM [!DNL Forms JEE]](install-cfp-aem-forms-jee.md#install-and-configure-aem-forms-jee).
+1. Kontakt [Stöd för Adobe](https://www.adobe.com/account/sign-in.supportportal.html) för att få AEM 6.2 [!DNL Forms JEE] installationsprogram för CFP.
+1. Kör CFP-installationsprogrammet och konfigurera AEM [!DNL Forms JEE] enligt beskrivning i [Installera och konfigurera AEM [!DNL Forms JEE]](install-cfp-aem-forms-jee.md#install-and-configure-aem-forms-jee).
 1. Installera AEM hotfix 12785 version 7.0.
-1. Installera [AEM 6.2 Service Pack 1](https://docs.adobe.com/docs/en/aem/6-2/release-notes/sp1.html).
-1. Installera den senaste [AEM 6.2 Service Pack1 CFP](release-notes-aem-6-2-cumulative-fix-pack.md).
-1. Installera [!DNL Forms]-tilläggspaketet för [AEM 6.2 Service Pack 1 CFP](aem-forms-releases.md).
+1. Installera AEM 6.2 Service Pack 1.
+1. Installera den senaste release-notes-aem-6-2-cumulative-fix-pack.md.
+1. Installera [!DNL Forms] Tilläggspaket för AEM 6.2 Service Pack 1 CFP.
 
-### Installera AEM [!DNL Forms JEE]-paketpaket {#install-aem-forms-jee-bundles-package-1}
+### Installera AEM [!DNL Forms JEE] paket {#install-aem-forms-jee-bundles-package-1}
 
-AEM Forms JEE-paket (aemfd-jee-bundles-package-6.2CFP5; version 1.0.2) ger [!DNL Forms] användare på AEM [!DNL Forms JEE] samma rättigheter och funktioner som på AEM [!DNL Forms OSGi]. Kontrollera de installerade paketen i Package Manager och installera paketet om det inte redan är installerat.
+AEM Forms JEE-paket (aemfd-jee-bundles-package-6.2CFP5; version 1.0.2) innehåller [!DNL Forms] Användare på AEM [!DNL Forms JEE] samma rättigheter och funktioner som AEM [!DNL Forms OSGi]. Kontrollera de installerade paketen i Package Manager och installera paketet om det inte redan är installerat.
 
 ### Konfigurera timeout för åtgärder på komponentnivå (NPR-16774) {#configuring-timeout-for-operations-at-component-level-npr}
 
 >[!NOTE]
 >
->Efter AEM 6.2 CFP4 kan du använda följande instruktioner för att konfigurera timeout-värdet för DSC-åtgärder om du får problem på grund av timeout under uppgraderingsprocessen. (Se NPR-16774 i [AEM 6.2 Versionsinformation för CFP4](release-notes-aem-6-2-cumulative-fix-pack.md)).
+>Efter AEM 6.2 CFP4 kan du använda följande anvisningar för att konfigurera timeout för DSC-åtgärder om du får problem på grund av timeout under uppgraderingsprocessen.
 
 DSC-distributionen tar en varierande tid på grund av att den kan misslyckas. Om du vill ändra tidsgränsen för DSC-åtgärder som Install, Load, Start och Stop måste du ange `adobe.component.registry.timeout` med JVM-argumentet med alternativet -D.
 
@@ -70,8 +66,8 @@ Ange värdet för nyckeln i sekunder. Till exempel: `-Dadobe.component.registry.
 Du kan också ändra tidsgränser på komponentnivå med följande tre egenskaper:
 
 1. `adobe.all-component.timeout`: skriver över tidsgränser för alla tjänster i produkten.
-1. `adobe.<serviceName>.timeout`: skriver över timeout-värdet bara för den tjänst (&lt;servicename>) som anges i nyckeln. Om värdet på tjänstenivå anges skrivs timeoutvärdet för den angivna tjänsten bara över om det här kommandot används på programnivå.
-1. `adobe.<serviceName>.<operationName>.timeout`: Tidsgränsen för den specifika tjänstens åtgärd (&lt;servicename> skrivs bara över.&lt;operationname>) i nyckeln. Om värdet är inställt på åtgärdsnivå skriver det här kommandot bara över timeoutvärdet för den angivna tjänsten om det är inställt på programnivå eller tjänstnivå.
+1. `adobe.<serviceName>.timeout`: skriver bara över timeout för tjänsten (&lt;servicename>) i nyckeln. Om värdet på tjänstenivå anges skrivs timeoutvärdet för den angivna tjänsten bara över om det här kommandot används på programnivå.
+1. `adobe.<serviceName>.<operationName>.timeout`: Tidsgränsen för den specifika tjänstens åtgärd skrivs bara över(&lt;servicename>.&lt;operationname>) i nyckeln. Om värdet är inställt på åtgärdsnivå skriver det här kommandot bara över timeoutvärdet för den angivna tjänsten om det är inställt på programnivå eller tjänstnivå.
 
 **Exempel:**
 
@@ -81,15 +77,15 @@ Använd följande kommandon för att ange timeout på komponentnivå:
 
    uppsättning &quot; `JAVA_OPTS=%JAVA_OPTS% -Dadobe.all-component.timeout=600`&quot;
 
-1. Om du vill ange tidsgränsen för `DesigntimeService`-åtgärdsvärden till 500 sek använder du:
+1. Så här anger du `DesigntimeService` timeout för operationsvärden till 500 sek. Använd:
 
    uppsättning &quot; `JAVA_OPTS=%JAVA_OPTS% -Dadobe.DesigntimeService.timeout=500`&quot;
 
-1. Om du vill ange tidsgränsen för åtgärden `DesigntimeService's previewLCA` till 700 sek använder du:
+1. Så här anger du `DesigntimeService's previewLCA` timeout för operationsvärden till 700 sek. Använd:
 
    uppsättning `"JAVA_OPTS=%JAVA_OPTS% -Dadobe.DesigntimeService.previewLCA.timeout=700`&quot;
 
-1. Använd följande om du vill ställa in `DSC operations` till exempel load, install och så vidare till 600 sek:
+1. Så här anger du `DSC operations` till exempel läsa in, installera och så vidare till 600 sek, använd:
 
    uppsättning &quot; `JAVA_OPTS=%JAVA_OPTS% -Dadobe.component.registry.timeout=600`&quot;
 
@@ -129,35 +125,21 @@ Använd följande kommandon för att ange timeout på komponentnivå:
 
    Då startas en installationsguide som vägleder dig genom installationen.
 
-1. Klicka på **[!UICONTROL Next]** på introduktionspanelen.
-1. På skärmen Välj installationsmapp kontrollerar du att den standardplats som visas är korrekt för den befintliga installationen, eller klickar på **[!UICONTROL Browse]** och väljer den alternativa mappen där AEM [!DNL Forms] är installerad, och klickar sedan på **[!UICONTROL Next]**.
+1. På introduktionspanelen klickar du på **[!UICONTROL Next]**.
+1. Kontrollera att den standardplats som visas är korrekt för din befintliga installation på skärmen Välj installationsmapp, eller klicka på **[!UICONTROL Browse]** för att välja alternativ mapp där AEM [!DNL Forms] är installerat och klicka på **[!UICONTROL Next]**.
 1. Läs Quick Fix Patch Summary-informationen och klicka på **[!UICONTROL Next]**.
-1. Läs informationen i Sammanfattning av förinstallation och klicka på **[!UICONTROL Install]**.
-1. När installationen är klar klickar du på **[!UICONTROL Next]** för att tillämpa snabbkorrigeringsuppdateringarna på de installerade filerna.
-1. Kryssrutan Starta Configuration Manager är markerad som standard. Klicka på **[!UICONTROL Done]** för att köra Configuration Manager.
+1. Läs mer i Sammanfattning av förinstallation och klicka på **[!UICONTROL Install]**.
+1. När installationen är klar klickar du på **[!UICONTROL Next]** för att använda snabbkorrigeringsuppdateringar på dina installerade filer.
+1. Kryssrutan Starta Configuration Manager är markerad som standard. Klicka **[!UICONTROL Done]** för att köra Configuration Manager.
 
-   Om du vill köra Configuration Manager senare avmarkerar du alternativet **[!UICONTROL Start Configuration Manager]** innan du klickar på **[!UICONTROL Done]**. Du kan starta Configuration Manager senare med lämpligt skript i katalogen *`[AEM_forms_root]`/configurationManager/bin*.
+   Om du vill köra Configuration Manager senare avmarkerar du **[!UICONTROL Start Configuration Manager]** innan du klickar **[!UICONTROL Done]**. Du kan starta Configuration Manager senare med rätt skript i *`[AEM_forms_root]`/configurationManager/bin* katalog.
 
-1. Beroende på vilken programserver du använder väljer du något av följande dokument och följer instruktionerna i *Konfigurera och distribuera AEM[!DNL Forms]*.
+1. Beroende på programservern väljer du ett av följande dokument och följer instruktionerna i *Konfigurera och distribuera AEM[!DNL Forms]* -avsnitt.
 
    För AEM [!DNL Forms] 6.3, se:
 
-   * [Installera och distribuera  [!DNL Forms] AEMfor JBoss](https://helpx.adobe.com/pdf/aem-forms/6-3/install-single-server-jboss.pdf)
-   * [Installera och distribuera  [!DNL Forms] AEMfor WebSphere](https://helpx.adobe.com/pdf/aem-forms/6-3/install-single-server-websphere.pdf)
-   * [Installera och distribuera  [!DNL Forms] AEMfor WebLogic](https://helpx.adobe.com/pdf/aem-forms/6-3/install-single-server-weblogic.pdf)
-
-   För AEM [!DNL Forms] 6.2, se:
-
-   * [Installera och distribuera  [!DNL Forms] AEMfor JBoss](http://www.adobe.com/go/learn_aemforms_installJBoss_62)
-   * [Installera och distribuera  [!DNL Forms] AEMfor WebSphere](http://www.adobe.com/go/learn_aemforms_installWebSphere_62)
-   * [Installera och distribuera  [!DNL Forms] AEMfor WebLogic](http://www.adobe.com/go/learn_aemforms_installWebLogic_62)
-
-   För AEM Forms 6.1, se:
-
-   * [Installera och distribuera  [!DNL Forms] AEMfor JBoss](http://www.adobe.com/go/learn_aemforms_installJBoss_61)
-   * [Installera och distribuera  [!DNL Forms] AEMfor WebSphere](http://www.adobe.com/go/learn_aemforms_installWebSphere_61)
-   * [Installera och distribuera  [!DNL Forms] AEMfor WebLogic](http://www.adobe.com/go/learn_aemforms_installWebLogic_61)
-
-
+   * Installera och distribuera AEM [!DNL Forms] för JBoss
+   * Installera och distribuera AEM [!DNL Forms] för WebSphere
+   * Installera och distribuera AEM [!DNL Forms] för WebLogic
 
 1. Starta om AEM [!DNL Forms] JEE-server.

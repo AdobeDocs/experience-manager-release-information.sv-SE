@@ -7,12 +7,12 @@ user-guide-title: Adobe Experience Manager Release Updates and Roadmap
 breadcrumb-title: AEM versionsinformation
 user-guide-description: Se de senaste AEM.
 feature-set: Experience Manager
-feature: Versionsinformation
+feature: Release Information
 role: Leader, Architect, Developer, Data Architect, Data Engineer, Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: d4f69cdd174d0591104106bc3bbdb62e76835fec
+source-git-commit: fc68824d378c564a696b44ecc161c61920d2ba1b
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,8 @@ ht-degree: 0%
 + [AEM släpper färdplan](update-releases-roadmap.md)
 + [AEM uppdateringsdefinitioner för utgivningsfordon](update-release-vehicle-definitions.md)
 + Tidigare uppdateringar {#previous-updates}
-   + [AEM 6.3 Cumulative Fix Pack](release-notes-aem-6-3-cumulative-fix-pack.md)
-   + [AEM 6.2 Cumulative Fix Pack](release-notes-aem-6-2-cumulative-fix-pack.md)
    + [Äldre versioner av AEM, CQ och CRX](aem-previous-versions.md)
-+ Uppdateringar om AEM Forms-releaser {#forms-updates}
++ Uppdateringar om AEM Forms {#forms-updates}
    + [AEM Forms](aem-forms-releases.md)
    + [Installera kumulativa korrigeringspaket på AEM Forms JEE](install-cfp-aem-forms-jee.md)
 + Dokumentationsuppdateringar {#doc-updates}
