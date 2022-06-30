@@ -3,10 +3,10 @@ title: Tidigare dokumentationsuppdateringar
 description: På den här sidan visas äldre viktiga dokumentationsändringar och uppdateringar för [!DNL Adobe Experience Manager].
 contentOwner: alvawb
 exl-id: e68cdadf-43c1-47d9-99cf-420d582cb575
-source-git-commit: febba72bfc60c2b92304da4cd38945674c66f9cf
+source-git-commit: d984db863b24ced14834c437b76fea80774b17d8
 workflow-type: tm+mt
-source-wordcount: '9150'
-ht-degree: 1%
+source-wordcount: '3632'
+ht-degree: 2%
 
 ---
 
@@ -571,10 +571,13 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
 
 ## Äldre innehåll {#legacy-content}
 
-Från och med den 24 oktober 2017 har äldre versioner av AEM flyttats till en ny plats på [https://helpx.adobe.com/experience-manager/aem-previous-versions.html](https://helpx.adobe.com/experience-manager/aem-previous-versions.html).
+Från och med den 24 oktober 2017 har äldre versioner av AEM flyttats till en ny plats på [Äldre versioner av Adobe Experience Manager, CQ och CRX](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html).
 
 Följande versioner har flyttats:
 
+* AEM 6.3
+* AEM 6.2
+* AEM 6.1
 * AEM 6.0
 * AEM 5.6.1
 * AEM 5.6
@@ -598,355 +601,355 @@ Följande versioner har flyttats:
   <tr>
    <td>14 februari 2018</td> 
    <td>AEM och uppdateringar</td> 
-   <td><p>Publicerat ett enda nav för alla tillgängliga AEM och uppdateringar. Den länkar ut till de senaste kumulativa korrigeringspaketen, servicepaketen, funktionspaket och snabbkorrigeringar för AEM 6.4, AEM 6.3, AEM 6.2 och AEM 6.1.</p> <p>Se <a href="https://helpx.adobe.com/experience-manager/aem-releases-updates.html">AEM och uppdateringar</a>. </p> </td> 
+   <td><p>Publicerat ett enda nav för alla tillgängliga AEM och uppdateringar. Den länkar ut till de senaste kumulativa korrigeringspaketen, servicepaketen, funktionspaket och snabbkorrigeringar för AEM 6.4, AEM 6.3, AEM 6.2 och AEM 6.1.</p> <p>Se <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/aem-releases-updates.html">AEM och uppdateringar</a>. </p> </td> 
   </tr>
  </tbody>
 </table>
 
-## [!DNL Adobe Experience Manager] 6.3 {#aem-1}
+<!-- ## [!DNL Adobe Experience Manager] 6.3 {#aem-1}
 
 <table> 
  <tbody>
   <tr>
-   <td>Datum</td> 
-   <td>Ämne</td> 
-   <td>Ändringar</td> 
+   <td>Date</td> 
+   <td>Topic</td> 
+   <td>Changes</td> 
   </tr>
     <tr>
-   <td>12 dec 2019</td> 
+   <td>Dec 12 2019</td> 
    <td>AEM 6.3.3.7</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.3 finns tillgängligt.</td> 
+   <td>Cumulative Fix Pack for AEM 6.3 is available.</td> 
   </tr>
   <tr>
-   <td>11 oktober 2019</td> 
+   <td>October 11, 2019</td> 
    <td>Activity Map</td> 
-   <td><p>På grund av säkerhetsändringar i Adobe Analytics API är det inte längre möjligt att använda den version av Activity Map som ingår i AEM. Se <a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/adobeanalytics-connect.html" target="_blank">ActivityMap-plugin från Adobe Analytics</a> bör nu användas.</p> </td> 
+   <td><p>Due to security changes within the Adobe Analytics API, it is no longer possible to use the version of Activity Map that is included within AEM. See <a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/adobeanalytics-connect.html" target="_blank">ActivityMap plugin provided by Adobe Analytics</a> should now be used.</p> </td> 
   </tr>
   <tr>
-   <td>25 september 2019</td> 
+   <td>September 25, 2019</td> 
    <td>AEM 6.3.3.6</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.3 finns tillgängligt.</td> 
+   <td>Cumulative Fix Pack for AEM 6.3 is available.</td> 
   </tr>
   <tr>
-   <td>9 september 2019<br /> </td> 
-   <td>Smarta taggar för AEM Assets</td> 
-   <td>Lär dig hur <a href="https://helpx.adobe.com/experience-manager/6-3/assets/using/config-smart-tagging.html" target="_blank">uppdateringscertifikat</a> efter att det gått ut.</td> 
+   <td>September 9, 2019<br /> </td> 
+   <td>AEM Assets Smart Tags</td> 
+   <td>Know how to <a href="https://helpx.adobe.com/experience-manager/6-3/assets/using/config-smart-tagging.html" target="_blank">update certificate</a> after it expires.</td> 
   </tr>
   <tr>
-   <td>3 juli 2019</td> 
+   <td>July 03, 2019</td> 
    <td>AEM 6.3.3.5</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.3 finns tillgängligt.</td> 
+   <td>Cumulative Fix Pack for AEM 6.3 is available.</td> 
   </tr>
   <tr>
-   <td>9 maj 2019</td> 
+   <td>May 09, 2019</td> 
    <td>AEM 6.3.3.4</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.3 finns tillgängligt.</td> 
+   <td>Cumulative Fix Pack for AEM 6.3 is available.</td> 
   </tr>
   <tr>
-   <td>14 mars 2019</td> 
+   <td>March 14, 2019</td> 
    <td>AEM 6.3.3.3</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.3 finns tillgängligt.</td> 
+   <td>Cumulative Fix Pack for AEM 6.3 is available.</td> 
   </tr>
   <tr>
-   <td>15 januari 2019</td> 
+   <td>January 15, 2019</td> 
    <td>AEM 6.3.3.2</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.3 finns tillgängligt.</td> 
+   <td>Cumulative Fix Pack for AEM 6.3 is available.</td> 
   </tr>
   <tr>
-   <td>10 januari 2019</td> 
-   <td>Upplevelsefragment</td> 
-   <td>Dokumentation på <a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html">Målintegrering med upplevelsefragment</a>.</td> 
+   <td>January 10, 2019</td> 
+   <td>Experience Fragments</td> 
+   <td>Documentation on <a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html">Target Integration with Experience Fragments</a>.</td> 
   </tr>
   <tr>
-   <td>11 december 2018</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/templates.html#template-availability">Malltillgänglighet</a></td> 
-   <td>Uppdaterade rekommendationer när du definierar tillgängligheten för dina mallar.</td> 
+   <td>December 11, 2018</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/templates.html#template-availability">Template Availability</a></td> 
+   <td>Updated recommendations when defining the availability of your templates.</td> 
   </tr>
   <tr>
-   <td>19 november 2018</td> 
-   <td>Upplevelsefragment</td> 
-   <td>Snabbstartsida för utvecklare, som visar hur man använder <a href="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail-experience-fragments.html">Experience Fragments in We.Retail</a>.<br /> </td> 
+   <td>November 19, 2018</td> 
+   <td>Experience Fragments</td> 
+   <td>Quick-start page for developers, highlighting how to use <a href="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail-experience-fragments.html">Experience Fragments in We.Retail</a>.<br /> </td> 
   </tr>
   <tr>
-   <td>15 november 2018</td> 
+   <td>November 15, 2018</td> 
    <td>AEM 6.3.3.1</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.3 finns tillgängligt.</td> 
+   <td>Cumulative Fix Pack for AEM 6.3 is available.</td> 
   </tr>
   <tr>
-   <td>16 oktober 2018</td> 
-   <td>Kärnkomponenter<br /> </td> 
-   <td>Version 2.2.0 av <a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/tabs.html">Tabbar</a> och <a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/carousel.html">Carousel</a> -komponenter tillsammans med förbättringar av komponenterna Bild, Titel och Sida samt flera felkorrigeringar.</td> 
+   <td>October 16, 2018</td> 
+   <td>Core Components<br /> </td> 
+   <td>Release 2.2.0 of the <a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/tabs.html">Tabs</a> and <a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/carousel.html">Carousel</a> components along with improvements to the Image, Title, and Page components and numerous bug fixes.</td> 
   </tr>
   <tr>
-   <td>3 oktober 2018</td> 
-   <td>Statiska mallar<br /> </td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/page-templates-static.html#how-template-designs-are-applied">Hur designer tillämpas på statiska mallar</a> har detaljerats.</td> 
+   <td>October 03, 2018</td> 
+   <td>Static Templates<br /> </td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/page-templates-static.html#how-template-designs-are-applied">How designs are applied to static templates</a> has been detailed.</td> 
   </tr>
   <tr>
-   <td>12 september 2018</td> 
+   <td>September 12, 2018</td> 
    <td>AEM 6.3.3.0</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-3/assets/using/cascading-metadata.html" target="_blank">överlappande metadata</a> och <a href="https://helpx.adobe.com/experience-manager/6-3/assets/using/asset-reports.html" target="_blank">tillgångsrapportering</a>.</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-3/assets/using/cascading-metadata.html" target="_blank">cascading metadata</a> and <a href="https://helpx.adobe.com/experience-manager/6-3/assets/using/asset-reports.html" target="_blank">asset reporting</a>.</td> 
   </tr>
   <tr>
-   <td>29 augusti 2018</td> 
+   <td>August 29, 2018</td> 
    <td>AEM Assets</td> 
-   <td>Adobe I/O gateway-tjänsten är tillgänglig på <a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/configure-assets-cc-integration.html" target="_blank">konfigurera integrering med AEM Assets</a> och <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html" target="_blank">konfigurera resursintegrering med Brand Portal</a> artiklar.<br /> </td> 
+   <td>To configure oAuth integrations, the Adobe I/O gateway service is available at <a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/configure-assets-cc-integration.html" target="_blank">configure AEM Assets integration</a> and <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html" target="_blank">configure Assets integration with Brand Portal</a> articles.<br /> </td> 
   </tr>
   <tr>
-   <td>24 augusti 2018</td> 
-   <td>RTF-redigerare</td> 
-   <td>Revampad <a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/rich-text-editor.html" target="_blank">konfigurera RTE-artikel</a> om du vill strukturera den bättre kan du lägga till viss saknad information, lägga till en illustration i arbetsflödet och dela upp den långa artikeln.</td> 
+   <td>August 24, 2018</td> 
+   <td>Rich Text Editor</td> 
+   <td>Revamped <a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/rich-text-editor.html" target="_blank">configure RTE article</a> to structure it better, add some missing information, add a workflow illustration, and split the long-form article.</td> 
   </tr>
   <tr>
-   <td>16 augusti 2018</td> 
-   <td>Integrera med Livefyre</td> 
-   <td>Uppdaterat <a href="https://helpx.adobe.com/experience-manager/6-4/release-notes/livefyre-feature-pack-206.html">2.0.6 feature pack release</a>, samt <a href="https://helpx.adobe.com/experience-manager/6-3/release-notes/feature-packs-release-notes.html">Funktionspaket</a> sida. </td> 
+   <td>August 16, 2018</td> 
+   <td>Integrating with Livefyre</td> 
+   <td>Updated <a href="https://helpx.adobe.com/experience-manager/6-4/release-notes/livefyre-feature-pack-206.html">2.0.6 feature pack release</a>, as well as the <a href="https://helpx.adobe.com/experience-manager/6-3/release-notes/feature-packs-release-notes.html">Feature Pack</a> page. </td> 
   </tr>
   <tr>
-   <td>2 augusti 2018</td> 
-   <td>Integrera med Livefyre</td> 
-   <td>Tillagd <a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/livefyre.html">supportmatris</a> för Livefyre-appar i AEM. </td> 
+   <td>August 2, 2018</td> 
+   <td>Integrating with Livefyre</td> 
+   <td>Added <a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/livefyre.html">support matrix</a> for Livefyre apps in AEM. </td> 
   </tr>
   <tr>
-   <td>19 juli 2018</td> 
-   <td>AEM 6.3<br /> FP 24424 och FP 24425<br /> Innehållsfragmentsuppdateringar och innehållstjänster, funktionspaket</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-3/release-notes/content-services-fragments-featurepacks.html">Innehållsfragmentuppdateringar och innehållstjänster, funktionspaket</a>.</td> 
+   <td>July 19, 2018</td> 
+   <td>AEM 6.3<br /> FP 24424 and FP 24425<br /> Content Fragment Updates and Content Services Feature Pack</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-3/release-notes/content-services-fragments-featurepacks.html">Content Fragments Updates and Content Services Feature Pack</a>.</td> 
   </tr>
   <tr>
-   <td>10 juli 2018</td> 
-   <td>Adaptiv Forms</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-3/forms/using/create-your-first-adaptive-form.html">Skapa ditt första anpassningsbara formulär</a> självstudiekurser och relaterade artiklar i serien är tillgängliga. </td> 
+   <td>July 10, 2018</td> 
+   <td>Adaptive Forms</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-3/forms/using/create-your-first-adaptive-form.html">Create your first adaptive form</a> tutorial and related articles in the series are available. </td> 
   </tr>
   <tr>
-   <td>5 juli 2018<br /> </td> 
-   <td>Smarta taggar för resurser</td> 
-   <td>Förbättringar av <a href="https://helpx.adobe.com/experience-manager/6-3/assets/using/config-smart-tagging.html">Konfigurera artikeln Smarta taggar</a> för att strukturera bättre, åtgärda fel och skapa en korslänk mellan artiklar.</td> 
+   <td>July 5, 2018<br /> </td> 
+   <td>Assets Smart Tags</td> 
+   <td>Improvements to the <a href="https://helpx.adobe.com/experience-manager/6-3/assets/using/config-smart-tagging.html">Configure Smart Tags article</a> to structure better, fix bugs, and cross-link with relatedarticle.</td> 
   </tr>
   <tr>
-   <td>5 juli 2018</td> 
-   <td>Integrera med Adobe Analytics<br /> </td> 
-   <td>Olika uppdateringar av <a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/adobeanalytics.html">Integrera med Adobe Analytics</a> sidor.<br /> </td> 
+   <td>July 5, 2018</td> 
+   <td>Integrating with Adobe Analytics<br /> </td> 
+   <td>Various updates to the <a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/adobeanalytics.html">Integrating with Adobe Analytics</a> pages.<br /> </td> 
   </tr>
   <tr>
-   <td>25 juni 2018</td> 
+   <td>June 25, 2018</td> 
    <td>AEM 6.3.2.2</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.3 finns tillgängligt.</td> 
+   <td>Cumulative Fix Pack for AEM 6.3 is available.</td> 
   </tr>
   <tr>
-   <td>30 maj 2018</td> 
+   <td>May 30, 2018</td> 
    <td>Activity Map</td> 
-   <td>Funktioner för aktivitetskarta för publicerade sidor som en del av sidredigeraren. Så här gör du <a href="https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/pa-using.html#analyticsvisiblefromthepageeditor">use</a>.</td> 
+   <td>Activity map functionality for published pages as part of the page editor. How to <a href="https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/pa-using.html#analyticsvisiblefromthepageeditor">use</a>.</td> 
   </tr>
   <tr>
-   <td>25 maj 2018<br /> </td> 
-   <td>AEM 6.3 FP 22818<br /> Innehållsfragmentsuppdateringar och innehållstjänster, funktionspaket<br /> </td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-3/release-notes/fp-22818-content-services-fragments-featurepack.html">Innehållsfragmentuppdateringar och innehållstjänster, funktionspaket</a>.</td> 
+   <td>May 25, 2018<br /> </td> 
+   <td>AEM 6.3 FP 22818<br /> Content Fragment Updates and Content Services Feature Pack<br /> </td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-3/release-notes/fp-22818-content-services-fragments-featurepack.html">Content Fragments Updates and Content Services Feature Pack</a>.</td> 
   </tr>
   <tr>
-   <td>10 maj 2018</td> 
+   <td>May 10, 2018</td> 
    <td>AEM 6.3.2.1</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.3 finns tillgängligt.</td> 
+   <td>Cumulative Fix Pack for AEM 6.3 is available.</td> 
   </tr>
   <tr>
-   <td>30 april 2018</td> 
-   <td>Integrera med Livefyre</td> 
-   <td>En sida har lagts till för <a href="https://helpx.adobe.com/experience-manager/6-3/release-notes/livefyre-feature-pack-204.html">Livefyre Feature Pack 2.0.4</a>och <a href="https://helpx.adobe.com/experience-manager/6-3/release-notes/livefyre-feature-pack202.html">Livefyre Feature Pack 2.0.2</a>.</td> 
+   <td>April 30, 2018</td> 
+   <td>Integrating with Livefyre</td> 
+   <td>Added a page for <a href="https://helpx.adobe.com/experience-manager/6-3/release-notes/livefyre-feature-pack-204.html">Livefyre Feature Pack 2.0.4</a>, and <a href="https://helpx.adobe.com/experience-manager/6-3/release-notes/livefyre-feature-pack202.html">Livefyre Feature Pack 2.0.2</a>.</td> 
   </tr>
   <tr>
-   <td>5 april 2018</td> 
+   <td>April 05, 2018</td> 
    <td>AEM 6.3.2.0</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html">Service Pack 6.3.2.0</a> är tillgängligt.</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html">Service Pack 6.3.2.0</a> is available.</td> 
   </tr>
   <tr>
-   <td>23 februari 2018</td> 
+   <td>February 23, 2018</td> 
    <td>Revision Cleanup</td> 
-   <td><p>Ett nytt avsnitt med namnet"Running Online Revision Cleanup After Offline Revision Cleanup" har lagts till som innehåller information om vad som händer när rensning av onlineändringar utförs efter att offlinerevideringar har rensats.</p> <p>Se <a href="https://helpx.adobe.com/experience-manager/6-3/sites/deploying/using/revision-cleanup.html#how-to-run-online-revision-cleanup">Revision Cleanup</a>.</p> </td> 
+   <td><p>Added a new section named "Running Online Revision Cleanup After Offline Revision Cleanup" that details what happens when online revision cleanup is executed after offline revision cleanup.</p> <p>See <a href="https://helpx.adobe.com/experience-manager/6-3/sites/deploying/using/revision-cleanup.html#how-to-run-online-revision-cleanup">Revision Cleanup</a>.</p> </td> 
   </tr>
   <tr>
-   <td>19 februari 2018</td> 
-   <td>Konvertering från HTML till PDF med Forms PDF Generator</td> 
-   <td><p>Information har lagts till för att konfigurera och använda PhantomJS för konvertering av HTML-filer till PDF med PDF Generator.</p> <p>Se <a href="https://helpx.adobe.com/experience-manager/6-3/forms/using/install-configure-pdf-generator.html">Installera och konfigurera PDF Generator</a>.</p> </td> 
+   <td>February 19, 2018</td> 
+   <td>HTML to PDF conversion using Forms PDF Generator</td> 
+   <td><p>Added information to configure and use PhantomJS for converting HTML files to PDF using PDF Generator.</p> <p>See <a href="https://helpx.adobe.com/experience-manager/6-3/forms/using/install-configure-pdf-generator.html">Installing and configuring PDF Generator</a>.</p> </td> 
   </tr>
   <tr>
-   <td>15 februari 2018</td> 
-   <td>AEM Forms dataintegrering</td> 
-   <td><p>Lagt till information för att konfigurera och integrera lokal Microsoft Dynamics med AEM Forms med hjälp av formulärdatamodell.</p> <p>Se <a href="https://helpx.adobe.com/experience-manager/6-3/forms/using/ms-dynamics-odata-configuration.html">Konfiguration av Microsoft Dynamics OData</a>.</p> </td> 
+   <td>February 15, 2018</td> 
+   <td>AEM Forms data integration</td> 
+   <td><p>Added information to configure and integrate on-premises Microsoft Dynamics with AEM Forms using form data model.</p> <p>See <a href="https://helpx.adobe.com/experience-manager/6-3/forms/using/ms-dynamics-odata-configuration.html">Microsoft Dynamics OData Configuration</a>.</p> </td> 
   </tr>
   <tr>
-   <td>5 februari 2018</td> 
+   <td>February 5, 2018</td> 
    <td>Adobe Analytics Integration</td> 
-   <td>Uppdateringar till <a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/adobeanalytics-connect.html">Konfigurationer för hanterad avsökning</a>. Dessutom <a href="https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/pa-using.html">Visa sidanalysdata</a>.<br /> </td> 
+   <td>Updates to <a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/adobeanalytics-connect.html">Managed Polling Configurations</a>. Also <a href="https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/pa-using.html">Seeing Page Analytics Data</a>.<br /> </td> 
   </tr>
   <tr>
-   <td>19 januari 2018</td> 
+   <td>January 19, 2018</td> 
    <td>Core Components Release 2.0.0</td> 
-   <td>Version 2.0.0 av <a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/versions.html">kärnkomponenter</a> är nu tillgängligt och introducerar version 2 av de befintliga komponenterna tillsammans med nya komponenter som navigering, språknavigering och snabbsökning.</td> 
+   <td>Release 2.0.0 of the <a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/versions.html">core components</a> is now available, introducing version 2 of the existing components along with new components including Navigation, Language Navigation, and Quick Search components.</td> 
   </tr>
   <tr>
-   <td>8 januari 2018</td> 
-   <td>AEM 6.3 Kumulativt korrigeringspaket 6.3.1.2<br /> </td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.3 finns tillgängligt.<br /> </td> 
+   <td>January 8, 2018</td> 
+   <td>AEM 6.3 Cumulative Fix Pack 6.3.1.2<br /> </td> 
+   <td>Cumulative Fix Pack for AEM 6.3 is available.<br /> </td> 
   </tr>
   <tr>
-   <td>14 december 2017<br /> </td> 
+   <td>December 14, 2017<br /> </td> 
    <td>Style System Feature Pack<br /> </td> 
-   <td>The <a href="https://helpx.adobe.com/experience-manager/6-3/release-notes/style-system-fp.html">Style System-funktionspaket och tillhörande dokumentation</a> har släppts så att en mallskapare kan definiera formatklasser i komponentens komponentpolicy så att en innehållsförfattare kan välja dessa när komponenten på en sida redigeras.</td> 
+   <td>The <a href="https://helpx.adobe.com/experience-manager/6-3/release-notes/style-system-fp.html">Style System feature pack and its associated documentation</a> was released allowing a template author to define style classes in the component policy of components so that a content author can select these when editing the component on a page.</td> 
   </tr>
   <tr>
-   <td>29 november 2017</td> 
-   <td>AEM 6.3 Kumulativt korrigeringspaket 6.3.1.1</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.3 finns tillgängligt.</td> 
+   <td>November 29, 2017</td> 
+   <td>AEM 6.3 Cumulative Fix Pack 6.3.1.1</td> 
+   <td>Cumulative Fix Pack for AEM 6.3 is available.</td> 
   </tr>
   <tr>
-   <td>28 november 2017</td> 
-   <td>Uppgradera dokumentation</td> 
-   <td>The <a href="https://helpx.adobe.com/experience-manager/6-3/sites/deploying/user-guide.html">AEM 6.3 - uppgraderingsdokumentation</a> har gjorts om för att ge ett mer komplett uppgraderingsflöde, åtgärdat saknade områden och tagit itu med enastående kundkommentarer.</td> 
+   <td>November 28, 2017</td> 
+   <td>Upgrade Documentation</td> 
+   <td>The <a href="https://helpx.adobe.com/experience-manager/6-3/sites/deploying/user-guide.html">AEM 6.3 Upgrade documentation</a> was revamped to provide a more complete upgrade process flow, addressed missing areas and addressed outstanding customer feedback.</td> 
   </tr>
   <tr>
-   <td>14 november 2017 </td> 
-   <td>Smart bildbehandling</td> 
-   <td><p>Frågor och svar om de nya funktionerna för smart bildbehandling i Dynamic Media Classic/Dynamic Media.<br /> </p> <p>Se <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Smart bildbehandling</a>.</p> </td> 
+   <td>November 14, 2017 </td> 
+   <td>Smart Imaging</td> 
+   <td><p>Frequently asked questions regarding the new feature smart imaging in Dynamic Media Classic / Dynamic Media.<br /> </p> <p>See <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Smart Imaging</a>.</p> </td> 
   </tr>
   <tr>
-   <td>13 oktober 2017</td> 
+   <td>October 13, 2017</td> 
    <td>AEM 6.3 Service Pack 1</td> 
-   <td>Versionsinformation för <a href="https://helpx.adobe.com/experience-manager/6-3/release-notes.html">AEM 6.3 Service Pack 1</a>.</td> 
+   <td>Release notes for <a href="https://helpx.adobe.com/experience-manager/6-3/release-notes.html">AEM 6.3 Service Pack 1</a>.</td> 
   </tr>
   <tr>
-   <td>11 oktober 2017</td> 
+   <td>October 11, 2017</td> 
    <td>Content Fragment Updates and Content Services - Feature Pack</td> 
-   <td>Den här uppsättningen funktionspaket innehåller uppdateringar av innehållsfragment, JSON-exporteraren och kärnkomponenter. Se <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Content Fragment Updates and Content Services - Feature Pack Release Notes</a>.</td> 
+   <td>This set of Feature Packs delivers updates to Content Fragments, the JSON Exporter and Core Components. See the <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Content Fragment Updates and Content Services - Feature Pack Release Notes</a>.</td> 
   </tr>
   <tr>
-   <td>3 oktober 2017</td> 
-   <td>AEM</td> 
-   <td><p>Dokumenterat AEM Repo Tool, som är tillgängligt för förenklad, FTP-liknande överföring mellan filsystemet och AEM med minimala beroenden. Det är ett enkelt basskript som kan integreras med IntelliJ och Eclipse.</p> <p><a href="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/aem-repo-tool.html">AEM</a></p> </td> 
+   <td>October 3, 2017</td> 
+   <td>AEM Repo Tool</td> 
+   <td><p>Documented AEM Repo Tool, which is available for simplified, FTP-like transfers between the filesystem and AEM with minimal dependencies. It is a simple bash script and integratable into IntelliJ and Eclipse.</p> <p><a href="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/aem-repo-tool.html">AEM Repo Tool</a></p> </td> 
   </tr>
   <tr>
-   <td>12 september 2017</td> 
-   <td>Uppgradera till AEM 6.3 Forms</td> 
-   <td><p>Lagt till information om hantering av adaptiva formulärregler som inte migreras automatiskt med migreringsverktyget.</p> <p><a href="https://helpx.adobe.com/experience-manager/6-3/forms/using/migration-utility.html">Migrera AEM Forms-resurser och -dokument</a></p> </td> 
+   <td>September 12, 2017</td> 
+   <td>Upgrade to AEM 6.3 Forms</td> 
+   <td><p>Added information about handling adaptive form rules that are not migrated automatically using the migration utility.</p> <p><a href="https://helpx.adobe.com/experience-manager/6-3/forms/using/migration-utility.html">Migrate AEM Forms assets and documents</a></p> </td> 
   </tr>
   <tr>
-   <td>11 september 2017<br /> </td> 
-   <td>Ändra värdnamn för AEM Forms JEE</td> 
-   <td><p>När värddatorns namn ändras startar inte JBoss för Adobe Experience Manager Forms-tjänsten som körs på värddatorn. För att lösa problemet måste du återställa registernyckeln för Windows och lägga till namnet på den aktuella värden i registret.</p> <p><a href="https://helpx.adobe.com/aem-forms/kb/JBoss-aem-forms-service-fails-to-start.html">JBoss för Adobe Experience Manager Forms-tjänsten startar inte när värdnamnet ändras</a></p> </td> 
+   <td>September 11, 2017<br /> </td> 
+   <td>Change hostname for AEM Forms JEE</td> 
+   <td><p>When the name of the host machine is changed, the JBoss for Adobe Experience Manager Forms service running on the host machine fails to start. To resolve the issue, you must reset the Windows Registry key and add the name of the current host to the registry.</p> <p><a href="https://helpx.adobe.com/aem-forms/kb/JBoss-aem-forms-service-fails-to-start.html">JBoss for Adobe Experience Manager Forms service fails to start when the host name is changed</a></p> </td> 
   </tr>
   <tr>
-   <td>5 september 2017</td> 
-   <td>Dynamic Media Feature Packs 14410 och 18912</td> 
-   <td><p>Det här funktionspaketet innehåller nya funktioner för automatisering och leverans för Dynamic Media-kunder och är en uppgradering för Dynamic Media Classic-kunder som vill gå över till Dynamic Media. </p> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Konfigurera Dynamic Media med Feature Pack 14410 och 18912</a></p> </td> 
+   <td>September 5, 2017</td> 
+   <td>Dynamic Media Feature Packs 14410 and 18912</td> 
+   <td><p>This feature pack provides new automation and delivery capabilities for Dynamic Media customers and is an upgrade for Dynamic Media Classic customers to transition to Dynamic Media. </p> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Configuring Dynamic Media with Feature Pack 14410 and 18912</a></p> </td> 
   </tr>
   <tr>
-   <td>31 augusti 2017</td> 
-   <td>Funktionsstatus för Touch UI</td> 
-   <td><p>De flesta funktioner finns i det beröringskänsliga användargränssnittet, men det finns funktioner som ännu inte är fullständiga och som kommer att läggas till i framtida versioner.Följande sida visar den aktuella statusen för funktionerna som implementerats i AEM 6.3.</p> <p><a href="https://helpx.adobe.com/experience-manager/6-3/release-notes/touch-ui-features-status.html">Funktionsstatus för Touch UI</a></p> </td> 
+   <td>August 31, 2017</td> 
+   <td>Touch UI Feature Status</td> 
+   <td><p>While most capabilities are present in the touch-enabled UI, there are features that are not yet complete and will be added in future releases.The following page shows the current status of the capabilities as implemented in AEM 6.3.</p> <p><a href="https://helpx.adobe.com/experience-manager/6-3/release-notes/touch-ui-features-status.html">Touch UI Feature Status</a></p> </td> 
   </tr>
   <tr>
-   <td>29 augusti 2017</td> 
+   <td>August 29, 2017</td> 
    <td>Forms Rule Editor</td> 
-   <td><p>Med Adaptiv konfigurationstjänst för Forms kan du begränsa regelredigeringsåtkomst till användare baserat på deras roll eller funktion.</p> <p><a href="https://helpx.adobe.com/experience-manager/6-3/forms/using/rule-editor-access-user-groups.html">Bevilja regelredigeraråtkomst för valda användargrupper</a></p> </td> 
+   <td><p>Adaptive Forms Configuration Service allows you to limit rule editor access to users based on their role or function.</p> <p><a href="https://helpx.adobe.com/experience-manager/6-3/forms/using/rule-editor-access-user-groups.html">Grant rule editor access to select user groups</a></p> </td> 
   </tr>
   <tr>
-   <td>29 augusti 2017</td> 
-   <td>Prestandajustering för Forms</td> 
-   <td><p>Du kan utesluta AEM Forms-filer och -mappar från virussökningsprogrammet vid åtkomst för att förbättra prestandan på din Forms-server.</p> <p><a href="https://helpx.adobe.com/experience-manager/6-3/forms/using/performance-tuning-aem-forms.html">Prestandajustering av AEM Forms-server</a></p> </td> 
+   <td>August 29, 2017</td> 
+   <td>Forms Performance Tuning</td> 
+   <td><p>You can exclude AEM Forms files and folders from on-access virus scan application to improve the performance of your Forms server.</p> <p><a href="https://helpx.adobe.com/experience-manager/6-3/forms/using/performance-tuning-aem-forms.html">Performance tuning of AEM Forms server</a></p> </td> 
   </tr>
   <tr>
-   <td>28 augusti 2017</td> 
-   <td>Adaptiv Forms</td> 
-   <td><p>Formulärutvecklare kan bädda in helt funktionella adaptiva formulär på en extern webbsida som ligger på en annan AEM. Det hjälper användarna att fylla i ett formulär utan att lämna webbsidan och hålla sig i sitt sammanhang för andra element på sidan.</p> <p><a href="https://helpx.adobe.com/aem-forms/6-3/embed-adaptive-form-external-web-page.html">Bädda in anpassningsbara formulär på en extern webbsida</a></p> </td> 
+   <td>August 28, 2017</td> 
+   <td>Adaptive Forms</td> 
+   <td><p>Form developers can embed a fully functional adaptive forms in an external web page hosted outside AEM. It helps end users fill a form without leaving the web page and remain in context of other elements on the page.</p> <p><a href="https://helpx.adobe.com/aem-forms/6-3/embed-adaptive-form-external-web-page.html">Embed adaptive form in external web page</a></p> </td> 
   </tr>
   <tr>
-   <td>25 augusti 2017</td> 
-   <td>Forms dataintegrering</td> 
-   <td><p>AEM Forms tillhandahåller ett konfigurationspaket som du kan använda för att snabbt integrera Dynamics 365 med Forms. Paketet innehåller en molntjänstkonfiguration och en formulärdatamodell med förkonfigurerade Dynamics 365-enheter och -tjänster.</p> <p><a href="https://helpx.adobe.com/experience-manager/6-3/forms/using/ms-dynamics-odata-configuration.html">Microsoft Dynamics 365 OData-konfiguration</a></p> </td> 
+   <td>August 25, 2017</td> 
+   <td>Forms Data Integration</td> 
+   <td><p>AEM Forms provides a configuration package that you can use to quickly integrate Dynamics 365 with Forms. The package includes a cloud service configuration and a form data model with preconfigured Dynamics 365 entities and services.</p> <p><a href="https://helpx.adobe.com/experience-manager/6-3/forms/using/ms-dynamics-odata-configuration.html">Microsoft Dynamics 365 OData Configuration</a></p> </td> 
   </tr>
   <tr>
-   <td>24 augusti 2017</td> 
-   <td>Installera och uppgradera Forms JEE</td> 
-   <td><p>Korrigerade flera problem och uppdaterad installations- och uppgraderingsdokumentation för AEM 6.3 Forms JEE.</p> <p><a href="https://helpx.adobe.com/aem-forms/6-3/user-guide.html">Installera eller uppgradera AEM Forms på JEE</a></p> </td> 
+   <td>August 24, 2017</td> 
+   <td>Install and Upgrade Forms JEE</td> 
+   <td><p>Fixed several issues and refreshed installation and upgrade documentation for AEM 6.3 Forms JEE.</p> <p><a href="https://helpx.adobe.com/aem-forms/6-3/user-guide.html">Install or upgrade AEM Forms on JEE</a></p> </td> 
   </tr>
   <tr>
-   <td>23 augusti 2017</td> 
-   <td>Funktionen Dekoration-tagg</td> 
-   <td><p>När en komponent på en webbsida återges kan ett HTML-element genereras och den återgivna komponenten kapslas in i sig själv. För utvecklare har AEM en tydlig och enkel logik som styr de dekorationstaggar som omsluter de inkluderade komponenterna.</p> <p><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/decoration-tag.html">Dekoration-tagg</a></p> </td> 
+   <td>August 23, 2017</td> 
+   <td>Decoration Tag Behavior</td> 
+   <td><p>When a component in a web page is rendered, an HTML element can be generated, wrapping the rendered component within itself. For developers, AEM offers clear and simple logic controlling the decoration tags that wrap included components.</p> <p><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/decoration-tag.html">Decoration Tag</a></p> </td> 
   </tr>
   <tr>
-   <td>23 augusti 2017</td> 
-   <td>Begränsningar för redigerare</td> 
-   <td><p>Redigeraren i det pekoptimerade användargränssnittet använder övertäckningar för att interagera med innehåll som begränsas i en iframe. Den här interaktionen skapar vissa begränsningar i både användningen av redigeraren och för utvecklare.</p> <p><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/editor-limitations.html">Begränsningar för redigerare</a></p> </td> 
+   <td>August 23, 2017</td> 
+   <td>Editor Limitations</td> 
+   <td><p>The editor in the touch-optimized UI makes use of overlays to interact with content confined in an iframe. This interaction creates some limitations in both usage of the editor and also for developers.</p> <p><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/editor-limitations.html">Editor Limitations</a></p> </td> 
   </tr>
   <tr>
-   <td>14 augusti 2017</td> 
+   <td>August 14, 2017</td> 
    <td>AEM Screens 6.3</td> 
-   <td><p>Det finns ny AEM Screens 6.3-dokumentation. Alternativt finns en QuickStart som gör att en användare kan skapa en upplevelse av digitala signaturer på 5 minuter. Se följande resurser:</p> <p><a href="https://helpx.adobe.com/experience-manager/6-3/sites/deploying/using/setting-up-a-basic-project-screens.html">Quickstart</a></p> <p><a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/administering-screens.html">Administrera innehåll för AEM Screens</a><br /> </p> </td> 
+   <td><p>New AEM Screens 6.3 documentation is available. Alternatively, a Quickstart is available that lets a user create a Digital Signage Experience in 5 minutes. See the following resources:</p> <p><a href="https://helpx.adobe.com/experience-manager/6-3/sites/deploying/using/setting-up-a-basic-project-screens.html">Quickstart</a></p> <p><a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/administering-screens.html">Administering Content for AEM Screens</a><br /> </p> </td> 
   </tr>
   <tr>
-   <td>10 augusti 2017</td> 
+   <td>August 10, 2017</td> 
    <td>Getting Started Developing AEM Sites 6.3 - WKND Tutorial</td> 
-   <td><p>Den nya självstudiekursen för att komma igång för utvecklare 6.3 är tillgänglig baserat på den senaste AEM tekniken:</p> 
+   <td><p>New developer 6.3 getting started tutorial is available based on the latest AEM technologies:</p> 
     <ul> 
      <li><a href="https://helpx.adobe.com/experience-manager/htl/using/overview.html">HTL</a></li> 
      <li><a href="https://sling.apache.org/documentation/bundles/models.html">Sling Models</a></li> 
-     <li><a href="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/touch-ui-concepts.html">Pekgränssnitt</a></li> 
-     <li><a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html">Kärnkomponenter</a></li> 
-     <li><a href="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/page-templates-editable.html">Redigerbara mallar</a></li> 
-    </ul> <p>Hitta självstudiekursen <a href="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/getting-started.html">här</a>.</p> </td> 
+     <li><a href="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/touch-ui-concepts.html">Touch UI</a></li> 
+     <li><a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html">Core Components</a></li> 
+     <li><a href="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/page-templates-editable.html">Editable Templates</a></li> 
+    </ul> <p>Find the tutorial <a href="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/getting-started.html">here</a>.</p> </td> 
   </tr>
   <tr>
-   <td>9 augusti 2017</td> 
-   <td>Använda bibliotek på klientsidan</td> 
-   <td>Information om hur du hittar klientlibs under /apps och använder proxyservern samt hur du använder preprocessorer har lagts till.</td> 
+   <td>August 9, 2017</td> 
+   <td>Using Client-Side Libraries</td> 
+   <td>Details on locating clientlibs under /apps and using the proxy servlet as well as details on using preprocessors have been added.</td> 
   </tr>
   <tr>
-   <td>8 augusti 2017</td> 
-   <td>AEM 6.3 Kumulativt korrigeringspaket 6.3.0.2</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.3 finns tillgängligt.</td> 
+   <td>August 8, 2017</td> 
+   <td>AEM 6.3 Cumulative Fix Pack 6.3.0.2</td> 
+   <td>Cumulative Fix Pack for AEM 6.3 is available.</td> 
   </tr>
   <tr>
-   <td>27 juli 2017</td> 
+   <td>July 27, 2017</td> 
    <td>Assets Best Practices for the Desktop App and Creative Cloud Integration</td> 
-   <td><p>Se:</p> 
+   <td><p>See:</p> 
     <ul> 
-     <li>Bästa praxis för integrering av AEM och Creative Cloud</li> 
-     <li>AEM praxis för datorprogram</li> 
-     <li>Metodtips för att dela AEM till Creative Cloud</li> 
+     <li>AEM and Creative Cloud Integration Best Practices</li> 
+     <li>AEM Desktop App Best Practices</li> 
+     <li>AEM to Creative Cloud Folder Sharing Best Practices</li> 
     </ul> </td> 
   </tr>
   <tr>
-   <td>23 juni 2017</td> 
-   <td>AEM 6.3 Kumulativt korrigeringspaket 6.3.0.1</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.3 finns tillgängligt.</td> 
+   <td>June 23, 2017</td> 
+   <td>AEM 6.3 Cumulative Fix Pack 6.3.0.1</td> 
+   <td>Cumulative Fix Pack for AEM 6.3 is available.</td> 
   </tr>
   <tr>
-   <td>7 juni 2017</td> 
-   <td>AEM handel med Digital River</td> 
-   <td><p>En ny e-handelsintegrering finns tillgänglig:</p> 
+   <td>June 7, 2017</td> 
+   <td>AEM commerce with Digital River</td> 
+   <td><p>A new commerce integration is available:</p> 
     <ul> 
-     <li>Driftsätta e-handel med Digital River</li> 
+     <li>Deploying eCommerce with Digital River</li> 
      <li>Administering Digital River</li> 
     </ul> </td> 
   </tr>
   <tr>
-   <td>24 maj 2017</td> 
-   <td>AEM 6.3 Referensmaterial</td> 
-   <td><p>Referensmaterial finns tillgängligt, inklusive:</p> 
+   <td>May 24, 2017</td> 
+   <td>AEM 6.3 Reference Material</td> 
+   <td><p>Reference Material is available including:</p> 
     <ul> 
      <li>Adobe AEM 6.3.0 API</li> 
-     <li>API-skillnader</li> 
-     <li>GRE API-dokumentation (Touch-optimerat gränssnitt)</li> 
-     <li>Användargränssnittshandbok för Coral</li> 
-     <li>Dokumentation för widgets-API (Classic UI)</li> 
+     <li>API Differences</li> 
+     <li>Granite UI (Touch-Optimized UI) API Documentation</li> 
+     <li>Coral UI Guide</li> 
+     <li>Widgets API (Classic UI) Documentation</li> 
      <li>UI Test Framework</li> 
-     <li>JavaScript API-referens</li> 
-     <li>Referens för JavaScript-API för redigeraren</li> 
+     <li>JavaScript API Reference</li> 
+     <li>Editor Core JavaScript API Reference</li> 
     </ul> </td> 
   </tr>
   <tr>
-   <td>17 maj 2017</td> 
-   <td>HTML mallspråk</td> 
-   <td>Förbättringar baserade på AEM 6.3-funktioner.</td> 
+   <td>May 17, 2017</td> 
+   <td>HTML Template Language</td> 
+   <td>Improvements based on AEM 6.3 features.</td> 
   </tr>
  </tbody>
 </table>
@@ -956,328 +959,328 @@ Följande versioner har flyttats:
 <table> 
  <tbody>
   <tr>
-   <td>Datum</td> 
-   <td>Ämne</td> 
-   <td>Ändringar</td> 
+   <td>Date</td> 
+   <td>Topic</td> 
+   <td>Changes</td> 
   </tr>
   <tr>
-   <td>6 juni 2019</td> 
+   <td>June 6, 2019</td> 
    <td>AEM 6.2 Cumulative Fix Pack</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.2 Service Pack 1 är tillgängligt.</td> 
+   <td>Cumulative Fix Pack for AEM 6.2 Service Pack 1 is available.</td> 
   </tr>
   <tr>
-   <td>11 december 2018</td> 
+   <td>December 11, 2018</td> 
    <td>AEM 6.2 Cumulative Fix Pack</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.2 Service Pack 1 är tillgängligt.</td> 
+   <td>Cumulative Fix Pack for AEM 6.2 Service Pack 1 is available.</td> 
   </tr>
   <tr>
-   <td>16 oktober 2018</td> 
-   <td>Kärnkomponenter<br /> </td> 
-   <td>Version 2.2.0 av <a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/tabs.html">Tabbar</a> och <a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/carousel.html">Carousel</a>-komponenter tillsammans med förbättringar av komponenterna Bild, Titel och Sida samt flera felkorrigeringar.</td> 
+   <td>October 16, 2018</td> 
+   <td>Core Components<br /> </td> 
+   <td>Release 2.2.0 of the <a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/tabs.html">Tabs</a> and <a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/carousel.html">Carousel</a>components along with improvements to the Image, Title, and Page components and numerous bug fixes.</td> 
   </tr>
   <tr>
-   <td>10 oktober 2018</td> 
-   <td>Statiska mallar<br /> </td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/page-templates-static.html#how-template-designs-are-applied">Hur designer tillämpas på statiska mallar</a> har detaljerats.</td> 
+   <td>October 10, 2018</td> 
+   <td>Static Templates<br /> </td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/page-templates-static.html#how-template-designs-are-applied">How designs are applied to static templates</a> has been detailed.</td> 
   </tr>
   <tr>
-   <td>10 oktober 2018</td> 
+   <td>October 10, 2018</td> 
    <td>AEM 6.2 Cumulative Fix Pack</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.2 Service Pack 1 är tillgängligt.</td> 
+   <td>Cumulative Fix Pack for AEM 6.2 Service Pack 1 is available.</td> 
   </tr>
   <tr>
-   <td>29 augusti 2018</td> 
+   <td>August 29, 2018</td> 
    <td>AEM Assets</td> 
-   <td>Adobe I/O gateway-tjänsten är tillgänglig på <a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/configure-assets-cc-integration.html" target="_blank">konfigurera integrering med AEM Assets</a> artikel.</td> 
+   <td>To configure oAuth integrations, the Adobe I/O gateway service is available at <a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/configure-assets-cc-integration.html" target="_blank">configure AEM Assets integration</a> article.</td> 
   </tr>
   <tr>
-   <td>16 augusti 2018</td> 
-   <td>Integrera Livefyre</td> 
-   <td>Uppdaterat <a href="https://helpx.adobe.com/experience-manager/6-4/release-notes/livefyre-feature-pack-206.html">2.0.6 feature pack release</a>, samt <a href="https://helpx.adobe.com/experience-manager/6-2/release-notes/feature-packs-release-notes.html">Funktionspaket</a> sida. </td> 
+   <td>August 16, 2018</td> 
+   <td>Integrating Livefyre</td> 
+   <td>Updated <a href="https://helpx.adobe.com/experience-manager/6-4/release-notes/livefyre-feature-pack-206.html">2.0.6 feature pack release</a>, as well as the <a href="https://helpx.adobe.com/experience-manager/6-2/release-notes/feature-packs-release-notes.html">Feature Pack</a> page. </td> 
   </tr>
   <tr>
-   <td>3 augusti 2018</td> 
+   <td>August 3, 2018</td> 
    <td>AEM 6.2 Cumulative Fix Pack</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.2 Service Pack 1 är tillgängligt.</td> 
+   <td>Cumulative Fix Pack for AEM 6.2 Service Pack 1 is available.</td> 
   </tr>
   <tr>
-   <td>2 augusti 2018</td> 
-   <td>Integrera med Livefyre</td> 
-   <td>Tillagd <a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/livefyre.html">supportmatris</a> för Livefyre-appar i AEM. </td> 
+   <td>August 2, 2018</td> 
+   <td>Integrating with Livefyre</td> 
+   <td>Added <a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/livefyre.html">support matrix</a> for Livefyre apps in AEM. </td> 
   </tr>
   <tr>
-   <td>11 juni 2018</td> 
+   <td>June 11, 2018</td> 
    <td>AEM 6.2 Cumulative Fix Pack<br /> </td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.2 Service Pack 1 är tillgängligt.</td> 
+   <td>Cumulative Fix Pack for AEM 6.2 Service Pack 1 is available.</td> 
   </tr>
   <tr>
-   <td>30 april 2018</td> 
-   <td>Integrera med Livefyre</td> 
-   <td>Tillagd <a href="https://helpx.adobe.com/experience-manager/6-2/release-notes/livefyre-feature-pack-204.html">Livefyre Feature Pack 2.0.4</a>och <a href="https://helpx.adobe.com/experience-manager/6-2/release-notes/livefyre-feature-pack202.html">Livefyre Feature Pack 2.0.2</a>.</td> 
+   <td>April 30, 2018</td> 
+   <td>Integrating with Livefyre</td> 
+   <td>Added <a href="https://helpx.adobe.com/experience-manager/6-2/release-notes/livefyre-feature-pack-204.html">Livefyre Feature Pack 2.0.4</a>, and <a href="https://helpx.adobe.com/experience-manager/6-2/release-notes/livefyre-feature-pack202.html">Livefyre Feature Pack 2.0.2</a>.</td> 
   </tr>
   <tr>
-   <td>10 april 2018</td> 
+   <td>April 10, 2018</td> 
    <td>AEM 6.2 Cumulative Fix Pack</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.2 Service Pack 1 är tillgängligt.</td> 
+   <td>Cumulative Fix Pack for AEM 6.2 Service Pack 1 is available.</td> 
   </tr>
   <tr>
-   <td>12 mars 2018</td> 
+   <td>March 12, 2018</td> 
    <td>AEM 6.2 Cumulative Fix Pack</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.2 Service Pack 1 är tillgängligt.</td> 
+   <td>Cumulative Fix Pack for AEM 6.2 Service Pack 1 is available.</td> 
   </tr>
   <tr>
-   <td>13 februari 2018</td> 
+   <td>February 13, 2018</td> 
    <td>AEM 6.2 Cumulative Fix Pack</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.2 Service Pack 1 är tillgängligt.</td> 
+   <td>Cumulative Fix Pack for AEM 6.2 Service Pack 1 is available.</td> 
   </tr>
   <tr>
-   <td>18 januari 2018</td> 
+   <td>January 18, 2018</td> 
    <td>AEM 6.2 Cumulative Fix Pack</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.2 Service Pack 1 är tillgängligt.</td> 
+   <td>Cumulative Fix Pack for AEM 6.2 Service Pack 1 is available.</td> 
   </tr>
   <tr>
-   <td>8 december 2017</td> 
+   <td>December 8, 2017</td> 
    <td>AEM 6.2 Cumulative Fix Pack</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.2 Service Pack 1 är tillgängligt.</td> 
+   <td>Cumulative Fix Pack for AEM 6.2 Service Pack 1 is available.</td> 
   </tr>
   <tr>
-   <td>9 november 2017</td> 
-   <td>AEM 6.2 kumulativa korrigeringspaket</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.2 Service Pack 1 är tillgängligt.</td> 
+   <td>November 9, 2017</td> 
+   <td>AEM 6.2 Cumulative Fix Packs</td> 
+   <td>Cumulative Fix Pack for AEM 6.2 Service Pack 1 is available.</td> 
   </tr>
   <tr>
-   <td>10 oktober 2017</td> 
-   <td>AEM 6.2 Innehållsmigrering</td> 
-   <td>AEM 6.2 Dokumentationen har migrerats från docs.adobe.com till <a href="https://helpx.adobe.com/support/experience-manager/6-2.html">Helpx</a>.</td> 
+   <td>October 10, 2017</td> 
+   <td>AEM 6.2 Content Migration</td> 
+   <td>AEM 6.2 Documentation has migrated from docs.adobe.com to <a href="https://helpx.adobe.com/support/experience-manager/6-2.html">Helpx</a>.</td> 
   </tr>
   <tr>
-   <td>9 oktober 2017</td> 
-   <td>AEM 6.2 kumulativa korrigeringspaket</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.2 Service Pack 1 är tillgängligt.</td> 
+   <td>October 9, 2017</td> 
+   <td>AEM 6.2 Cumulative Fix Packs</td> 
+   <td>Cumulative Fix Pack for AEM 6.2 Service Pack 1 is available.</td> 
   </tr>
   <tr>
-   <td>12 september 2017</td> 
-   <td>AEM 6.2 kumulativa korrigeringspaket</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.2 Service Pack 1 är tillgängligt.</td> 
+   <td>September 12, 2017</td> 
+   <td>AEM 6.2 Cumulative Fix Packs</td> 
+   <td>Cumulative Fix Pack for AEM 6.2 Service Pack 1 is available.</td> 
   </tr>
   <tr>
-   <td>11 augusti 2017</td> 
-   <td>AEM 6.2 kumulativa korrigeringspaket</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.2 Service Pack 1 är tillgängligt.</td> 
+   <td>August 11, 2017</td> 
+   <td>AEM 6.2 Cumulative Fix Packs</td> 
+   <td>Cumulative Fix Pack for AEM 6.2 Service Pack 1 is available.</td> 
   </tr>
   <tr>
-   <td>5 juli 2017</td> 
-   <td>AEM 6.2 kumulativa korrigeringspaket</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.2 Service Pack 1 är tillgängligt.</td> 
+   <td>July 5, 2017</td> 
+   <td>AEM 6.2 Cumulative Fix Packs</td> 
+   <td>Cumulative Fix Pack for AEM 6.2 Service Pack 1 is available.</td> 
   </tr>
   <tr>
-   <td>5 juni 2017</td> 
-   <td>AEM 6.2 kumulativa korrigeringspaket</td> 
-   <td>Kumulativt korrigeringspaket för AEM 6.2 Service Pack 1 är tillgängligt.</td> 
+   <td>June 5, 2017</td> 
+   <td>AEM 6.2 Cumulative Fix Packs</td> 
+   <td>Cumulative Fix Pack for AEM 6.2 Service Pack 1 is available.</td> 
   </tr>
   <tr>
-   <td>12 april 2017</td> 
-   <td>HTTP/2-leverans av innehåll</td> 
-   <td><p>Adobe är glada över att kunna meddela att det finns HTTP/2-leverans av innehåll, vilket i sin helhet ger bättre prestanda.</p> <p>Se Vanliga frågor om HTTP2-leverans av innehåll.</p> </td> 
+   <td>April 12, 2017</td> 
+   <td>HTTP/2 delivery of content</td> 
+   <td><p>Adobe is excited to announce the availability of HTTP/2 delivery of content with the overall benefit of improved performance.</p> <p>See HTTP2 Delivery of Content FAQ.</p> </td> 
   </tr>
   <tr>
-   <td>12 april 2017</td> 
-   <td>Exkludera överordnad videoklipp från adaptiva videouppsättningar</td> 
-   <td><p>Om du integrerar med Scene 7 är det bäst att utesluta den överordnad videon (F4V, MP3 eller OGG) från alla adaptiva videouppsättningar som du skapar.</p> <p>Se Exkludera överordnad videoklipp från adaptiva videouppsättningar.</p> </td> 
+   <td>April 12, 2017</td> 
+   <td>Excluding master videos from adaptive video sets</td> 
+   <td><p>If you are integrating with Scene 7, it is a best practice to exclude the master video (F4V, MP3, or OGG) from any adaptive video set that you create.</p> <p>See Excluding master videos from adaptive video sets.</p> </td> 
   </tr>
   <tr>
-   <td>9 mars 2017</td> 
-   <td>Felsökningssida</td> 
-   <td>En ny felsökningssida samlar in allt AEM felsökningsmaterial på en sida.</td> 
+   <td>March 9, 2017</td> 
+   <td>Troubleshooting page</td> 
+   <td>A new troubleshooting page collects all the AEM Troubleshooting content onto one page.</td> 
   </tr>
   <tr>
-   <td>2 mars 2017</td> 
-   <td>AEM 6.2 - funktionspaket</td> 
-   <td>En ny sida med alla AEM 6.2 Features Packs är tillgänglig.</td> 
+   <td>March 2, 2017</td> 
+   <td>AEM 6.2 Feature Packs</td> 
+   <td>A new page listing all the AEM 6.2 Features Packs is available.</td> 
   </tr>
   <tr>
-   <td>2 mars 2017</td> 
-   <td>Säker leverans av video</td> 
-   <td><p><br /> Säker videoleverans är nu tillgänglig med konfigurationsattributet VideoPlayer.ssl i inbäddningskoden eller URL-sökvägen.</p> <p>Se Så här levererar du säker video i Bädda in video- eller bildvisningsprogrammet på en webbsida.</p> <p>Se Så här levererar du säker video i Länka URL:er till ditt webbprogram.</p> </td> 
+   <td>March 2, 2017</td> 
+   <td>Secure video delivery</td> 
+   <td><p><br /> Secure video delivery is now available using the VideoPlayer.ssl configuration attribute in your embed code or URL path.</p> <p>See How to deliver secure video in Embedding the Video or Image Viewer on a Web Page.</p> <p>See How to deliver secure video in Linking URLs to your Web Application.</p> </td> 
   </tr>
   <tr>
-   <td>8 februari 2017</td> 
-   <td>Exempel på utvecklarkod</td> 
-   <td>Skapade en ny sida för att hämta alla tillgängliga <a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/code-samples.html">Exempel på utvecklarkod</a> på ett och samma ställe.</td> 
+   <td>February 8, 2017</td> 
+   <td>Developer Code Samples</td> 
+   <td>Created a new page to pull all the available <a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/code-samples.html">Developer code samples</a> in one place.</td> 
   </tr>
   <tr>
-   <td>2 december 2016</td> 
+   <td>December 2, 2016</td> 
    <td>Query Builder API</td> 
-   <td>Tydlighet om när parametern p.gissaTotal ska användas i <a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/querybuilder-api.html">Query Builder API</a> dokumentation.</td> 
+   <td>Clarification of when to use the p.guessTotal parameter in the <a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/querybuilder-api.html">Query Builder API</a> documentation.</td> 
   </tr>
   <tr>
-   <td>30 november 2016</td> 
-   <td>Uppdateringar av dokumentation</td> 
-   <td>Förbättrad dokumentation för <a href="https://helpx.adobe.com/experience-manager/6-2/sites/deploying/using/performance-tree.html">Felsöka prestandaproblem</a>.</td> 
+   <td>November 30, 2016</td> 
+   <td>Performance documentation updates</td> 
+   <td>Enhanced documentation for <a href="https://helpx.adobe.com/experience-manager/6-2/sites/deploying/using/performance-tree.html">Troubleshoot Performance issues</a>.</td> 
   </tr>
   <tr>
-   <td>28 november 2016</td> 
+   <td>November 28, 2016</td> 
    <td>Enterprise DevOps</td> 
-   <td><p><a href="https://helpx.adobe.com/experience-manager/6-2/managing/using/enterprise-devops.html">Bästa metoder som lagts till för Enterprise DevOps</a>, de processer, metoder och den kommunikation som krävs för att underlätta driftsättningen av programvaran i olika miljöer.</p> </td> 
+   <td><p><a href="https://helpx.adobe.com/experience-manager/6-2/managing/using/enterprise-devops.html">Best Practices added for Enterprise DevOps</a>, the processes, methods and communication required to ease the deployment of your software across the various environments.</p> </td> 
   </tr>
   <tr>
-   <td>23 november 2016</td> 
-   <td>Dokumentation för designimportör har uppdaterats</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/extending-the-design-importer-for-landingpages.html">Förbereda designen</a> även paketdokumentationen har uppdaterats.</td> 
+   <td>November 23, 2016</td> 
+   <td>Design importer documentation updated</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/extending-the-design-importer-for-landingpages.html">Preparing the design</a> package documentation also updated.</td> 
   </tr>
   <tr>
-   <td>27 oktober 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/related-community-articles.html">Marketing Cloud integrerar communityartiklar</a></td> 
-   <td>Länkade samhörande Marketing Cloud integrerar communityartiklar med AEM innehåll.</td> 
+   <td>October 27, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/related-community-articles.html">Marketing Cloud Integrations Community Articles</a></td> 
+   <td>Linked related Marketing Cloud Integrations Community articles with AEM content.</td> 
   </tr>
   <tr>
-   <td>27 oktober 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/video-profiles.html#using%2520custom-added%2520video%2520encoding%2520parameters">Använda egna parametrar för videokodning</a></td> 
-   <td>Nu kan du redigera en befintlig videokodningsprofil för att dra nytta av avancerade videokodningsparametrar som inte finns i användargränssnittet när du skapar eller redigerar en videoprofil i AEM.</td> 
+   <td>October 27, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/video-profiles.html#using%2520custom-added%2520video%2520encoding%2520parameters">Using custom-added video encoding parameters</a></td> 
+   <td>You can now edit an existing video encoding profile to take advantage of advanced video encoding parameters that are not found in the user interface when you create or edit a Video Profile in AEM.</td> 
   </tr>
   <tr>
-   <td>25 oktober 2016</td> 
-   <td><p><a href="https://helpx.adobe.com/experience-manager/6-2/communities/using/subscriptions.html">Communities-prenumerationer</a></p> </td> 
-   <td>För AEM Communities är det nu möjligt att konfigurera en communitywebbplats för e-postprenumerationer och meddelanden om medlemsaktivitet.</td> 
+   <td>October 25, 2016</td> 
+   <td><p><a href="https://helpx.adobe.com/experience-manager/6-2/communities/using/subscriptions.html">Communities Subscriptions</a></p> </td> 
+   <td>For AEM Communities, it is now possible to configure a community site for email subscriptions and notifications of member activity.</td> 
   </tr>
   <tr>
-   <td>19 oktober 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/htl/using/related-community-articles.html">HTML-communityartiklar</a></td> 
-   <td>Länkade relaterade HTML-communityartiklar med det AEM HTML-innehållet.</td> 
+   <td>October 19, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/htl/using/related-community-articles.html">HTL Community Articles</a></td> 
+   <td>Linked related HTL Community articles with the AEM HTL content.</td> 
   </tr>
   <tr>
-   <td>13 oktober 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/msm.html#stacked%20live%20copies">MSM - staplade Live-kopior</a></td> 
-   <td>Utökade Live-kopior - Kompositioner som täcker staplade Live-kopior.</td> 
+   <td>October 13, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/msm.html#stacked%20live%20copies">MSM - Stacked Live Copies</a></td> 
+   <td>Expanded Live Copies - Compositions to cover Stacked Live Copies.</td> 
   </tr>
   <tr>
-   <td>7 oktober 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/workflows.html">Utveckla och utöka arbetsflöden</a></td> 
-   <td><p>Förbättrad dokumentation för utveckling och utökning AEM arbetsflöden, inklusive:</p> 
+   <td>October 7, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/workflows.html">Developing and Extending Workflows</a></td> 
+   <td><p>Improved the documentation for Developing and Extending AEM Workflows, including:</p> 
     <ul> 
-     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/workflows.html#transient%20workflows">Övergående arbetsflöden</a></li> 
-     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/wf-models.html">Skapa arbetsflödesmodeller</a></li> 
-     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/wf-customizing-extending.html">Utöka arbetsflödesfunktioner</a></li> 
-     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/wf-step-ref.html">Referens för arbetsflödessteg</a></li> 
-     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/wf-process-ref.html">Referens för arbetsflödesprocess</a></li> 
+     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/workflows.html#transient%20workflows">Transient Workflows</a></li> 
+     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/wf-models.html">Creating Workflow Models</a></li> 
+     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/wf-customizing-extending.html">Extending Workflow Functionality</a></li> 
+     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/wf-step-ref.html">Workflow Step Reference</a></li> 
+     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/wf-process-ref.html">Workflow Process Reference</a></li> 
     </ul> </td> 
   </tr>
   <tr>
-   <td>30 september 2016</td> 
+   <td>September 30, 2016</td> 
    <td><a href="https://helpx.adobe.com/experience-manager/6-2/communities/using/groups.html">Community Groups Console</a></td> 
-   <td><p>För AEM Communities ger gruppkonsolen åtkomst till att skapa communitygrupper när en communitywebbplats struktur innehåller <a href="https://helpx.adobe.com/experience-manager/6-2/communities/using/functions.html#groups%2520function">gruppfunktion</a>. Community-grupper (kallas även undergrupper) kan skapas från publiceringsmiljön och författarmiljön.</p> </td> 
+   <td><p>For AEM Communities, the Groups console provides access to creating community groups when a community site's structure includes the <a href="https://helpx.adobe.com/experience-manager/6-2/communities/using/functions.html#groups%2520function">groups function</a>. Community groups (also known as sub-communities) may be created from the publish environment as well as the author environment.</p> </td> 
   </tr>
   <tr>
-   <td>15 september 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/forms/using/using-web-service-rule-editor.html">Webbtjänster i regelredigeraren</a></td> 
-   <td>Flera förbättringar har gjorts i exemplet som används för att förklara hur du förkonfigurerar en webbtjänst i regelredigeraren för adaptiva formulär. Bifogade exempelfiler som kan överföras direkt till CRX så att exemplet fungerar.</td> 
+   <td>September 15, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/forms/using/using-web-service-rule-editor.html">Web services in rule editor</a></td> 
+   <td>Made several enhancements to the example used to explain how to pre-configure a web service in adaptive forms rule editor. Also, attached sample files that one can directly upload to CRX to get the example working.</td> 
   </tr>
   <tr>
-   <td>14 september 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/best-practices.html">Metodtips för utvecklare</a></td> 
-   <td>Utvecklare har nu utvecklat metodtips för: Innehållsarkitektur, Programvaruarkitektur, Kodningstips, Kodningspartiklar, JCR-interaktion och OSGI-paket.</td> 
+   <td>September 14, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/best-practices.html">Developer Best Practices</a></td> 
+   <td>Added developer best practices for: Content Architecture, Software Architecture, Coding Tips, Coding Pitfalls, JCR Interaction and OSGI Bundles.</td> 
   </tr>
   <tr>
-   <td>13 september 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/forms/using/install-configure-pdf-generator.html">Installera och konfigurera PDF Generator</a></td> 
-   <td>Dokumenterade inställningar för att använda OpenOffice-filer med AEM Forms PDF Generator.</td> 
+   <td>September 13, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/forms/using/install-configure-pdf-generator.html">Install and configure PDF Generator</a></td> 
+   <td>Documented settings to use OpenOffice files with AEM Forms PDF Generator.</td> 
   </tr>
   <tr>
-   <td>9 september 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/saml-2-0-authenticationhandler.html">SAML 2.0-autentiseringshanterare</a></td> 
-   <td>Dokumentationen har uppdaterats för att omfatta:
+   <td>September 9, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/saml-2-0-authenticationhandler.html">SAML 2.0 Authentication Handler</a></td> 
+   <td>Updated the documentation to include:
     <ul> 
-     <li>Den nya platsen för IdP-certifikatet i AEM Truststore</li> 
-     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/saml-2-0-authenticationhandler.html#add%20the%20service%20provider%20key%20and%20certificate%20chain%20to%20the%20aem%20keystore">Den nya platsen för tjänstleverantörens nyckel och certifikatkedja i AEM nyckelbehållare</a></li> 
+     <li>The new location of the IdP certificate in the AEM Truststore</li> 
+     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/saml-2-0-authenticationhandler.html#add%20the%20service%20provider%20key%20and%20certificate%20chain%20to%20the%20aem%20keystore">The new location of the Service Provider key and certificate chain in the AEM Keystore</a></li> 
     </ul> </td> 
   </tr>
   <tr>
-   <td>8 september 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/interactive-videos.html#uploading%2520a%2520video%2520and%2520its%2520associated%2520thumbnail%2520assets">Överföra en video och dess tillhörande miniatyrbilder</a></td> 
-   <td>En hyperlänk har lagts till i <a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/interactive-videos.html#uploading%2520a%2520video%2520and%2520its%2520associated%2520thumbnail%2520assets">Överföra en video och dess tillhörande miniatyrbilder</a> ämne. </td> 
+   <td>September 8, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/interactive-videos.html#uploading%2520a%2520video%2520and%2520its%2520associated%2520thumbnail%2520assets">Uploading a video and its associated thumbnail assets</a></td> 
+   <td>Added a hyperlink to <a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/interactive-videos.html#uploading%2520a%2520video%2520and%2520its%2520associated%2520thumbnail%2520assets">Uploading a video and its associated thumbnail assets</a> topic. </td> 
   </tr>
   <tr>
-   <td>1 september 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/msm.html">Hantering av flera webbplatser</a></td> 
+   <td>September 1, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/msm.html">Multi Site Management</a></td> 
    <td>
     <ul> 
-     <li>Nytt avsnitt: <a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/msm.html#live%20copies%20-%20composition">Live-kopior - komposition</a></li> 
-     <li>Förbättringar av: <a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/extending-msm.html#overview%20of%20the%20java%20api">Utöka MSM - översikt över Java API</a></li> 
+     <li>New section: <a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/msm.html#live%20copies%20-%20composition">Live Copies - Composition</a></li> 
+     <li>Improvements to: <a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/extending-msm.html#overview%20of%20the%20java%20api">Extending MSM - Overview of the Java API</a></li> 
     </ul> </td> 
   </tr>
   <tr>
-   <td>25 augusti 2016</td> 
+   <td>August 25, 2016</td> 
    <td><a href="https://helpx.adobe.com/experience-manager/using/ecommerce62.html">eCommerce</a></td> 
-   <td>Länkar till nya <a href="https://helpx.adobe.com/experience-manager/using/ecommerce62.html">AEM Community-artikel: Skapa anpassade e-handelsanslutningar</a> ingår i e-handelsdokumentationen.</td> 
+   <td>Links to the new <a href="https://helpx.adobe.com/experience-manager/using/ecommerce62.html">AEM Community article: Creating Custom eCommerce connectors</a> is included in the eCommerce documentation.</td> 
   </tr>
   <tr>
-   <td>24 augusti 2016</td> 
+   <td>August 24, 2016</td> 
    <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/ht-projects-maven.html">Adobe UberJar</a></td> 
-   <td>AEM 6.2 UberJar, som innehåller alla offentliga Java API:er som exponeras av Adobe Experience Manager, är nu allmänt tillgängliga och dokumenterade.</td> 
+   <td>The AEM 6.2 UberJar, containing all public Java APIs exposed by Adobe Experience Manager is now publicly availalble and documented.</td> 
   </tr>
   <tr>
-   <td>24 augusti 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/workflows.html">Administrera arbetsflöden</a></td> 
-   <td>Förbättrad administration av dokumentation för AEM arbetsflöden, inklusive:
+   <td>August 24, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/workflows.html">Administering Workflows</a></td> 
+   <td>Improved Administering documentation for AEM Workflows, including:
     <ul> 
-     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/wf-starting.html">Starta arbetsflöden</a></li> 
-     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/wf-administering.html">Administrera arbetsflödesinstanser</a></li> 
-     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/wf-managing.html">Hantera åtkomst till arbetsflöden</a></li> 
+     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/wf-starting.html">Starting Workflows</a></li> 
+     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/wf-administering.html">Administering Workflow Instances</a></li> 
+     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/wf-managing.html">Managing Access to Workflows</a></li> 
     </ul> </td> 
   </tr>
   <tr>
-   <td>22 augusti 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/managing/using/seo-and-url-management.html">SEO- och URL-hantering</a></td> 
-   <td>Förbättrad dokumentation för AEM 6.2 SEO och URL Management.</td> 
+   <td>August 22, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/managing/using/seo-and-url-management.html">SEO and URL Management</a></td> 
+   <td>Improved AEM 6.2 SEO and URL Management documentation.</td> 
   </tr>
   <tr>
-   <td>17 augusti 2016</td> 
-   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Konfigurera autentisering</a></td> 
-   <td>Behåller till <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Konfigurera Dynamic Media</a>.<br /> Förbättrade steg för att skapa tydligare autentisering.<br /> </td> 
+   <td>August 17, 2016</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Setting up authentication</a></td> 
+   <td>Pertains to <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Configuring Dynamic Media</a>.<br /> Improved steps to make setting up authentication clearer.<br /> </td> 
   </tr>
   <tr>
-   <td>17 augusti 2016</td> 
-   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Konfigurera replikeringsagenten</a></td> 
-   <td>Behåller till <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Konfigurera Dynamic Media</a>.<br /> Förbättrade steg för att göra konfigurationen av replikeringsagenten tydligare.</td> 
+   <td>August 17, 2016</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Configuring the Replication Agent</a></td> 
+   <td>Pertains to <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Configuring Dynamic Media</a>.<br /> Improved steps to make configuration of the Replication Agent clearer.</td> 
   </tr>
   <tr>
-   <td>17 augusti 2016</td> 
-   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Felsökning av autentisering</a></td> 
-   <td>Behåller till <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Konfigurera Dynamic Media</a>.<br /> Tre nya felsökningsämnen för autentisering har lagts till.</td> 
+   <td>August 17, 2016</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Troubleshooting Authentication</a></td> 
+   <td>Pertains to <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Configuring Dynamic Media</a>.<br /> Added three new troubleshooting authentication topics.</td> 
   </tr>
   <tr>
-   <td>4 augusti 2016</td> 
+   <td>August 4, 2016</td> 
    <td><a href="https://helpx.adobe.com/experience-manager/6-2/mobile/using/getting-started-with-aem-mobile.html">AEM 6.2 Mobile</a></td> 
-   <td>Förbättrad AEM 6.2 Mobile-dokumentation.</td> 
+   <td>Improved AEM 6.2 Mobile documentation.</td> 
   </tr>
   <tr>
-   <td>4 augusti 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/translation.html">AEM 6.2 Översättningsfunktion</a></td> 
-   <td>Lagt till nytt innehåll som beskriver den nya 6.2-funktionen.</td> 
+   <td>August 4, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/translation.html">AEM 6.2 Translation feature</a></td> 
+   <td>Added new content to describe the new 6.2 feature.</td> 
   </tr>
   <tr>
-   <td>30 juli 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/htl/using/overview.html">HTML mallspråk</a></td> 
-   <td>Förbättrad HTML-dokumentation tidigare (sällan).</td> 
+   <td>July 30, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/htl/using/overview.html">HTML Template Language</a></td> 
+   <td>Improved HTL formerly (Sightly) documentation.</td> 
   </tr>
   <tr>
-   <td>22 juli 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/authoring/using/workflows.html">Arbeta med arbetsflöden</a></td> 
-   <td><p>Förbättrad redigeringsdokumentation för AEM arbetsflöden, inklusive:</p> 
+   <td>July 22, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/authoring/using/workflows.html">Working with Workflows</a></td> 
+   <td><p>Improved Authoring documentation for AEM Workflows, including:</p> 
     <ul> 
-     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/authoring/using/applying-workflows.html">Använda arbetsflöden på sidor</a></li> 
-     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/authoring/using/participating-workflows.html">Delta i arbetsflöden</a></li> 
+     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/authoring/using/applying-workflows.html">Applying Workflows to Pages</a></li> 
+     <li><a href="https://helpx.adobe.com/experience-manager/6-2/sites/authoring/using/participating-workflows.html">Participating in Workflows</a></li> 
     </ul> </td> 
   </tr>
   <tr>
-   <td>20 juli 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/reference-materials/coral-ui/home/index.html">Gränssnittsreferens för Coral</a></td> 
-   <td>API-referens för Coral UI (Touch-Optimized UI) är nu tillgänglig.</td> 
+   <td>July 20, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/reference-materials/coral-ui/home/index.html">Coral UI Reference</a></td> 
+   <td>Coral UI API Reference (Touch-Optimized UI) now available.</td> 
   </tr>
   <tr>
-   <td>16 juli 2016</td> 
+   <td>July 16, 2016</td> 
    <td>eCommerce Connector</td> 
-   <td>AEM 6.2 eCommerce Connector-dokumentation innehåller nu information om hur du <a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/demandware.html">administrera</a> Demandware.</td> 
+   <td>AEM 6.2 eCommerce Connector documentation now includes details on how to <a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/demandware.html">administer</a> Demandware.</td> 
   </tr>
  </tbody>
 </table>
@@ -1287,223 +1290,223 @@ Följande versioner har flyttats:
 <table> 
  <tbody>
   <tr>
-   <td>Datum</td> 
-   <td>Ämne</td> 
-   <td>Ändringar</td> 
+   <td>Date</td> 
+   <td>Topic</td> 
+   <td>Changes</td> 
   </tr>
   <tr>
-   <td>22 december 2016</td> 
+   <td>December 22, 2016</td> 
    <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">AEM Assets 6.2 FP2</a></td> 
-   <td>Det här funktionspaketet innehåller nya förbättringar för skalbarhet, prestanda och användbarhet för AEM 6.2-kunder. Funktionspaketet innehåller även stöd för anpassade videominiatyrer och Dynamic Media färghanteringsfunktioner.</td> 
+   <td>This feature pack includes new scalability, performance, usability improvements for AEM 6.2 customers. The feature pack also includes support for custom video thumbnails and Dynamic Media color management capabilities.</td> 
   </tr>
   <tr>
-   <td>22 november 2016</td> 
+   <td>November 22, 2016</td> 
    <td><a href="https://docs.adobe.com/content/docs/en/aem/6-1/administer/content/assets/aem-assets-6-1-feature-pack-1.html">AEM Assets 6.1 FP1</a></td> 
-   <td>Det här funktionspaketet innehåller skalbarhet, prestanda och användbarhetsförbättringar för AEM Assets 6.1.</td> 
+   <td>This feature pack includes scalability, performance, and usability improvements for AEM Assets 6.1.</td> 
   </tr>
   <tr>
-   <td>18 november 2016</td> 
-   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Dynamic Media färgkorrigering</a></td> 
-   <td>Instruktioner om hur du kan färgkorrigera Dynamic Media-resurser innan du förhandsgranskar dem.</td> 
+   <td>November 18, 2016</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Dynamic Media color correction</a></td> 
+   <td>Instructions on how you can color correct Dynamic Media assets before previewing them.</td> 
   </tr>
   <tr>
-   <td>18 november 2016</td> 
-   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Konfigurerar avbildningsreplikering</a></td> 
-   <td>Bevarar nya instruktioner för konfiguration av bildreplikering.</td> 
+   <td>November 18, 2016</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html">Configuring Image Replication</a></td> 
+   <td>Pertains to new instructions for configuring image replication.</td> 
   </tr>
   <tr>
-   <td>4 november 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/assets-offloading-best-practices.html">Metodtips för att avlasta resurser</a></td> 
-   <td>Bästa praxis och användningsexempel kring avlastning av AEM Assets.</td> 
+   <td>November 4, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/assets-offloading-best-practices.html">Assets Offloading Best Practices</a></td> 
+   <td>Best practices and use cases around AEM Assets offloading.</td> 
   </tr>
   <tr>
-   <td>3 november 2016</td> 
-   <td>Uppdaterade tekniska krav för Dynamic Media <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">6.1</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">6.2</a></td> 
-   <td>Omdistribuerbara Visual Studio C++-filer har uppdaterats för tekniska krav.</td> 
+   <td>November 3, 2016</td> 
+   <td>Updated Dynamic Media Technical Requirements <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">6.1</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">6.2</a></td> 
+   <td>Updated Visual Studio C++ redistributables for technical requirements.</td> 
   </tr>
   <tr>
-   <td>2 november 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/assets-file-format-best-practices.html">Metodtips för resursfilformat</a></td> 
-   <td>Metodtips om filstöd i AEM Assets.</td> 
+   <td>November 2, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/assets-file-format-best-practices.html">Assets File Format Best Practices</a></td> 
+   <td>Best practices around file support within AEM Assets.</td> 
   </tr>
   <tr>
-   <td>19 oktober 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/assets-monitoring-best-practices.html">Metodtips för resursövervakning</a></td> 
-   <td>AEM Assets övervakningsmetoder</td> 
+   <td>October 19, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/assets-monitoring-best-practices.html">Assets Monitoring Best Practices</a></td> 
+   <td>AEM Assets monitoring best practices</td> 
   </tr>
   <tr>
-   <td>17 oktober 2016</td> 
+   <td>October 17, 2016</td> 
    <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Dynamic Media Viewers</a></td> 
-   <td>AEM 6.2-visningsprogram finns nu i AEM 6.1.</td> 
+   <td>AEM 6.2 viewers now available in AEM 6.1.</td> 
   </tr>
   <tr>
-   <td>11 oktober 2016</td> 
+   <td>October 11, 2016</td> 
    <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Dynamic Media Color Management</a></td> 
-   <td>Nytt funktionspaket för AEM 6.1 som gör att du kan färgkorrigera Dynamic Media-resurser innan du förhandsgranskar dem.</td> 
+   <td>New feature pack for AEM 6.1 that lets you color correct Dynamic Media assets before previewing them.</td> 
   </tr>
   <tr>
-   <td>21 september 2016</td> 
-   <td>AEM <a href="https://docs.adobe.com/content/docs/en/aem/6-1/administer/content/assets/assets-formats.html">6.1</a></td> 
-   <td>Ytterligare information om inbyggt stöd för PSB-bilder</td> 
+   <td>September 21, 2016</td> 
+   <td>AEM Asset Formats <a href="https://docs.adobe.com/content/docs/en/aem/6-1/administer/content/assets/assets-formats.html">6.1</a></td> 
+   <td>Added info on native support for PSB images</td> 
   </tr>
   <tr>
-   <td>16 september 2016</td> 
-   <td><a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html">Versionsinformation om AEM Assets Desktop App 1.3</a></td> 
-   <td>Versionsinformation om AEM Assets Desktop App 1.3<br /> </td> 
+   <td>September 16, 2016</td> 
+   <td><a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html">AEM Assets Desktop App 1.3 Release Notes</a></td> 
+   <td>Release notes for AEM Assets Desktop App 1.3<br /> </td> 
   </tr>
   <tr>
-   <td>16 september 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html">AEM Assets-datorprogram</a></td> 
-   <td>Tillagda uppdateringar för datorprogram version 1.3 </td> 
+   <td>September 16, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html">AEM Assets Desktop App</a></td> 
+   <td>Added updates for Desktop App version 1.3 </td> 
   </tr>
   <tr>
-   <td>17 augusti 2016</td> 
-   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Konfigurera autentisering</a></td> 
-   <td>Behåller till <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Konfigurera Dynamic Media</a>.<br /> Förbättrade steg för att skapa tydligare autentisering.</td> 
+   <td>August 17, 2016</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Setting up authentication</a></td> 
+   <td>Pertains to <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Setting up Dynamic Media</a>.<br /> Improved steps to make setting up authentication clearer.</td> 
   </tr>
   <tr>
-   <td>17 augusti 2016<br /> </td> 
-   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Konfigurera replikeringsagenten</a></td> 
-   <td>Behåller till <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Konfigurera Dynamic Media</a>.<br /> Förbättrade steg för att göra konfigurationen av replikeringsagenten tydligare.</td> 
+   <td>August 17, 2016<br /> </td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Configuring the Replication Agent</a></td> 
+   <td>Pertains to <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Setting up Dynamic Media</a>.<br /> Improved steps to make configuration of the Replication Agent clearer.</td> 
   </tr>
   <tr>
-   <td>17 augusti 2016</td> 
-   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Felsökning av autentisering</a></td> 
-   <td>Behåller till <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Konfigurera Dynamic Media</a>.<br /> Tre nya felsökningsämnen för autentisering har lagts till.</td> 
+   <td>August 17, 2016</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Troubleshooting Authentication</a></td> 
+   <td>Pertains to <a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en">Setting up Dynamic Media</a>.<br /> Added three new troublshooting authentication topics.</td> 
   </tr>
   <tr>
-   <td>12 augusti 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/best-practices-for-assets.html">Metodtips för Assets</a></td> 
-   <td>Landningssida som länkar ut till bästa praxis-dokument</td> 
+   <td>August 12, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/best-practices-for-assets.html">Best Practices for Assets</a></td> 
+   <td>Landing page that links out to all best practice docs</td> 
   </tr>
   <tr>
-   <td>12 augusti 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/performance-tuning-guidelines.html">Justeringshandbok för resursprestanda</a></td> 
-   <td>Guide för prestandajustering</td> 
+   <td>August 12, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/performance-tuning-guidelines.html">Assets Performance Tuning Guide</a></td> 
+   <td>Performance tuning guide</td> 
   </tr>
   <tr>
-   <td>12 augusti 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/assets-sizing-guide.html">Handbok för resursstorlek</a></td> 
-   <td>AEM Assets riktlinjer för storleksändring</td> 
+   <td>August 12, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/assets-sizing-guide.html">Assets Sizing Guide</a></td> 
+   <td>AEM Assets sizing guidelines</td> 
   </tr>
   <tr>
-   <td>12 augusti 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/assets-migration-guide.html">Handbok för resursmigrering</a></td> 
-   <td>Steg för att migrera resurser till AEM</td> 
+   <td>August 12, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/assets-migration-guide.html">Assets Migration Guide</a></td> 
+   <td>Steps to migrate assets to AEM</td> 
   </tr>
   <tr>
-   <td>12 augusti 2016</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/assets-network-considerations.html">Resurser - nätverksaspekter</a></td> 
-   <td>Guide för nätverkstopologi för att förstå nätverksprestanda</td> 
+   <td>August 12, 2016</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-2/assets/using/assets-network-considerations.html">Assets Network Considerations</a></td> 
+   <td>Network topology guide to understand network performance</td> 
   </tr>
  </tbody>
 </table>
 
 ## Dispatcher {#dispatcher}
 
-| Datum | Ämne | Ändringar |
+| Date |Topic |Changes |
 |---|---|---|
-| 26 september 2016 | [Checklistan för Dispatcher-säkerhet](https://helpx.adobe.com/experience-manager/dispatcher/using/security-checklist.html) | Förbättrade checklistan för Dispatcher-säkerhet med nya rekommendationer. |
-| 26 september 2016 | [Konfigurera Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#filter%2520section) | Flera ändringar har gjorts för att markera att /allow inte ska användas med /glob vid konfigurering av /filters eftersom det kan leda till att filter kringgås. |
+| September 26, 2016 | [The Dispatcher Security Checklist](https://helpx.adobe.com/experience-manager/dispatcher/using/security-checklist.html) |Enhanced the Dispatcher Security Checklist with new recommendations. |
+| September 26, 2016 | [Configuring Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#filter%2520section) |Made several changes to highlight that /allow should not be used with /glob when configuring /filters as it can lead to filters being bypassed. |
 
 ## Livefyre {#livefyre}
 
 <table> 
  <tbody>
   <tr>
-   <td>Datum</td> 
-   <td>Ämne</td> 
-   <td>Ändringar</td> 
+   <td>Date</td> 
+   <td>Topic</td> 
+   <td>Changes</td> 
   </tr>
   <tr>
-   <td>3 april 2017</td> 
-   <td>AEM 6.3 och Livefyre-integrering</td> 
-   <td>Skapade och lade till en ny video om hur du installerar och konfigurerar Livefyre för AEM.</td> 
+   <td>April 3, 2017</td> 
+   <td>AEM 6.3 and Livefyre Integration</td> 
+   <td>Created and added new video on how to install and configure Livefyre for AEM.</td> 
   </tr>
   <tr>
-   <td>30 mars 2017<br /> </td> 
-   <td>Versionsinformation</td> 
-   <td>Versionsinformation om 30 mars 2017, Livefyre.</td> 
+   <td>March 30, 2017<br /> </td> 
+   <td>Release Notes</td> 
+   <td>Release notes for the March 30, 2017, Livefyre release.</td> 
   </tr>
   <tr>
-   <td>23 februari 2017</td> 
-   <td><p><a href="http://answers.livefyre.com/product/storify-2/createastory/">Skapa en Storify 2</a></p> </td> 
-   <td>Uppdaterad dokumentation som återspeglar ett nytt alternativ för att öppna ett Modal-fönster när en besökare delar en länk till ett Storify 2-inlägg.</td> 
+   <td>February 23, 2017</td> 
+   <td><p><a href="http://answers.livefyre.com/product/storify-2/createastory/">Create a Storify 2</a></p> </td> 
+   <td>Updated documentation to reflect a new option to open a Modal window when a site visitor shares a link to a Storify 2 post.</td> 
   </tr>
   <tr>
-   <td>23 februari 2017</td> 
-   <td><a href="http://answers.livefyre.com/product/studio-v2/streams/creating-streams/add-rules-for-your-stream/add-instagram-rules/">Lägg till Instagram-regler</a></td> 
-   <td>Studio-användare kan nu skapa strömregler som inkluderar en specifik incheckningsplats på Instagram.</td> 
+   <td>February 23, 2017</td> 
+   <td><a href="http://answers.livefyre.com/product/studio-v2/streams/creating-streams/add-rules-for-your-stream/add-instagram-rules/">Add Instagram Rules</a></td> 
+   <td>Studio Users can now create stream rules that include a specific check-in location on Instagram.</td> 
   </tr>
   <tr>
-   <td>26 oktober 2016</td> 
-   <td><a href="https://answers.livefyre.com/product/studio-v2/apps/customizing-apps/">Anpassa appar</a></td> 
-   <td>Uppdaterad dokumentation som visar hur inställningarna fungerar för att styra svar på kommentarer. </td> 
+   <td>October 26, 2016</td> 
+   <td><a href="https://answers.livefyre.com/product/studio-v2/apps/customizing-apps/">Customizing Apps</a></td> 
+   <td>Updated documentation to reflect how settings work to control replies to comments. </td> 
   </tr>
   <tr>
-   <td>26 oktober 2016</td> 
-   <td><a href="https://answers.livefyre.com/product/studio-v2/streams/creating-streams/">Skapa strömmar</a></td> 
-   <td>Uppdaterad dokumentation för RSS-strömmar för att återspegla nya funktioner för att välja hur innehåll ska hämtas från strömmar.</td> 
+   <td>October 26, 2016</td> 
+   <td><a href="https://answers.livefyre.com/product/studio-v2/streams/creating-streams/">Creating streams</a></td> 
+   <td>Updated RSS Streams documentation to reflect new functionality for choosing how to obtain content from streams.</td> 
   </tr>
   <tr>
-   <td>26 oktober 2016</td> 
-   <td><a href="https://answers.livefyre.com/product/storify-2/createastory/">Skapa en artikel</a></td> 
-   <td>Storify 2-designerbeskrivningen har uppdaterats för att lägga till nya funktioner för att visa mer.</td> 
+   <td>October 26, 2016</td> 
+   <td><a href="https://answers.livefyre.com/product/storify-2/createastory/">Create a Story</a></td> 
+   <td>Updated Storify 2 designer description to add new show more functionality.</td> 
   </tr>
   <tr>
-   <td>26 oktober 2016</td> 
-   <td><a href="https://answers.livefyre.com/developers/reference/architecture/">Arkitektur</a></td> 
-   <td>Uppdaterade och fasta bildlänkar.</td> 
+   <td>October 26, 2016</td> 
+   <td><a href="https://answers.livefyre.com/developers/reference/architecture/">Architecture</a></td> 
+   <td>Updated and fixed image links.</td> 
   </tr>
   <tr>
-   <td>21 oktober 2016</td> 
-   <td><a href="https://answers.livefyre.com/product/studio-v2/apps/customizing-apps/#CommentsOptions">Kommentarer</a></td> 
-   <td>Sidan Kommentarer har uppdaterats så att den innehåller nya funktioner för befintliga alternativ.</td> 
+   <td>October 21, 2016</td> 
+   <td><a href="https://answers.livefyre.com/product/studio-v2/apps/customizing-apps/#CommentsOptions">Comments</a></td> 
+   <td>Updated Comments page to include new functionality for existing options.</td> 
   </tr>
   <tr>
-   <td>21 oktober 2016</td> 
-   <td><a href="https://answers.livefyre.com/developers/cms-plugins/livefyre-for-adobe-experience-manager/">Livefyre för AEM</a></td> 
-   <td>Uppdaterat Livefyre för AEM sida för att minska oklarheter om vilket AEM som ska laddas ned för att använda Livefyre med AEM 6.1 eller AEM 6.2.</td> 
+   <td>October 21, 2016</td> 
+   <td><a href="https://answers.livefyre.com/developers/cms-plugins/livefyre-for-adobe-experience-manager/">Livefyre for AEM</a></td> 
+   <td>Updated Livefyre for AEM page to reduce ambiguity about which AEM package to download to use Livefyre with AEM 6.1 or AEM 6.2.</td> 
   </tr>
   <tr>
-   <td>21 oktober 2016</td> 
-   <td><a href="https://answers.livefyre.com/developers/reference/release-notes/october-20-2016/">Versionsinformation</a></td> 
-   <td>Versionsinformation om Livefyre-utgåvan 2016-10-20.</td> 
+   <td>October 21, 2016</td> 
+   <td><a href="https://answers.livefyre.com/developers/reference/release-notes/october-20-2016/">Release Notes</a></td> 
+   <td>Release Notes for the 10/20/2016 release of Livefyre.</td> 
   </tr>
   <tr>
-   <td>14 oktober 2016</td> 
-   <td><a href="https://answers.livefyre.com/announcements/end-of-livefyre-community-comments/">Meddelanden</a></td> 
-   <td>Skapade sida för Livefyre Community Comments som kom till slutet och skickade e-post till kunder.</td> 
+   <td>October 14, 2016</td> 
+   <td><a href="https://answers.livefyre.com/announcements/end-of-livefyre-community-comments/">Announcements</a></td> 
+   <td>Created page for Livefyre Community Comments coming to an end and sent email to customers.</td> 
   </tr>
   <tr>
-   <td>7 oktober 2016</td> 
-   <td>Produkt</td> 
-   <td>Ett verktygstips för den nya funktionen för oändlig bläddring i Storify 2 har redigerats.</td> 
+   <td>October 7, 2016</td> 
+   <td>Product</td> 
+   <td>Edited a tooltip for new Storify 2 infinite scrolling feature.</td> 
   </tr>
   <tr>
-   <td>29 september 2016</td> 
-   <td><a href="https://answers.livefyre.com/developers/reference/release-notes/september-29-2016/">Versionsinformation</a></td> 
-   <td>Publicerade versionsinformation om Livefyre 2016-09-29.</td> 
+   <td>September 29, 2016</td> 
+   <td><a href="https://answers.livefyre.com/developers/reference/release-notes/september-29-2016/">Release Notes</a></td> 
+   <td>Published release notes for 9/29/2016 release of Livefyre.</td> 
   </tr>
   <tr>
-   <td>29 september 2016</td> 
-   <td><a href="https://answers.livefyre.com/product/studio-v2/settings/network-settings/#translationsets">Ändrade översättningsuppsättningar</a></td> 
-   <td>Ändrad översättningsdokumentation som åtgärdar problem med länkar och sidor.</td> 
+   <td>September 29, 2016</td> 
+   <td><a href="https://answers.livefyre.com/product/studio-v2/settings/network-settings/#translationsets">Modified Translation Sets</a></td> 
+   <td>Modified Translation Sets documentation to correct some linking and page issues.</td> 
   </tr>
   <tr>
-   <td>22 september 2016</td> 
+   <td>September 22, 2016</td> 
    <td><a href="https://answers.livefyre.com/developers/cms-plugins/livefyre-for-adobe-experience-manager/">AEM Sites Package Documentation</a></td> 
-   <td>Uppdaterade responses.livefyre.com för att inkludera uppdateringar av Livefyre-AEM integrering i 6.2 och 6.1. </td> 
+   <td>Updated answers.livefyre.com to include updates to the Livefyre AEM integration in 6.2 and 6.1. </td> 
   </tr>
   <tr>
-   <td>22 september 2016<a href="https://answers.livefyre.com/product/features-2/content-integration/#FriendMentions"></a></td> 
-   <td><a href="https://answers.livefyre.com/product/features-2/content-integration/#FriendMentions">Vänomnämnanden</a></td> 
-   <td>Borttagen dokumentation som felaktigt angav att du kan @nge någon i kommentarer med Twitter.</td> 
+   <td>September 22, 2016<a href="https://answers.livefyre.com/product/features-2/content-integration/#FriendMentions"></a></td> 
+   <td><a href="https://answers.livefyre.com/product/features-2/content-integration/#FriendMentions">Friend Mentions</a></td> 
+   <td>Removed documentation that incorrectly stated that you can @mention someone in comments using Twitter.</td> 
   </tr>
   <tr>
-   <td>22 september 2016</td> 
-   <td><a href="https://answers.livefyre.com/product/studio-v2/streams/creating-streams/">Skapa strömmar</a></td> 
-   <td>Dokumentationen för att skapa strömmar har uppdaterats för att återspegla nya förändringar i Livefyre-strömmar.</td> 
+   <td>September 22, 2016</td> 
+   <td><a href="https://answers.livefyre.com/product/studio-v2/streams/creating-streams/">Creating Streams</a></td> 
+   <td>Updated the Creating Streams documentation to reflect new changes in Livefyre streams.</td> 
   </tr>
  </tbody>
 </table>
@@ -1513,156 +1516,158 @@ Följande versioner har flyttats:
 <table> 
  <tbody>
   <tr>
-   <td>Datum</td> 
-   <td>Ämne</td> 
-   <td>Ändringar</td> 
+   <td>Date</td> 
+   <td>Topic</td> 
+   <td>Changes</td> 
   </tr>
   <tr>
-   <td>20 dec 2019</td> 
-   <td>Konfigurationsvideor och vanliga frågor och svar har uppdaterats</td> 
-   <td><p>Brand Portal 6.4.5 är en funktionsrelease som fokuserar på att ge Brand Portal-användare (externa byråer/team) möjlighet att överföra innehåll till Brand Portal och publicera till AEM Assets, utan att de behöver ha tillgång till redigeringsmiljön. Den här funktionen kallas <strong>Resurshantering i Brand Portal</strong>.</p> <p>Dokumentationen innehåller följande viktiga uppdateringar:</p> 
+   <td>Dec 20, 2019</td> 
+   <td>Configuration videos and FAQs updated</td> 
+   <td><p>Brand Portal 6.4.5 is a feature release that focuses on providing Brand Portal users (external agencies/teams) with the ability to upload content to Brand Portal and publish to AEM Assets, without needing access to the author environment. This feature is called <strong>Asset Sourcing in Brand Portal</strong>.</p> <p>The documentation covers the following major updates:</p> 
     <ul> 
-     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en">Funktionsvideo</a> som visar det övergripande arbetsflödet för Resurser i Brand Portal.<br /> </li> 
-     <li>Ny video har lagts till den <a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-configure-asset-sourcing.html">Så här konfigurerar du resurskälla i AEM Assets</a>.</li> 
-     <li>Ny video har lagts till den <a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/configure-contribution-folder/brand-portal-contribution-folder.html">Konfigurera Contribute-mappen i AEM Assets</a>.</li> 
-     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-faqs.html?lang=en">Vanliga frågor</a> i Resurser.</li> 
+     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en">Feature video</a> added demonstrating the overall workflow of Asset Sourcing in Brand Portal.<br /> </li> 
+     <li>New video added on <a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-configure-asset-sourcing.html">How to Configure Asset Sourcing in AEM Assets</a>.</li> 
+     <li>New video added on <a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/configure-contribution-folder/brand-portal-contribution-folder.html">How to Configure Contribution folder in AEM Assets</a>.</li> 
+     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-faqs.html?lang=en">Frequently Asked Questions</a> in Asset Sourcing.</li> 
     </ul> </td> 
   </tr>
   <tr>
-   <td>20 nov 2019 </td> 
-   <td>Funktionsvideor och konfigurationsartiklar för resurskälla</td> 
-   <td><p>Brand Portal 6.4.5 är en funktionsrelease som fokuserar på att ge Brand Portal-användare (externa byråer/team) möjlighet att överföra innehåll till Brand Portal och publicera till AEM Assets, utan att de behöver ha tillgång till redigeringsmiljön. Den här funktionen kallas <strong>Resurshantering i Brand Portal</strong>.</p> <p>Dokumentationen innehåller följande viktiga uppdateringar:</p> 
+   <td>Nov 20, 2019 </td> 
+   <td>Asset Sourcing feature video and configuraiton articles</td> 
+   <td><p>Brand Portal 6.4.5 is a feature release that focuses on providing Brand Portal users (external agencies/teams) with the ability to upload content to Brand Portal and publish to AEM Assets, without needing access to the author environment. This feature is called <strong>Asset Sourcing in Brand Portal</strong>.</p> <p>The documentation covers the following major updates:</p> 
     <ul> 
-     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en">Funktionsvideo</a> som visar det övergripande arbetsflödet för Resurser i Brand Portal.</li> 
-     <li><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/configure-contribution-folder/brand-portal-contribution-folder.html">Konfigurera Contribute-mappen i AEM Assets</a></li> 
-     <li><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/using-asset-sourcing/brand-portal-overiew-using-asset-sourcing.html">Använda Resurser för att publicera material i mappen för bidrag till AEM Assets</a></li> 
+     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en">Feature video</a> added demonstrating the overall workflow of Asset Sourcing in Brand Portal.</li> 
+     <li><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/configure-contribution-folder/brand-portal-contribution-folder.html">Configure Contribution folder in AEM Assets</a></li> 
+     <li><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/using-asset-sourcing/brand-portal-overiew-using-asset-sourcing.html">Using Asset Sourcing to publish contribution folder's assets to AEM Assets</a></li> 
     </ul> </td> 
   </tr>
   <tr>
-   <td>11 nov 2019 </td> 
-   <td>Brand Portal FAQs introducerades</td> 
-   <td>Dokumentationen innehåller följande viktiga uppdateringar:
+   <td>Nov 11, 2019 </td> 
+   <td>Brand Portal FAQs introduced</td> 
+   <td>The documentation covers the following major updates:
     <ul> 
-     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-faqs.html?lang=en">Vanliga frågor</a> i Brand Portal Asset Source.</li> 
-     <li>Uppdaterad dokumentation för <a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en">Resurshantering i Brand Portal</a>.</li> 
+     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-faqs.html?lang=en">Frequently Asked Questions</a> in Brand Portal Asset Sourcing.</li> 
+     <li>Updated documentation for <a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en">Asset Sourcing in Brand Portal</a>.</li> 
     </ul> </td> 
   </tr>
   <tr>
-   <td>10 oktober 2019 </td> 
-   <td>Resurshantering i Brand Portal</td> 
-   <td><p>Dokumentation om hur du konfigurerar Resurser i AEM Assets och relaterade artiklar.</p> <p>Se, <a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en">Resurshantering i Brand Portal</a> för funktionsdokumentationen.</p> </td> 
+   <td>October 10, 2019 </td> 
+   <td>Asset Sourcing in Brand Portal</td> 
+   <td><p>Documentation on how to configure Asset Sourcing in AEM Assets and and related articles.</p> <p>See, <a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en">Asset Sourcing in Brand Portal</a> for the feature documentation.</p> </td> 
   </tr>
   <tr>
-   <td>28 september 2019</td> 
-   <td>AEM Assets Brand Portal 6.4.5</td> 
-   <td><p>Brand Portal 6.4.5 är en funktionsrelease som fokuserar på att ge Brand Portal-användare (externa byråer/team) möjlighet att överföra innehåll till Brand Portal och publicera till AEM Assets, utan att de behöver ha tillgång till redigeringsmiljön. Den här funktionen kallas <strong>Resurshantering i Brand Portal</strong>.</p> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/whats-new.html?lang=en#what-changed-in-645">Nyheter i Brand Portal 6.4.5</a></p> </td> 
+   <td>September 28, 2019</td> 
+   <td>AEM Assets Brand Portal 6.4.5 release</td> 
+   <td><p>Brand Portal 6.4.5 is a feature release that focuses on providing Brand Portal users (external agencies/teams) with the ability to upload content to Brand Portal and publish to AEM Assets, without needing access to the author environment. This feature is called <strong>Asset Sourcing in Brand Portal</strong>.</p> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/whats-new.html?lang=en#what-changed-in-645">What's New in Brand Portal 6.4.5</a></p> </td> 
   </tr>
   <tr>
-   <td>8 augusti 2019</td> 
-   <td>AEM Assets Brand Portal 6.4.4.7 och 6.4.4.6</td> 
-   <td><p>Programfixar släppta i BP 6.4.4.7 och BP 6.4.4.6</p> 
+   <td>August 8, 2019</td> 
+   <td>AEM Assets Brand Portal 6.4.4.7 and 6.4.4.6 release</td> 
+   <td><p>Hotfixes released in BP 6.4.4.7 and BP 6.4.4.6</p> 
     <ul> 
-     <li><strong>BP 6.4.4.7</strong> - Optimera användarsynkroniseringsprocessen för att förhindra samtidig körning.</li> 
-     <li><strong>BP 6.4.4.6</strong> - Prestandaoptimeringar för generering av nedladdningsrapporter.</li> 
-    </ul> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html?lang=en">Versionsinformation för Brand Portal</a></p> </td> 
+     <li><strong>BP 6.4.4.7</strong> - Optimize User Sync process to prevent concurrent execution.</li> 
+     <li><strong>BP 6.4.4.6</strong> - Performance optimizations for download report generation.</li> 
+    </ul> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html?lang=en">Brand Portal release notes</a></p> </td> 
   </tr>
   <tr>
-   <td>13 februari 2019</td> 
-   <td>AEM Assets Brand Portal 6.4.4 </td> 
-   <td><p>Brand Portal 6.4.4 fokuserar på förbättringar av textsökningar och kundförfrågningar.</p> <p>Dokumentationen innehåller följande viktiga uppdateringar:</p> 
+   <td>February 13, 2019</td> 
+   <td>AEM Assets Brand Portal 6.4.4 release </td> 
+   <td><p>Brand Portal 6.4.4 release focuses on enhancements to text search and top customer requests.</p> <p>The documentation covers the following major updates:</p> 
     <ul> 
-     <li>Egenskapspredikatet i sökfiltret har nu stöd för sökning efter partiella fraser.</li> 
-     <li>Egenskapspredikatet i sökfiltret har nu stöd för sökningar med jokertecken (*).</li> 
-    </ul> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/whats-new.html?lang=en">Versionsinformation för Brand Portal</a></p> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/whats-new.html?lang=en">Användarhandbok för Brand Portal</a></p> </td> 
+     <li>Property predicate in Search filter now supports searching for partial phrases.</li> 
+     <li>Property predicate in Search Filter now supports wild card (*) searches.</li> 
+    </ul> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/whats-new.html?lang=en">Brand Portal release notes</a></p> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/whats-new.html?lang=en">Brand Portal user guide</a></p> </td> 
   </tr>
   <tr>
-   <td>1 november 2018 </td> 
-   <td>AEM Assets Brand Portal 6.4.3</td> 
-   <td><p>Brand Portal 6.4.3 innehåller förbättringar som berikar kundupplevelsen och ger större kontroll till företag.</p> <p>Dokumentationen innehåller följande viktiga uppdateringar:</p> 
+   <td>November 1, 2018 </td> 
+   <td>AEM Assets Brand Portal 6.4.3 release</td> 
+   <td><p>Brand Portal 6.4.3 release includes enhancements to enrich the customer experience and give greater control to organizations.</p> <p>The documentation covers the following major updates:</p> 
     <ul> 
-     <li>Organisationer kan begära en alternativ URL förutom den befintliga Brand Portal-åtkomstURL:en genom att ha ett alternativt prefix i URL:en.</li> 
-     <li>Ny konfiguration som aktiverar mapphierarki för icke-adminanvändare.</li> 
-     <li>Förhandsgranska, spela upp och ladda ned Dynamic Media-renderingar.</li> 
-     <li>Schemalagd publicering från AEM Author-instansen till Brand Portal.</li> 
-     <li>Ny konfiguration som konfigurerar inställningarna för Dynamic Media bildserver.</li> 
-     <li>Det predikat för sökvägsläsaren som introducerades i sökformuläret.</li> 
-     <li>Hämtning via e-postlänk upphör efter 45 dagar. </li> 
-    </ul> <p><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/whats-new.html/brand-portal/release-notes/brand-portal-release-notes-643.html" target="_blank">Versionsinformation för Brand Portal</a></p> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en" target="_blank">Användarhandbok för Brand Portal</a></p> </td> 
+     <li>Organizations can request for one alternate URL apart from existing Brand Portal access URL, by having an alternate prefix in the URL.</li> 
+     <li>New configuration to enable folder hierarchy for non-admin users.</li> 
+     <li>Preview, play and download the Dynamic Media renditions.</li> 
+     <li>Scheduled publishing from AEM Author instance to Brand Portal.</li> 
+     <li>New configuration to set up Dynamic Media image server settings.</li> 
+     <li>Path Browser predicate introduced in Search Form.</li> 
+     <li>Download via email link expires after 45 days. </li> 
+    </ul> <p><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/whats-new.html/brand-portal/release-notes/brand-portal-release-notes-643.html" target="_blank">Brand Portal release notes</a></p> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en" target="_blank">Brand Portal user guide</a></p> </td> 
   </tr>
   <tr>
-   <td>16 augusti 2018 </td> 
-   <td>AEM Assets Brand Portal 6.4.2</td> 
-   <td><p>Brand Portal 6.4.2 innehåller funktioner för att hantera resursdistributionsbehov i organisationer och hjälpa dem att nå ut till ett stort antal användare globalt via Gästs åtkomstfunktioner och optimera användarupplevelsen med snabbare nedladdningar. Den här versionen ger bättre kontroll till organisationer genom nya konfigurationer för administratörer.</p> <p>Dokumentationen innehåller följande viktiga uppdateringar:</p> 
+   <td>August 16, 2018 </td> 
+   <td>AEM Assets Brand Portal 6.4.2 release</td> 
+   <td><p>Brand Portal 6.4.2 release brings in capabilities to address asset distribution needs of organizations and help them reach out to a large number of users distributed globally through Guest access functionality and optimize user experience with accelerated downloads. This release provides greater control to organizations through new configurations for administrators.</p> <p>The documentation covers the following major updates:</p> 
     <ul> 
-     <li>Gäståtkomst till Brand Portal.</li> 
-     <li>Möjlighet att snabba upp nedladdningen av resursfiler från Brand Portal och delade länkar.</li> 
-     <li>Ny rapport för användarinloggning som spårar inloggningsaktiviteten.</li> 
-     <li>Begränsa åtkomsten till de ursprungliga återgivningarna (.psd, .indd) till vissa användargrupper samtidigt som de får åtkomst till lågupplösta återgivningar.</li> 
-     <li>Mapphierarkiinformation på mappkort i kortvyn för användare som inte är administratörer (gästanvändare, visningsprogram, redigerare), för att hjälpa till att skilja de delade undermapparna åt med liknande namn som tillhör olika överordnade mappar.<br /> </li> 
-     <li>Sökvägskolumnen i listvyn för att ange hierarkin där en viss resurs finns. </li> 
-     <li>Stöd för icke-skiftlägeskänslig sökning efter egenskapsprediat och multivalue-egenskapsprediat i sökfiltret.</li> 
-     <li>Sex nya konfigurationer för att ge större kontroll till organisationer och göra det möjligt för dem att tillgodose enskilda affärsbehov.</li> 
-     <li>Gränssnittet för konfigurering av autentiseringsintegreringar finns nu på <a href="https://legacy-oauth.cloud.adobe.io/">https://legacy-oauth.cloud.adobe.io/</a>.</li> 
-    </ul> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en">Användarhandbok för Brand Portal</a></p> </td> 
+     <li>Guest access to Brand Portal.</li> 
+     <li>Option to accelerate the download of asset files from Brand Portal and shared links.</li> 
+     <li>New User Logins report to track the login activity.</li> 
+     <li>Restrict access to original renditions (.psd, .indd), to specific user groups while allowing them to access low-resolution renditions.</li> 
+     <li>Folder hierarchy information on folder cards in card view for non-admin users (Guest user, Viewer, Editor), to help differentiate the shared child folders with similar names belonging to different parent folders.<br /> </li> 
+     <li>Path column in list view to indicate the hierarchy in which a particular asset resides. </li> 
+     <li>Support for non-case sensitive search for property predicate and multi-value property predicate in search Filter.</li> 
+     <li>Six new configurations to give greater control to organizations and enable them to cater to individual business needs.</li> 
+     <li>The UI for configuring oAuth integrations is now hosted in <a href="https://legacy-oauth.cloud.adobe.io/">https://legacy-oauth.cloud.adobe.io/</a>.</li> 
+    </ul> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en">Brand Portal user guide</a></p> </td> 
   </tr>
   <tr>
-   <td>17 maj 2018</td> 
-   <td>AEM Assets Brand Portal 6.4.1</td> 
-   <td><p>AEM Assets Brand Portal 6.4.1 var en plattformsuppgraderingsversion som innehöll flera nya funktioner och viktiga förbättringar som bläddring, sökning och prestandaförbättringar för att uppfylla kundupplevelserna. Dokumentationen innehåller följande viktiga uppdateringar:</p> 
+   <td>May, 17 2018</td> 
+   <td>AEM Assets Brand Portal 6.4.1 release</td> 
+   <td><p>AEM Assets Brand Portal 6.4.1 release was a platform upgrade release that included several new features and vital enhancements such as browsing, searching, and performance enhancements for fulfilling customer experiences. The documentation covers the following major updates:</p> 
     <ul> 
-     <li>Navigera snabbt i en resurshierarki genom att navigera i innehållsträden.</li> 
-     <li>Visa inställningar för att anpassa kortvyn och listvyn.</li> 
-     <li>Optimerade prestanda för hämtning, sökning och bläddring.</li> 
-     <li>Förbättrad lazy loading-upplevelse när du bläddrar bland resurser.</li> 
-     <li>En ny rapport om länkdelning introducerades.</li> 
-     <li>Rapportgränssnittet har blivit mer intuitivt med detaljfunktioner för att anpassa rapporter.</li> 
-     <li>Resurssökningen har förbättrats med exakta tidsstämpelfilter, nytt åtkomsttypsfilter, nya sökalternativ i filtypssökfiltret samt möjlighet att gå tillbaka till sökresultaten.</li> 
-    </ul> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en">Användarhandbok för Brand Portal</a></p> </td> 
+     <li>Content tree-based navigation to quickly navigate an asset hierarchy.</li> 
+     <li>View Settings to customize Card View and List View.</li> 
+     <li>Optimized download, search, and browsing performance.</li> 
+     <li>Enhanced lazy loading experience while browsing assets.</li> 
+     <li>New Link Share report introduced.</li> 
+     <li>Reporting interface made more intuitive with granular capabilities to customize reports.</li> 
+     <li>Asset search enhanced with accurate time stamp filters, new Access type filter, new search options in File Type search filter, and capability to navigate back to search results.</li> 
+    </ul> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en">Brand Portal user guide</a></p> </td> 
   </tr>
   <tr>
-   <td>26 oktober 2017</td> 
-   <td>AEM Assets Brand Portal 6.3.1<br /> </td> 
-   <td><p>AEM Assets Brand Portal 6.3.1 innehåller nya Brand Portal användargränssnitt och förbättrad dokumentation. Dokumentationen innehåller följande viktiga uppdateringar:</p> 
+   <td>October 26, 2017</td> 
+   <td>AEM Assets Brand Portal 6.3.1 release<br /> </td> 
+   <td><p>AEM Assets Brand Portal 6.3.1 release introduces the new Brand Portal user interface and enhanced documentation experience. The documentation experience covers the following major updates:</p> 
     <ul> 
-     <li>Förbättrad navigering, sortering, sökning och nedladdning</li> 
-     <li>Förbättrade kontroller för bakgrundsbilder på inloggningsskärmen</li> 
-     <li>Fullständig publicering av metadatamatchning från Assets till Brand Portal</li> 
-     <li>Förbättrade rapporteringsfunktioner - material som laddats ned, gått ut och publicerats</li> 
-     <li>Nya DRM-funktioner - kontroller för förfallodatum för resurser och meddelanden</li> 
-     <li>Nytt <a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/whats-new.html?lang=en">vad som är nytt i artikeln</a> om du vill veta mer om de nya och uppdaterade funktionerna</li> 
-     <li>Ny versionsanpassad <a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en">Användarhandbok för Brand Portal</a> oberoende av AEM Assets användarhandbok</li> 
+     <li>Improved navigation, sorting, search, and download experience</li> 
+     <li>Improved login screen wallpaper controls</li> 
+     <li>Complete metadata schema publishing from Assets to Brand Portal</li> 
+     <li>Enhanced reporting capabilities—assets downloaded, expired, and published</li> 
+     <li>Newly introduced DRM capabilities—assets expiration controls and notification</li> 
+     <li>New <a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/whats-new.html?lang=en">what’s new article</a> to learn about the new and updated features</li> 
+     <li>New version-agnostic <a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en">Brand Portal user guide</a> independent of AEM Assets User Guide</li> 
     </ul> </td> 
   </tr>
  </tbody>
 </table>
 
-## [!DNL Adobe Experience Manager] datorprogram {#aem-desktop-app}
+## [!DNL Adobe Experience Manager] desktop app {#aem-desktop-app}
 
 <table> 
  <tbody>
   <tr>
-   <td>Datum</td> 
-   <td>Ämne</td> 
-   <td>Ändringar</td> 
+   <td>Date</td> 
+   <td>Topic</td> 
+   <td>Changes</td> 
   </tr>
   <tr>
-   <td>5 juli 2018</td> 
-   <td>Versionsoberoende artiklar</td> 
-   <td>Uppdaterade artiklar om skrivbordsappen (<a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/install-upgrade.html">Installera</a>, <a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html">RNs</a>och <a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/archive/best-practices-for-v1.html">Bästa praxis</a>) till att frigöra från AEM 6.4. Appen fungerar med flera releaser och artiklarna är nu versionseftersom.</td> 
+   <td>July 5, 2018</td> 
+   <td>Version indepenent articles</td> 
+   <td>Updated the Desktop App articles (<a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/install-upgrade.html">Install</a>, <a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html">RNs</a>, and <a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/archive/best-practices-for-v1.html">Best Practices</a>) to untie from AEM 6.4 release. The app works with multiple releases and articles are now version agnostic.</td> 
   </tr>
   <tr>
-   <td>21 juni 2018</td> 
-   <td>Version av v1.9.1</td> 
-   <td>En ny version är tillgänglig med några felkorrigeringar. Mer information finns i <a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html" target="_blank">versionsinformation</a>.<br /> </td> 
+   <td>June 21, 2018</td> 
+   <td>Release of v1.9.1</td> 
+   <td>New version is made available with a few bug fixes. For details, see the <a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html" target="_blank">release notes</a>.<br /> </td> 
   </tr>
   <tr>
-   <td>31 maj 2018</td> 
-   <td>Version av v1.9<br /> </td> 
-   <td>Dokumentation för AEM App 1.9 finns nu tillgänglig.
+   <td>May 31, 2018</td> 
+   <td>Release of v1.9<br /> </td> 
+   <td>Documentation for AEM Desktop App 1.9 is now available.
     <ul> 
-     <li><a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html" target="_blank">Versionsinformation</a></li> 
-     <li><a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/introduction.html">Använd AEM datorprogram</a></li> 
+     <li><a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html" target="_blank">Release Notes</a></li> 
+     <li><a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/introduction.html">Use AEM Desktop App</a></li> 
     </ul> </td> 
   </tr>
  </tbody>
 </table>
+
+-->
