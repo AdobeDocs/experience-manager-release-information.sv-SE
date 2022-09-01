@@ -2,9 +2,9 @@
 title: '"[!DNL Adobe Experience Manager] releases roadmap"'
 description: '"[!DNL Adobe Experience Manager] releases roadmap"'
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 4f49de4eceec65b55cb6e313d707c3d9fc0585de
+source-git-commit: e7a4a7baf9804714495629ebf7bf03664d7faedc
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '347'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Uppdateringar av färdplaner som är tillgängliga i den här artikeln är bara till för information och kan ändras när som helst.
+>Datumen nedan och uppdateringarna av färdplanen i den här artikeln är endast tillgängliga för information och kan ändras när som helst.
 
 ## [!DNL Experience Manager] som [!DNL Cloud Service] {#aem-as-cloud-service}
 
