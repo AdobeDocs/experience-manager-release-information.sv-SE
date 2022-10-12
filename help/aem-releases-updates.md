@@ -1,12 +1,12 @@
 ---
-title: '"[!DNL Adobe Experience Manager] releases updates"'
-description: '"[!DNL Adobe Experience Manager] releases updates"'
+title: "[!DNL Adobe Experience Manager] releases updates"
+description: "[!DNL Adobe Experience Manager] releases updates"
 contentOwner: AK
 exl-id: 103e1c40-364e-450d-92d3-6b952e33d47c
-source-git-commit: 9da699a3337991afc277bfb774c2538f1b4dc320
+source-git-commit: fddac7650badf6d04d9da72893196431e246250f
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 2%
+source-wordcount: '252'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ I den här artikeln listas den senaste versionen för varje versionskategori och
 
 [!DNL Experience Manager] som [!DNL Cloud Service] följer en månatlig publiceringsgräns. Därför finns nya funktioner tillgängliga som kontinuerliga uppdateringar av [!DNL Experience Manager] varje månad.
 
-Se [Aktuell versionsinformation för [!DNL Experience Manager] som [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html) för information om den aktuella/senaste versionen. Här kan du även navigera till information om tidigare versioner (ordnade kronologiskt).
+Se [Aktuell versionsinformation för [!DNL Experience Manager] som [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html) för information om den aktuella/senaste versionen. Därifrån kan du även navigera till information om tidigare versioner (ordnade kronologiskt).
 
 ## [!DNL Experience Manager] lokala och hanterade tjänster {#aem-on-prem-managed-services}
 
@@ -32,11 +32,7 @@ För Managed Services och lokalt installerade erbjudanden listas den senaste ver
 
 [!DNL Experience Manager] 6.5 produktuppdateringar levereras via kvartalsvisa servicepaket. Det gäller nya funktioner, förbättringar och felkorrigeringar.
 
-* [[!DNL Experience Manager] 6.5 Service Pack 11](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html)
-
-* [[!DNL Experience Manager] 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/release-notes.html)
-
-En lista över de nya funktionerna finns på [nyheter i [!DNL Experience Manager] 6.5 Service Pack](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/new-features-latest-service-pack.html).
+Se [[!DNL Experience Manager] 6.5 Senaste funktionspaket](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/release-notes.html) för information om den aktuella/senaste versionen. Därifrån kan du även navigera till information om tidigare versioner (ordnade kronologiskt).
 
 ### [!DNL Experience Manager] 6.4 {#aem-64}
 
@@ -47,20 +43,3 @@ En lista över de nya funktionerna finns på [nyheter i [!DNL Experience Manager
 * [[!DNL Experience Manager] 6.4 Service Pack 8](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html)
 
 * [[!DNL Experience Manager] 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/release-notes.html)
-
-### [!DNL Experience Manager] 6.3 {#aem-63}
-
-* [[!DNL Experience Manager] 6.3 Service Pack 3 Kumulativt korrigeringspaket 8](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/release-notes-aem-6-3-cumulative-fix-pack.html)
-
-* [[!DNL Experience Manager] 6.3 Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html)
-
-* [[!DNL Experience Manager] 6.3](https://helpx.adobe.com/experience-manager/6-3/release-notes.html)
-
-### [!DNL Experience Manager] 6.2 {#aem-62}
-
-<!-- TBD: This content will soon be archived and new links can move to aem-previous-versions.md article. See status in UGP-1894.
--->
-
-* [Experience Manager 6.2 Service Pack 1 Cumulative Fix Pack 20](https://helpx.adobe.com/experience-manager/release-notes--aem-6-2-cumulative-fix-pack.html)
-* [Experience Manager 6.2 Service Pack 1](https://helpx.adobe.com/experience-manager/6-2/release-notes/sp1.html)
-* [Experience Manager 6.2](https://helpx.adobe.com/experience-manager/6-2/release-notes.html)
