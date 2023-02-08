@@ -2,14 +2,14 @@
 title: "[!DNL Adobe Experience Manager] releases roadmap"
 description: "[!DNL Adobe Experience Manager] releases roadmap"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 5d40d0382bf4c504de7a2d934276e2222faa0561
+source-git-commit: f0b0900828f9728871ab4acc28d778b845e0d559
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '345'
 ht-degree: 4%
 
 ---
 
-# [!DNL Experience Manager] lanserar färdplan {#aem-releases-roadmap}
+# [!DNL Experience Manager] Frisläpp vägkarta {#aem-releases-roadmap}
 
 [!DNL Adobe Experience Manager] innehåller nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar för användare som använder [!DNL Cloud Service], Managed Services och våra produkter. I den här artikeln listas kommande versioner för [!DNL Experience Manager].
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 ## [!DNL Experience Manager] som [!DNL Cloud Service] {#aem-as-cloud-service}
 
-[[!DNL Experience Manager] som [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html) avser vanligtvis en månatlig lanseringsgräns för nya funktioner. Kommande funktionsaktiveringar för [!DNL Experience Manager] som [!DNL Cloud Service]s planeras enligt följande.
+[[!DNL Experience Manager] som [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html) avser vanligtvis en månatlig lanseringsgräns för nya funktioner. Kommande funktionsaktiveringar för [!DNL Experience Manager] som [!DNL Cloud Service] planeras enligt följande.
 
 | Frigör | Version | Typ | Schema |
 |---|---|---|---|
@@ -32,7 +32,7 @@ ht-degree: 4%
 
 Förutom funktionsreleaser finns viktiga fel- och säkerhetskorrigeringar i [!DNL Experience Manager] som [!DNL Cloud Service] i form av underhållsversioner, med en motsvarande underhållsuppdatering som vanligtvis sker oftare.
 
-## [!DNL Experience Manager] lokala och hanterade tjänster {#aem-on-prem-managed-services}
+## [!DNL Experience Manager] Lokalt och Managed Services {#aem-on-prem-managed-services}
 
 Produktuppdateringar i form av nya funktioner, förbättringar och felkorrigeringar som stöds [!DNL Experience Manager] lokala och hanterade tjänster levereras genom kvartalsvisa servicepaket och&quot;Cumulative Fix Packs&quot; (CFP). Det gör det möjligt att snabbare ta till sig produktuppdateringar genom ofta förekommande releaser. Schemat för kommande produktuppdateringar är följande.
 
