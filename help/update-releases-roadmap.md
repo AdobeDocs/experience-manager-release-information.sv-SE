@@ -2,7 +2,7 @@
 title: "[!DNL Adobe Experience Manager] releases roadmap"
 description: "[!DNL Adobe Experience Manager] releases roadmap"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 297629d471c0c3ac6a13015d3eac1594732837d6
+source-git-commit: 5d40d0382bf4c504de7a2d934276e2222faa0561
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 4%
@@ -25,7 +25,7 @@ ht-degree: 4%
 |---|---|---|---|
 | [!DNL Experience Manager] som [!DNL Cloud Service] 2022.10.0 | 2022.10.0 | Aktivering av funktioner | 10 november 2022 |
 | [!DNL Experience Manager] som [!DNL Cloud Service] 2023.1.0 | 2023.1.0 | Aktivering av funktioner | 9 februari 2023 |
-| [!DNL Experience Manager] som [!DNL Cloud Service] 2023.2.0 | 2023.2.0 | Aktivering av funktioner | 23 februari 2023 |
+| [!DNL Experience Manager] som [!DNL Cloud Service] 2023.2.0 | 2023.2.0 | Aktivering av funktioner | 2 mars 2023 |
 | [!DNL Experience Manager] som [!DNL Cloud Service] 2023.3.0 | 2023.3.0 | Aktivering av funktioner | 30 mars 2023 |
 | [!DNL Experience Manager] som [!DNL Cloud Service] 2023.4.0 | 2023.4.0 | Aktivering av funktioner | 27 april 2023 |
 | [!DNL Experience Manager] som [!DNL Cloud Service] 2023.5.0 | 2023.5.0 | Aktivering av funktioner | 25 maj 2023 |
