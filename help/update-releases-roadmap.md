@@ -2,9 +2,9 @@
 title: "[!DNL Adobe Experience Manager] releases roadmap"
 description: "[!DNL Adobe Experience Manager] releases roadmap"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 05652027b9a88d9aa530d25b6a88f75c1646f310
+source-git-commit: 5a549a95acf4d1b78b9040411c9e1720911afeb9
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '344'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 ## [!DNL Experience Manager] som [!DNL Cloud Service] {#aem-as-cloud-service}
 
-[[!DNL Experience Manager] som [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html) avser vanligtvis en månatlig lanseringsgräns för nya funktioner. Kommande funktionsaktiveringar för [!DNL Experience Manager] som [!DNL Cloud Service] planeras enligt följande.
+[[!DNL Experience Manager] som [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/home.html) avser vanligtvis en månatlig lanseringsgräns för nya funktioner. Kommande funktionsaktiveringar för [!DNL Experience Manager] som [!DNL Cloud Service] planeras enligt följande.
 
 | Frigör | Version | Typ | Schema |
 |---|---|---|---|
@@ -33,7 +33,7 @@ Förutom funktionsreleaser finns viktiga fel- och säkerhetskorrigeringar i [!DN
 
 ## [!DNL Experience Manager] Lokalt och Managed Services {#aem-on-prem-managed-services}
 
-Produktuppdateringar i form av nya funktioner, förbättringar och felkorrigeringar som stöds [!DNL Experience Manager] lokala och hanterade tjänster levereras genom kvartalsvisa servicepaket och&quot;Cumulative Fix Packs&quot; (CFP). Det gör det möjligt att snabbare ta till sig produktuppdateringar genom ofta förekommande releaser. Schemat för kommande produktuppdateringar är följande.
+Produktuppdateringar i form av nya funktioner, förbättringar och felkorrigeringar som stöds [!DNL Experience Manager] på plats och Managed Services levereras via kvartalsvisa servicepaket och Cumulative Fix Packs (CFP). Det gör det möjligt att snabbare ta till sig produktuppdateringar genom ofta förekommande releaser. Schemat för kommande produktuppdateringar är följande.
 
 ### [!DNL Experience Manager] 6.5 {#aem65}
 
@@ -57,7 +57,7 @@ Produktuppdateringar i form av nya funktioner, förbättringar och felkorrigerin
 >[!MORELIKETHIS]
 >
 >* [EOL-matris](https://helpx.adobe.com/support/programs/eol-matrix.html)
->* [[!DNL Experience Manager] releaser och uppdateringar](https://helpx.adobe.com/experience-manager/aem-releases-updates.html)
->* [[!DNL Experience Manager] Lär dig mer och support](https://helpx.adobe.com/support/experience-manager.html)
+>* [[!DNL Experience Manager] releaser och uppdateringar](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/aem-releases-updates.html?lang=en)
+>* [[!DNL Experience Manager] Lär dig mer och support](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)
 >* [[!DNL Experience Manager] Uppdatera definitioner för frisläppningsfordon](/help/update-release-vehicle-definitions.md)
 

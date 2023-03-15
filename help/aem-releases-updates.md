@@ -3,9 +3,9 @@ title: "[!DNL Adobe Experience Manager] releases updates"
 description: "[!DNL Adobe Experience Manager] releases updates"
 contentOwner: AK
 exl-id: 103e1c40-364e-450d-92d3-6b952e33d47c
-source-git-commit: fddac7650badf6d04d9da72893196431e246250f
+source-git-commit: 5a549a95acf4d1b78b9040411c9e1720911afeb9
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '254'
 ht-degree: 1%
 
 ---
@@ -22,11 +22,11 @@ I den här artikeln listas den senaste versionen för varje versionskategori och
 
 [!DNL Experience Manager] som [!DNL Cloud Service] följer en månatlig publiceringsgräns. Därför finns nya funktioner tillgängliga som kontinuerliga uppdateringar av [!DNL Experience Manager] varje månad.
 
-Se [Aktuell versionsinformation för [!DNL Experience Manager] som [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html) för information om den aktuella/senaste versionen. Därifrån kan du även navigera till information om tidigare versioner (ordnade kronologiskt).
+Se [Aktuell versionsinformation för [!DNL Experience Manager] som [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html) för information om den aktuella/senaste versionen. Därifrån kan du även navigera till information om tidigare versioner (ordnade kronologiskt).
 
-## [!DNL Experience Manager] lokala och hanterade tjänster {#aem-on-prem-managed-services}
+## [!DNL Experience Manager] lokal och Managed Services {#aem-on-prem-managed-services}
 
-För Managed Services och lokalt installerade erbjudanden listas den senaste versionen av Cumulative Fix Pack, den senaste versionen av Service Pack samt huvudversionen och du uppmanas att läsa dokumentationen för dessa versioner. [!DNL Adobe] rekommenderar att du granskar och installerar det senaste Service Pack-paketet följt av det senaste kumulativa korrigeringspaketet för [!DNL Experience Manager] version för att hålla driftsättningen stabil, säker och aktuell.
+För Managed Services och lokalt installerade erbjudanden listas den senaste versionen av Cumulative Fix Pack, den senaste versionen av Service Pack samt huvudversionen och du uppmanas att läsa dokumentationen för dessa versioner. [!DNL Adobe] rekommenderar att du granskar och använder det senaste Service Pack-paketet följt av det senaste kumulativa korrigeringspaketet för [!DNL Experience Manager] version för att hålla driftsättningen stabil, säker och aktuell.
 
 ### [!DNL Experience Manager] 6.5 {#aem-65}
 

@@ -3,10 +3,10 @@ title: Tidigare dokumentationsuppdateringar
 description: På den här sidan visas äldre viktiga dokumentationsändringar och uppdateringar för [!DNL Adobe Experience Manager].
 contentOwner: alvawb
 exl-id: e68cdadf-43c1-47d9-99cf-420d582cb575
-source-git-commit: d984db863b24ced14834c437b76fea80774b17d8
+source-git-commit: 5a549a95acf4d1b78b9040411c9e1720911afeb9
 workflow-type: tm+mt
-source-wordcount: '3632'
-ht-degree: 2%
+source-wordcount: '3650'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,7 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>12 dec 2019</td> 
    <td>AEM 6.5 Service Pack 3<br /> </td> 
-   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/sp-release-notes.html?lang=en">AEM 6.5 Service Pack 3</a> är tillgängligt.</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/6.5.3.html?lang=en">AEM 6.5 Service Pack 3</a> är tillgängligt.</td> 
   </tr>
   <tr>
    <td>5 dec 2019</td> 
@@ -51,7 +51,7 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>18 okt 2019<br /> </td> 
    <td>Headless Experience Management<br /> </td> 
-   <td>Funktioner i <a href="https://experienceleague.adobe.com/docs/experience-manager-65/developing/headless/spas/spa-ssr.html?lang=en">Renderare för fjärrinnehåll</a>, som används för återgivning på serversidan av program med en sida, har dokumenterats.<br /> </td> 
+   <td>Funktioner i <a href="https://experienceleague.adobe.com/docs/experience-manager-65/developing/spas/spa-ssr.html?lang=en#remote-content-renderer">Renderare för fjärrinnehåll</a>, som används för återgivning på serversidan av program med en sida, har dokumenterats.<br /> </td> 
   </tr>
   <tr>
    <td>11 oktober 2019</td> 
@@ -61,7 +61,7 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>10 oktober 2019</td> 
    <td>Cloud Manager</td> 
-   <td><p>Cloud Manager version 2019.10.0 släpptes 10 oktober 2019.</p> <p>Se <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=en">Versionsinformation för 2019.10.0</a> högdagrar <i>Nyheter</i> och uppdateringar om driftsättningssteg och hantering av maven-projektversioner.<br /> </p> </td> 
+   <td><p>Cloud Manager version 2019.10.0 släpptes 10 oktober 2019.</p> <p>Se <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/content/release-notes/2019/2019-10-0.html?lang=en">Versionsinformation för 2019.10.0</a> högdagrar <i>Nyheter</i> och uppdateringar om driftsättningssteg och hantering av maven-projektversioner.<br /> </p> </td> 
   </tr>
   <tr>
    <td>8 okt 2019</td> 
@@ -75,7 +75,7 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   </tr>
   <tr>
    <td>1 okt 2019 </td> 
-   <td>Best Practices Guide for AEM Screens Projects</td> 
+   <td>Användarhandbok om bästa praxis för AEM Screens-projekt</td> 
    <td><p>Den här nya guiden ger inte bara en heltäckande insikt och praktiska råd för att skapa, utforma och föra in avsiktliga kundupplevelser i er digitala signeringsimplementering, utan även vägleder dig hur du skapar en positiv effekt på ditt företag med hjälp av några av de bästa metoderna som följer när du distribuerar ett digitalt signeringsprojekt i AEM Screens.</p> <p>Se <a href="https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html">Best Practices Guide for AEM Screens Projects</a> för mer information.</p> </td> 
   </tr>
   <tr>
@@ -101,7 +101,7 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>19 september 2019</td> 
    <td>AEM 6.5 Service Pack 2</td> 
-   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html">AEM 6.5 Service Pack 2 (6.5.2.0)</a> är tillgängligt.</td>
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/6.5.2.html?lang=en">AEM 6.5 Service Pack 2 (6.5.2.0)</a> är tillgängligt.</td>
   </tr>
   <tr>
    <td>9 september 2019</td> 
@@ -156,7 +156,7 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>3 juli 2019</td> 
    <td>AEM 6.5 Service Pack 1</td> 
-   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html">AEM 6.5 Service Pack 1 (6.5.1.0) </a>är tillgängligt.</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/6.5.1.html?lang=en">AEM 6.5 Service Pack 1 (6.5.1.0) </a>är tillgängligt.</td> 
   </tr>
   <tr>
    <td>25 juni 2019</td> 
@@ -166,22 +166,22 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>17 juni 2019<br /> </td> 
    <td>Integrering med AEM Assets och Creative Cloud</td> 
-   <td>De bästa sätten uppdateras med tydlig kartläggning av verksamhetskrav, erbjudanden om Adobe-lösningar och kundanvändningsexempel. En infografik läggs till för att göra den visuellt tilltalande. Se <a href="https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/aem-cc-folder-sharing-best-practices.html" target="_blank">Bästa praxis för integrering av AEM Creative Cloud</a>.<br /> </td> 
+   <td>De bästa sätten uppdateras med tydlig kartläggning av verksamhetskrav, erbjudanden om Adobe-lösningar och kundanvändningsexempel. En infografik läggs till för att göra den visuellt tilltalande. Se <a href="https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/aem-cc-integration-best-practices.html?lang=en" target="_blank">Bästa praxis för integrering av AEM Creative Cloud</a>.<br /> </td> 
   </tr>
   <tr>
    <td>3 juni 2019</td> 
    <td>RTF-redigerare<br /> </td> 
-   <td><p>Ett paket har lagts till i <a href="https://experience-aem.blogspot.com/2019/05/aem-65-touchui-composite-multifield-with-coral3-rte-rich-text.html" target="_blank">skapa multifältskomponent</a>.<br /> </p> <p>Skapade en <a href="https://docs.adobe.com/content/help/en/experience-manager-65/administering/introduction/aem-faqs.html" target="_blank">felsökning Frågor och svar</a> baserat på kundernas feedback.</p> </td> 
+   <td><p>Ett paket har lagts till i <a href="https://experience-aem.blogspot.com/2019/05/aem-65-touchui-composite-multifield-with-coral3-rte-rich-text.html" target="_blank">skapa multifältskomponent</a>.<br /> </p> <p>Skapade en <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/aem-faqs.html?lang=en" target="_blank">felsökning Frågor och svar</a> baserat på kundernas feedback.</p> </td> 
   </tr>
   <tr>
    <td>31 maj 2019</td> 
    <td>Integration med AEM och Magento </td> 
-   <td><a href="https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/integrations.html">Commerce Integration Framework</a>.</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html?lang=en">Commerce Integration Framework</a>.</td> 
   </tr>
   <tr>
    <td>24 maj 2019</td> 
    <td>Funktionsstatus för pekskärmsgränssnittet i AEM 6.5<br /> </td> 
-   <td>Publicerad <a href="https://helpx.adobe.com/experience-manager/6-5/release-notes/touch-ui-features-status.html">Funktionsstatus för Touch UI</a> sida för AEM 6.5<br /> </td> 
+   <td>Publicerad <a href="https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/touch-ui-features-status.html?lang=en">Funktionsstatus för Touch UI</a> sida för AEM 6.5<br /> </td> 
   </tr>
   <tr>
    <td>14 maj 2019</td> 
@@ -225,7 +225,7 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>12 april 2019</td> 
    <td>Användarhandbok för AEM 6.5-skärmar</td> 
-   <td><p><a href="https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/installing-client/implementing-windows-player.html">Implementera Windows 10 Player</a> för mer information.</p> </td> 
+   <td><p><a href="https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-client/implementing-windows-player.html?lang=en">Implementera Windows 10 Player</a> för mer information.</p> </td> 
   </tr>
   <tr>
    <td>8 april 2019</td> 
@@ -240,7 +240,7 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
 <table> 
  <tbody>
   <tr>
-   <td>Datum</td> 
+   <td>Date</td> 
    <td>Ämne</td> 
    <td>Ändringar</td> 
   </tr>
@@ -262,7 +262,7 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>19 september 2019</td> 
    <td>AEM 6.4 Service Pack 6<br /> </td> 
-   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html">AEM 6.4 Service Pack 6 (6.4.6.0)</a> är tillgängligt.</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=en#hotfixes-and-feature-packs-included-in-previous-service-packs">AEM 6.4 Service Pack 6 (6.4.6.0)</a> är tillgängligt.</td> 
   </tr>
   <tr>
    <td>9 september 2019<br /> </td> 
@@ -272,42 +272,42 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>6 september 2019</td> 
    <td><strong>Open-sourcing av AEM 6.4-dokument</strong></td> 
-   <td><p>AEM 6.4-dokumentation publiceras nu från GitHub. Våra läsare kan inte bara betygsätta sidor och logga problem utan även samarbeta och bidra till dokumenten. Om du vill bidra läser du uppförandekoden och handboken för bidragsgivare på <a href="https://github.com/AdobeDocs/experience-manager-64.en" target="_blank">https://github.com/AdobeDocs/experience-manager-64.en</a>.</p> <p>Alla uppdateringar är tillgängliga via dra-och-släpp-begäran AEM dokumentation och produktteam som kan övervaka för godkännande och publicering.</p> </td> 
+   <td><p>AEM 6.4-dokumentation publiceras nu från GitHub. Kunderna kan betygsätta sidor, logga problem och till och med samarbeta och bidra till dokumenten. Om du vill bidra läser du uppförandekoden och handboken för bidragsgivare på <a href="https://github.com/AdobeDocs/experience-manager-64.en" target="_blank">https://github.com/AdobeDocs/experience-manager-64.en</a>.</p> <p>Alla uppdateringar är tillgängliga via dra-och-släpp-begäran AEM dokumentation och produktteam som kan övervaka för godkännande och publicering.</p> </td> 
   </tr>
   <tr>
    <td>20 aug 2019</td> 
    <td>Smarta taggar för AEM Assets</td> 
-   <td>Lär dig hur <a href="https://docs.adobe.com/content/help/en/experience-manager-64/assets/managing/config-smart-tagging.html#certrenew" target="_blank">uppdateringscertifikat</a> efter att det gått ut.</td> 
+   <td>Lär dig hur <a href="https://experienceleague.adobe.com/docs/experience-manager-64/assets/managing/config-smart-tagging.html?lang=en#certrenew" target="_blank">uppdateringscertifikat</a> efter att det gått ut.</td> 
   </tr>
   <tr>
    <td>2 aug 2019<br /> </td> 
    <td>Nytt rastreringspaket för PDF</td> 
-   <td>A <a href="https://docs.adobe.com/content/help/en/experience-manager-64/assets/administer/aem-pdf-rasterizer.html" target="_blank">nytt paket är tillgängligt</a> som hjälper AEM Assets att bearbeta stora AI/PDF-filer och generera förhandsgranskningar och miniatyrbilder.</td> 
+   <td>A <a href="https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/aem-pdf-rasterizer.html?lang=en" target="_blank">nytt paket är tillgängligt</a> som hjälper AEM Assets att bearbeta stora AI/PDF-filer och generera förhandsgranskningar och miniatyrbilder.</td> 
   </tr>
   <tr>
    <td>3 juli 2019</td> 
    <td>AEM 6.4 Service Pack 5</td> 
-   <td><a href="https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html">AEM 6.4 Service Pack 5 (6.4.5.0)</a> är tillgängligt.</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=en#hotfixes-and-feature-packs-included-in-previous-service-packs">AEM 6.4 Service Pack 5 (6.4.5.0)</a> är tillgängligt.</td> 
   </tr>
   <tr>
    <td>17 juni 2019</td> 
    <td>Integrering med AEM Assets och Creative Cloud</td> 
-   <td>De bästa sätten uppdateras med tydlig kartläggning av verksamhetskrav, erbjudanden om Adobe-lösningar och kundanvändningsexempel. En infografik läggs till för att göra den visuellt tilltalande. Se <a href="https://docs.adobe.com/content/help/en/experience-manager-64/assets/administer/aem-cc-folder-sharing-best-practices.html" target="_blank">Bästa praxis för integrering av AEM Creative Cloud</a>.</td> 
+   <td>De bästa sätten uppdateras med tydlig kartläggning av verksamhetskrav, erbjudanden om Adobe-lösningar och kundanvändningsexempel. En infografik läggs till för att göra den visuellt tilltalande. Se <a href="https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/aem-cc-folder-sharing-best-practices.html?lang=en" target="_blank">Bästa praxis för integrering av AEM Creative Cloud</a>.</td> 
   </tr>
   <tr>
    <td>3 juni 2019</td> 
    <td>RTF-redigerare<br /> </td> 
-   <td>Ett paket har lagts till i <a href="https://docs.adobe.com/content/help/en/experience-manager-64/administering/operations/rich-text-editor.html" target="_blank">konfigurationsartikel</a> med alla plugin-program aktiverade för att användas som exempelkonfiguration. En community-medlem har bidragit med en självstudiekurs om hur du <a href="https://experience-aem.blogspot.com/2019/05/aem-65-touchui-composite-multifield-with-coral3-rte-rich-text.html" target="_blank">skapa multifältskomponent</a>.<br /> </td> 
+   <td>Ett paket har lagts till i <a href="https://experienceleague.adobe.com/docs/experience-manager-64/administering/operations/rich-text-editor.html?lang=en" target="_blank">konfigurationsartikel</a> med alla plugin-program aktiverade för att användas som exempelkonfiguration. En community-medlem har bidragit med en självstudiekurs om hur du <a href="https://experience-aem.blogspot.com/2019/05/aem-65-touchui-composite-multifield-with-coral3-rte-rich-text.html" target="_blank">skapa multifältskomponent</a>.<br /> </td> 
   </tr>
   <tr>
    <td>4 april 2019</td> 
    <td>install-aem-forms-add-on-package</td> 
-   <td><a href="https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html">AEM 6.4 Service Pack 4 (6.4.4.0)</a> är tillgängligt.</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=en#hotfixes-and-feature-packs-included-in-previous-service-packs">AEM 6.4 Service Pack 4 (6.4.4.0)</a> är tillgängligt.</td> 
   </tr>
   <tr>
    <td>22 feb 2019</td> 
    <td>Headless Experience Management</td> 
-   <td><p>För skräddarsydda flerkanalsupplevelser kan en headlessimplementering av AEM vara ett förstahandsalternativ att ansluta till anpassade front-end-program.</p> <p>Den nya <a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/user-guide.html?topic=/experience-manager/6-4/sites/developing/morehelp/headless.ug.js">Headless Experience Management Guide</a> är en central plats för alla AEM ämnesområden, inklusive innehållstjänster, SPA, innehållsfragment, upplevelsefragment och HTTP API:er.<br /> </p> </td> 
+   <td><p>För skräddarsydda flerkanalsupplevelser kan en headlessimplementering av AEM vara ett förstahandsalternativ att ansluta till anpassade front-end-program.</p> <p>Den nya <a href="https://experienceleague.adobe.com/docs/experience-manager-64/developing/home.html?lang=en&amp;topic=/experience-manager/6-4/sites/developing/morehelp/headless.ug.js">Headless Experience Management Guide</a> är en central plats för alla AEM ämnesområden, inklusive innehållstjänster, SPA, innehållsfragment, upplevelsefragment och HTTP API:er.<br /> </p> </td> 
   </tr>
   <tr>
    <td>11 feb 2019</td> 
@@ -316,30 +316,30 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
     <ul> 
      <li><a href="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html">Kärnkomponenter</a></li> 
      <li><a href="https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html">Dispatcher</a></li> 
-     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html">HTL</a></li> 
-     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html">Cloud Manager</a></li> 
+     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-htl/content/overview.html">HTL</a></li> 
+     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/content/introduction.html">Cloud Manager</a></li> 
      <li><a href="https://experienceleague.adobe.com/docs/exc/using/overview.html?lang=en">Adobe Experience Cloud Library</a></li> 
-    </ul> <p>Innehållet är detsamma med en viss förbättring av presentationen. Mer spännande är den nya möjligheten att bidra med förslag på dokumentation via pull-förfrågningar eller problem via GitHub via <strong>Redigera den här sidan</strong> och <strong>Logga ett problem</strong> länkar på alla sidor. Vi välkomnar dina synpunkter!</p> </td> 
+    </ul> <p>Innehållet är detsamma med en viss förbättring av presentationen. Mer spännande är den nya möjligheten att bidra med förslag på dokumentation via pull-förfrågningar eller problem via GitHub via <strong>Redigera den här sidan</strong> och <strong>Logga ett problem</strong> länkar på alla sidor. Adobe välkomnar dina synpunkter!</p> </td> 
   </tr>
   <tr>
    <td>11 feb 2019</td> 
    <td>Kärnkomponenter</td> 
-   <td>Version 2.3.0 av <a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/separator.html">Avgränsarkomponent</a>, förbättringar av <a href="http://opensource.adobe.com/aem-core-wcm-components/library/image.html">Komponentbibliotek</a> för att göra det ännu enklare att experimentera med komponenterna.<br /> </td> 
+   <td>Version 2.3.0 av <a href="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/wcm-components/separator.html?lang=en">Avgränsarkomponent</a>, förbättringar av <a href="https://www.aemcomponents.dev">Komponentbibliotek</a> för att göra det ännu enklare att experimentera med komponenterna.<br /> </td> 
   </tr>
   <tr>
    <td>10 jan 2019</td> 
-   <td>Upplevelsefragment</td> 
-   <td>Dokumentation på <a href="https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html#deleting-an-experience-fragment-already-exported-to-target">Ta bort ett Experience Fragment som redan har exporterats till Target</a>.</td> 
+   <td>Experience Fragments</td> 
+   <td>Dokumentation på <a href="https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=en#deleting-an-experience-fragment-already-exported-to-target">Ta bort ett Experience Fragment som redan har exporterats till Target</a>.</td> 
   </tr>
   <tr>
    <td>9 jan 2019</td> 
    <td>Felsöka integreringsproblem</td> 
-   <td>En ny <a href="https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/troubleshooting-integration-issues.html">Felsöka integreringsproblem</a> sidan har lagts till.</td> 
+   <td>En ny <a href="https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/troubleshooting-integration-issues.html?lang=en">Felsöka integreringsproblem</a> sidan har lagts till.</td> 
   </tr>
   <tr>
    <td>20 december 2018</td> 
    <td>AEM 6.4 Service Pack 3</td> 
-   <td><a href="https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html">AEM 6.4 Service Pack 3 (6.4.3.0)</a> är tillgängligt.</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=en#hotfixes-and-feature-packs-included-in-previous-service-packs">AEM 6.4 Service Pack 3 (6.4.3.0)</a> är tillgängligt.</td> 
   </tr>
   <tr>
    <td>17 december 2018</td> 
@@ -348,13 +348,13 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   </tr>
   <tr>
    <td>11 december 2018</td> 
-   <td><a href="https://docs.adobe.com/content/help/en/experience-manager-64/developing/platform/templates/templates.html#template-availability">Malltillgänglighet</a></td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-64/developing/platform/templates/templates.html?lang=en#template-availability">Malltillgänglighet</a></td> 
    <td>Uppdaterade rekommendationer när du definierar tillgängligheten för dina mallar.</td> 
   </tr>
   <tr>
    <td>11 december 2018</td> 
    <td>Enkelsidiga program<br /> </td> 
-   <td>A <a href="https://docs.adobe.com/content/help/en/experience-manager-64/developing/headless/spas/spa-getting-started-angular.html">komma igång-guide</a> är nu tillgängligt för ramverket för Angular.<br /> </td> 
+   <td>A <a href="https://experienceleague.adobe.com/docs/experience-manager-64/developing/headless/spas/spa-getting-started-angular.html?lang=en">komma igång-guide</a> är nu tillgängligt för ramverket för Angular.<br /> </td> 
   </tr>
   <tr>
    <td>7 december 2018</td> 
@@ -364,32 +364,32 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>28 november 2018</td> 
    <td>Enkelsidiga program</td> 
-   <td><a href="https://docs.adobe.com/content/help/en/experience-manager-64/developing/headless/spas/spa-architecture.html#spa-development-principles-for-aem">utvecklingsprinciper</a> och <a href="https://docs.adobe.com/content/help/en/experience-manager-64/developing/headless/spas/spa-architecture.html#spa-design-models">designmodeller</a> för SPA i AEM.<br /> </td>
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-64/developing/headless/spas/spa-architecture.html?lang=en#spa-development-principles-for-aem">utvecklingsprinciper</a> och <a href="https://experienceleague.adobe.com/docs/experience-manager-64/developing/headless/spas/spa-architecture.html?lang=en#spa-design-models">designmodeller</a> för SPA i AEM.<br /> </td>
   </tr>
   <tr>
    <td>28 november 2018</td> 
    <td>Enkelsidiga program</td> 
-   <td>Dokumentation om den tekniska förhandsgranskningen av <a href="https://docs.adobe.com/content/help/en/experience-manager-64/developing/headless/spas/spa-ssr.html">återgivningsfunktion på serversidan för SPA</a> är nu tillgängligt.<br /> </td> 
+   <td>Dokumentation om den tekniska förhandsgranskningen av <a href="https://experienceleague.adobe.com/docs/experience-manager-64/developing/headless/spas/spa-ssr.html?lang=en">återgivningsfunktion på serversidan för SPA</a> är nu tillgängligt.<br /> </td> 
   </tr>
   <tr>
    <td>28 november 2018</td> 
    <td>Kärnkomponenter<br /> </td> 
-   <td><a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/versions.html">kärnkomponentdokumentation</a> har uppdaterats i enlighet med detta.<br /> </td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/versions.html?lang=en">kärnkomponentdokumentation</a> har uppdaterats i enlighet med detta.<br /> </td> 
   </tr>
   <tr>
    <td>19 november 2018</td> 
-   <td>Upplevelsefragment</td> 
-   <td>Snabbstartsida för utvecklare, som visar hur man använder <a href="https://docs.adobe.com/content/help/en/experience-manager-64/developing/bestpractices/we-retail/we-retail-experience-fragments.html">Experience Fragments in We.Retail</a>.<br /> </td> 
+   <td>Experience Fragments</td> 
+   <td>Snabbstartsida för utvecklare, som visar hur man använder <a href="https://experienceleague.adobe.com/docs/experience-manager-64/developing/bestpractices/we-retail/we-retail-experience-fragments.html?lang=en">Experience Fragments in We.Retail</a>.<br /> </td> 
   </tr>
   <tr>
    <td>2 november 2018</td> 
    <td>AEM Screens</td> 
-   <td>AEM Screens-dokumentationen har flyttats från grenen Platser till den exklusiva grenen Skärmar. Se <a href="https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html">AEM Screens Användarhandbok</a> för fullständig konsoliderad dokumentation.</td> 
+   <td>AEM Screens-dokumentationen har flyttats från grenen Platser till den exklusiva grenen Skärmar. Se <a href="https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/aem-screens-introduction.html?lang=en">AEM Screens Användarhandbok</a> för fullständig konsoliderad dokumentation.</td> 
   </tr>
   <tr>
    <td>1 november 2018</td> 
    <td>Cloud Manager</td> 
-   <td>Cloud Manager 2018.9.0-utgåvan har stöd för ett Adobe I/O-baserat API, inklusive händelser, för integrering av Cloud Managers CI/CD-pipeline med andra system. Det börjar också skriva om UI-lagret i React. Följ <a href="https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-2018-9-0.html">Versionsinformation för 2018.9.0</a> för mer information.</td> 
+   <td>Cloud Manager 2018.9.0-utgåvan har stöd för ett Adobe I/O-baserat API, inklusive händelser, för integrering av Cloud Managers CI/CD-pipeline med andra system. Det börjar också skriva om UI-lagret i React. Följ <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/content/release-notes/2018/2018-9-0.html?lang=en">Versionsinformation för 2018.9.0</a> för mer information.</td> 
   </tr>
   <tr>
    <td>25 oktober 2018</td> 
@@ -399,57 +399,57 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>16 oktober 2018</td> 
    <td>Kärnkomponenter<br /> </td> 
-   <td>Version 2.2.0 av <a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/tabs.html">Tabbar</a> och <a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/carousel.html">Carousel</a> -komponenter tillsammans med förbättringar av komponenterna Bild, Titel och Sida samt flera felkorrigeringar.</td> 
+   <td>Version 2.2.0 av <a href="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/wcm-components/tabs.html?lang=en">Tabbar</a> och <a href="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/wcm-components/carousel.html?lang=en">Carousel</a> -komponenter tillsammans med förbättringar av komponenterna Bild, Titel och Sida samt flera felkorrigeringar.</td> 
   </tr>
   <tr>
    <td>10 oktober 2018<br /> </td> 
    <td>Enkelsidiga program</td> 
-   <td>Det AEM SDK-ramverket för redigeraren är tillgängligt som en del av AEM 6.4.2.0 med <a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/user-guide.html?topic=/experience-manager/6-4/sites/developing/morehelp/spa.ug.js">uppdaterad dokumentation</a>.<br /> </td> 
+   <td>Det AEM SDK-ramverket för redigeraren är tillgängligt som en del av AEM 6.4.2.0 med <a href="https://experienceleague.adobe.com/docs/experience-manager-64/developing/home.html?lang=en&amp;topic=/experience-manager/6-4/sites/developing/morehelp/spa.ug.js">uppdaterad dokumentation</a>.<br /> </td> 
   </tr>
   <tr>
    <td>3 oktober 2018</td> 
    <td>Statiska mallar<br /> </td> 
-   <td><a href="https://docs.adobe.com/content/help/en/experience-manager-64/developing/platform/templates/page-templates-static.html">Hur designer tillämpas på statiska mallar</a> har detaljerats.<br /> </td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-64/developing/platform/templates/page-templates-static.html?lang=en">Hur designer tillämpas på statiska mallar</a> har detaljerats.<br /> </td> 
   </tr>
   <tr>
    <td>3 oktober 2018</td> 
    <td>AEM 6.4 Service Pack 2</td> 
-   <td><a href="https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html" target="_blank">AEM 6.4 Service Pack 2</a> (6.4.2.0) finns att köpa.</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=en#hotfixes-and-feature-packs-included-in-previous-service-packs" target="_blank">AEM 6.4 Service Pack 2</a> (6.4.2.0) finns att köpa.</td> 
   </tr>
   <tr>
    <td>18 september 2018</td> 
    <td>AEM Screens</td> 
-   <td>Om du vill använda dynamisk inbäddad sekvens tilldelar du en kanal efter kanalroll. <a href="https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/dynamic-embedded-sequences.html">Använda dynamisk inbäddad sekvens</a>, gör att användaren kan följa en hierarki där ändringar/uppdateringar som görs i en kanal sprids till en annan i relation till den. Den följer hierarkin för överordnade och underordnade och innehåller även resurser som bilder eller videoklipp.</td> 
+   <td>Om du vill använda dynamisk inbäddad sekvens tilldelar du en kanal efter kanalroll. <a href="https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/product-features/dynamic-embedded-sequences.html?lang=en">Använda dynamisk inbäddad sekvens</a>, gör att användaren kan följa en hierarki där ändringar/uppdateringar som görs i en kanal sprids till en annan i relation till den. Den följer hierarkin för överordnade och underordnade och innehåller även resurser som bilder eller videoklipp.</td> 
   </tr>
   <tr>
    <td>12 september 2018</td> 
    <td>Cloud Manager</td> 
-   <td>Automatisk skalning aktiveras via horisontell skalning av segmenten Dispatcher/Publish i produktionsmiljön för att ge stöd för en plötslig ökning av belastning, volym, åtkomst och andra definierade övervakade mätvärden. Följ <a href="https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-2018-7-0.html">Versionsinformation för 2018.7.0</a> för mer information.</td> 
+   <td>Automatisk skalning aktiveras via horisontell skalning av segmenten Dispatcher/Publish i produktionsmiljön för att ge stöd för en plötslig ökning av belastning, volym, åtkomst och andra definierade övervakade mätvärden. Följ <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/content/release-notes/2018/2018-7-0.html?lang=en">Versionsinformation för 2018.7.0</a> för mer information.</td> 
   </tr>
   <tr>
    <td>29 augusti 2018<br /> </td> 
    <td>AEM Assets</td> 
-   <td>Adobe I/O gateway-tjänsten är tillgänglig på <a href="https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/configure-assets-cc-integration.html" target="_blank">konfigurera integrering med AEM Assets</a> och <a href="https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=en" target="_blank">konfigurera resursintegrering med Brand Portal</a> artiklar.</td> 
+   <td>För att konfigurera autentiseringsintegreringar finns gateway-tjänsten för Adobe Developer Console på <a href="https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html?lang=en" target="_blank">konfigurera integrering med AEM Assets</a> och <a href="https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=en" target="_blank">konfigurera resursintegrering med Brand Portal</a> artiklar.</td> 
   </tr>
   <tr>
    <td>24 augusti 2018</td> 
    <td>RTF-redigerare<br /> </td> 
-   <td>Revampad <a href="https://docs.adobe.com/content/help/en/experience-manager-64/administering/operations/rich-text-editor.html" target="_blank">konfigurera RTE-artikel</a> om du vill strukturera den bättre kan du lägga till viss saknad information, lägga till en illustration i arbetsflödet och dela upp den långa artikeln.</td> 
+   <td>Revampad <a href="https://experienceleague.adobe.com/docs/experience-manager-64/administering/operations/rich-text-editor.html?lang=en" target="_blank">konfigurera RTE-artikel</a> om du vill strukturera den bättre kan du lägga till viss saknad information, lägga till en illustration i arbetsflödet och dela upp den långa artikeln.</td> 
   </tr>
   <tr>
    <td>24 augusti 2018</td> 
    <td>Enkelsidiga program<br /> </td> 
-   <td>Dokumentationen för utveckling <a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/user-guide.html?topic=/experience-manager/6-4/sites/developing/morehelp/spa.ug.js">Single Page Applications (SPA)</a> för AEM SPA Editor har uppdaterats och utökats.<br /> </td> 
+   <td>Dokumentationen för utveckling <a href="https://experienceleague.adobe.com/docs/experience-manager-64/developing/home.html?lang=en&amp;topic=/experience-manager/6-4/sites/developing/morehelp/spa.ug.js">Single Page Applications (SPA)</a> för AEM SPA Editor har uppdaterats och utökats.<br /> </td> 
   </tr>
   <tr>
    <td>16 augusti 2018</td> 
    <td>Livefyre-integrering</td> 
-   <td>Uppdaterat <a href="https://helpx.adobe.com/experience-manager/6-4/release-notes/livefyre-feature-pack-206.html">2.0.6 feature pack release</a>, samt <a href="https://helpx.adobe.com/experience-manager/6-4/release-notes/feature-packs-release-notes.html">Funktionspaket</a> sida. </td> 
+   <td>Uppdaterat <a href="https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/livefyre-feature-pack-206.html?lang=en">2.0.6 feature pack release</a>och <a href="https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/release-notes.html?lang=en">Funktionspaket</a> sida. </td> 
   </tr>
   <tr>
    <td>19 juli 2018</td> 
    <td>Core Components Release 2.1.0</td> 
-   <td>Version 2.1.0 av <a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/image.html">Bild</a> komponentförbättringar, en ny <a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/teaser.html">Teaser</a> och flera felkorrigeringar.</td> 
+   <td>Version 2.1.0 av <a href="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/wcm-components/image.html?lang=en">Bild</a> komponentförbättringar, en ny <a href="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/wcm-components/teaser.html?lang=en">Teaser</a> och flera felkorrigeringar.</td> 
   </tr>
   <tr>
    <td>19 juli 2018</td> 
@@ -474,67 +474,67 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>5 juli 2018</td> 
    <td>Integrering med MC-CC<br /> </td> 
-   <td>Programrättningar och redaktionella förbättringar i <a href="https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/configure-assets-cc-integration.html">Konfigurera AEM Assets-integrering med Marketing Cloud och Creative Cloud</a>.</td> 
+   <td>Programrättningar och redaktionella förbättringar i <a href="https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html?lang=en">Konfigurera AEM Assets-integrering med Experience Cloud och Creative Cloud</a>.</td> 
   </tr>
   <tr>
    <td>5 juli 2018</td> 
    <td>Smarta taggar för resurser<br /> </td> 
-   <td>Ytterligare förbättringar av <a href="https://docs.adobe.com/content/help/en/experience-manager-64/assets/managing/config-smart-tagging.html">Konfigurera artikeln Smarta taggar</a> för att strukturera bättre, åtgärda fel och länka samman med relaterade artiklar.</td> 
+   <td>Ytterligare förbättringar av <a href="https://experienceleague.adobe.com/docs/experience-manager-64/assets/managing/config-smart-tagging.html?lang=en">Konfigurera artikeln Smarta taggar</a> för att strukturera bättre, åtgärda fel och länka samman med relaterade artiklar.</td> 
   </tr>
   <tr>
    <td>5 juli 2018</td> 
    <td>Integrera med Adobe Analytics<br /> </td> 
-   <td>Olika uppdateringar av <a href="https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/adobeanalytics.html">Integrera med Adobe Analytics</a> sidor.<br /> </td> 
+   <td>Olika uppdateringar av <a href="https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/adobeanalytics.html?lang=en">Integrera med Adobe Analytics</a> sidor.<br /> </td> 
   </tr>
   <tr>
    <td>29 juni 2018</td> 
    <td>AEM 6.4.1.0</td> 
-   <td><a href="https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html" target="_blank">AEM 6.4.1.0</a> är tillgängligt.</td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=en" target="_blank">AEM 6.4.1.0</a> är tillgängligt.</td> 
   </tr>
   <tr>
    <td>25 juni 2018</td> 
    <td>Pekgränssnitt</td> 
-   <td><a href="https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/touch-ui-features-status.html">Funktionsstatus för Touch UI</a> sidan uppdaterades för 6.4.<br /> </td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/touch-ui-features-status.html?lang=en">Funktionsstatus för Touch UI</a> sidan uppdaterades för 6.4.<br /> </td> 
   </tr>
   <tr>
    <td>22 juni 2018</td> 
    <td>Enkelsidiga program<br /> </td> 
-   <td><p>Det finns nu ytterligare SPA med en genomgång av hur en SPA fungerar i AEM SPA, arkitekturen för SPA i AEM och exempel på hur du anpassar din egen komponent till en AEM.</p> 
+   <td><p>Nu finns ytterligare SPA. Här får du en genomgång av hur en SPA fungerar i AEM SPA, arkitekturen för SPA i AEM och exempel på hur du anpassar din egen komponent så att den fungerar med en AEM.</p> 
     <ul> 
-     <li><a href="https://docs.adobe.com/content/help/en/experience-manager-64/developing/headless/spas/spa-walkthrough.html">SPA</a></li> 
-     <li><a href="https://docs.adobe.com/content/help/en/experience-manager-64/developing/headless/spas/spa-architecture.html">SPA</a></li> 
-     <li><a href="https://docs.adobe.com/content/help/en/experience-manager-64/developing/headless/spas/spa-implementing-react-component.html">Implementera en React Component for SPA</a></li> 
+     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-64/developing/headless/spas/spa-walkthrough.html?lang=en">SPA</a></li> 
+     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-64/developing/headless/spas/spa-architecture.html?lang=en">SPA</a></li> 
+     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-64/developing/headless/spas/spa-implementing-react-component.html?lang=en">Implementera en React Component for SPA</a></li> 
     </ul> </td> 
   </tr>
   <tr>
    <td>14 juni 2018</td> 
    <td>Förbättrade smarta taggar</td> 
-   <td>Förbättrad dokumentation om hur man <a href="https://docs.adobe.com/content/help/en/experience-manager-64/assets/managing/config-smart-tagging.html" target="_blank">Konfigurera resurstaggning med hjälp av Smart Content Service</a>.</td> 
+   <td>Förbättrad dokumentation om hur man <a href="https://experienceleague.adobe.com/docs/experience-manager-64/assets/managing/config-smart-tagging.html?lang=en" target="_blank">Konfigurera resurstaggning med hjälp av Smart Content Service</a>.</td> 
   </tr>
   <tr>
    <td>4 juni 2018</td> 
    <td>Cloud Manager</td> 
-   <td>Dokumentation om hur man använder <a href="https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html">Cloud Manager med AEM 6.4</a> är nu tillgängligt.</td> 
+   <td>Dokumentation om hur man använder <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/content/introduction.html?lang=en">Cloud Manager med AEM 6.4</a> är nu tillgängligt.</td> 
   </tr>
   <tr>
    <td>30 maj 2018<br /> </td> 
    <td>Paketvalidering</td> 
-   <td>Uppdaterat <a href="https://docs.adobe.com/content/help/en/experience-manager-64/administering/contentmanagement/package-manager.html">Så här arbetar du med paket</a> dokumentation med mer information om den nya paketvalideringsfunktionen, inklusive möjligheten att validera åtkomstkontrollistor.<br /> </td> 
+   <td>Uppdaterat <a href="https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/package-manager.html?lang=en">Så här arbetar du med paket</a> dokumentation med mer information om den nya paketvalideringsfunktionen, inklusive möjligheten att validera åtkomstkontrollistor.<br /> </td> 
   </tr>
   <tr>
    <td>30 maj 2018</td> 
    <td>Activity Map</td> 
-   <td>Funktioner för aktivitetskarta för publicerade sidor som en del av sidredigeraren. Så här gör du <a href="https://docs.adobe.com/content/help/en/experience-manager-64/authoring/page-performance/pa-using.html">use</a>.</td> 
+   <td>Funktioner för aktivitetskarta för publicerade sidor som en del av sidredigeraren. Så här gör du <a href="https://experienceleague.adobe.com/docs/experience-manager-64/authoring/page-performance/pa-using.html?lang=en">use</a>.</td> 
   </tr>
   <tr>
    <td>25 maj 2018<br /> </td> 
    <td>GDPR-efterlevnad</td> 
-   <td><a href="https://docs.adobe.com/content/help/en/experience-manager-64/administering/bestpractices/gdpr-compliance-sites.html">GDPR-beredskap</a> med AEM.<br /> </td> 
+   <td><a href="https://experienceleague.adobe.com/docs/experience-manager-64/administering/bestpractices/gdpr-compliance-sites.html?lang=en">GDPR-beredskap</a> med AEM.<br /> </td> 
   </tr>
   <tr>
    <td>4 maj 2018</td> 
    <td>AEM 6.4 Referensmaterial<br /> </td> 
-   <td><p><a href="https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/reference-materials.html">Referensmaterial</a> finns bland annat:</p> 
+   <td><p><a href="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/reference-materials.html?lang=en">Referensmaterial</a> finns bland annat:</p> 
     <ul> 
      <li>Adobe AEM 6.4.0 API</li> 
      <li>API-skillnader</li> 
@@ -550,20 +550,20 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>25 april 2018</td> 
    <td>Dynamic Media: Carousel Viewer</td> 
-   <td>Den nya <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/carousel/c-html5-aem-carousel.html?lang=en" target="_blank">Carousel Viewer i Dynamic Media</a> visar en karusell med banderollbilder som inte kan zoomas med klickbara områden eller områden. Syftet med detta visningsprogram är att implementera en shoppingupplevelse där användare kan välja en hotspot eller en region över banderollbilden och omdirigeras till en Quickview- eller produktinformationssida på kundens webbplats. Den är utformad för att fungera på stationära datorer och mobila enheter.</td> 
+   <td>Den nya <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/carousel/c-html5-aem-carousel.html?lang=en" target="_blank">Carousel Viewer i Dynamic Media</a> visar en karusell med banderollbilder som inte kan zoomas med klickbara områden eller områden. Syftet med detta visningsprogram är att implementera en shoppingupplevelse. Användarna kan välja en aktiveringspunkt eller ett område över banderollbilden och omdirigeras till en Quickview- eller produktinformationssida på kundens webbplats. Den är utformad för att fungera på stationära datorer och mobila enheter.</td> 
   </tr>
   <tr>
    <td>24 april 2018<br /> </td> 
    <td>Enkelsidiga program<br /> </td> 
-   <td><p>Single page applications (SPA) can offer compelling experiences for website users. Utvecklare vill kunna skapa webbplatser med SPA ramverk och författare vill smidigt redigera innehåll i AEM för en webbplats som är byggd som en SPA.</p> <p><a href="https://docs.adobe.com/content/help/en/experience-manager-64/developing/headless/spas/spa-walkthrough.html">SPA</a> (för närvarande en förhandstitt på teknik) är en heltäckande lösning för stöd av SPA inom AEM.</p> </td> 
+   <td><p>Single page applications (SPA) can offer compelling experiences for website users. Utvecklare vill kunna skapa webbplatser med SPA ramverk och författare vill smidigt redigera innehåll i AEM för en webbplats som är byggd som en SPA.</p> <p><a href="https://experienceleague.adobe.com/docs/experience-manager-64/developing/headless/spas/spa-walkthrough.html?lang=en">SPA</a> (för närvarande en förhandstitt på teknik) är en heltäckande lösning för stöd av SPA inom AEM.</p> </td> 
   </tr>
   <tr>
    <td>4 april 2018</td> 
    <td>AEM 6.4</td> 
    <td><p>Adobe Experience Manager 6.4 är en uppgraderingsversion till Adobe Experience Manager 6.3-kodbasen. Den innehåller nya och förbättrade funktioner, viktiga kundkorrigeringar, högprioriterade kundförbättringar och allmänna felkorrigeringar som är inriktade på produktstabilisering. Den innehåller även alla Adobe Experience Manager 6.3-funktionspaket, hot fix och Service Pack-versioner.</p> <p>Se följande:</p> 
     <ul> 
-     <li><a href="https://helpx.adobe.com/support/experience-manager/6-4.html">AEM 6.4-dokumentation</a></li> 
-     <li><a href="https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html">Versionsinformation</a></li> 
+     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-64.html">AEM 6.4-dokumentation</a></li> 
+     <li><a href="https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/release-notes.html?lang=en">Versionsinformation</a></li> 
     </ul> </td> 
   </tr>
  </tbody>
@@ -594,7 +594,7 @@ Följande versioner har flyttats:
 <table> 
  <tbody>
   <tr>
-   <td>Datum</td> 
+   <td>Date</td> 
    <td>Ämne</td> 
    <td>Ändringar</td> 
   </tr>
@@ -1430,12 +1430,12 @@ Följande versioner har flyttats:
   </tr>
   <tr>
    <td>February 23, 2017</td> 
-   <td><p><a href="http://answers.livefyre.com/product/storify-2/createastory/">Create a Storify 2</a></p> </td> 
+   <td><p><a href="https://answers.livefyre.com/product/storify-2/createastory/">Create a Storify 2</a></p> </td> 
    <td>Updated documentation to reflect a new option to open a Modal window when a site visitor shares a link to a Storify 2 post.</td> 
   </tr>
   <tr>
    <td>February 23, 2017</td> 
-   <td><a href="http://answers.livefyre.com/product/studio-v2/streams/creating-streams/add-rules-for-your-stream/add-instagram-rules/">Add Instagram Rules</a></td> 
+   <td><a href="https://answers.livefyre.com/product/studio-v2/streams/creating-streams/add-rules-for-your-stream/add-instagram-rules/">Add Instagram Rules</a></td> 
    <td>Studio Users can now create stream rules that include a specific check-in location on Instagram.</td> 
   </tr>
   <tr>
@@ -1632,7 +1632,7 @@ Följande versioner har flyttats:
      <li>Complete metadata schema publishing from Assets to Brand Portal</li> 
      <li>Enhanced reporting capabilities—assets downloaded, expired, and published</li> 
      <li>Newly introduced DRM capabilities—assets expiration controls and notification</li> 
-     <li>New <a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/whats-new.html?lang=en">what’s new article</a> to learn about the new and updated features</li> 
+     <li>New <a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/whats-new.html?lang=en">what's new article</a> to learn about the new and updated features</li> 
      <li>New version-agnostic <a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en">Brand Portal user guide</a> independent of AEM Assets User Guide</li> 
     </ul> </td> 
   </tr>
