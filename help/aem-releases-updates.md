@@ -3,10 +3,10 @@ title: "[!DNL Adobe Experience Manager] releases updates"
 description: "[!DNL Adobe Experience Manager] releases updates"
 contentOwner: AK
 exl-id: 103e1c40-364e-450d-92d3-6b952e33d47c
-source-git-commit: 5a549a95acf4d1b78b9040411c9e1720911afeb9
+source-git-commit: 3d078becd3165d77bb027c4d8aec040e1cf01932
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 1%
+source-wordcount: '207'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ I den här artikeln listas den senaste versionen för varje versionskategori och
 
 ## [!DNL Experience Manager] som [!DNL Cloud Service] {#aem-as-cloud-service}
 
-[!DNL Experience Manager] som [!DNL Cloud Service] följer en månatlig publiceringsgräns. Därför finns nya funktioner tillgängliga som kontinuerliga uppdateringar av [!DNL Experience Manager] varje månad.
+[!DNL Experience Manager] som [!DNL Cloud Service] avser vanligtvis en månatlig lanseringsgräns för nya funktioner.
 
 Se [Aktuell versionsinformation för [!DNL Experience Manager] som [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html) för information om den aktuella/senaste versionen. Därifrån kan du även navigera till information om tidigare versioner (ordnade kronologiskt).
 
@@ -33,13 +33,3 @@ För Managed Services och lokalt installerade erbjudanden listas den senaste ver
 [!DNL Experience Manager] 6.5 produktuppdateringar levereras via kvartalsvisa servicepaket. Det gäller nya funktioner, förbättringar och felkorrigeringar.
 
 Se [[!DNL Experience Manager] 6.5 Senaste funktionspaket](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/release-notes.html) för information om den aktuella/senaste versionen. Därifrån kan du även navigera till information om tidigare versioner (ordnade kronologiskt).
-
-### [!DNL Experience Manager] 6.4 {#aem-64}
-
-[!DNL Experience Manager] 6.4 Produktuppdateringar levereras genom kvartalsuppgifter för bestruket finpapper. Detta inkluderar felkorrigeringar.
-
-* [[!DNL Experience Manager] 6.4 Service Pack 8 Cumulative Fix Pack 4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html)
-
-* [[!DNL Experience Manager] 6.4 Service Pack 8](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html)
-
-* [[!DNL Experience Manager] 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/release-notes.html)

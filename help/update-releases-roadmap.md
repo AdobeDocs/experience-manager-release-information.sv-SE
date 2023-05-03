@@ -2,9 +2,9 @@
 title: "[!DNL Adobe Experience Manager] releases roadmap"
 description: "[!DNL Adobe Experience Manager] releases roadmap"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: bbb0560ff5a2cebc0b06ba7d0c7b4041e9290113
+source-git-commit: a6fe2531f159b29279c7fcbf9f782e1985700eee
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '328'
 ht-degree: 3%
 
 ---
@@ -51,10 +51,6 @@ Produktuppdateringar i form av nya funktioner, förbättringar och felkorrigerin
 >[!NOTE]
 >
 >[!DNL Experience Manager] Forms släpper tilläggspaketen en vecka efter det schemalagda [!DNL Experience Manager] Lanseringsdatum för Service Pack.
-
-### [!DNL Experience Manager] 6.4 {#aem64}
-
-[!DNL Experience Manager] 6.4 Service Pack 8 CFP 4 är den sista bestruken text för [!DNL Experience Manager] 6.4. Mer information om den senaste gemensamma fiskeripolitiken finns på [[!DNL Experience Manager] 6.4 Versionsinformation för Cumulative Fix Pack](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html).
 
 >[!MORELIKETHIS]
 >
