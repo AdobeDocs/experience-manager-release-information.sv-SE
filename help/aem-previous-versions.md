@@ -4,8 +4,8 @@ description: Ladda ned dokumentationspaket för äldre versioner av Adobe Experi
 exl-id: c210eadb-58ec-4d40-ba72-5e4b11564510
 source-git-commit: b89be487ab4cc931f51223105fa91bcd9e27384c
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
