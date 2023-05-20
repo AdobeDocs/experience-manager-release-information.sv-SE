@@ -6,7 +6,7 @@ exl-id: eed01a42-f4ab-4392-8b8e-eb5bbe2410a0
 source-git-commit: 5a549a95acf4d1b78b9040411c9e1720911afeb9
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -75,19 +75,19 @@ Använd följande kommandon för att ange timeout på komponentnivå:
 
 1. Så här anger du timeout för alla serviceåtgärder till 600 sek:
 
-   uppsättning &quot; `JAVA_OPTS=%JAVA_OPTS% -Dadobe.all-component.timeout=600`&quot;
+   set &quot; `JAVA_OPTS=%JAVA_OPTS% -Dadobe.all-component.timeout=600`&quot;
 
 1. Så här anger du `DesigntimeService` timeout för operationsvärden till 500 sek. Använd:
 
-   uppsättning &quot; `JAVA_OPTS=%JAVA_OPTS% -Dadobe.DesigntimeService.timeout=500`&quot;
+   set &quot; `JAVA_OPTS=%JAVA_OPTS% -Dadobe.DesigntimeService.timeout=500`&quot;
 
 1. Så här anger du `DesigntimeService's previewLCA` timeout för operationsvärden till 700 sek. Använd:
 
-   uppsättning `"JAVA_OPTS=%JAVA_OPTS% -Dadobe.DesigntimeService.previewLCA.timeout=700`&quot;
+   set `"JAVA_OPTS=%JAVA_OPTS% -Dadobe.DesigntimeService.previewLCA.timeout=700`&quot;
 
 1. Så här anger du `DSC operations`, till exempel läsa in och installera, till 600 sek, använd:
 
-   uppsättning &quot; `JAVA_OPTS=%JAVA_OPTS% -Dadobe.component.registry.timeout=600`&quot;
+   set &quot; `JAVA_OPTS=%JAVA_OPTS% -Dadobe.component.registry.timeout=600`&quot;
 
 ## Installera och konfigurera AEM [!DNL Forms JEE] {#install-and-configure-aem-forms-jee}
 

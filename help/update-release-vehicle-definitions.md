@@ -6,7 +6,7 @@ exl-id: 936b8136-9edb-4e11-9c29-f0c3108c35bd
 source-git-commit: 5a549a95acf4d1b78b9040411c9e1720911afeb9
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -56,18 +56,18 @@ Det här dokumentet innehåller information om de olika typerna av [!DNL Adobe E
 
 ## Övertäckning {#overlay}
 
-| Objekt | Information |
+| Objekt | Detaljer |
 |-------|--------|
 | Namngivning | overlay-&lt;ticket id=&quot;&quot;> |
 | Inkluderingar | Felkorrigering för en JS- eller JSP-fil |
-| Dokumentation | Inget |
+| Dokumentation | Ingen |
 | Cadence | Vid behov |
 | Tillgänglighet och installation | <ul> <li> Levereras som paket av [!DNL Experience Manager] Kundtjänst  </li> <li> Ingår inte nödvändigtvis i Service Pack eller fullständiga versioner </li> </ul> |
 | Testnivå | Validerad av Kundtjänst |
 
 ## Funktionspaket {#feature-pack}
 
-| Objekt | Information |
+| Objekt | Detaljer |
 |--------|-----|
 | Definition | <ul> <li>Funktionspaket är tilläggsfunktioner och levereras via Service Pack. Om en [!DNL Experience Manager] Adobe kommer inte att leverera något funktionspaket till den nya versionen. </li> <li> FP:er innehåller produktförbättringar som planeras för en senare produktrelease, men levereras tidigt baserat på beslut av [!DNL Adobe's] Produkthantering.</li> <li>  Funktionerna sammanfogas alltid med nästa större release och porteras sedan till [!DNL Experience Manager] version som kunden behöver </li> <li>  Funktionspaket för gemensamt intresse och GA sammanfogas i nästa servicepaket  </li> </ul> |
 | Namngivning | `cq-<Release Version>-featurepack-<feature pack ID>-<feature pack version>` |

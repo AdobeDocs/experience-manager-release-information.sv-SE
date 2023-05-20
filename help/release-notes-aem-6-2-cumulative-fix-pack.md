@@ -191,13 +191,13 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Sessionsläckan i ReplicationEventListener har åtgärdats.
 * Stöd för omdirigering har lagts till i kärnsideskomponenten.
 
-### Resurser {#assets-1}
+### Assets {#assets-1}
 
 * Camera Raw processer fastnar under perioder med stort intag och blockerar till slut all arbetsflödesbearbetning. NPR-26990: Programfix för NPR-23860
 * Hämtningsfunktionen utnyttjar AEM Assets via en resurshämtningsserver som gör det möjligt för anonyma användare att hämta alla resurser. NPR-27054, programfix för CQ-4254732
 * Specialtecken visas som brutna på ämnesraden i e-postmallar i AEM. NPR-26470: Programfix för CQ-4252368
 
-### Webbplatser {#sites-1}
+### Sites {#sites-1}
 
 * På grund av ett felaktigt beteende för klassen ConfigPostProcessor tas cq bort när den överordnade bilden pausas: LiveRelationship-blandningstyp från den underordnade sidan. NPR-26745: Programfix för CQ-4254163
 * Lägg till stöd för omdirigering i kärnsideskomponenten. NPR-26576: Programfix för CQ-110529
@@ -260,14 +260,14 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Ändringar i målgruppsvyn som har stöd för mappstruktur för implementering av flera innehavare.
 * Uppdatera till jqueryui clientlib v1.12.1.
 
-### Resurser {#assets-2}
+### Assets {#assets-2}
 
 * När arbetsflöden startas från resursanvändargränssnittet måste användaren ha behörighet att skriva/ta bort/ändra. NPR-25688: Programfix för CQ-4250140
 * Knapparna för publicering och avpublicering är fortfarande synliga även för användare som saknar replikeringsbehörighet. NPR-25094
 * (Arbetsflöde) Arbetsflödet för resurser för smarta taggar bearbetas inte via AEM proxykonfiguration. NPR-25915: Programfix för CQ-4248202
 * Ta bort importören för S7-avsökning från molntjänstkonfigurationen för S7. NPR-25239: Programfix för CQ-95236
 
-### Webbplatser {#sites-2}
+### Sites {#sites-2}
 
 * Arbetsflöden som har startats från redigeraren -> Sidinformation innehåller kontextsökvägen i nyttolasten. NPR-26389: Programfix för CQ-76804
 * (Extern länkkontroll) Ogiltiga https-länkar visas som giltiga länkar. NPR-25541: Programfix för CQ-4201333
@@ -352,7 +352,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Korrigeringar i funktionerna för att visa/dölja i nedrullningsbara komponenter.
 * Uppgradera till den senaste versionen av Jackson 2.8.11
 
-### Resurser {#assets-3}
+### Assets {#assets-3}
 
 * Det går inte att initiera ett arbetsflöde från en listvy. NPR-24393: Programfix för CQ-4245788
 * (Firefox/Chrome) Det går inte att hämta resurser på sidan Resursdelning. NPR-24523: Programfix för CQ-4224408
@@ -375,7 +375,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Proaktiva snabbkorrigeringar för XSS-attacker (Cross-Site Scripting). NPR-21893: Programfix för CQ-4223385
 * MSM LiveRelationship: effektiv RolloutConfig är fel om BlueprintConfig finns i roten. NPR-23999: Programfix för CQ-4243000
 
-### Webbplatser {#sites-3}
+### Sites {#sites-3}
 
 * Om du vill skapa en ny upplevelse i ett område med live-kopior måste arvet brytas för att kunna konfigureras. NPR-24995, programfix för CQ-4248209
 * (Touchgränssnitt) Flera ikoner i det övre verktygsfältet försvinner när du låser eller låser upp en sida. NPR-23954: Programfix för CQ-4243345
@@ -465,7 +465,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Uppdatera till den senaste filen adobe-reader-extensions-dsc.jar för korrigeringar i Reader Extension.
 * Justerad valideringskrok för att ta hänsyn till &quot;:invalid&quot;-objekt för ökning av talindata.
 
-### Resurser {#assets-4}
+### Assets {#assets-4}
 
 * EmbedXMP-data anges alltid till&quot;active&quot; för Ptiff-genereringsprocessen. NPR-22776: Programfix för CQ-4234498
 * Det går inte att ange flera standardvärden i flervärdesfält. NPR-22900: Programfix för CQ-4239000
@@ -486,7 +486,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Implementera en avsökningsgräns i en begäran om omvänd tillämpning. NPR-23351: Programfix för Granite-21135****
 * Ändringen av meddelandemönstret återspeglas inte i anpassade loggare. NPR-23486: Programfix för CQ-4241974
 
-### Webbplatser {#sites-4}
+### Sites {#sites-4}
 
 * Det går inte att skapa en länk i en text i en textredigerare till ett dokument med blanksteg eller andra specialtecken. NPR-22289: Programfix för CQ-4224321
 * Om du sparar segmentet med ett mycket stort värde (100000000) blir ökningen 0, vilket ger ett felmeddelande. NPR-22524: Programfix för CQ-4237006
@@ -585,7 +585,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Uppdaterad cq-msm-core för effektiv Livecopyindexsynkronisering.
 * Effektivare replikeringsfunktioner för olika utrullningar.
 
-### Resurser {#assets-5}
+### Assets {#assets-5}
 
 * Användare kan inte hämta resurser med ansvarsfriskrivning och långa filnamn. NPR-22163: Programfix för CQ-4235274
 * Ett enkelt citattecken förhindrar att metadata uppdateras i vyn och gränssnittet bryts helt när du öppnar egenskaperna för en resurs med hjälp av snabbverktygsfältets åtgärder. NPR-22317, NPR-22353: Programfix för CQ-4236990, CQ-4236469
@@ -593,7 +593,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Det går inte att hämta resurser när du använder Digital Rights Management i resurser på Safari. NPR-22378: Programfix för CQ-4236460
 * Webbåtergivning för små bilder har felaktig pixelstorlek. NPR-22435: Programfix för CQ-4236742
 
-### Webbplatser {#sites-5}
+### Sites {#sites-5}
 
 * (Touchgränssnitt) Den flyttade taggen visas på den gamla och nya platsen i sidegenskaperna. NPR-21921, programfix för CQ-4238598
 * (Touchgränssnitt) RTF-redigeraren tar bort alla andra attribut än id från taggen. NPR-22045: Programfix för CQ-4234133
@@ -691,12 +691,12 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Korrigeringar för målsynkronisering.
 * Ökade mångsidigheten i Correspondence Management för att kunna hantera specialtecken.
 
-### Resurser {#assets-6}
+### Assets {#assets-6}
 
 * Det går inte att ta bort tidigare versioner av resurser med Rensning av version. NPR-21682: Programfix för CQ-4212996
 * Det går inte att ändra ordning på mappar under en omsorteringsbar mapp. NPR-21964: Programfix för CQ-4231761
 
-### Webbplatser {#sites-6}
+### Sites {#sites-6}
 
 * (TouchUI)(ClassicUI) Sårbarheter med flera serveröverskridande skript (XSS) i HTML och kärnkomponenter. NPR-21532: Programfix för CQ-4232305 och CQ-4232511
 * Det går inte att skapa/formatera innehåll (t.ex. tilldela/ta bort nya listformat) för en markerad text i Internet Explorer 11. NPR-21533: Programfix för CQ-4230689
@@ -770,13 +770,13 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Förbättrad återgivning av sidor med flera kapslade komponenter.
 * Förbättrad synkronisering av publiceringsdatum för resurser mellan AEM och Adobe Digital Publishing Suite.
 
-### Resurser {#assets-7}
+### Assets {#assets-7}
 
 * För många tecken i OmniSearch gör att AEM kraschar. NPR-21083: Programfix för CQ-4223602
 * Värden som anges i det andra alternativet i ett fält med flera värden i metadataschemat läggs inte till de värden som tidigare angetts i CRX-de. NPR-21220: Programfix för CQ-4224526
 * Det går inte att hämta resurser när du använder Digital Rights Management i resurser på Safari. NPR-21387: Programfix för CQ-4230287
 
-### Webbplatser {#sites-7}
+### Sites {#sites-7}
 
 * (DAM) (ClassicUI) Flera serveröverskridande skriptproblem (XSS) i vissa SWF-filer i AEM CQ Author/Publish quickstart. NPR-21073, NPR-21074: Programfix för NPR-20612
 * Taggväljaren översätter inte de taggar som finns på flera språk.NPR-21221: Programfix för CQ-78855
@@ -878,13 +878,13 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Förbättrade videokodningsfunktioner för Dynamic Media-filer.
 * Korrigeringar i Sightly Component och LiveCopies.
 
-### Resurser {#assets-8}
+### Assets {#assets-8}
 
 * Dynamic Media videokodning misslyckas för filer som innehåller blanksteg i sina namn. NPR-20818: Programfix för CQ-102469
 * XSS-säkerhetsluckor (Multiple Cross-site scripting) i vissa SWF-filer i AEM CQ Author/Publish quickstart. NPR-21071, NPR-21072
 * Användare kan inte hämta resurser med ansvarsfriskrivning och långa filnamn. NPR-20255: Programfix för CQ-422139
 
-### Webbplatser {#sites-8}
+### Sites {#sites-8}
 
 * AEM och Campaign-integrering: Speciallänkar skrivs om i Adobe Campaign och förhindrar att kunder skickar e-post till: hyperlänkar i deras e-postmeddelanden. NPR-20787: Programfix för CQ-4225760
 * (Touch UI) AEM användbarhetsproblem och prestandaproblem när språket är inställt på franska. NPR-20854: Programfix för CQ-4227628
@@ -981,7 +981,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Prestandakorrigeringar i en redigeringskomponent för flera bilder på plats.
 * Konfigurationsuppdateringar i Apache Sling JCR ResourceBundleProvider.
 
-### Resurser {#assets-9}
+### Assets {#assets-9}
 
 * Förhandsgranskning av resurser fungerar inte om arbetsflöden för resursuppdatering är inaktiverade. NPR-20543: Programfix för CQ-4204986
 * Återgivningsproblem med klass som lagts till i graniten: class property (cq-damadmin-admin-assets-upload). NPR-20514: Programfix för CQ-4219238
@@ -991,7 +991,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Internationaliseringsordlistor fungerar inte om inte servern startas om i org.apache.sling.i18n 2.5.6. NPR-20525: Programfix för Granite - 19490
 * Inga tråddumpar genereras enligt schemaläggningsperioden med standardkonfigurationen för insamling av tråddumpar (standard AEM start). NPR-20288: Programfix för GRANITE-19488 / GRANITE-12741 / CQ-90647.
 
-### Webbplatser {#sites-9}
+### Sites {#sites-9}
 
 * Om det ändrade datumfiltret ändras efter att den sparade sökningen har öppnats, påverkas inte resultaten och de resultat som visas är desamma som det tidigare sparade värdet för det ändrade datumfiltret. NPR-19739: Programfix för CQ-4219425
 * Det gick inte att läsa in sidor med kapslade komponenter. NPR-20312
@@ -1067,7 +1067,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Förbättrad adaptiv Forms för att bifoga PDF som bilagor i Safari.\
    Tillhandahåller en ny Dynamic Media som ansluter till den nya Dynamic Media Publishing Infrastructure för snabbare och mer skalbar replikering.
 
-### Resurser {#assets-10}
+### Assets {#assets-10}
 
 * AEM Assets kan inte extrahera underresursreferenser för InDesign-resurser. De innehåller dubblettlänkar till resursen. NPR-19006: Programfix för CQ-4204186
 * Sorteringsalternativet fungerar inte för resurser i samlingen under Commerce. NPR-19508: Programfix för CQ-4213622
@@ -1076,7 +1076,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Statiska återgivningar visas med fasta dimensioner och återspeglar inte storleken på den faktiska återgivningen. NPR-20004
 * AEM blir trög när flera resurser (fler än 4) publiceras till Brand Portal. NPR-2009
 
-### Webbplatser {#sites-10}
+### Sites {#sites-10}
 
 * AEM visar ett oväntat beteende när en användare försöker publicera/avpublicera/skapa en version av en sida som är låst av en annan användare. NPR-19249; Programfix för CQ-4215298 och CQ-4203856
 * När du befordrar den kapslade starten manuellt tas den underordnade sidan bort. NPR-19704
@@ -1149,7 +1149,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Aktiverade skiftlägeskänsliga sökfunktioner för dokumentfragmentinnehåll.
 * En lista över Linux-bibliotek har lagts till i AEM Forms installationsdokumentation.
 
-### Resurser {#assets-11}
+### Assets {#assets-11}
 
 * Problem med att använda Omnissearch-filtret på smarta samlingar i webbläsaren Safari. NPR-19511
 * PDF-nyckelordsmetadata extraheras och ändras inte korrekt när det finns flera nyckelord som är associerade med en PDF-resurs. För att lösa problemet har metadataegenskapen för ämnesfältet tagits bort för PDF Assets. Du kan emellertid redigera metadatarammet och lägga till ett textfält med flera värden för ämnesfältet. NPR-19126
@@ -1160,7 +1160,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * När du ändrar titeln eller miniatyrbilden i Resursmappsinställningar åsidosätts mappens ursprungliga grupp och behörigheter. NPR-19283: Programfix för CQ-4216080
 * Windows 10-arbetsstationer växlar automatiskt till pekskärmsläge och inaktiverar vissa av knapparna. NPR-19183
 
-### Webbplatser {#sites-11}
+### Sites {#sites-11}
 
 * Problem med att ha flera RTE-komponenter i en dialogruta. NPR-19311: NPR-19587
 * Automatisk versionsrensning i vanilj AEM 6.2 fungerar bara en gång efter att VersionManagerImpl har initierats. NPR-19315: Programfix för CQ-4217175
@@ -1246,7 +1246,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Stöd för målbiblioteksfilen AT.JS, ett implementeringsbibliotek för integrering på klientsidan med Adobe Target som är utformat för både vanliga webbimplementeringar och enkelsidiga program.
 * Förbättrade AEM prestanda genom att införa en tidsgräns för användarkonfigurerad anslutning för Marketing Cloud-lösningar (Analytics, DTM, Target och S&amp;P).
 
-### Resurser {#assets-12}
+### Assets {#assets-12}
 
 * När videoimporten testas med AEM 6.3 konfigurerad med Dynamic Media-Cloud Services, genereras ett undantagsfel av typen &quot;För många öppna filer&quot;. NPR-18734; Programfix för CQ-4211407
 * Vanity URL-inställningen för resurser på en sida fungerar inte efter att AEM startats om. NPR-18634; Programfix för Granite-18085
@@ -1265,7 +1265,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Använd behörigheter för DM-makron för att dela upp vy för Admin-användare. NPR-18544; Programfix för CQ-4211729
 * Publicera senare för resurser genererar ett otillåtet ArgumentException. CQ-4214532
 
-### Webbplatser {#sites-12}
+### Sites {#sites-12}
 
 * På ett aktivt/aktivt författarkluster med MongoDB försöker båda författarna utlösa replikering för samma innehåll när tiden når den angivna tiden för innehållet. NPR-18708; Programfix för CQ-4210982
 * NPE när en resurs flyttas med en referens som inte har jcr: innehållsnod. NPR-18664
@@ -1360,7 +1360,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Vi presenterar snabbfunktioner på hybridenheter.
 * Löser problem med synkronisering på komponentnivå med live-kopior.
 
-### Resurser {#assets-13}
+### Assets {#assets-13}
 
 * Kunden blockeras när en användare som inte har den behörighet som krävs försöker flytta en åtgärd för en resurs. NPR-18330; Programfix för CQ-4212560
 * Om du sammanfogar flera konfigurationer av smarta innehållstjänster uppstår ett användbarhetsproblem. NPR-18273; Programfix för CQ-4201557
@@ -1372,7 +1372,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Resursernas förfalloaktiviteter avbryts om en tillgång inte har en tilldelad ägare. NPR-17665; Programfix för CQ-4197946
 * Ett null-pekarundantag genereras när en resursmapp med fler än 150 inkommande referenser flyttas. CQ-4200981
 
-### Webbplatser {#sites-13}
+### Sites {#sites-13}
 
 * Personalisering fungerar bara för den första IP-adressen när segmenteringsregeln har angetts för ett IP-intervall. NPR-18121; Programfix för CQ-83767
 * Inloggningen misslyckas på grund av NumberFormatException när egenskapen historyShow är aktiverad. NPR-18073; Programfix för CQ-101965
@@ -1465,7 +1465,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Löste flera problem med WCM-komponenter och arbetsflöden, som Unpublish och Version Renge.
 * Åtgärdsfältets svarstider har förbättrats när det gäller att visa verktygsfältsåtgärder och Coral-komponenter.
 
-### Resurser {#assets-14}
+### Assets {#assets-14}
 
 * Prestandaförbättringar för publicering till Brand Portal. NPR-17189; Programfix för CQ-4204150
 * När du delar en resurs med alternativet Dela länk skapas ingen zip-fil med en platt mappstruktur för hämtning. NPR-17513; Programfix för CQ-4209381
@@ -1475,7 +1475,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Knapparna Dela, Flytta, Publicera och Hämta visas för resurser som har upphört att gälla på sidan Metadataredigeraren för användare som inte är administratörer. NPR-16903; Programfix för CQ-101440/CQ-104535
 * Åtgärder som Dela, Flytta, Publicera och Kopiera ska vara synliga för administrativa användare i resurskonsolen. NPR-16902; Programfix för CQ-4207111
 
-### Webbplatser {#sites-14}
+### Sites {#sites-14}
 
 * När du flyttar en sida med hjälp av Classic och Touch UI visas inga referenser längre än 150 i dialogrutan Flytta, vilket gör att användarna inte kan uppdatera referenserna och publicera sidan på nytt. Problemet har åtgärdats genom att en egenskap för Classic UI har introducerats: &#39;maxRefNo&#39; som kan konfigureras på platsadminnoden: &#39;/libs/wcm/core/content/siteadmin&#39;. This property specifies maximum number of references (default value 150) that is displayed before a tung move operation and if a page has more number of references, they are not shown in the movePage dialog. Den här konfigurationen fungerar även för admin och feladministratör genom att tillämpa konfigurationen på noderna: `'/libs/wcm/core/content/damadmin'` och `'/libs/wcm/core/content/miscadmin'` respektive. NPR-17222; Programfix för CQ-85878
 
@@ -1607,7 +1607,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 * Antalet resultat som visas på skärmen för användarhantering skiljer sig åt i kort- och listvyn. NPR-16241; Programfix för GRANITE-16914
 * Arbetsflödesmeddelanden läses inte in på ett lat sätt när du visar i webbläsaren Google Chrome i helskärmsläge. NPR-17013: Programfix för CQ-4207567
 
-### Resurser {#assets-15}
+### Assets {#assets-15}
 
 * Bildorienteringen används inte korrekt när du importerar en bild med en definierad orientering. NPR-16750: Programfix för CQ-4204356
 * Resursernas tidslinjevy visar inga resurser trots att Visa alla är inställt som standard. NPR-16957: Programfix för CQ-98780
@@ -1620,7 +1620,7 @@ Huvudinnehållet i det här Cumulative Fix Pack är:
 
 Arbetsflödeskonsolen för projekt visar ett NullPointerException på sidan när arbetsflöden rensas. NPR-17017: Programfix för CQ-4194269
 
-### Webbplatser {#sites-15}
+### Sites {#sites-15}
 
 * Filer i `ContextHub` är inte minimerade för författarinstansen. NPR-17022: Programfix för CQ-79456
 * Starthöjningen WCM-Launches tar lång tid att marknadsföra en lansering som består av ett stort träd på en sida. NPR-16480: Programfix för CQ-82731
@@ -1748,7 +1748,7 @@ De viktigaste nyheterna i CFP3 är:
 * Loggning in the error.log stoppar ibland några sekunder efter att utgivaren startats och måste rensas för att kunna köras igen. Begär att loggningsramverket ska uppdateras och att Sling-loggning ska tillhandahållas. NPR-15913: Programfix för Granite-15452
 * Begäran om att uppdatera JavaScript `use"` API för att undvika fel i implementeringen av HTL JavaScript Use API. NPR-16461: Programfix för SLING-6780
 
-### Webbplatser {#sites-16}
+### Sites {#sites-16}
 
 * Efter uppgradering från AEM 6.0 till AEM 6.2 visas det klassiska användargränssnittet långsamt vid sökning av taggar på grund av många frågor. Åtgärda problemet genom att följa stegen nedan [Inaktivera replikeringsstatus i taggningskonsolen (klassiskt användargränssnitt)](#disable-replication-status-in-tagging-console-classic-ui-npr) kan följas. NPR-15842: Programfix för CQ-4201748.
 
@@ -1760,7 +1760,7 @@ De viktigaste nyheterna i CFP3 är:
 * Formulärbegränsningen kan inte läsa `ConstraintMessage` -egenskap. NPR-16388: Programfix för CQ-101330
 * The `wcm/foundation/components/parsys` -komponenten visar inte **[!UICONTROL 'Drag components here]** platshållare. NPR: 16748: Programfix för CQ-4205187
 
-### Resurser {#assets-16}
+### Assets {#assets-16}
 
 * PDF-rastreraren slutar att fungera och orsakar minnesproblem efter installation av 6.2 SP1 eller hotfix 12430. NPR-15991
 * Metadata för en strängegenskap, `documentNumber` visas som ett datum medan det bör vara ett tal. NPR-16134: Programfix för GRANITE-16916
@@ -1885,7 +1885,7 @@ De viktigaste nyheterna i Cumulative Fix Pack 2 är:
 
 * När du använder AEM Mobile- och ContentSync-paket med ett hybridprogram svarar AEM på en hämtningsbegäran (med tidsstämplar) som görs av programmet med det äldsta paketet i stället för det som begärs av programmet. NPR-15749: Programfix för CQ-104153
 
-### Webbplatser {#sites-17}
+### Sites {#sites-17}
 
 * Ändringsstatus för Workflow Inbox i WCM-kärnan ändras inte om användaren ändrar en sida efter att ha aktiverat ett arbetsflöde. NPR-15684: Snabbkorrigering för CQ-4196974
 * Plugin-programmet Ankarpunkt i redigeraren för RTF-redigering för Touch UI genererar HTML5 som inte är kompatibelt när användaren klickar på ankarikonen och lägger till ett namn. Det ska lägga till attributet id i stället för attributet name i taggen HTML5 för ankarelementet. NPR-15650: Programfix för CQ-89782
@@ -1907,7 +1907,7 @@ De viktigaste nyheterna i Cumulative Fix Pack 2 är:
 * Om du stänger sidan Redigera i Timewarp-läge och försöker öppna den igen från Siteadmin genereras ett fel med statusen 500 i stället för att sidan öppnas igen. NPR-14965: Programfix för CQ-109647:
 * I DAM-gränssnittet (Digital Asset Manager) orsakar sökningen efter auktoriseringsfiler för användarväljaren ett undantagsfel, &quot;Slut på minne&quot;. NPR: 15307: HotFix för CQ-98542
 
-### Resurser {#assets-17}
+### Assets {#assets-17}
 
 * När du har sökt efter en resurs i Omnissearch kan du markera en resurs och försöka redigera egenskaper genom att klicka på Visa egenskaper och sedan på knappen Spara omdirigeras användarna till en tom sida. NPR-15900: Programfix för CQ-4202372
 * Resursens användargränssnitt svarar inte på händelser. Om du markerar en resurs och klickar på Publicera eller Återgivning resulterar det inte i någon aktivitet. NPR-15828: Programfix för CQ-4202247
@@ -2027,7 +2027,7 @@ Viktiga egenskaper i AEM 6.2 SP2-CFP1 är:
 * Begär att uppgradera Jackrabbit Filevault till 3.1.30 för att lösa flera problem. NPR-13454
 * Cachefel inträffar när Sling-distribution synkroniserar distributionspaketen från författare till publicering. NPR-13034: Programfix för GRANITE-13970
 
-### Webbplatser {#sites-18}
+### Sites {#sites-18}
 
 * Problem med att VersionManagerImpl rensar felaktiga versioner från versionshistorik. NPR-14372
 * Komponenten WCM Sightly Foundation ignorerar komponentdeklarationens taggnamn. `cq:htmlTag / cq:tagName`. NPR-14225
@@ -2043,7 +2043,7 @@ Viktiga egenskaper i AEM 6.2 SP2-CFP1 är:
 * När dialogrutan Sidegenskaper skickas från redigeraren skriver MSM Post Processor vissa parametrar från begäran i stället för `msm:writeLiveCopyConfig` parameter. NPR-14434
 * Flera problem som gäller komponenten Rollout, Live-kopior och andra aspekter av MSM. NPR-12235
 
-### Resurser {#assets-18}
+### Assets {#assets-18}
 
 * Det går inte att hantera bilder med specialtecken i bildfilens namn i arbetsflödet för att packa. NPR-15227: Programfix för CQ-103887
 * Resurser med uttrycket Repeat med Condition visas inte korrekt. När användaren förhandsgranskar `*CDN3835RLCEN*` brevmall, inga resurser som finns i målområdet för brödtexten visas. När tillgången `*VIPReassement*`, som är en valfri resurs, som är förmarkerad, avmarkeras och de andra resurserna som är förmarkerade visas i bokstaven. NPR-14844

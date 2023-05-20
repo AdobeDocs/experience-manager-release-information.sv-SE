@@ -1,15 +1,15 @@
 ---
-title: '"[!DNL Adobe Experience Manager] Versionsuppdateringar och färdplan"'
-description: '"[!DNL Adobe Experience Manager] Versionsuppdateringar och färdplan"'
+title: "[!DNL Adobe Experience Manager] Versionsuppdateringar och färdplan"
+description: "[!DNL Adobe Experience Manager] Versionsuppdateringar och färdplan"
 exl-id: 861337af-1604-4a8d-aeda-23d80315c544
 source-git-commit: e6e7ea43a2424021df70a9b9d1a25794f54ba7d2
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
-# Adobe Experience Manager Release Updates and Roadmap
+# Versionsuppdateringar och färdplan för Adobe Experience Manager
 
 Den här guiden innehåller information om [!DNL Adobe Experience Manager] lanserar färdplan, uppdateringar av tidigare versioner och dokumentationsuppdateringar.
 
