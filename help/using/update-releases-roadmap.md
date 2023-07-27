@@ -2,7 +2,7 @@
 title: "[!DNL Adobe Experience Manager] releases roadmap"
 description: "[!DNL Adobe Experience Manager] releases roadmap"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 8431dac82cec9454c6a4683dc566f34c3978fae6
+source-git-commit: 0d6d189e10b38d5a87baf381bfab15c8afc7a128
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -26,12 +26,12 @@ ht-degree: 1%
 | [!DNL Experience Manager] som [!DNL Cloud Service] 2023.2.0 | Aktivering av funktioner | 12 april 2023 | Aktiverad |
 | [!DNL Experience Manager] som [!DNL Cloud Service] 2023.4.0 | Aktivering av funktioner | 7 juni 2023 | Aktiverad |
 | [!DNL Experience Manager] som [!DNL Cloud Service] 2023.6.0 | Aktivering av funktioner | 29 juni 2023 | Aktiverad |
-| [!DNL Experience Manager] som [!DNL Cloud Service] 2023.7.0 | Aktivering av funktioner | 27 juli 2023 | Mål |
+| [!DNL Experience Manager] som [!DNL Cloud Service] 2023.7.0 | Aktivering av funktioner | 27 juli 2023 | Aktiverad |
 | [!DNL Experience Manager] som [!DNL Cloud Service] 2023.8.0 | Aktivering av funktioner | 31 augusti 2023 | Mål |
 | [!DNL Experience Manager] som [!DNL Cloud Service] 2023.9.0 | Aktivering av funktioner | 28 september 2023 | Mål |
 | [!DNL Experience Manager] som [!DNL Cloud Service] 2023.10.0 | Aktivering av funktioner | 26 oktober 2023 | Mål |
 
-Förutom funktionsreleaser finns viktiga fel- och säkerhetskorrigeringar i [!DNL Experience Manager] som [!DNL Cloud Service] i form av [underhållsreleaser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest.html), med en motsvarande underhållsuppdatering inträffar vanligtvis med högre frekvens.
+Förutom funktionsreleaser finns viktiga fel- och säkerhetskorrigeringar i [!DNL Experience Manager] som [!DNL Cloud Service] som [underhållsreleaser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest.html), med en motsvarande underhållsuppdatering inträffar vanligtvis med högre frekvens.
 
 ## [!DNL Experience Manager] Lokalt och Managed Services {#aem-on-prem-managed-services}
 
