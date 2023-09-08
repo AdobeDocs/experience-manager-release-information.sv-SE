@@ -2,9 +2,9 @@
 title: "[!DNL Adobe Experience Manager] releases roadmap"
 description: "[!DNL Adobe Experience Manager] releases roadmap"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 15841ed517305f1db2d12931add81ff1ef817492
+source-git-commit: 3c1188eba0a6a7efb252d4d0fe5152778afa4a77
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '406'
 ht-degree: 1%
 
 ---
@@ -19,19 +19,27 @@ ht-degree: 1%
 
 ## [!DNL Experience Manager] som [!DNL Cloud Service] {#aem-as-cloud-service}
 
-[[!DNL Experience Manager] som [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/home.html) avser vanligtvis en månatlig lanseringsgräns för nya funktioner. Kommande funktionsaktiveringar för [!DNL Experience Manager] som [!DNL Cloud Service] planeras enligt följande.
+[!DNL Experience Manager] som [!DNL Cloud Service] nya funktioner i [månadsvis aktivering av funktioner](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html), medan förbättringar och felkorrigeringar levereras två gånger i månaden genom [underhållsreleaser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest.html).
+De kommande releaserna för [!DNL Experience Manager] som [!DNL Cloud Service] planeras enligt följande:
 
-| Frigör | Typ | Schema | Status |
+| Frigör | Händelse | Schema | Status |
 |---|---|---|---|
-| [!DNL Experience Manager] som [!DNL Cloud Service] 2023.6.0 | Aktivering av funktioner | 29 juni 2023 | Aktiverad |
-| [!DNL Experience Manager] som [!DNL Cloud Service] 2023.7.0 | Aktivering av funktioner | 27 juli 2023 | Aktiverad |
-| [!DNL Experience Manager] som [!DNL Cloud Service] 2023.8.0 | Aktivering av funktioner | 31 augusti 2023 | Mål |
-| [!DNL Experience Manager] som [!DNL Cloud Service] 2023.9.0 | Aktivering av funktioner | 28 september 2023 | Mål |
-| [!DNL Experience Manager] som [!DNL Cloud Service] 2023.10.0 | Aktivering av funktioner | 26 oktober 2023 | Mål |
-| [!DNL Experience Manager] som [!DNL Cloud Service] 2023.11.0 | Aktivering av funktioner | 30 november 2023 | Mål |
-| [!DNL Experience Manager] som [!DNL Cloud Service] 2023.12.0 | Aktivering av funktioner | 14 december 2023 | Mål |
-
-Förutom funktionsreleaser finns viktiga fel- och säkerhetskorrigeringar i [!DNL Experience Manager] som [!DNL Cloud Service] som [underhållsreleaser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest.html), med en motsvarande underhållsuppdatering inträffar vanligtvis med högre frekvens.
+| Feature Release 2023.6.0 | Aktivering av funktioner | 29 juni 2023 | Aktiverad |
+| Feature Release 2023.7.0 | Aktivering av funktioner | 27 juli 2023 | Aktiverad |
+| Underhållsrelease | Automatisk uppdatering | 7-10 augusti 2023 | Uppdaterat |
+| Underhållsrelease | Automatisk uppdatering | 21-24 augusti 2023 | Uppdaterat |
+| Feature Release 2023.8.0 | Aktivering av funktioner | 31 augusti 2023 | Aktiverad |
+| Underhållsrelease | Automatisk uppdatering | 4-7 september 2023 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 18-21 september 2023 | Mål |
+| Feature Release 2023.9.0 | Aktivering av funktioner | 28 september 2023 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 2-5 oktober 2023 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 16-19 oktober 2023 | Mål |
+| Feature Release 2023.10.0 | Aktivering av funktioner | 26 oktober 2023 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 30-2 november 2023 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 13-16 november 2023 | Mål |
+| Feature Release 2023.11.0 | Aktivering av funktioner | 30 november 2023 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 11-14 december 2023 | Mål |
+| Feature Release 2023.12.0 | Aktivering av funktioner | 14 december 2023 | Mål |
 
 >[!CAUTION]
 >
@@ -54,7 +62,7 @@ Produktuppdateringar i form av nya funktioner, förbättringar och felkorrigerin
 |---|---|---|---|---|
 | [!DNL Experience Manager] 6.5 Service Pack 16 | 6.5.16.0 | Service Pack | 23 februari 2023 | Aktiverad |
 | [!DNL Experience Manager] 6.5 Service Pack 17 | 6.5.17.0 | Service Pack | 25 maj 2023 | Aktiverad |
-| [!DNL Experience Manager] 6.5 Service Pack 18 | 6.5.18.0 | Service Pack | 24 augusti 2023 | Mål |
+| [!DNL Experience Manager] 6.5 Service Pack 18 | 6.5.18.0 | Service Pack | 24 augusti 2023 | Aktiverad |
 | [!DNL Experience Manager] 6.5 Service Pack 19 | 6.5.19.0 | Service Pack | 23 november 2023 | Mål |
 
 >[!NOTE]
