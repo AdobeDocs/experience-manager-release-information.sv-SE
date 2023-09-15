@@ -2,10 +2,10 @@
 title: "[!DNL Adobe Experience Manager] releases roadmap"
 description: "[!DNL Adobe Experience Manager] releases roadmap"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: d49db9de4e6fd520d7c6e502c1c4573e4c49a45e
+source-git-commit: 90d4952453c4e0123badfb46633106af056c24f0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '493'
+ht-degree: 1%
 
 ---
 
@@ -31,6 +31,7 @@ De kommande releaserna för [!DNL Experience Manager] som [!DNL Cloud Service] p
 | Funktionsrelease [2023.8.0](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html) | Aktivering av funktioner | 31 augusti 2023 | Aktiverad |
 | Underhållsrelease [13323](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/maintenance/2023/2023.9.0.html#release-13323) | Automatisk uppdatering | 1 september 2023 | Uppdaterat |
 | Underhållsrelease [13420](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest.html) | Automatisk uppdatering | 12 september 2023 | Uppdaterat |
+| Underhållsrelease | Automatisk uppdatering | 18-20 september 2023 | Mål |
 | Feature Release 2023.9.0 | Aktivering av funktioner | 28 september 2023 | Mål |
 | Underhållsrelease | Automatisk uppdatering | 2-5 oktober 2023 | Mål |
 | Underhållsrelease | Automatisk uppdatering | 16-19 oktober 2023 | Mål |
