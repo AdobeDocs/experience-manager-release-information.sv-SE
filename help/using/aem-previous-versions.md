@@ -26,11 +26,11 @@ Versionerna av [!DNL Adobe Experience Manager], CQ och CRX som anges på den hä
 Innan du laddar ned paketet bör du avgöra vem som förbrukar innehållet. Det här beslutet avgör hur det distribueras:
 
 * Utvecklare kan installera lokalt för snabb referens.
-* För större dokumentationsbehov rekommenderar vi att paketet distribueras på en internt tillgänglig, icke-produktionsbaserad AEM Author-instans.
+* För större behov av organisationsdokumentation rekommenderar vi att paketet distribueras på en internt tillgänglig, icke-produktionsbaserad AEM Author-instans.
 
 >[!NOTE]
 >
->Användarna måste vara inloggade på [!DNL Experience Manager] -instans för att komma åt det här innehållet [!DNL Experience Manager] Författare. Det här innehållet är inte tillgängligt som standard i AEM Publish (som det finns under /libs).
+>Användarna måste vara inloggade på [!DNL Experience Manager] -instans för att komma åt det här innehållet [!DNL Experience Manager] Författare. Det här innehållet är inte tillgängligt som standard AEM Publicera (som det finns under /libs).
 
 ## Platser för programdistribution {#software-distribution-locations}
 
@@ -61,7 +61,7 @@ Om du vill installera ett äldre dokumentationspaket måste du ha [!DNL Experien
 
 ### Hämta dokumentationspaketet {#download-documentation-package}
 
-1. I tabellen ovan väljer du länken för [!DNL Experience Manager] dokumentationsversion att hämta. Till exempel AEM 5.6.1.
+1. I tabellen ovan väljer du länken för [!DNL Experience Manager] dokumentationsversion att hämta. AEM 5.6.1.
 
 1. Logga in med din Adobe ID. Om du inte har något ID skapar du ett.
 
@@ -81,7 +81,7 @@ Om du vill installera ett äldre dokumentationspaket måste du ha [!DNL Experien
 
 1. Välj **[!UICONTROL Tools]** > **[!UICONTROL Deployment]** > **[!UICONTROL Packages]**.
 
-1. Välj **[!UICONTROL Upload Package]**.
+1. I pakethanterarens gränssnitt väljer du **[!UICONTROL Upload Package]**.
 
 1. Bläddra till den plats där du hämtade AEM.
 
