@@ -3,9 +3,9 @@ title: AEM Forms-versioner
 description: Innehåller en lista över alla AEM Forms-versioner och motsvarande paket
 contentOwner: khsingh
 exl-id: 65cb9c6b-fb3f-4bf1-aa42-2d724914439a
-source-git-commit: b5065a6d171c0ed51a5cb8e8bca592fa4f00e380
+source-git-commit: f03a2ce6bef6d167e780f750c7fdb6627d088094
 workflow-type: tm+mt
-source-wordcount: '8167'
+source-wordcount: '8168'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,8 @@ Adobe Experience Manager [!DNL Forms] är ett program som distribueras till AEM.
 
 >[!NOTE]
 >
->AEM Forms-funktionen, som Adaptive Forms, finns i [AEM 6.5 QuickStart](https://experienceleague.corp.adobe.com/docs/experience-manager-65/deploying/deploying/deploy.html), endast för prospektering och utvärdering. För produktion krävs en giltig licens för AEM Forms.
+> AEM Forms-funktioner, som Adaptive Forms, finns i [AEM 6.5 QuickStart](https://experienceleague.corp.adobe.com/docs/experience-manager-65/deploying/deploying/deploy.html), är endast avsedda för prospektering och utvärdering. För produktion krävs en giltig licens för AEM Forms.
+
 
 <!--
 >[!NOTE]
