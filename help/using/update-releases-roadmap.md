@@ -2,7 +2,7 @@
 title: "[!DNL Adobe Experience Manager] releases roadmap"
 description: "[!DNL Adobe Experience Manager] releases roadmap"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: ffa37b42c9f90404900d9e4c5e4ce25fe4a1d12f
+source-git-commit: 244be6d98b3efc8b7df85029f1e37670501b93ed
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 1%
@@ -36,13 +36,13 @@ De kommande releaserna för [!DNL Experience Manager] som [!DNL Cloud Service] p
 | Feature Release 2023.11.0 | Aktivering av funktioner | 30 november 2023 | Mål |
 | Underhållsrelease | Automatisk uppdatering | 11-14 december 2023 | Mål |
 | Feature Release 2023.12.0 | Aktivering av funktioner | 14 december 2023 | Mål |
-| Feature Release 2024.1.0 | Aktivering av funktioner | 25 januari 2023 | Mål |
-| Feature Release 2024.2.0 | Aktivering av funktioner | 29 februari 2023 | Mål |
-| Feature Release 2024.3.0 | Aktivering av funktioner | 28 mars 2023 | Mål |
-| Feature Release 2024.4.0 | Aktivering av funktioner | 25 april 2023 | Mål |
-| Feature Release 2024.5.0 | Aktivering av funktioner | 30 maj 2023 | Mål |
-| Feature Release 2024.6.0 | Aktivering av funktioner | 27 juni 2023 | Mål |
-| Feature Release 2024.7.0 | Aktivering av funktioner | 25 juli 2023 | Mål |
+| Feature Release 2024.1.0 | Aktivering av funktioner | 25 januari 2024 | Mål |
+| Feature Release 2024.2.0 | Aktivering av funktioner | 29 februari 2024 | Mål |
+| Feature Release 2024.3.0 | Aktivering av funktioner | 28 mars 2024 | Mål |
+| Feature Release 2024.4.0 | Aktivering av funktioner | 25 april 2024 | Mål |
+| Feature Release 2024.5.0 | Aktivering av funktioner | 30 maj 2024 | Mål |
+| Feature Release 2024.6.0 | Aktivering av funktioner | 27 juni 2024 | Mål |
+| Feature Release 2024.7.0 | Aktivering av funktioner | 25 juli 2024 | Mål |
 
 >[!CAUTION]
 >
@@ -50,8 +50,8 @@ De kommande releaserna för [!DNL Experience Manager] som [!DNL Cloud Service] p
 >
 > Inget automatiskt AEMaaCS-underhåll kommer att utföras under följande tidsramar med början och slut vid midnatt (00:00) CET:
 >
->* Torsdag 16 november till tisdag den 28 november
->* Fredag 15 december till tisdag 2 januari
+>* Torsdag 16 november 2023 till tisdag den 28 november 2023
+>* Fredagen den 15 december 2023 till tisdagen den 2 januari 2024
 
 ## [!DNL Experience Manager] Lokalt och Managed Services {#aem-on-prem-managed-services}
 
