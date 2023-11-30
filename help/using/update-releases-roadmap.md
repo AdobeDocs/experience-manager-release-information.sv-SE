@@ -2,9 +2,9 @@
 title: "[!DNL Adobe Experience Manager] releases roadmap"
 description: "[!DNL Adobe Experience Manager] releases roadmap"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 97cb94f05cd40bb1321712a6713b93db626948ce
+source-git-commit: 3f2d9eaa75b0da45e55b977a578ef4b73b5269fd
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '553'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,24 @@ ht-degree: 1%
 [!DNL Experience Manager] som [!DNL Cloud Service] nya funktioner i [månadsvis aktivering av funktioner](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html), medan förbättringar och felkorrigeringar levereras två gånger i månaden genom [underhållsreleaser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest.html).
 De kommande releaserna för [!DNL Experience Manager] som [!DNL Cloud Service] planeras enligt följande:
 
+### Tidigare versioner {#past}
+
 | Frigör | Händelse | Schema | Status |
 |---|---|---|---|
-| Funktionsrelease [2023.8.0](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/2023/release-notes-2023-8-0.html) | Aktivering av funktioner | 31 augusti 2023 | Aktiverad |
 | Underhållsrelease [13323](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/maintenance/2023/2023.9.0.html#release-13323) | Automatisk uppdatering | 1 september 2023 | Uppdaterat |
 | Underhållsrelease [13420](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/maintenance/2023/2023.9.0.html#release-13420) | Automatisk uppdatering | 18-20 september 2023 | Uppdaterat |
 | Funktionsrelease [2023.9.0](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/2023/release-notes-2023-9-0.html) | Aktivering av funktioner | 28 september 2023 | Aktiverad |
 | Underhållsrelease [13665](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/maintenance/2023/2023.10.0.html#release-13665) | Automatisk uppdatering | 2-5 oktober 2023 | Uppdaterat |
 | Underhållsrelease [13804](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/maintenance/2023/2023.10.0.html#release-13804) | Automatisk uppdatering | 16-19 oktober 2023 | Uppdaterat |
-| Funktionsrelease [2023.10.0](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html) | Aktivering av funktioner | 26 oktober 2023 | Aktiverad |
+| Funktionsrelease [2023.10.0](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/2023/release-notes-2023-10-0.html) | Aktivering av funktioner | 26 oktober 2023 | Aktiverad |
 | Underhållsrelease [14029](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/maintenance/2023/2023.11.0.html#release-14029) | Automatisk uppdatering | 30-2 november 2023 | Uppdaterat |
-| Underhållsrelease [14227](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest.html) | Automatisk uppdatering | 13-16 november 2023 | Mål |
-| Feature Release 2023.11.0 | Aktivering av funktioner | 30 november 2023 | Mål |
+| Underhållsrelease [14227](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest.html) | Automatisk uppdatering | 13-16 november 2023 | Uppdaterat |
+| Funktionsrelease [2023.11.0](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html) | Aktivering av funktioner | 30 november 2023 | Aktiverad |
+
+### Kommande versioner {#upcoming}
+
+| Frigör | Händelse | Schema | Status |
+|---|---|---|---|
 | Underhållsrelease | Automatisk uppdatering | 11-14 december 2023 | Mål |
 | Feature Release 2023.12.0 | Aktivering av funktioner | 14 december 2023 | Mål |
 | Feature Release 2024.1.0 | Aktivering av funktioner | 25 januari 2024 | Mål |
