@@ -2,10 +2,10 @@
 title: "[!DNL Adobe Experience Manager] releases roadmap"
 description: "[!DNL Adobe Experience Manager] releases roadmap"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: aa2d2b96f7539eee682d9ddb945218562068810a
+source-git-commit: 7eee7e685910e936892e110ef68ac9e6b67ab016
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 1%
+source-wordcount: '522'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +42,10 @@ De kommande releaserna för [!DNL Experience Manager] som [!DNL Cloud Service] p
 |---|---|---|---|
 | Underhållsrelease | Automatisk uppdatering | 11-14 december 2023 | Mål |
 | Feature Release 2023.12.0 | Aktivering av funktioner | 14 december 2023 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 8-10 januari 2024 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 22-24 januari 2024 | Mål |
 | Feature Release 2024.1.0 | Aktivering av funktioner | 25 januari 2024 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 5-7 februari 2024 | Mål |
 | Feature Release 2024.2.0 | Aktivering av funktioner | 29 februari 2024 | Mål |
 | Feature Release 2024.3.0 | Aktivering av funktioner | 28 mars 2024 | Mål |
 | Feature Release 2024.4.0 | Aktivering av funktioner | 25 april 2024 | Mål |
@@ -69,7 +72,6 @@ Produktuppdateringar i form av nya funktioner, förbättringar och felkorrigerin
 
 | Frigör | Version | Typ | Schema | Status |
 |---|---|---|---|---|
-| [!DNL Experience Manager] 6.5 [Service Pack 16](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/6.5.16.html) | 6.5.16.0 | Service Pack | 23 februari 2023 | Aktiverad |
 | [!DNL Experience Manager] 6.5 [Service Pack 17](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/6.5.17.html) | 6.5.17.0 | Service Pack | 25 maj 2023 | Aktiverad |
 | [!DNL Experience Manager] 6.5 [Service Pack 18](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/6.5.18.html) | 6.5.18.0 | Service Pack | 24 augusti 2023 | Aktiverad |
 | [!DNL Experience Manager] 6.5 [Service Pack 19](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/release-notes.html) | 6.5.19.0 | Service Pack | 30 november 2023 | Aktiverad |
