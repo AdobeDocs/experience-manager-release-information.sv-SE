@@ -2,9 +2,9 @@
 title: "[!DNL Adobe Experience Manager] releases roadmap"
 description: "[!DNL Adobe Experience Manager] releases roadmap"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: f0d7dff2ff21befed5f0c2fde36b5442267d61ad
+source-git-commit: 4e209f166c0401279f73632e19bf8f05ee0e9dec
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -50,15 +50,6 @@ De kommande releaserna för [!DNL Experience Manager] som [!DNL Cloud Service] p
 | Feature Release 2024.5.0 | Aktivering av funktioner | 30 maj 2024 | Mål |
 | Feature Release 2024.6.0 | Aktivering av funktioner | 27 juni 2024 | Mål |
 | Feature Release 2024.7.0 | Aktivering av funktioner | 25 juli 2024 | Mål |
-
->[!CAUTION]
->
->**Period för planerad uteslutning av underhåll**
->
-> Inget automatiskt AEMaaCS-underhåll kommer att utföras under följande tidsramar med början och slut vid midnatt (00:00) CET:
->
->* Torsdag 16 november 2023 till tisdag den 28 november 2023
->* Fredagen den 15 december 2023 till tisdagen den 2 januari 2024
 
 ## [!DNL Experience Manager] Lokalt och Managed Services {#aem-on-prem-managed-services}
 
