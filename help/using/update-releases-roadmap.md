@@ -2,9 +2,9 @@
 title: "[!DNL Adobe Experience Manager] releases roadmap"
 description: "[!DNL Adobe Experience Manager] releases roadmap"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 4e209f166c0401279f73632e19bf8f05ee0e9dec
+source-git-commit: 6349e074790bc922482eee3b40f28931751c26d0
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -36,13 +36,13 @@ De kommande releaserna för [!DNL Experience Manager] som [!DNL Cloud Service] p
 | Underhållsrelease [14227](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/maintenance/2023/2023.11.0.html#release-14227) | Automatisk uppdatering | 13-16 november 2023 | Uppdaterat |
 | Funktionsrelease [2023.11.0](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/2023/release-notes-2023-11-0.html) | Aktivering av funktioner | 30 november 2023 | Aktiverad |
 | Underhållsrelease [14697](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest.html) | Automatisk uppdatering | 11-14 december 2023 | Uppdaterat |
-| Funktionsrelease [2023.12.0](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html) | Aktivering av funktioner | 14 december 2023 | Aktiverad |
+| Funktionsrelease [2023.12.0](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/2023/release-notes-2023-12-0.html) | Aktivering av funktioner | 14 december 2023 | Aktiverad |
+| Funktionsrelease [2024.1.0](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html) | Aktivering av funktioner | 25 januari 2024 | Aktiverad |
 
 ### Kommande versioner {#upcoming}
 
 | Frigör | Händelse | Schema | Status |
 |---|---|---|---|
-| Feature Release 2024.1.0 | Aktivering av funktioner | 25 januari 2024 | Mål |
 | Underhållsrelease | Automatisk uppdatering | 5-7 februari 2024 | Mål |
 | Feature Release 2024.2.0 | Aktivering av funktioner | 29 februari 2024 | Mål |
 | Feature Release 2024.3.0 | Aktivering av funktioner | 28 mars 2024 | Mål |
