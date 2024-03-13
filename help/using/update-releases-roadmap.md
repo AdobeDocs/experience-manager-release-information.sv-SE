@@ -2,9 +2,9 @@
 title: "[!DNL Adobe Experience Manager] releases roadmap"
 description: "[!DNL Adobe Experience Manager] releases roadmap"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 4c3f6652b13c99bdd2140c7e4a03be9eb9417a06
+source-git-commit: 6d63bec303a4bf9858e536f06d854069982af4db
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -46,8 +46,14 @@ De kommande releaserna för [!DNL Experience Manager] som [!DNL Cloud Service] p
 |---|---|---|---|
 | Underhållsrelease | Automatisk uppdatering | 1-3 april 2024 | Mål |
 | Feature Release 2024.3.0 | Aktivering av funktioner | 4 april 2024 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 15-17 april 2024 | Mål |
 | Feature Release 2024.4.0 | Aktivering av funktioner | 25 april 2024 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 29 april - 1 maj 2024 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 13-15 maj 2024 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 27-29 maj 2024 | Mål |
 | Feature Release 2024.5.0 | Aktivering av funktioner | 30 maj 2024 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 10-12 juni 2024 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 24-26 juni 2024 | Mål |
 | Feature Release 2024.6.0 | Aktivering av funktioner | 27 juni 2024 | Mål |
 | Feature Release 2024.7.0 | Aktivering av funktioner | 25 juli 2024 | Mål |
 
