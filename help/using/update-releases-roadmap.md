@@ -2,7 +2,7 @@
 title: "[!DNL Adobe Experience Manager] releases roadmap"
 description: "[!DNL Adobe Experience Manager] releases roadmap"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 36981c8f4942f9c8b0581204cdfff769d942351d
+source-git-commit: d0ad1c9e02ff25bffe5cf4eb1eb385ee0202e941
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -46,8 +46,18 @@ De kommande releaserna för [!DNL Experience Manager] som [!DNL Cloud Service] p
 
 | Frigör | Händelse | Schema | Status |
 |---|---|---|---|
-
-| Underhållsrelease|Automatisk uppdatering|8-10 april 2024|Mål| | Feature Release 2024.3.0 |Aktivering av funktioner|4 april 2024 |Mål| | Underhållsrelease|Automatisk uppdatering|22-24 april 2024|Mål| | Feature Release 2024.4.0 |Aktivering av funktioner|25 april 2024 |Mål| | Underhållsrelease|Automatisk uppdatering|6-8 maj 2024|Mål| | Underhållsrelease|Automatisk uppdatering|20-22 maj 2024|Mål| | Feature Release 2024.5.0 |Aktivering av funktioner|30 maj 2024 |Mål| | Underhållsrelease|Automatisk uppdatering|3-5 juni 2024|Mål| | Underhållsrelease|Automatisk uppdatering|17-19 juni 2024|Mål| | Feature Release 2024.6.0 |Aktivering av funktioner|27 juni 2024 |Mål| | Underhållsrelease|Automatisk uppdatering|1-3 juli 2024|Mål| | Feature Release 2024.7.0 |Aktivering av funktioner|25 juli 2024 |Mål|
+| Underhållsrelease | Automatisk uppdatering | 8-10 april 2024 | Mål |
+| Feature Release 2024.3.0 | Aktivering av funktioner | 4 april 2024 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 22-24 april 2024 | Mål |
+| Feature Release 2024.4.0 | Aktivering av funktioner | 25 april 2024 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 6-8 maj 2024 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 20-22 maj 2024 | Mål |
+| Feature Release 2024.5.0 | Aktivering av funktioner | 30 maj 2024 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 3-5 juni 2024 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 17-19 juni 2024 | Mål |
+| Feature Release 2024.6.0 | Aktivering av funktioner | 27 juni 2024 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 1-3 juli 2024 | Mål |
+| Feature Release 2024.7.0 | Aktivering av funktioner | 25 juli 2024 | Mål |
 
 ## [!DNL Experience Manager] Lokalt och Managed Services {#aem-on-prem-managed-services}
 
