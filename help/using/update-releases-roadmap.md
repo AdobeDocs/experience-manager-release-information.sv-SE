@@ -2,7 +2,7 @@
 title: "[!DNL Adobe Experience Manager] releases roadmap"
 description: "[!DNL Adobe Experience Manager] releases roadmap"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: dfad170db445a5bcbb9e1abc65f297a1cd4f928e
+source-git-commit: 7fe057f759a0ae328957efd6d425c6a2d37ef1d1
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Produktuppdateringar i form av nya funktioner, förbättringar och felkorrigerin
 
 ### [!DNL Experience Manager] 6.5 {#aem65}
 
-[!DNL Experience Manager] 6.5 produktuppdateringar levereras via kvartalsvisa servicepaket. Det gäller nya funktioner, förbättringar och felkorrigeringar. Mer information om det senaste paketet finns på [[!DNL Experience Manager] 6.5 Versionsinformation för Service Pack](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html).
+[!DNL Experience Manager] 6.5 produktuppdateringar levereras via kvartalsvisa servicepaket. Det gäller nya funktioner, förbättringar och felkorrigeringar. Mer information om det senaste paketet finns på [[!DNL Experience Manager] 6.5 Versionsinformation för Service Pack](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
 
 | Frigör | Version | Typ | Schema | Status |
 |---|---|---|---|---|
