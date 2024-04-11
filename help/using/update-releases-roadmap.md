@@ -2,7 +2,7 @@
 title: "[!DNL Adobe Experience Manager] releases roadmap"
 description: "[!DNL Adobe Experience Manager] releases roadmap"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 3576fd92208fbe3db53ef9fe79a385e3138ece7c
+source-git-commit: c4476985bbe7dede32a748d8f7f16bcf843a055c
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -40,12 +40,12 @@ De kommande releaserna för [!DNL Experience Manager] som [!DNL Cloud Service] p
 | Funktionsrelease [2024.1.0](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html) | Aktivering av funktioner | 25 januari 2024 | Aktiverad |
 | Underhållsrelease [15262](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-3-0.html#release-15262) | Automatisk uppdatering | 11-13 mars 2024 | Aktiverad |
 | Underhållsrelease [15575](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-3-0#release-15575) | Automatisk uppdatering | 19-21 mars 2024 | Aktiverad |
-| Underhållsrelease [15787](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Automatisk uppdatering | 8-10 april 2024 | Aktiverad |
 
 ### Kommande versioner {#upcoming}
 
 | Frigör | Händelse | Schema | Status |
 |---|---|---|---|
+| Underhållsrelease [15860](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Automatisk uppdatering | 8-10 april 2024 | Mål |
 | Feature Release 2024.3.0 | Aktivering av funktioner | 11 april 2024 | Mål |
 | Underhållsrelease | Automatisk uppdatering | 22-24 april 2024 | Mål |
 | Feature Release 2024.4.0 | Aktivering av funktioner | 25 april 2024 | Mål |
