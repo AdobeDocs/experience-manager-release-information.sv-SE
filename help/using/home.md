@@ -1,17 +1,17 @@
 ---
-title: "[!DNL Adobe Experience Manager] Versionsuppdateringar och färdplan"
-description: "[!DNL Adobe Experience Manager] Versionsuppdateringar och färdplan"
+title: Versionsuppdateringar och färdplan för Adobe Experience Manager
+description: Uppdateringar och färdplan för Adobe Experience Manager.
 exl-id: 861337af-1604-4a8d-aeda-23d80315c544
-source-git-commit: ce1026216ccb79a3c268b3f6b24698fa3a3388dc
+source-git-commit: 437dad5fffe71592b6f9f9b4099a253e3a55b0c8
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 12%
+source-wordcount: '63'
+ht-degree: 22%
 
 ---
 
 # Versionsuppdateringar och färdplan för Adobe Experience Manager
 
-Den här guiden innehåller information om [!DNL Adobe Experience Manager] lanserar färdplan, uppdateringar av tidigare versioner och dokumentationsuppdateringar.
+Den här guiden innehåller information om [!DNL Adobe Experience Manager] lansera en färdplan, uppdateringar av tidigare versioner och dokumentationsuppdateringar.
 
 * [[!DNL Experience Manager] uppdaterar](aem-releases-updates.md)
 * [[!DNL Experience Manager] lanserar färdplan](update-releases-roadmap.md)
@@ -19,10 +19,10 @@ Den här guiden innehåller information om [!DNL Adobe Experience Manager] lanse
 
 ## [!DNL Experience Manager] Uppdateringar om Forms
 
-* [[!DNL Experience Manager] Forms](aem-forms-releases.md)
+* [[!DNL Experience Manager] Forms-versioner](aem-forms-releases.md)
 * [Installera kumulativa korrigeringspaket på [!DNL Experience Manager] Forms JEE](install-cfp-aem-forms-jee.md)
 
-## Dokumentationsuppdateringar
+## Dokumentation
 
 * [[!DNL Experience Manager] dokumentation: Senaste dokumentationsuppdateringar](documentation-updates.md)
 * [Tidigare dokumentationsuppdateringar](previous-documentation-updates.md)
