@@ -1,8 +1,7 @@
 ---
-source-git-commit: 3a7b4464bff5b4186a21968fe5b2497cb8198100
+source-git-commit: 125bfbeb881fb86097a609d198098585f6212570
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
@@ -12,6 +11,6 @@ Det här är databasen för Adobe Experience Manager Release Information.
 
 Dina bidrag till dokumentationen är välkomna. Se följande resurser:
 
-* [contribute.](contributing.md) mdEn översikt över hur du kan bidra till dokumentationen.
-* [guidelines.](guidelines.md) mdEn översikt över vad som förväntas i bidragen och hur du komponerar dokumentationsbidragen.
-* [code-of-behavior.](code-of-conduct.md) mdFör en översikt över de beteendestandarder vi förväntar oss när du bidrar till detta dokumentationsprojekt.
+* [contribute.md](contributing.md) En översikt över hur du bidrar till dokumentationen.
+* [riktlinjer.md](guidelines.md) En översikt över vad som förväntas i bidragen och hur du skapar dina dokumentationsbidrag.
+* [uppförandekod.md](code-of-conduct.md) En översikt över beteendestandarder som Adobe förväntar sig när du bidrar till det här dokumentationsprojektet.

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 437dad5fffe71592b6f9f9b4099a253e3a55b0c8
+source-git-commit: 125bfbeb881fb86097a609d198098585f6212570
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -9,7 +9,7 @@ ht-degree: 0%
 
 ## Adobe Pledge
 
-I syfte att främja en öppen och välkommen miljö lovar bidragsgivare och underhållare att göra deltagande i projektet och samhället till en trakasserfri upplevelse för alla, oavsett ålder, kroppsstorlek, funktionshinder, etnicitet, könsidentitet och -uttryck, erfarenhetsnivå, nationalitet, personligt utseende, ras, religion, sexuell identitet och läggning.
+I syfte att främja en öppen och välkommen miljö lovar bidragsgivare och underhållare att göra deltagandet i projektet och samhället till en trakasserfri upplevelse för alla. Denna utfästelse är oberoende av ålder, kroppsstorlek, funktionshinder, etnicitet, könsidentitet och -uttryck, erfarenhetsnivå, nationalitet, personligt utseende, ras, religion, sexuell identitet och läggning.
 
 ## Adobe
 
@@ -33,7 +33,7 @@ Exempel på oacceptabla beteenden från deltagarnas sida är:
 
 Projektledare ansvarar för att förtydliga standarderna för godtagbart beteende och förväntas vidta lämpliga och rättvisa korrigerande åtgärder som svar på eventuella fall av oacceptabla beteenden.
 
-Projektledare har rätt och ansvar att ta bort, redigera eller avvisa kommentarer, implementeringar, kod, wiki-redigeringar, utgåvor och andra bidrag som inte är anpassade till denna uppförandekod. Eller att tillfälligt eller permanent förbjuda medverkande till andra beteenden som de anser vara olämpliga, hotfulla, stötande eller skadliga.
+Projektledare har rätt och ansvar att ta bort, redigera eller avvisa kommentarer, implementeringar, kod, wiki-redigeringar och utgåvor som inte är anpassade till denna uppförandekod. Eller att tillfälligt eller permanent förbjuda medverkande till andra beteenden som de anser vara olämpliga, hotfulla, stötande eller skadliga.
 
 ## Omfång
 
