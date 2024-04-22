@@ -2,7 +2,7 @@
 title: "[!DNL Adobe Experience Manager] releases roadmap"
 description: "[!DNL Adobe Experience Manager] releases roadmap"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 3d0b3dce7eca9e1d0b97b99f93f58ff496b075ad
+source-git-commit: e8096928919b05bf86a972dcd7debbba3f0f6b59
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Produktuppdateringar i form av nya funktioner, förbättringar och felkorrigerin
 | [!DNL Experience Manager] 6.5 [Service Pack 17](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/service-pack/6-5-17) | 6.5.17.0 | Service Pack | 25 maj 2023 | Aktiverad |
 | [!DNL Experience Manager] 6.5 [Service Pack 18](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/service-pack/6-5-18) | 6.5.18.0 | Service Pack | 24 augusti 2023 | Aktiverad |
 | [!DNL Experience Manager] 6.5 [Service Pack 19](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/service-pack/6-5-19) | 6.5.19.0 | Service Pack | 30 november 2023 | Aktiverad |
-| [!DNL Experience Manager] 6.5 [Service Pack 20](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes) | 6.5.20.0 | Service Pack | 22 februari 2024 | Mål |
+| [!DNL Experience Manager] 6.5 [Service Pack 20](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes) | 6.5.20.0 | Service Pack | 22 februari 2024 | Aktiverad |
 | [!DNL Experience Manager] 6.5 Service Pack 21 | 6.5.21.0 | Service Pack | 23 maj 2024 | Mål |
 | [!DNL Experience Manager] 6.5 Service Pack 22 | 6.5.22.0 | Service Pack | 22 augusti 2024 | Mål |
 | [!DNL Experience Manager] 6.5 Service Pack 23 | 6.5.23.0 | Service Pack | 21 november 2024 | Mål |
