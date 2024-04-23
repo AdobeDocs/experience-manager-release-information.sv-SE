@@ -2,12 +2,13 @@
 title: "[!DNL Adobe Experience Manager] releases roadmap"
 description: "[!DNL Adobe Experience Manager] releases roadmap"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: e8096928919b05bf86a972dcd7debbba3f0f6b59
+source-git-commit: 40be99e9ba97274e3a601b7df20d7a671eb4c88b
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
 
 ---
+
 
 # [!DNL Experience Manager] Frisläpp vägkarta {#aem-releases-roadmap}
 
@@ -60,7 +61,7 @@ De kommande releaserna för [!DNL Experience Manager] som [!DNL Cloud Service] p
 
 ## [!DNL Experience Manager] Lokalt och Managed Services {#aem-on-prem-managed-services}
 
-Produktuppdateringar i form av nya funktioner, förbättringar och felkorrigeringar som stöds [!DNL Experience Manager] på plats och Managed Services levereras via kvartalsvisa servicepaket och Cumulative Fix Packs (CFP). Det gör det möjligt att snabbare ta till sig produktuppdateringar genom ofta förekommande releaser. Schemat för kommande produktuppdateringar är följande.
+Produktuppdateringar i form av nya funktioner, förbättringar och felkorrigeringar som stöds [!DNL Experience Manager] på plats och Managed Services levereras via kvartalsvisa Service Pack och Cumulative Fix Packs (CFP). Det gör det möjligt att snabbare ta till sig produktuppdateringar genom ofta förekommande releaser. Schemat för kommande produktuppdateringar är följande.
 
 ### [!DNL Experience Manager] 6.5 {#aem65}
 
