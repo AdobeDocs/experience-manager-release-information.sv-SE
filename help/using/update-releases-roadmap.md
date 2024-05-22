@@ -2,9 +2,9 @@
 title: "[!DNL Adobe Experience Manager] releases roadmap"
 description: "[!DNL Adobe Experience Manager] releases roadmap"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: ef3f59181fd7087d29143779c2fe646f4b90021e
+source-git-commit: 5bbd2b76be333b2db3fa2ad59967700305150b45
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -39,13 +39,13 @@ De kommande releaserna för [!DNL Experience Manager] som [!DNL Cloud Service] p
 | Underhållsrelease [15860](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-3-0#release-15860) | Automatisk uppdatering | 8-15 april 2024 | Uppdaterat |
 | Underhållsrelease [15977](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-4-0#release-15977) | Automatisk uppdatering | 20-24 april 2024 | Uppdaterat |
 | Funktionsrelease [2024.4.0](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) | Aktivering av funktioner | 25 april 2024 | Aktiverad |
-| Underhållsrelease [16145](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Automatisk uppdatering | 6-8 maj 2024 | Mål |
+| Underhållsrelease [16145](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-5-0#release-16145) | Automatisk uppdatering | 6-8 maj 2024 | Mål |
 
 ### Kommande versioner {#upcoming}
 
 | Frigör | Händelse | Schema | Status |
 |---|---|---|---|
-| Underhållsrelease | Automatisk uppdatering | 27-29 maj 2024 | Mål |
+| Underhållsrelease [16357](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Automatisk uppdatering | 27-29 maj 2024 | Mål |
 | Feature Release 2024.5.0 | Aktivering av funktioner | 30 maj 2024 | Mål |
 | Underhållsrelease | Automatisk uppdatering | 10-12 juni 2024 | Mål |
 | Underhållsrelease | Automatisk uppdatering | 24-26 juni 2024 | Mål |
