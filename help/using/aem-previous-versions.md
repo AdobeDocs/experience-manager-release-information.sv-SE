@@ -1,10 +1,10 @@
 ---
-title: Ladda ned äldre versioner av AEM, CQ och CRX-dokumentation
+title: Ladda ned äldre versioner av AEM, CQ och CRX dokumentation
 description: Ladda ned dokumentationspaket för äldre versioner av Adobe Experience Manager, CQ och CRX.
 exl-id: c210eadb-58ec-4d40-ba72-5e4b11564510
-source-git-commit: 437dad5fffe71592b6f9f9b4099a253e3a55b0c8
+source-git-commit: 10cbece451b46e8d4dbf473d728a20994a5e42cd
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '562'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ Hitta tidigare hjälpguider för äldre versioner av AEM, CQ och CRX.
 
 ## Äldre versioner av [!DNL Experience Manager] dokumentation {#older-version-aem-documentation}
 
-Versionerna av [!DNL Adobe Experience Manager], CQ och CRX som anges på den här sidan är&quot;End of Life&quot; och säljs inte längre officiellt av Adobe. Adobe senaste versioner av officiell dokumentation för dessa äldre versioner finns att tillgå för självhjälp. Adobe rekommenderar att du uppgraderar till den senaste versionen - [[!DNL Adobe Experience Manager] as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service).
+Versionerna av [!DNL Adobe Experience Manager], CQ och CRX på denna sida är End of Life och säljs inte längre officiellt av Adobe. Adobe senaste versioner av officiell dokumentation för dessa äldre versioner finns att tillgå för självhjälp. Adobe rekommenderar att du uppgraderar till den senaste versionen - [[!DNL Adobe Experience Manager] as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service).
 
 >[!NOTE]
 >
@@ -26,11 +26,11 @@ Versionerna av [!DNL Adobe Experience Manager], CQ och CRX som anges på den hä
 Innan du laddar ned paketet bör du avgöra vem som förbrukar innehållet. Det här beslutet avgör hur det distribueras:
 
 * Utvecklare kan installera lokalt för snabb referens.
-* För större behov av organisationsdokumentation rekommenderar vi att paketet distribueras på en internt tillgänglig, icke-produktionsbaserad AEM Author-instans.
+* För större behov av organisationsdokumentation rekommenderar Adobe att paketet distribueras på en internt tillgänglig, icke-produktionsbaserad AEM Author-instans.
 
 >[!NOTE]
 >
->Användarna måste vara inloggade på [!DNL Experience Manager] -instans för att komma åt det här innehållet [!DNL Experience Manager] Författare. Det här innehållet är inte tillgängligt som standard AEM Publicera (som det finns under /libs).
+>Användarna måste vara inloggade på [!DNL Experience Manager] -instans för att komma åt det här innehållet [!DNL Experience Manager] Författare. Det här innehållet är inte tillgängligt som standard på AEM Publish (som det finns under /libs).
 
 ## Platser för programdistribution {#software-distribution-locations}
 
@@ -50,10 +50,10 @@ Ett giltigt Adobe ID krävs:
 | CQ 5.5 | [Ladda ned CQ-DOCS-5.5 från Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Faem-docs%2Faem-docs-5-5.zip) |
 | CQ 5.4 | [Ladda ned CQ-DOCS-5.4 från Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem-docs/aem-docs-5-4.zip) |
 | CQ 5.3 | [Ladda ned CQ-DOCS-5.3 från Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem-docs/aem-docs-5-3.zip) |
-| CRX 2.3 | [Hämta CRX-DOCS-2.3 från programvarudistribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem-docs/crx-docs-2-3.zip) |
+| CRX 2.3 | [Ladda ned CRX-DOCS-2.3 från Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem-docs/crx-docs-2-3.zip) |
 | CRX 2.2 | [Hämta CRX-DOCS-2.2 från programvarudistribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem-docs/crx-docs-2-2.zip) |
 | CRX 2.1 | [Hämta CRX-DOCS-2.1 från programvarudistribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem-docs/crx-docs-2-1.zip) |
-| CRX 2.0 | [Hämta CRX-DOCS-2.0 från programvarudistribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem-docs/crx-docs-2-0.zip) |
+| CRX 2.0 | [Ladda ned CRX-DOCS-2.0 från Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem-docs/crx-docs-2-0.zip) |
 
 ## Installera ett dokumentationspaket {#how-to-install-documentation-package}
 

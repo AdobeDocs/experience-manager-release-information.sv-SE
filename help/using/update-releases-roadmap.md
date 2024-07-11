@@ -2,9 +2,9 @@
 title: "[!DNL Adobe Experience Manager] releases roadmap"
 description: "[!DNL Adobe Experience Manager] releases roadmap"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 0ccece7cd8146c9871c6143dc5f265128ec8220a
+source-git-commit: 10cbece451b46e8d4dbf473d728a20994a5e42cd
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Experience Manager] Frisläpp vägkarta {#aem-releases-roadmap}
 
-[!DNL Adobe Experience Manager] innehåller nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar för användare som använder [!DNL Cloud Service], Managed Services och våra produkter. I den här artikeln listas kommande versioner för [!DNL Experience Manager].
+[!DNL Adobe Experience Manager] ger konsekvent nya funktioner och förbättringar av befintliga funktioner. Den innehåller felkorrigeringar för användare över [!DNL Cloud Service], Managed Services och lokala versioner. I den här artikeln listas kommande versioner för [!DNL Experience Manager].
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ Produktuppdateringar i form av nya funktioner, förbättringar och felkorrigerin
 
 ### [!DNL Experience Manager] 6.5 {#aem65}
 
-[!DNL Experience Manager] 6.5 produktuppdateringar levereras via kvartalsvisa servicepaket. Det gäller nya funktioner, förbättringar och felkorrigeringar. Mer information om det senaste paketet finns på [[!DNL Experience Manager] 6.5 Versionsinformation för Service Pack](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
+[!DNL Experience Manager] 6.5 produktuppdateringar levereras via kvartalsvisa Service Packs. Det gäller nya funktioner, förbättringar och felkorrigeringar. Mer information om det senaste paketet finns på [[!DNL Experience Manager] 6.5 Versionsinformation för Service Pack](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
 
 | Frigör | Version | Typ | Schema | Status |
 |---|---|---|---|---|

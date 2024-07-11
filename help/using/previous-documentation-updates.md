@@ -3,9 +3,9 @@ title: Tidigare dokumentationsuppdateringar
 description: Läs mer om äldre viktiga dokumentationsändringar och uppdateringar för [!DNL Adobe Experience Manager].
 contentOwner: alvawb
 exl-id: e68cdadf-43c1-47d9-99cf-420d582cb575
-source-git-commit: 125bfbeb881fb86097a609d198098585f6212570
+source-git-commit: 10cbece451b46e8d4dbf473d728a20994a5e42cd
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -24,57 +24,57 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
    <td>Ändringar</td>
   </tr>
    <tr>
-   <td>12 dec 2019</td> 
+   <td>12 december 2019</td> 
    <td>Förhandsgranska 3D-resurser<br /> </td> 
    <td><p>AEM stöder överföring, leverans och interaktiv förhandsgranskning av 3D-resurser som en del av utvecklingsprocessen. Det interaktiva 3D-visningsprogrammet är tillgängligt från sidan med resursinformation i AEM. Visningsprogrammet innehåller bland annat en samling interaktiva kamerakontroller som du kan använda för att rotera, zooma och panorera 3D-resursen.</p> <p>Se <a href="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/previewing-3d-assets" target="_blank">Förhandsgranska 3D-resurser</a>.</p> </td> 
   </tr>
   <tr>
-   <td>12 dec 2019</td> 
+   <td>12 december 2019</td> 
    <td>AEM 6.5 Service Pack 3<br /> </td> 
    <td><a href="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/service-pack/6-5-3">AEM 6.5 Service Pack 3</a> är tillgängligt.</td> 
   </tr>
   <tr>
-   <td>5 dec 2019</td> 
+   <td>5 december 2019</td> 
    <td>Kärnkomponenter<br /> </td> 
    <td>Core Components version 2.8.0 inklusive massor av fixar finns nu tillsammans med <a href="https://github.com/adobe/aem-core-wcm-components">utvecklarinformation och projektnedladdning finns på GitHub</a>.</td> 
   </tr>
   <tr>
-   <td>20 nov 2019</td> 
+   <td>20 november 2019</td> 
    <td>AEM Project Archettype<br /> </td> 
    <td>The <a href="https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/developing/archetype/overview">AEM Project Archettype</a> är ett användbart och flexibelt verktyg som underlättar framtagning av AEM.<br /> </td> 
   </tr>
   <tr>
-   <td>18 okt 2019<br /> </td> 
+   <td>18 oktober 2019<br /> </td> 
    <td>AEM Project Archettype<br /> </td> 
    <td><a href="https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/developing/archetype/overview">AEM Project Archetype</a> skapar ett Adobe Experience Manager-projekt som utgångspunkt för dina egna AEM.<br /> </td> 
   </tr>
   <tr>
-   <td>18 okt 2019<br /> </td> 
+   <td>18 oktober 2019<br /> </td> 
    <td>Headless Experience Management<br /> </td> 
    <td>Funktioner i <a href="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/spas/spa-ssr">Renderare för fjärrinnehåll</a>, som används för återgivning på serversidan av program med en sida, har dokumenterats.<br /> </td> 
   </tr>
   <tr>
    <td>11 oktober 2019</td> 
    <td>Activity Map</td> 
-   <td><p>På grund av säkerhetsändringar i Adobe Analytics API är det inte längre möjligt att använda den version av Activity Map som ingår i AEM. Se <a href="https://experienceleague.adobe.com/en/docs/analytics/analyze/activity-map/getting-started/activitymap-install" target="_blank">ActivityMap-plugin från Adobe Analytics</a> bör nu användas. </p> </td> 
+   <td><p>På grund av säkerhetsändringar i Adobe Analytics API är det inte längre möjligt att använda den version av Activity Map som ingår i AEM. Se <a href="https://experienceleague.adobe.com/en/docs/analytics/analyze/activity-map/getting-started/activitymap-install" target="_blank">Activity Map plug-in från Adobe Analytics</a> bör nu användas. </p> </td> 
   </tr>
   <tr>
    <td>10 oktober 2019</td> 
    <td>Cloud Manager</td> 
-   <td><p>Cloud Manager version 2019.10.0 släpptes 10 oktober 2019.</p> <p>Se <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/release-notes/2019/2019-10-0">Versionsinformation för 2019.10.0</a> högdagrar <i>Nyheter</i> och uppdateringar om driftsättningssteg och hantering av maven-projektversioner.<br /> </p> </td> 
+   <td><p>Cloud Manager version 2019.10.0 släpptes den 10 oktober 2019.</p> <p>Se <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/release-notes/2019/2019-10-0">Versionsinformation för 2019.10.0</a> högdagrar <i>Nyheter</i> och uppdateringar om driftsättningssteg och hantering av maven-projektversioner.<br /> </p> </td> 
   </tr>
   <tr>
-   <td>8 okt 2019</td> 
+   <td>8 oktober 2019</td> 
    <td>AEM Screens<br /> </td> 
    <td><p>AEM Screens har släppt AEM 6.4.6 Feature Pack 6 och AEM 6.5.2 Feature Pack 2.</p> <p>Se <a href="https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-201909">Versionsinformation för funktionspaket 201909</a> för mer information.</p> </td> 
   </tr>
   <tr>
-   <td>1 okt 2019</td> 
+   <td>1 oktober 2019</td> 
    <td>Installation av AEM Forms i JEE </td> 
-   <td><p>AEM Forms-stöd för databasdrivrutinen Oracle 18c har lagts till. </p> <p>Platsmatris: <a href="https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/pdf/prepare-install-single-server.pdf">https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/pdf/prepare-install-single-server.pdf</a></p> <p><a href="https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/pdf/install-cluster-websphere.pdf">https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/pdf/install-cluster-websphere.pdf</a></p> <p><a href="https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/pdf/install-single-server-websphere.pdf">https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/pdf/install-single-server-websphere.pdf</a></p> <p> </p> </td> 
+   <td><p>AEM Forms har stöd för databasdrivrutinen för Oracle 18c. </p> <p>Platsmatris: <a href="https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/pdf/prepare-install-single-server.pdf">https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/pdf/prepare-install-single-server.pdf</a></p> <p><a href="https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/pdf/install-cluster-websphere.pdf">https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/pdf/install-cluster-websphere.pdf</a></p> <p><a href="https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/pdf/install-single-server-websphere.pdf">https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/pdf/install-single-server-websphere.pdf</a></p> <p> </p> </td> 
   </tr>
   <tr>
-   <td>1 okt 2019 </td> 
+   <td>1 oktober 2019 </td> 
    <td>Användarhandbok om bästa praxis för AEM Screens-projekt</td> 
    <td><p>Den här nya guiden ger en omfattande insikt och praktiska råd för att skapa, utforma och föra in avsiktliga kundupplevelser i er digitala signeringsimplementering. Här får du också hjälp med att skapa en positiv effekt på ditt företag genom att använda några av de bästa metoderna som följs när du distribuerar ett projekt för digitala signaturer i AEM Screens.</p> <p>Se <a href="https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide">Guide till bästa praxis för AEM Screens-projekt</a> för mer information.</p> </td> 
   </tr>
@@ -90,13 +90,13 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   </tr>
   <tr>
    <td>25 september 2019</td> 
-   <td>Scene7: Arbetsflöde för att bearbeta resurser<br /> </td> 
+   <td>Scene7: Återbearbeta arbetsflödet i Assets<br /> </td> 
    <td><p>Du kan nu bearbeta resurser i en mapp som redan har en befintlig bearbetningsprofil som du senare ändrade.</p> <p>Se <a href="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/processing-profiles" target="_blank">Bearbeta resurser i en mapp</a>.<br /> </p> </td> 
   </tr>
   <tr>
    <td>25 september 2019</td> 
    <td>Integrera Dynamic Media Viewers med Adobe Analytics och Adobe Launch</td> 
-   <td><p>Med Dynamic Media Viewers-tillägget för Adobe Launch, med Dynamic Media Viewers 5.13, kan kunder som använder Dynamic Media, Adobe Analytics och Adobe Launch använda händelser och data som är specifika för Dynamic Media Viewers i Adobe Launch-konfigurationer.</p> <p>Se <a href="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/tags" target="_blank">Integrera Dynamic Media Viewers med Adobe Analytics och Adobe Launch</a>. </p> </td> 
+   <td><p>Med Dynamic Media Viewers-tillägget för Adobe Launch 5.13 kan man integrera Dynamic Media, Adobe Analytics och Adobe Launch. Den använder specifika händelser och data för Dynamic Media-visningsprogram i Adobe Launch-konfigurationerna.</p> <p>Se <a href="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/tags" target="_blank">Integrera Dynamic Media Viewers med Adobe Analytics och Adobe Launch</a>. </p> </td> 
   </tr>
   <tr>
    <td>19 september 2019</td> 
@@ -119,24 +119,24 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
    <td>Core Components version 2.6.0 som introducerar en Experience Fragment Component finns nu tillgänglig tillsammans med <a href="https://github.com/adobe/aem-core-wcm-components">utvecklarinformation och projektnedladdning finns på GitHub</a>.</td> 
   </tr>
   <tr>
-   <td>21 aug 2019</td> 
-   <td>Användarhandbok för AEM 6.5-skärmar</td> 
+   <td>21 augusti 2019</td> 
+   <td>AEM 6.5 Screens Användarhandbok</td> 
    <td>Ett nytt avsnitt om Grunderna för nätverksdriftsättning finns nu i realtid. Se <a href="https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction">Användarhandbok</a> för mer information.</td> 
   </tr>
   <tr>
-   <td>20 aug 2019</td> 
+   <td>20 augusti 2019</td> 
    <td>Smarta taggar för AEM Assets<br /> </td> 
-   <td>Lär dig hur <a href="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/config-smart-tagging" target="_blank">uppdateringscertifikat</a> efter att det gått ut.</td> 
+   <td>Lär dig hur <a href="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/config-smart-tagging" target="_blank">uppdatera certifikatet</a> efter att det gått ut.</td> 
   </tr>
   <tr>
-   <td>2 aug 2019</td> 
+   <td>2 augusti 2019</td> 
    <td>Nytt rastreringspaket för PDF<br /> </td> 
    <td>A <a href="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/aem-pdf-rasterizer" target="_blank">nytt paket är tillgängligt</a> som hjälper AEM Assets att bearbeta stora AI/PDF-filer och generera förhandsgranskningar och miniatyrbilder.<br /> </td> 
   </tr>
   <tr>
    <td>25 juli 2019</td> 
    <td>AEM Assets-funktionalitet under olika licenser</td> 
-   <td><a href="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/medialibrary" target="_blank">Lista över funktioner</a> av AEM Assets som finns i en fristående DAM-licens eller i AEM MediaLibrary uppdateras för AEM 6.5-utgåvan.<br /> </td> 
+   <td><a href="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/medialibrary" target="_blank">Listan över funktioner</a> av AEM Assets som finns i en fristående DAM-licens eller i AEM MediaLibrary uppdateras för AEM 6.5-utgåvan.<br /> </td> 
   </tr>
   <tr>
    <td>12 juli 2019</td> 
@@ -224,7 +224,7 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   </tr>
   <tr>
    <td>12 april 2019</td> 
-   <td>Användarhandbok för AEM 6.5-skärmar</td> 
+   <td>AEM 6.5 Screens Användarhandbok</td> 
    <td><p><a href="https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-client/implementing-windows-player">Implementera Windows 10 Player</a> för mer information.</p> </td> 
   </tr>
   <tr>
@@ -237,7 +237,7 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
 
 ## Äldre innehåll {#legacy-content}
 
-Den 1 maj 2023 har äldre versioner av AEM flyttats till en ny plats på [Äldre versioner av Adobe Experience Manager, CQ och CRX](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions).
+Från och med den 1 maj 2023 har äldre versioner av AEM flyttats till en ny plats på [Äldre versioner av Adobe Experience Manager, CQ och CRX](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions).
 
 Följande versioner har flyttats:
 

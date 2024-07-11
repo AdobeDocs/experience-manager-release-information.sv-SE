@@ -1,11 +1,11 @@
 ---
 title: Installera kumulativa korrigeringspaket på AEM Forms JEE
-description: Sammanfattning av steg för att installera och konfigurera Cumulative Fix Pack (CFP) på AEM Forms JEE.
+description: Sammanfattning av steg för att installera och konfigurera ett kumulativt korrigeringspaket (CFP) på AEM Forms JEE.
 contentOwner: AK
 exl-id: eed01a42-f4ab-4392-8b8e-eb5bbe2410a0
-source-git-commit: 437dad5fffe71592b6f9f9b4099a253e3a55b0c8
+source-git-commit: 10cbece451b46e8d4dbf473d728a20994a5e42cd
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Om du använder AEM 6.3 [!DNL Forms JEE] oracle med konfigurationsdatabas konfig
 1. Logga in på **Administratör** Gränssnitt.
 1. Navigera till **[!UICONTROL Settings]** > **[!UICONTROL User Management]** > **[!UICONTROL Configuration]** > **[!UICONTROL Import and Export Configuration File]**
 1. Exportera filen config.xml.
-1. Ändra posten för &quot; `groupMemberDBQueryBatchSize`&quot; under dina domänkonfigurationer i *config.xml*. Exempelpost:
+1. Ändra posten för &quot;`groupMemberDBQueryBatchSize`&quot; under dina domänkonfigurationer i *config.xml*. Exempelpost:
 
    &lt;entry key=&quot;groupMemberDBQueryBatchSize&quot; value=&quot;999&quot;/>
 
@@ -40,7 +40,7 @@ Om du använder AEM 6.3 [!DNL Forms JEE] oracle med konfigurationsdatabas konfig
 
 ## Installera CFP på AEM 6.2 [!DNL  Forms JEE] {#install-cfp-on-aem-62-forms-jee}
 
-Installera kumulativa korrigeringspaket i AEM 6.2 [!DNL Forms JEE]utför du följande stegsekvens.
+Installera det kumulativa korrigeringspaketet på AEM 6.2 [!DNL Forms JEE]utför du följande stegsekvens.
 
 1. För att få AEM 6.2 [!DNL Forms JEE] installationsprogram för CFP, kontakta [Stöd för Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support).
 1. Kör CFP-installationsprogrammet och konfigurera AEM [!DNL Forms JEE] enligt beskrivning i [Installera och konfigurera AEM [!DNL Forms JEE]](install-cfp-aem-forms-jee.md#install-and-configure-aem-forms-jee).
@@ -57,7 +57,7 @@ AEM Forms JEE-paketet (aemfd-jee-bundles-package-6.2CFP5; version 1.0.2) innehå
 
 >[!NOTE]
 >
->Efter AEM 6.2 CFP4 kan du använda följande instruktioner för att konfigurera timeout-värdet för DSC-åtgärder om du får problem på grund av timeout under uppgraderingsprocessen.
+>Post AEM 6.2 CFP4 kan du använda följande anvisningar för att konfigurera timeout för DSC-åtgärder om du får problem på grund av timeout under uppgraderingsprocessen.
 
 DSC-distributionen tar en varierande tid på grund av att den kan misslyckas. Om du vill ändra tidsgränsen för DSC-åtgärder som Install, Load, Start och Stop måste du ange `adobe.component.registry.timeout` med JVM-argumentet med alternativet -D.
 
@@ -75,19 +75,19 @@ Använd följande kommandon för att ange timeout på komponentnivå:
 
 1. Så här anger du timeout för alla serviceåtgärder till 600 sek:
 
-   set &quot; `JAVA_OPTS=%JAVA_OPTS% -Dadobe.all-component.timeout=600`&quot;
+   set &quot;`JAVA_OPTS=%JAVA_OPTS% -Dadobe.all-component.timeout=600`&quot;
 
 1. Så här anger du `DesigntimeService` timeout för operationsvärden till 500 sek. Använd:
 
-   set &quot; `JAVA_OPTS=%JAVA_OPTS% -Dadobe.DesigntimeService.timeout=500`&quot;
+   set &quot;`JAVA_OPTS=%JAVA_OPTS% -Dadobe.DesigntimeService.timeout=500`&quot;
 
 1. Så här anger du `DesigntimeService's previewLCA` timeout för operationsvärden till 700 sek. Använd:
 
-   set `"JAVA_OPTS=%JAVA_OPTS% -Dadobe.DesigntimeService.previewLCA.timeout=700`&quot;
+   set &quot;`JAVA_OPTS=%JAVA_OPTS% -Dadobe.DesigntimeService.previewLCA.timeout=700`&quot;
 
 1. Så här anger du `DSC operations`, till exempel läsa in och installera, till 600 sek, använd:
 
-   set &quot; `JAVA_OPTS=%JAVA_OPTS% -Dadobe.component.registry.timeout=600`&quot;
+   set &quot;`JAVA_OPTS=%JAVA_OPTS% -Dadobe.component.registry.timeout=600`&quot;
 
 ## Installera och konfigurera AEM [!DNL Forms JEE] {#install-and-configure-aem-forms-jee}
 
@@ -98,7 +98,7 @@ Använd följande kommandon för att ange timeout på komponentnivå:
 
    **Windows**
 
-   Navigera till rätt katalog på installationsmediet eller mappen på hårddisken där du kopierade installationsprogrammet:
+   Navigera till katalogen på installationsmediet eller till mappen där du kopierade installationsprogrammet.
 
    * (`Windows 32-bit`): `Disk1\InstData\Windows\VM`
    * (`Windows 64-bit`): `Disk1\InstData\Windows_64bit\VM`
@@ -113,8 +113,8 @@ Använd följande kommandon för att ange timeout på komponentnivå:
 
    Navigera till rätt katalog:
 
-   * (Linux®): Disk1/InstData/Linux/ NoVM
-   * (Solaris™): Disk1/InstData/Solaris/ NoVM
+   * (Linux®): Disk1/InstData/Linux/NoVM
+   * (Solaris™): Disk1/InstData/Solaris/NoVM
    * (AIX®): Disk1/InstData/AIX/VM
 
    Skriv:
