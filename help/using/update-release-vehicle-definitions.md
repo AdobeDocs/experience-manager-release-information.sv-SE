@@ -1,6 +1,6 @@
 ---
 title: Uppdatera definitioner för frisläppningsfordon
-description: I den här artikeln beskrivs de olika typerna av [!DNL Experience Manager] releaser, inklusive fullständiga releaser, funktionspaket och servicepaket.
+description: Den här artikeln innehåller information om de olika typerna av  [!DNL Experience Manager] releaser, inklusive fullständiga releaser, funktionspaket och servicepaket.
 contentOwner: AK
 exl-id: 936b8136-9edb-4e11-9c29-f0c3108c35bd
 source-git-commit: 10cbece451b46e8d4dbf473d728a20994a5e42cd
@@ -10,13 +10,13 @@ ht-degree: 2%
 
 ---
 
-# [!DNL Experience Manager] uppdatera definitioner av utgivningsfordon {#update-release-vehicle-definitions}
+# Uppdateringsdefinitioner för [!DNL Experience Manager]-versionen {#update-release-vehicle-definitions}
 
-Det här dokumentet innehåller information om de olika typerna av [!DNL Adobe Experience Manager] releaser, inklusive fullständiga releaser, funktionspaket och servicepaket som [!DNL Adobe] levererar till sina kunder.
+Det här dokumentet innehåller information om de olika typerna av [!DNL Adobe Experience Manager]-utgåvor, inklusive fullständiga utgåvor, funktionspaket och servicepaket som [!DNL Adobe] levererar till sina kunder.
 
 >[!NOTE]
 >
->För lanseringsschema för [!DNL Experience Manager] uppdateringsversioner, se [[!DNL Experience Manager] uppdateringsreleaser färdplan](update-releases-roadmap.md)
+>För releaseschema för [!DNL Experience Manager] uppdateringsreleaser, se [[!DNL Experience Manager] färdplan för uppdateringsreleaser](update-releases-roadmap.md)
 
 ## Fullversion {#full-release}
 
@@ -47,7 +47,7 @@ Det här dokumentet innehåller information om de olika typerna av [!DNL Adobe E
 | Objekt | Beskrivning |
 |-----|-----|
 | Definition | <ul> <li> Enstaka leveransmodell för frisläppningsfixar </li> <li> Aggregator-innehållspaket som innehåller innehållspaket för enskilda komponenter </li> <li>  Bestruket finpapper är en överrullning av snabbkorrigeringar och inga förbättringar ingår i den.  </li> </ul> |
-| Namngivning | X.Y.Z.CFPx  <br> Där X är det primära versionsnumret, är Y det sekundära versionsnumret och Z korrigeringsnumret. x är det kumulativa Service Pack-numret. |
+| Namngivning | X.Y.Z.CFPx <br> där X är det primära versionsnumret, Y är det sekundära versionsnumret och Z korrigeringsnumret. x är det kumulativa Service Pack-numret. |
 | Inkluderingar | CFP är ett kumulativt korrigeringspaket som innehåller korrigeringar av alla komponenter under angivna datum. Om en kund till exempel tillämpar CFP3, blir CFP3 = CFP1 + CFP2. |
 | Dokumentation | Versionsinformation finns på dokumentationsportalen |
 | Cadence | kvartalsvis |
@@ -58,23 +58,23 @@ Det här dokumentet innehåller information om de olika typerna av [!DNL Adobe E
 
 | Objekt | Information |
 |-------|--------|
-| Namngivning | overlay-&lt;ticket id=&quot;&quot;> |
+| Namngivning | överlägg-&lt;biljett-ID> |
 | Inkluderingar | Felkorrigering för en JS- eller JSP-fil |
 | Dokumentation | Ingen |
 | Cadence | Vid behov |
-| Tillgänglighet och installation | <ul> <li> Levereras som paket av [!DNL Experience Manager] Kundtjänst  </li> <li> Ingår inte nödvändigtvis i Service Pack eller fullständiga versioner </li> </ul> |
+| Tillgänglighet och installation | <ul> <li> Levereras som paket av [!DNL Experience Manager] kundtjänst  </li> <li> Ingår inte nödvändigtvis i Service Pack eller fullständiga versioner </li> </ul> |
 | Testnivå | Validerad av Kundtjänst |
 
 ## Funktionspaket {#feature-pack}
 
 | Objekt | Information |
 |--------|-----|
-| Definition | <ul> <li>Funktionspaket är tilläggsfunktioner och levereras via ett Service Pack. Om en [!DNL Experience Manager] Adobe kommer inte att leverera något funktionspaket till den i framtiden. </li> <li> FP:er innehåller produktförbättringar som planeras för en senare produktrelease, men levereras tidigt baserat på beslut av [!DNL Adobe's] Produkthantering.</li> <li>  Funktionerna sammanfogas alltid med nästa större release. De porteras sedan till [!DNL Experience Manager] version som kunden behöver </li> <li>  Funktionspaket för gemensamt intresse och GA sammanfogas i nästa Service Pack  </li> </ul> |
+| Definition | <ul> <li>Funktionspaket är tilläggsfunktioner och levereras via ett Service Pack. Om en [!DNL Experience Manager]-version har släppt sitt senaste Service Pack kommer Adobe inte att leverera något funktionspaket till den i framtiden. </li> <li> FP:er innehåller produktförbättringar, schemalagda för en efterföljande produktrelease, men levererade tidigt baserat på beslut av [!DNL Adobe's] Product Management.</li> <li>  Funktionerna sammanfogas alltid med nästa större release. De porteras sedan till den [!DNL Experience Manager]-version som kunden kräver </li> <li>  Funktionspaket för gemensamt intresse och GA sammanfogas i nästa Service Pack  </li> </ul> |
 | Namngivning | `cq-<Release Version>-featurepack-<feature pack ID>-<feature pack version>` |
 | Inkluderingar | <ul> <li> Nya funktioner </li> <li> Förbättringar </li> <li> Felkorrigeringar (stegvisa produktuppdateringar) </li> </ul> |
 | Dokumentation | Dokumentation finns på adobe.com. |
 | Cadence | Varierar med produktområdet |
-| Tillgänglighet och installation | <ul> <li>Levereras via Service Pack </li> <li> Finns för distribution av programvara. Kunderna accepterar [!DNL Adobe's] Villkor genom distribution av programvara. </li> </ul> |
+| Tillgänglighet och installation | <ul> <li>Levereras via Service Pack </li> <li> Finns för distribution av programvara. Kunder godkänner [!DNL Adobe's] villkor via programvarudistribution. </li> </ul> |
 | Testnivå | Funktionspaket för allmän tillgänglighet är QA-validerade. |
 
 * 1: Oak-korrigeringar levereras inte som enskilda snabbkorrigeringar. De ingår dock i den efterföljande snabbkorrigeringen för Cumulative Oak. Om det behövs kan en diagnostik som bygger på den senaste COFP göras tillgänglig. Förutsättningen är att kunden har den senaste COFP som körs. Diagnostiska byggen ger bara samma kvalitetssäkring som en snabbkorrigering. Därför ger de inte lika mycket kvalitetssäkring som ett kumulativt korrigeringspaket, Service Pack eller produktrelease. Den slutliga lösningen levereras med nästa gemensamma fiskeripolitik.

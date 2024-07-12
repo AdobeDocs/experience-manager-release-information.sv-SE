@@ -24,11 +24,11 @@ ht-degree: 32%
 + [AEM releaser - uppdateringar](aem-releases-updates.md)
 + [AEM releaser roadmap](update-releases-roadmap.md)
 + [AEM uppdateringsdefinitioner för utgivningsfordon](update-release-vehicle-definitions.md)
-+ Tidigare uppdateringar {#previous-updates}
++ Tidigare versionsuppdateringar {#previous-updates}
    + [Äldre versioner av AEM, CQ och CRX](aem-previous-versions.md)
-+ Uppdateringar om AEM Forms {#forms-updates}
++ Uppdateringar om AEM Forms-utgåvor {#forms-updates}
    + [AEM Forms-versioner](aem-forms-releases.md)
    + [Installera kumulativa korrigeringspaket på AEM Forms JEE](install-cfp-aem-forms-jee.md)
-+ Dokumentation {#doc-updates}
++ Dokumentationsuppdateringar {#doc-updates}
    + [Senaste dokumentationsuppdateringar](documentation-updates.md)
    + [Tidigare dokumentationsuppdateringar](previous-documentation-updates.md)

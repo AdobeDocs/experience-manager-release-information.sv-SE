@@ -11,18 +11,18 @@ ht-degree: 21%
 
 # Versionsuppdateringar och färdplan för Adobe Experience Manager
 
-Den här guiden innehåller information om [!DNL Adobe Experience Manager] lansera en färdplan, uppdateringar av tidigare versioner och dokumentationsuppdateringar.
+Den här handboken innehåller information om [!DNL Adobe Experience Manager]-releasemartan, tidigare uppdateringar och dokumentationsuppdateringar.
 
-* [[!DNL Experience Manager] uppdaterar](aem-releases-updates.md)
-* [[!DNL Experience Manager] lanserar färdplan](update-releases-roadmap.md)
-* [[!DNL Experience Manager] frigöra fordonsdefinitioner](update-release-vehicle-definitions.md)
+* [[!DNL Experience Manager] uppdateringar](aem-releases-updates.md)
+* [[!DNL Experience Manager] släpper färdplan](update-releases-roadmap.md)
+* [Definitioner av [!DNL Experience Manager]-utgivningsfordon](update-release-vehicle-definitions.md)
 
-## [!DNL Experience Manager] Uppdateringar om Forms
+## [!DNL Experience Manager] Forms-uppdateringar
 
 * [[!DNL Experience Manager] Forms-versioner](aem-forms-releases.md)
-* [Installera kumulativa korrigeringspaket på [!DNL Experience Manager] Forms JEE](install-cfp-aem-forms-jee.md)
+* [Installerar kumulativa korrigeringspaket på  [!DNL Experience Manager] Forms JEE](install-cfp-aem-forms-jee.md)
 
 ## Dokumentation
 
-* [[!DNL Experience Manager] dokumentation: Senaste dokumentationsuppdateringar](documentation-updates.md)
+* [[!DNL Experience Manager]-dokumentation: Senaste dokumentationsuppdateringar](documentation-updates.md)
 * [Tidigare dokumentationsuppdateringar](previous-documentation-updates.md)
