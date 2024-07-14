@@ -2,9 +2,9 @@
 title: AEM 6.3 Cumulative Fix Pack
 description: AEM 6.3 Cumulative Fix Pack Release Notes.
 exl-id: 04969587-a904-44cb-83e0-51707ac6a87f
-source-git-commit: e8c9b5343208458febe55d8c1a0b541b112d3911
+source-git-commit: 53803f61394144ed81367a5c050814223fc6d565
 workflow-type: tm+mt
-source-wordcount: '17113'
+source-wordcount: '17337'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 
 >[!CAUTION]
 >
->Om du använder bestruket papper utan att validera kompatibiliteten mellan installerade funktionspaket kan det leda till att systemet inte fungerar eller att anpassade konfigurationer går förlorade, vilket kan kräva återställning från säkerhetskopia för att kunna lösas.
+>Om du använder bestruket finpapper utan att validera kompatibiliteten mellan installerade funktionspaket kan det leda till att systemet inte fungerar eller att anpassade konfigurationer går förlorade, vilket kan kräva återställning från säkerhetskopia för att kunna lösas.
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Dessutom innehåller denna CFP snabbkorrigeringar som levererats i [tidigare kum
 
 ### Kampanjanpassning {#campaign-targeting}
 
-* En komponents innehåll har ändrats i Author-instansen och sedan aktiverats visas inte i Publish-instansen förrän komponenten startas om **com.day.cq.personalization.impl.TargetedContentManagerImpl** (NPR-32489 och NPR-32232).
+* En komponents innehåll ändras i Author-instansen och aktiveras sedan inte i Publish-instansen förrän komponenten startas om **com.day.cq.personalization.impl.TargetedContentManagerImpl** (NPR-32489 och NPR-32232).
 * Prestanda för kontextnav kraschar vid publicering (NPR-31170).
 
 ### Brand Portal {#brand-portal}
@@ -88,7 +88,7 @@ AEM Forms-korrigeringar levereras via tilläggspaket och andra patch-installerar
 
 >[!NOTE]
 >
->AEM Forms tilläggspaket hjälper till att anpassa formulärfunktionerna med AEM Service Pack och Cumulative Fix Packs. Därför är det viktigt att du installerar AEM Forms tilläggspaket när du har installerat AEM Service Pack, Cumulative Fix Pack eller Feature Pack.
+>AEM Forms tilläggspaket hjälper till att anpassa formulärfunktionerna med AEM Service Pack och Cumulative Fix Packs. Därför är det viktigt att du installerar tilläggspaketet för AEM Forms när du har installerat AEM Service Pack, Cumulative Fix Pack eller Feature Pack.
 
 * Designer: Om taggningsalternativet är aktiverat försvinner delformulärsramen i utdata från PDF (NPR-32324 och NPR-32545).
 * Designer: Om det finns sammanfogade celler i en tabell misslyckas hjälpmedelstestet för utdatafilen som konverterats från ett XDP-formulär med hjälp av utdatatjänsten (NPR-32068).
@@ -108,7 +108,7 @@ AEM Kumulativt korrigeringspaket 6.3.3.7 är beroende av AEM 6.3 Service Pack 3.
 
 ### Assets {#assets-1}
 
-* Assets har markerats (i kolumnvyn i Touch-gränssnittet) innan filteralternativet har valts i listrutan Endast innehåll och sedan alternativet Flytta har också flyttats (NPR-30693).
+* Assets har markerats (i kolumnvyn i Touch UI) innan du väljer filteralternativet i listrutan Endast innehåll och sedan väljer flyttningsalternativet flyttas även (NPR-30693).
 * Variabeln `${extension}` återges inte i författarinstansen vid arbetsflödesbearbetning (NPR-31694).
 * Det värde för förfallotid (klientens cachetid till live) som konfigurerats för Dynamic Media hybridläge replikeras inte till Dynamic Media leveransmiljö (NPR-3114).
 * Assets replikeras till Publish-instansen från Author-instansen som körs på Dynamic Media - Scene7-distributionen, även efter användning av standardfilter (NPR-30856).
@@ -121,15 +121,15 @@ AEM Kumulativt korrigeringspaket 6.3.3.7 är beroende av AEM 6.3 Service Pack 3.
 * Utanför skalningsprogrammet kan du göra en RTF-redigerare (Rich Text Editor). använder textbunden teckensnittsstorlek för element, oväntat (NPR-31283, NPR-30922).
 * Det går inte att synkronisera en kampanj i Adobe Campaign som innehåller en färdig designimportkomponent (NPR-30890).
 * Du kan inte infoga en inbäddad tabell som listobjekt (NPR-30878) i RTE-redigeraren.
-* När en användare fokuserar på fält med vänster stödlinje och använder ett kortkommando för att klistra in innehåll, klistras innehållet i sidredigerarens urklipp in i stället för innehållet som kopieras från de vänstra fältspåren (NPR-31173).
-* När en användare redigerar ett innehållsfragment återställs den redan borttagna varianten av innehållsfragmentet (NPR-31272).
+* En användare fokuserar på det vänstra fältet och använder ett kortkommando för att klistra in innehåll. Då klistras innehållet i sidredigerarens urklipp in i stället för innehållet som kopieras från det vänstra fältet (NPR-31173).
+* När en användare redigerar ett innehållsfragment återställs den tidigare borttagna varianten av innehållsfragmentet (NPR-31272).
 * AEM Site skapar inte någon språkkopia (NPR-30690).
 * Sidredigerarens åtgärder saknar kontroller för att skapa live-kopior (NPR-30613).
 
 ### Communities {#communities}
 
 * Aktiviteter och meddelandetitlar är inkonsekventa (NPR-30940).
-* Analysrapporter är inte ifyllda i AEM författarmiljö, en tom sida visas (NPR-30905).
+* Analysrapporter fylls inte i i AEM författarmiljö. Istället visas en tom sida (NPR-30905).
 * Sidindelningen fungerar inte korrekt i webbgruppsbloggar (NPR-30827).
 
 ### Foundation {#foundation}
@@ -144,7 +144,7 @@ AEM Forms-korrigeringar levereras via tilläggspaket och andra patch-installerar
 
 >[!NOTE]
 >
->AEM Forms tilläggspaket hjälper till att anpassa formulärfunktionerna med AEM Service Pack och Cumulative Fix Packs. Därför är det viktigt att du installerar AEM Forms tilläggspaket när du har installerat AEM Service Pack, Cumulative Fix Pack eller Feature Pack.
+>AEM Forms tilläggspaket hjälper till att anpassa formulärfunktionerna med AEM Service Pack och Cumulative Fix Packs. Därför är det viktigt att du installerar tilläggspaketet för AEM Forms när du har installerat AEM Service Pack, Cumulative Fix Pack eller Feature Pack.
 
 #### Adaptiv Forms {#adaptive-forms}
 
@@ -186,12 +186,12 @@ AEM Kumulativt korrigeringspaket 6.3.3.6 är beroende av AEM 6.3 Service Pack 3.
 * ContextHub-fel under AEM- och Campaign-integrering. NPR-30624: Programfix för CQ-4250790
 * Metadataegenskaper för onTime eller offTime som sparats på resurser återkallas inte om AEM startas om. NPR-30412: Programfix för CQ-4272784
 * När du genererar en CSV-export bryts rapporten om du lägger till anpassade kolumner för listvyn. NPR-30208: Programfix för CQ-4273344
-* OTB-rapporter i /etc/reports/ fungerar inte korrekt och historisk datagraf visas inte. NPR-30016: Programfix för CQ-4220180
+* OTB-rapporter i /etc/reports/ fungerar inte korrekt och det historiska datagrafen visas inte. NPR-30016: Programfix för CQ-4220180
 * Värdet för parametern resourceType request kopieras till värdet för ett HTML-taggattribut som är inkapslat med citattecken. NPR-29832: Programfix för CQ-4255365
 
 ### Communities {#communities-1}
 
-* Problem med duplicerat innehåll med AEM Communities moderationskonsol. NPR-30667: Programfix för CQ-4276829
+* Problem med duplicerat innehåll i AEM Communities moderationskonsol. NPR-30667: Programfix för CQ-4276829
 
 ### Översättning {#translation}
 
@@ -206,7 +206,7 @@ AEM Forms-korrigeringar levereras via tilläggspaket och andra patch-installerar
 
 >[!NOTE]
 >
->AEM Forms tilläggspaket hjälper till att anpassa formulärfunktionerna med AEM Service Pack och Cumulative Fix Packs. Därför är det viktigt att du installerar AEM Forms tilläggspaket när du har installerat AEM Service Pack, Cumulative Fix Pack eller Feature Pack.
+>AEM Forms tilläggspaket hjälper till att anpassa formulärfunktionerna med AEM Service Pack och Cumulative Fix Packs. Därför är det viktigt att du installerar tilläggspaketet för AEM Forms när du har installerat AEM Service Pack, Cumulative Fix Pack eller Feature Pack.
 
 #### HTML5 Forms {#html-forms-1}
 
@@ -235,9 +235,9 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 ### Assets {#assets-3}
 
 * DAM DMGGateway-gränssnittet för S3-multipart har uppdaterats. NPR-29740: Programfix för Q-4226303
-* Det går inte att ta bort en bildåtergivning för en videoresurs från sidan med resursinformation. NPR-29417: Programfix för CQ-4268675
+* Det går inte att ta bort en bildåtergivning för en videoresurs från sidan Resursinformation. NPR-29417: Programfix för CQ-4268675
 * Ägaren kan inte skapa en privat mapp i en privat mapp. NPR-29397: Programfix för CQ-4229830
-* Om du överför en Adobe Illustrator Artwork-fil med mer än 2 GB genereras ett Java™ heap space-fel. NPR-29265: Programfix för CQ-4226217
+* Om du överför en Adobe Illustrator Artwork-fil som är större än 2 GB genereras ett Java™ heap space-fel. NPR-29265: Programfix för CQ-4226217
 * Assets blir oanvändbart efter att DAM CQ Mime Type Service har tillämpat text för m3u8. NPR-29259: Programfix för CQ-4264052
 * Alternativet Skapa fungerar inte när du försöker skapa samlingar i Edge. NPR-29248: Programfix för CQ-4265699 och CQ-4265438
 * Resurslänkresurs visar tomma grå kort för vissa resurser i mappen. NPR-29831: Programfix för CQ-4270187
@@ -245,12 +245,12 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 
 ### Sites {#sites-3}
 
-* När CoralUI används med Multifield lagras fileReferenceParameter på komponentnivå i stället för på multifältnivå. NPR-29535: Programfix för CQ-4266129
+* När CoralUI används med Multifield sparas fileReferenceParameter på komponentnivå i stället för på multifältsnivå. NPR-29535: Programfix för CQ-4266129
 * Problem vid jämförelse av den senaste och aktuella sidversionen AEM 6.3.3.3. NPR-29532: Programfix för CQ-4269639
-* Sökvägsfältet öppnas på rotsökvägen oavsett vilken sökväg som har angetts för sökningen. NPR-29398: Programfix för CQ-4268897
-* (Experience Fragments) FacebookApplication#setUpApp använder föråldrat API, som inte fungerar längre. NPR-29213: Programfix för CQ-4266630
-* Felvarning genereras när komponenter läggs till på WCM-sidan när miniatyrbilder är aktiverade på instansen. NPR-29476: Programfix för CQ-4266197
-* Tomma egenskaper och flera egenskaper sprids inte från utkast under utrullning. Det går inte att återställa Live Copy med utkast för komponenter. NPR-29252: Programfix för CQ-4264928, CQ-4264926, CQ-4267722
+* Sökvägsfältet öppnas i rotsökvägen oavsett vilken sökväg som har angetts för sökningen. NPR-29398: Programfix för CQ-4268897
+* (Experience Fragments) FacebookApplication#setUpApp använder ett föråldrat API, som inte fungerar längre. NPR-29213: Programfix för CQ-4266630
+* Felavisering genereras när komponenter läggs till på WCM-sidan när miniatyrbilder är aktiverade på instansen. NPR-29476: Programfix för CQ-4266197
+* Tomma egenskaper och flera egenskaper sprids inte från ritytan under utrullning. Det går inte att återställa Live Copy med utkast för komponenter. NPR-29252: Programfix för CQ-4264928, CQ-4264926, CQ-4267722
 * Om du minimerar RTF-redigeraren från helskärmsläge i källredigeringsläge leder det till innehållsförlust. NPR-28838: Programfix för CQ-4260584
 
 ### Communities {#communities-2}
@@ -261,12 +261,12 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 
 ### Upplevelsefragment {#experience-fragments}
 
-* Det går inte att exportera Experience Fragments till target när en smart bild används. Programfix för CQ-4269606
+* Du kan inte exportera Experience Fragments till target när en smart bild används. Programfix för CQ-4269606
 
 ### Replikering {#replication}
 
 * Replikeringsagentkomponenten är känslig för en sårbarhet som avslöjar känslig information för obehöriga användare. NPR-29613: Programfix för Granite-25070
-* Data som tillhandahålls av användaren kan inte utelämnas vid utdata i komponenten `cq/replication/components/agent`, vilket resulterar i en lagrad XSS-säkerhetslucka (Cross-site scripting). NPR-29452: Programfix för CQ-4266263
+* Data som tillhandahålls av användaren kan inte utelämnas vid utdata i komponenten `cq/replication/components/agent`, vilket resulterar i en lagrad XSS-säkerhetslucka (Cross-Site Scripting). NPR-29452: Programfix för CQ-4266263
 
 ### Forms {#forms-3}
 
@@ -304,11 +304,11 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 ### Assets {#assets-4}
 
 * Om du överför ett arkiv med samma namn på nytt genereras inte återgivningar för de nya bearbetade resurserna. NPR-28643: Programfix för CQ-426286
-* CommandLineProcess för arbetsflödet misslyckas med filnamn med ett enkelt citattecken. NPR-28805: Programfix för CQ-4262287
-* Värdena skiljer sig mellan samlingssidan och samlingssidan när du använder filter. NPR-28642: Programfix för CQ-4261405
+* CommandLineProcess för arbetsflöde misslyckas med ett filnamn som har ett enkelt citattecken. NPR-28805: Programfix för CQ-4262287
+* Värdena skiljer sig mellan samlingssidan och samlingssidan när du använder filtret. NPR-28642: Programfix för CQ-4261405
 * CommitFailedException utlöser överföringar av stora zip-arkivresurser. NPR-28528: Programfix för CQ-4260903
 * Mappmetadata sparas inte när en mapp som innehåller specialtecken redigeras. NPR-28211: Programfix för CQ-4260401
-* Det går inte att ta bort bildåtergivningar av en videoresurs från sidan Resursinformation. NPR-29149: Programfix för CQ-4266073
+* Det går inte att ta bort bildåtergivningar av en videoresurs från sidan med resursinformation. NPR-29149: Programfix för CQ-4266073
 * DMS7 DMComponent använder progressiv nedladdning för uppspelning av video i publiceringsläge och direktuppspelar inte video. NPR-28754: Programfix för CQ-4263732
 * Det går inte att skapa/redigera bildförinställningar eftersom åtkomst till /etc/dam/video/dynamicmedia inaktiverar funktioner för bildhanterare. NPR-28662: Programfix för CQ-4263022
 * Länkdelning med DMS7-kodade videofiler resulterar i tomma mappar. NPR-28851: Programfix för CQ-4206743
@@ -323,9 +323,9 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 * XSS (Cross-site scripting) i FörslagHandler för 6.3. NPR-28692: Programfix för CQ-4253821
 * Djupa utrullningar slutar utan att innehålla alla grenar i respektive LiveCopy. NPR-29175: Programfix för CQ-4239472
 * (MSM) Implementera LiveCopyIndex med hjälp av index. NPR-29198: Programfix för CQ-422472
-* Filen coral.js innehåller en sårbar version av biblioteket handlebars.js. NPR-26973: Programfix för CQ-4255377
-* Om du använder en Target-komponent med en kapslad Layout Container och Text Component (Textkomponent) genereras ett JavaScript-fel,&quot;Cannot read property currentPos of null&quot;, när du redigerar text eller klickar på behållaren. NPR-29077: Programfix för CQ-4246594
-* (Touch UI) Det går inte att uppdatera taggar i grupp till sidor som redan är taggade med olika taggar. NPR-28729: Programfix för CQ-4262922
+* Filen `coral.js` innehåller en sårbar version av biblioteket `handlebars.js`. NPR-26973: Programfix för CQ-4255377
+* Om du använder en Target-komponent med en kapslad Layout Container och Text-komponenten genereras ett JavaScript-fel,&quot;Cannot read property currentPos of null&quot;, när du redigerar text eller klickar på behållaren. NPR-29077: Programfix för CQ-4246594
+* (Touch UI) Det går inte att gruppuppdatera taggar till sidor som redan är taggade med olika taggar. NPR-28729: Programfix för CQ-4262922
 * Om du öppnar variationen i kortvyn uppstår ett 500-fel. NPR-28611: Programfix för CQ-4263571
 * Utrullning av en struktur som har flyttats i ett primärt leder till fel `cq:moveTarget`. NPR-28968: Programfix för CQ-4265280
 
@@ -346,7 +346,7 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 
 ### UI - Foundation {#ui-foundation}
 
-* När du klickar på en tagg tas den globala mushändelsen bort och dialogrutan låses i&quot;dragbart läge&quot;. NPR-28641: Programfix för CUI-7294
+* När du klickar på en tagg tas den globala mushändelsen bort och dialogrutan låses i dragbart läge. NPR-28641: Programfix för CUI-7294
 
 ### WCM - MSM {#wcm-msm}
 
@@ -362,19 +362,19 @@ AEM Forms-korrigeringar levereras via tilläggspaket och andra patch-installerar
 
 AEM Forms i korthet:
 
-* Aktiverat alternativ för att markera objekt per sida på sidan för principuppsättningsvyn.
+* Aktiverade alternativet att välja objekt per sida på sidan för vyn Principuppsättning.
 * Funktioner för Dela-kö har lagts till för alla webbläsare.
 
 ### Forms tilläggspaket {#forms-add-on-package-4}
 
 #### Forms - arbetsflöde {#forms-workflow}
 
-* Svarsuppgift för delad kö öppnar ett flash-element på arbetsytan i HTML5. NPR-29161: Programfix för CQ-4266498
-* Det går inte att skicka från Workspace om knappen innehåller ett utmatningstecken. NPR-29014: Programfix för CQ-4263172
+* En delad kösvarsåtgärd öppnar ett flash-element på arbetsytan i HTML5. NPR-29161: Programfix för CQ-4266498
+* Det går inte att skicka från Workspace om knappen innehåller ett omljud. NPR-29014: Programfix för CQ-4263172
 
 #### Forms - dokumentsäkerhet {#forms-document-security}
 
-* Aktivera alternativet för att markera objekt per sida på sidan för principuppsättningsvyn. NPR-29243: Programfix för CQ-4268567 och CQ-4265132
+* Aktivera alternativet för att välja objekt per sida på sidan för principuppsättningsvyn. NPR-29243: Programfix för CQ-4268567 och CQ-4265132
 
 #### Forms - Acrobat Services {#forms-document-services-1}
 
@@ -424,30 +424,30 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 * Aktiverad tangentbordsnavigering för att aktivera uppspelning av innehåll. NPR-27738: Programfix för CQ-4254026
 * Lagt till ariaetikett för list- och kortvyknappar. NPR-27736: Programfix för CQ-4254027
 * (Backport) Tillagd rep: cachelagra i Ignorerbara noder vid AEM Communities användarsynkroniseringslyssnare på publiceringsinstanser. NPR-27841: Programfix för CQ-4247234
-* Specialtecknen har ett utgångstecken (\) i sökrutan på gränssnittsnivå. NPR-27839: Programfix för CQ-4259757
+* Specialtecknen är prefixerade med ett escape-tecken (\) i sökrutan. NPR-27839: Programfix för CQ-4259757
 * Ett fel uppstod vid sökning efter tecken som `(`, `+` och `?` i snabbsökningen. NPR-28212: Programfix för CQ-4260969
 * Det går inte att ta bort kommentarer i det användargenererade innehållet med API. NPR-28075: Programfix för CQ-4260534
-* Kommentarer som skickas till nästa sida markeras med gult när en ny kommentar publiceras. NPR-28148: Programfix för CQ-4259681
+* Kommentarer som läggs in på nästa sida markeras med gult när en ny kommentar publiceras. NPR-28148: Programfix för CQ-4259681
 * Det går inte att öppna meddelanden som har bifogade filer i mappen Utseende skickat och Inkorgen. NPR-28559: Programfix för CQ-4217072
 
 #### Sites {#sites-5}
 
 * När du kör versionsrensning i AEM 6.3 visas en konstant upprepad varning i loggarna. NPR-27750; programfix för CQ-4206870
 * Formatinsticksprogrammet stöds inte i fullskärmsläge i textredigeraren. NPR-27622: Programfix för CQ-4258674
-* Listan loaderPromises rensas inte efter att innehållsramen har lästs in i editor.js NPR-27768: snabbkorrigering för CQ-4205337
-* Det går inte att ange mallprincip för kapslade parsys utan att ange inställningar för den överordnade komponenten. NPR-27987: Programfix för CQ-4246095
+* Listan `loaderPromises` rensas inte efter att innehållsramen har lästs in i editor.js NPR-27768: snabbkorrigering för CQ-4205337
+* Det går inte att ange en mallprincip för kapslade parsys utan att ange den för den överordnade komponenten. NPR-27987: Programfix för CQ-4246095
 * Komponentwebbläsaren sanerar inte användarindata och kan därför orsaka JavaScript-fel. NPR-27986: Programfix för CQ-4247590
 * Sidan visas tom när användaren försöker redigera innehållsfragmentet. NPR-27669
 * Markeringen av anteckningen försvinner när användaren klickar på anteckningen. BPR-27196: Programfix för CQ-4254423
 
 #### Integrering {#integration-1}
 
-* ResourceResolver kunde inte matcha flera domäner för målkomponenten. NPR-28265: Programfix för CQ-107847
-* LiveCopy-arvsannullering fungerar inte korrekt på målbehållare eftersom inga åtgärder visas. NPR-28129: Programfix för CQ-4259813
+* ResourceResolver kunde inte matcha flera domäner för Target-komponenten. NPR-28265: Programfix för CQ-107847
+* Inaktivering av LiveCopy-arv fungerar nu korrekt på målbehållare när åtgärder visas. NPR-28129: Programfix för CQ-4259813
 
 #### Replikering {#replication-1}
 
-* Replikeringen bryts av DispatcherFlushRules i 6.3.3.1 NPR-28150: snabbkorrigering för CQ-4261401
+* DispatcherFlushRules bröt replikeringen i 6.3.3.1 NPR-28150: Programfix för CQ-4261401
 
 #### Campaign - målinriktning {#campaign-targeting-1}
 
@@ -463,7 +463,7 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 
 #### `MAC` - Test&amp;Target-integrering {#mac-test-target-integration}
 
-* Alternativet för att konfigurera målkomponent är inte tillgängligt för målgrupperna förutom standardmålgruppen. Programfix för CQ-4261370
+* Det går inte att konfigurera alternativet för målkomponenten för andra målgrupper än standardmålgrupper. Programfix för CQ-4261370
 
 #### Översättning {#translation-1}
 
@@ -484,7 +484,7 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 
 #### Forms - Adaptiv Forms {#forms-adaptive-forms}
 
-* Det går inte att lägga till/ta bort objekt i listrutan när kryssruteobjekten markeras. NPR-28224: Programfix för CQ-4252834
+* Om du lägger till eller tar bort objekt i listrutan uppdateras inte kryssruteobjekten. NPR-28224: Programfix för CQ-4252834
 
 ### Forms - JEE Installer {#forms-jee-installer-4}
 
@@ -509,7 +509,7 @@ AEM Kumulativt korrigeringspaket 6.3.3.2 är beroende av AEM 6.3 Service Pack 3.
 Viktiga faktorer i AEM Cumulative Fix Pack är:
 
 * Den inbyggda databasen (Apache Jackrabbit Oak) uppdateras till version 1.6.15.
-* Stöd har lagts till för fliken Regler och användningen av den i resursmappen i mappmetadataschemat.
+* Stöd för fliken Regler och dess användning har lagts till i resursmappen i mappmetadataschemat.
 * Aktiverat sidnumreringsstöd för grupplistsida vid publicering.
 * UnreadCount för aktiverade meddelanden som ska konfigureras med valfritt antal. Standardvärdet är 20.
 * Korrigeringar i extern länkkontroll.
@@ -517,22 +517,22 @@ Viktiga faktorer i AEM Cumulative Fix Pack är:
 #### Assets {#assets-6}
 
 * Listrutan Cascading stöds inte i dynamiska listrutor. NPR-27044; programfix för CQ-4252564
-* Förbättrad fråga så att den använder funktionen ExpiryNotification. NPR-26999: Programfix för CQ-4251188
+* Frågan har förbättrats så att den använder funktionen ExpiryNotification. NPR-26999: Programfix för CQ-4251188
 * Regelmigrering från metadataschema till mappmetadataschema. NPR-27771: CQ-4257737, CQ-4257735, CQ-4259822
 * Justering av resursreferens kan inte uppdatera referenser för resurser som ingår i Sling ResourceCollections. NPR-26759: Programfix för CQ-4252605
-* Hämtning via e-post för länkdelning returnerar en tom/skadad ZIP-fil. NPR-27997: Programfix för CQ-4259686
+* Hämtning via e-post för länkdelning returnerar en tom eller skadad ZIP-fil. NPR-27997: Programfix för CQ-4259686
 * Hybrid-videokodningen slutförs inte och ingen miniatyrbild skapas. NPR-27122: Programfix för CQ-4255080
 
 #### Sites {#sites-6}
 
-* Om den överordnade sidan stängs av tas cq:LiveRelationship-blandningstypen bort från den saknade sidan. NPR-26996: Programfix för CQ-4254113
+* När du gör uppehåll för den överordnade sidan tas kq:LiveRelationship-blandningstypen bort från den saknade sidan. NPR-26996: Programfix för CQ-4254113
 * (Extern länkkontroll) Interna länkar visas som brutna på enskilda sidor, men samma fungerar inte för externa länkar. NPR-27481: Programfix för CQ-4257780
 * Arv av Cloud Service Config bryts när andra sidegenskaper redigeras. NPR-27311: Programfix för CQ-4256785
-* Null-pekarundantag när ett Core Components-formulär används tillsammans med ett Foundation-formulär. NPR-27333: Programfix för CQ-4249176
+* Undantag för null-pekare när ett Core Components-formulär används tillsammans med ett Foundation-formulär. NPR-27333: Programfix för CQ-4249176
 * RTF-redigeraren tar bort den tomma alt-taggen. NPR-26938: Programfix för CQ-4253267
 * (Klassiskt användargränssnitt) Prestandaproblem med markering, ändrad avlyssnare om det fanns flera nedrullningsbara listor. NPR-27115: Programfix för CQ-4237215
 * När RTF-redigeraren kombineras med flera fält är TypeError: fieldAPI.getName inte en funktion vid foundation.js-fel. NPR-27146: Programfix för CQ-4253155, CQ-4259967
-* Fokus/markör finns kvar i RTF-redigeraren även när du klickar på en alternativknapp i Safari. NPR-27144: Programfix för CQ-4249635
+* Fokus/markör finns kvar i RTF-redigeraren även när du klickar på en alternativknapp i webbläsaren Safari. NPR-27144: Programfix för CQ-4249635
 * Sidan visas som tom när användaren försöker redigera innehållsfragmentet. NPR-27669
 * Det går inte att skapa en version för Experience Fragments. NPR-27689: Programfix för CQ-4259009
 
@@ -551,7 +551,7 @@ Viktiga faktorer i AEM Cumulative Fix Pack är:
 
 #### DAM - DM-klient {#dam-dm-client}
 
-* En bild visas inte när brytpunkter har angetts i en dynamisk mediekomponent. Programfix för CQ-4256168
+* En bild visas inte när brytpunkter har angetts i en Dynamic Media-komponent. Programfix för CQ-4256168
 
 #### DAM - DMServices {#dam-dmservices}
 
@@ -560,25 +560,25 @@ Viktiga faktorer i AEM Cumulative Fix Pack är:
 
 #### DAM - Allmänt {#dam-general-1}
 
-* Länken till innehållsfragmentmodellen saknas efter att SP3-korrigeringen har tillämpats. Programfix för CQ-4259029
+* Länken till modellen för innehållsfragment saknas efter att patchen SP3 har tillämpats. Programfix för CQ-4259029
 
 #### DAM - UI {#dam-ui}
 
-* Mappmetadataschemats användargränssnitt bryts efter installation av SP3. Programfix för CQ-4257737
+* Gränssnittet för mappmetadataschemat bryts efter installation av SP3. Programfix för CQ-4257737
 
 #### Communities {#communities-5}
 
 * Lägg till sidnumreringsstöd för grupplistor vid publicering. NPR-26953: Programfix för CQ-4246525
 * Olästa räkningsmeddelanden kan inte anges efter 21. NPR-27496: Programfix för CQ-4252829
-* Begränsningen för användarabonnemang är begränsad till 1 000. NPR-27615: Programfix för CQ-4254689
+* Användarens prenumerationsgräns är begränsad till 1 000. NPR-27615: Programfix för CQ-4254689
 * Ett fel uppstod vid överföring av en annan bifogad fil än bilden (till exempel .pdf) i forum. NPR-27375: Programfix för CQ-4257753
-* Länk för svar fungerar inte med radklickning. NPR-24556: Programfix för CQ-4256138
+* Länken för svar fungerar inte med radklick. NPR-24556: Programfix för CQ-4256138
 * Relationer till UGC tas inte bort när UGC tas bort. NPR-27631: Programfix för CQ-4258706
 * Det går inte att söka efter adressvärde i nyckelordssökning om gruppen är inställd med DSRP (Database Storage Resource Provider). NPR-27652: Programfix för CQ-4253261
 * När du klickar på papperskorgsikonen på bilden efter borttagningsbekräftelsen tas den bifogade filen bort permanent. NPR-27340: Programfix för CQ-4255150
 * Formposter och svar läggs till ovanpå den andra sidan och när de uppdateras flyttas inlägget till rätt plats överst på den första sidan. NPR-27341: Programfix för CQ-4247338
 * Statusetiketten för slutförandestatus för aktiveringsSkorm visas tom i användargränssnittet. NPR-27152: Programfix för CQ-424994
-* När du aktiverar Tillåt behöriga bör de behöriga medlemmarna endast kunna skapa för användare som är community-medlemmar. NPR-27901: Programfix för CQ-4251235
+* När du aktiverar **Tillåt privilegierade** bör de behöriga medlemmarna bara kunna skapa för användare som är community-medlemmar. NPR-27901: Programfix för CQ-4251235
 
 #### uthållighet {#sustenance}
 
@@ -591,7 +591,7 @@ Viktiga faktorer i AEM Cumulative Fix Pack är:
 * Proaktiva platform.login-korrigeringar. NPR-26961
 * Spara och stäng för sidegenskaper återgår inte till rätt sida i AEM WAR med Tomcat. NPR-27567: Programfix för Granite-23671
 
-* Den angivna texten försvinner med funktionen sourceEdit när den har sparats. Programfix för CQ-4259273
+* Den angivna texten försvinner via funktionen sourceEdit när du har sparat. Programfix för CQ-4259273
 
 ### Forms {#forms-6}
 
@@ -637,27 +637,27 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 * Den inbyggda databasen (Apache Jackrabbit Oak) uppdateras till version 1.6.14.
 * Prestandaförbättringar för prediktion och sökning.
 * Korrigerat problem i FormData-hanteringen för standardvärdet.
-* Uppgraderade FormBuilder till den senaste Handlebars-versionen.
-* Added config servlet for the edit config for the RTE in dialog box mode.
+* Uppgraderade Form Builder till den senaste Handlebars-versionen.
+* En config-server har lagts till för redigeringskonfigurationen för textredigeraren i dialogruteläge.
 * Stöd för sammansatta fält har lagts till.
 * Aktiverade/inaktiverade verktygsfältsobjekt i RTF-redigeraren med en innehållsprincip för redigeringsdialogrutan.
 
 #### Assets {#assets-7}
 
 * När IDS-frikoppling är aktiverat länkar arbetsflödet för DAM-uppdatering inte längre referenser. NPR-26135: Programfix för CQ-4250933
-* Det går inte att packa upp ett arkiv som har skapats i unarchiver-steget med en mapp med namnet %. NPR-26275: Programfix för CQ-4251482
+* Det går inte att packa upp ett arkiv som har skapats i unarchiver-steget med en mapp som har namnet %. NPR-26275: Programfix för CQ-4251482
 * Ett enkelt citattecken förhindrar att metadata uppdateras. NPR-26808: Programfix för CQ-4254305
 * (Omnissearch) Prestandaproblem vid sökning i en samling. NPR-26714: Programfix för CQ-4253408
 * Användning av GQLConverter med en fulltextsökning som innehåller bokstäverna &quot;OR&quot; i texten behandlas felaktigt. NPR-26564: Programfix för CQ-4247362
 * Delning av resurslänk från multi-tenant-prefix skapar en ogiltig URL. NPR-26482: Programfix för CQ-4253540
 * Inaktivera sökvägen till företagets rotmapp i användargränssnittet för Dynamic Media Cloud-konfigurationen. NPR-26361: Programfix för CQ-4249505
 * Inflödet av .mos RAW-filer förlängs. NPR-26296: Programfix för CQ-4250661
-* Resurslänkdelning tillåter inte att fler än en intern användare med numeriskt användar-ID läggs till. NPR-26206: Programfix för CQ-4251466
+* Resurslänkdelning tillåter inte att fler än en intern användare med ett numeriskt användar-ID läggs till. NPR-26206: Programfix för CQ-4251466
 * Skador i ZIP-filer komprimerade med deflate64-algoritmen. NPR-26793: Programfix för CQ-4253995
-* Det går inte att skapa miniatyrbilder på ett korrekt sätt för komplexa PDF-filer, vilket resulterar i miniatyrbilder där en del av bilden saknas. NPR-26057: Programfix för CQ-4250944
+* Genereringen av miniatyrbilder fungerar inte korrekt för komplexa PDF-filer, vilket resulterar i miniatyrbilder där en del av bilden saknas. NPR-26057: Programfix för CQ-4250944
 * Problem med minnesanvändning för heap med generering av miniatyrbilder. NPR-25545: Programfix för CQ-4246960
 * Om du skapar många relationer för en resurs uppstår ett fel. NPR-26309: Programfix för CQ-4250708
-* Alternativet &quot;Ta bort återgivning&quot; fungerar inte och returnerar felet &quot;ingenting att ta bort&quot;. NPR-26007: Programfix för CQ-4213414
+* Alternativet **Ta bort återgivning** fungerar inte och returnerar felmeddelandet&quot;inget att ta bort&quot;. NPR-26007: Programfix för CQ-4213414
 * Det går inte att ta bort standardvärden för flervärdesfält. NPR-25116: Programfix för CQ-4247856
 * (DM Hybrid) Katalogreplikeringsavbrott för AEM 6.3.2 med Dynamic Media. NPR-26406: Programfix för CQ-4251306
 
@@ -665,24 +665,24 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 
 * Proaktiv support för platskorrigeringar. NPR-26963
 * Taggar skapas två gånger om det finns skillnader i skiftlägestypen Rubrik och Namn. NPR-26877: Programfix för CQ-4254134
-* RTF-redigeringsfunktionerna i redigeringsdialogrutan styrs inte av profiler. NPR-27059, NPR-26750: Programfix för CQ-4241130
+* Profiler styr inte funktionerna i RTF-redigeraren i redigeringsdialogrutan. NPR-27059, NPR-26750: Programfix för CQ-4241130
 * Client Context segment.js caching vs. frågor som inte cachelagras. NPR-26622: Programfix för CQ-4253486
 * Aktiveringar av segmentregel (t.ex./segmentering) för underordnade regler för klassiska orsaker går ner. NPR-26601: Programfix för CQ-4253588
-* Om du lägger till specialtecken rullas dialogrutan Textredigeraren uppåt. NPR-26435: Programfix för CQ-4249869
+* Om du lägger till&quot;specialtecken&quot; rullas dialogrutan för textredigeraren högst upp. NPR-26435: Programfix för CQ-4249869
 * (Touchgränssnitt) Verktygsfältet kan inte användas med flera textredigerare när du växlar från helskärm till flytande dialogruta. NPR-25652: Programfix för CQ-4206008
 * Om du befordrar en flersidig start skapas flera versioner för varje sida. NPR-26810: Programfix för CQ-4254663
-* Åtgärder för att flytta taggar återspeglas inte i taggfält för strukturerade innehållsfragment. NPR-26801: Programfix för CQ-4251805
+* Strukturerade innehållsfragmentmodellens taggfält återspeglar inte åtgärder för att flytta taggar. NPR-26801: Programfix för CQ-4251805
 * (Touch UI) Det går inte att avpublicera den underordnade sidan från sidredigeraren efter att sidan har bytt namn i designen. NPR-26774: Programfix för CQ-4254175
 * Den opublicerade sidan fungerar inte med referenser. NPR-26749: Programfix för CQ-4254372
-* Om du vill skapa en variant som Live Copy måste användaren uppdatera sidan så att den återspeglar. NPR-26663: Programfix för CQ-4254328
-* (Klassiskt användargränssnitt) När du går tillbaka till sidegenskaperna används inte längre arv av miniatyrbilden, den tas bort från webbplatsadministratören och sidinsparken och bilden visas som tom. NPR-26562: Programfix för CQ-4252346
+* Om du vill skapa en variant som Live Copy måste användaren uppdatera sidan för att spegla. NPR-26663: Programfix för CQ-4254328
+* (Klassiskt användargränssnitt) När du går tillbaka till sidegenskaperna används inte längre arv i miniatyrbilden, den tas bort från webbplatsadministratören och sidinsparken och bilden visas som tom. NPR-26562: Programfix för CQ-4252346
 * När en version av en sida skapas och en jämförelse aktiveras, visas noderna från /content/versionshistory i listan över live-kopior för utkast. NPR-26506: Programfix för CQ-4243957
 * URL:er i Experience Fragment Admin Editor tillåter inte övertäckningar. NPR-26318: Programfix för CQ-4252156
 
 #### Plattform {#platform}
 
 * Sessionsläckage i ReplicationEventListener med testhändelser. NPR-25937: Programfix för CQ-4251090
-* Replikeringen använder den utgångna token för OAuth som orsakar flera fel. NPR-25894: Programfix för GRANITE-22388
+* Replikeringen använder den utgångna token för OAuth, vilket orsakar flera fel. NPR-25894: Programfix för GRANITE-22388
 
 #### Integrering {#integration-3}
 
@@ -693,11 +693,11 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 #### Replikering {#replication-2}
 
 * Http-transport kan läcka öppna sessioner. Programfix för Granite-17434
-* Undantag i loggar när åtkomst till tokennod sker samtidigt av mer än en replikeringsagent. NPR-26964: Programfix för GRANITE-23276, Granite-23155
+* Flera replikeringsagenter har samtidig åtkomst och genererar undantag i loggar vid åtkomst till åtkomsttokennoden. NPR-26964: Programfix för GRANITE-23276, Granite-23155
 
 #### ContextHub {#contexthub}
 
-* Filen coral.js innehåller en sårbar version av biblioteket handlebars.js. Programfix för CQ-4255377
+* Filen `coral.js` innehåller en sårbar version av biblioteket `handlebars.js`. Programfix för CQ-4255377
 
 #### DAM - DM-klient {#dam-dm-client-1}
 
@@ -714,12 +714,12 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 * Avgränsarfel med sökresultat. NPR-27051: Programfix för CQ-4248939
 * Ändra listvärdet från Dallas till Virginia i Adobe Storage Resource Provider. NPR-26936: Programfix för CQ-4254434
 * Aktivera stöd för lokaliserad titelsökning i SocialTagManager. NPR-26932: Programfix för CQ-4250276
-* Bilder i bifogade filer visar inte miniatyrbilder när ett foruminlägg skapas. NPR-26380: Programfix för CQ-4253105
+* Bilder i bifogade filer visar inte någon miniatyrbild när du skapar ett foruminlägg. NPR-26380: Programfix för CQ-4253105
 * Insticksprogrammet Klistra in från Word läser inte in mer än en bild. NPR-26728: Programfix för CQ-4253638
 * Det går inte att filtrera innehållet på modereringssidan. NPR-26697: Programfix för CQ-4213766
 * (Säkerhetslucka) Upptagning av konto på grund av felaktig JWT-konfiguration. NPR-26440: Programfix för CQ-4253314
 * Det tar lång tid att hämta data från lagringsresursprovidern i Adobe. NPR-26237: Programfix för NPR-24152
-* Den privata meddelandekompositionssidan är oberäknelig och trög. NPR-26120: Programfix för CQ-4250923
+* Den privata meddelandekompositionssidan är felaktig och trög. NPR-26120: Programfix för CQ-4250923
 * Meddelandet&quot;Markera alla som lästa&quot; återger endast de första 10 som olästa utan att sidan uppdateras. NPR-27036: Programfix för CQ-4254058
 * Sidnumrering för communitykommentaravsnitt, klicka och sidinläsning. NPR-27030: Programfix för CQ-4251228
 * (Forumsökning) Bakåtknappen hoppar över sidan och överför den tillbaka till forum.html. NPR-26949: Programfix för CQ-4254804
@@ -730,10 +730,10 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 * Moderatorn tar bort punkter och innehåll som inte fungerar fungerar inte med MySQL Single Responsibility Principle (SRP). NPR-26767: Programfix för CQ-4251520
 * Sök efter funktionalitetsproblem med vissa tecken. NPR-26726: Programfix för CQ-4247744
 * Aktivera djupa länkar för modereringsgränssnitt och aktiveringsresurser. NPR-26705: Programfix för CQ-4251381
-* Sök i forumkomponenten. NPR-26577: Programfix för CQ-4251303
+* Ett problem med att söka i forumkomponenten. NPR-26577: Programfix för CQ-4251303
 * Att söka med för- och efternamnet tillsammans i ett community-meddelande ger inte förväntat resultat. NPR-26377: Programfix för CQ-4253150
 * Sidindelningen uppdateras inte när svar tas bort. NPR-26327
-* Borttagning av post fungerar men ger ett fel på konsolen och posten visas fortfarande i användargränssnittet. NPR-26292: Programfix för CQ-4252803
+* Borttagning av post fungerar men ger ett konsolfel och inlägget visas fortfarande i användargränssnittet. NPR-26292: Programfix för CQ-4252803
 * Sidnumreringen uppdateras inte dynamiskt och listan med svar fortsätter att ta längre tid. NPR-26145: Programfix för CQ-4251586
 * Gruppinställningarna läses inte in i en grupp som innehåller tusentals användare. NPR-25642: Programfix för CQ-4238426
 * Katalogresursspelaren misslyckades för kontextsökvägar. NPR-25640: Programfix för CQ-4238426
@@ -763,7 +763,7 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 #### Forms - dokumentsäkerhet {#forms-document-security-2}
 
 * Undantag för huvudnyckelrollover i serverloggar för inaktiva nycklar. NPR-26748: Programfix för CQ-4253705
-* Det går inte att skapa eller ändra vattenstämpelinställningar för dokumentsäkerhet. NPR-26267, NPR-26129: Programfix för CQ-4250234
+* Det går inte att skapa eller redigera vattenstämpelinställningarna för dokumentsäkerhet. NPR-26267, NPR-26129: Programfix för CQ-4250234
 
 #### Forms - Acrobat Services {#forms-document-services-4}
 
@@ -771,23 +771,23 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 
 #### Forms - Interaktiv kommunikation {#forms-interactive-communication}
 
-* Förhandsvisningen av PDF och HTML är synlig och fungerar i samma fönster när en redigerbar modul redigeras, sparas och sedan PDF-förhandsvisning öppnas/stängs. NPR-26770: Programfix för CQ-4253217
+* Om du redigerar och sparar en redigerbar modul och sedan öppnar eller stänger förhandsvisningen av PDF visas förhandsvisningen av PDF och HTML. Båda förhandsvisningarna fungerar i samma fönster. NPR-26770: Programfix för CQ-4253217
 
 #### Forms - arbetsflöde {#forms-workflow-2}
 
-* Workspace låser sig ibland och visar startpunkterna upprepade gånger. NPR-26461: Programfix för CQ-4253439
+* Arbetsytan hänger sig ibland och visar startpunkterna upprepade gånger. NPR-26461: Programfix för CQ-4253439
 * ESAPI-undantag genereras i loggarna när klammerparenteser används i aktivitetsnamnet. Programfix för CQ-4256627
-* Undantag för null-pekare genereras när ett anpassat formulär eller en formuläruppsättning som är kopplad till startpunkten som inte är förfylld öppnas. Programfix för CQ-4256124
+* Ett null-pekarundantag genereras när ett anpassat formulär eller en formuläruppsättning som inte är förfylld öppnas som associerad startpunkt. Programfix för CQ-4256124
 * Det går inte att skicka e-post med den globala inställningen. NPR-26163: Programfix för CQ-11110
 * Det går inte att öppna arbetsytan när filen axis.jar har använts. NPR-26131: Programfix för CQ-4251126
 * Uppdateringsknappen kan inte synkronisera de senaste data från servern till adaptiva formulär. Programfix för CQ-4255670
-* Om du anger en sökmall från administratörsgränssnittet och sedan använder samma för att söka efter uppgiften på arbetsytan i AEM Forms genereras ett undantag. Programfix för CQ-4255649
-* Spårningsinformation för processerna under programmen med parentessymbolen i namnet visas inte på arbetsytan i HTML. Programfix för CQ-4242101
+* Ett undantag genereras när du anger en sökmall från administratörsgränssnittet och sedan använder samma för att söka på arbetsytan i AEM Forms. Programfix för CQ-4255649
+* Spårningsinformation om processerna under programmen med parentessymbol i namnet visas inte i HTML Workspace. Programfix för CQ-4242101
 * Om du sparar ändringar på inställningsskärmen i HTML Workspace genereras ett undantag. Programfix för CQ-4241485
 * Gruppgodkännande bryts vid den senaste JEE-konfigurationen. Programfix för CQ-4241486
 * Utkast av uppgift/startpunkt misslyckas på den senaste 6.4 JEE-servern. Programfix för CQ-4241484
 * Ange parametern Date().getTime().toString för att initiera sessionen i stället för Date.toString(). Programfix för CQ-4241483
-* När du öppnar /lc/ws uppstår ett känsligt teckenundantag i HTML-parametern. Programfix för CQ-4241481
+* När du öppnar /lc/ws uppstår ett känsligt teckenundantag i parametern HTML. Programfix för CQ-4241481
 
 #### Sårbarhet {#vulnerability-1}
 
@@ -798,7 +798,7 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 #### Foundation JEE {#foundation-jee-2}
 
 * Kodgranskning för Enterprise Security API. Programfix för CQ-4255638
-* Det gick inte att läsa in esapi.properties som klassinläsarresurs i WAS9. Programfix för CQ-4255631
+* Det gick inte att läsa in esapi.properties som en klassinläsarresurs i WAS9. Programfix för CQ-4255631
 * Om du klickar på Lägg till autentisering under Domänkonfiguration uppstår ett fel. Programfix för CQ-4255634
 * Forms JEE har stöd för PKCS#11, ömsesidig autentisering. NPR-21372
 * Åtgärdade problemen som rapporterades i den statiska kodanalysen av Core. Programfix för CQ-10446
@@ -838,8 +838,8 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 * Konfigurerat felmeddelande från servern när en bild bryter mot överföringsvillkoren.
 * Stöd för STARTTLS har lagts till i Day CQ Mail Service.
 * Uppdatera till de senaste versionerna av cq-wcm-content och com.adobe.cq.launches.it.serverside.
-* Uppdatera com.adobe.granite.ui.coralui3-hastighet till den senaste versionen som släppts.
-* Försäkrat återgivningsvillkor returnerar ett tillräkneligt resultat om expressionResolver är null.
+* Uppdatera com.adobe.granite.ui.coralui3 till den senaste versionen.
+* Försäkra dig om att återgivningsvillkoret returnerar ett tillräkneligt resultat om expressionResolver är null.
 * Coral.ColumnView: Stöd för Skift+klicka har lagts till.
 
 ### Assets {#assets-8}
@@ -849,42 +849,42 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 * (ExpiryNotificationJobImpl) Optimering av den befintliga frågan. NPR-23330: Programfix för CQ-4205249
 * (Metadataprofil) Standardvärden för taggar som anges när de skapas är inte tillgängliga när de har sparats. NPR-23370: Programfix för CQ-4235458
 * (Touch UI) Det går inte att flytta flera resurser på grund av JS-fel. NPR-23395: Programfix för CQ-4241279
-* Hämtningsstorleken stämmer inte överens med den information som visas, vilket kan skapa förvirring för användarna. NPR-23418: Programfix för CQ-4242774
+* Hämtningsstorleken matchar inte den information som visas. NPR-23418: Programfix för CQ-4242774
 * Den extraherade MIME-typen för filtillägget LSR och SKETCH är felaktig och leder till ogiltig filhämtning. NPR-23644: Programfix för CQ-4243260
 * (Firefox/Chrome) Det går inte att hämta resurser på sidan Resursdelning. NPR-23963: Programfix för CQ-4244391
-* Sökfack för resursadministratörer försvinner i sökpaneler efter förhandsgranskning. NPR-23964: Programfix för CQ-4244410
+* Resursadministratörens sökfack försvinner i sökpanelerna efter förhandsgranskning. NPR-23964: Programfix för CQ-4244410
 * Om du avpublicerar sökformuläret tas standardsökformuläret bort helt. NPR-23291: Programfix för CQ-4241382
 * (Brand Portal) Sökningen i katalogpredikatet bör filtreras bort vid replikering. NPR-23292: Programfix för CQ-4241385
 * Publish till Brand Portal-gränssnittsåtgärd är inte tillgänglig. NPR-23293: Programfix för CQ-4241161
-* Publish/Unpublish to Brand Portal button should not be available for content fragments. NPR-23318: Programfix för CQ-4245086
+* Publish/Unpublish to Brand Portal button should not be available for Content Fragments. NPR-23318: Programfix för CQ-4245086
 * (Brand Portal) Gör det möjligt att skapa delresurser när en resurs publiceras. NPR-23331: Programfix för CQ-4242018
-* Dynamic Media-begäranden använder inte vanlig proxy/HTTP-klient. NPR-10727: Programfix för CQ-45695, CQ-88800
-* Det går inte att anteckna i MP4-videoresurs för en rendering i Dynamic Media S7 (DMS7). NPR-2046: Programfix för CQ-4215912
+* Dynamic Media-begäranden använder inte en vanlig proxy/HTTP-klient. NPR-10727: Programfix för CQ-45695, CQ-88800
+* Det går inte att kommentera en enskild återgivning av MP4-videoresurs i Dynamic Media S7 (DMS7). NPR-2046: Programfix för CQ-4215912
 * EmbedXMP-data är alltid inställda på&quot;active&quot; för Tiff, pyramid-genereringsprocessen. NPR-22903: Programfix för CQ-4234498
-* Problem med visning/urval av dynamisk återgivning med stort antal förinställningar för bilder. NPR-23151: Programfix för CQ-4217511
-* Problem med Dynamic Media Encode Video - Modification/Reupload Lacher. NPR-23237: Programfix för CQ-4240260
+* Problem med visning/markering av dynamisk återgivning med stort antal bildförinställningar. NPR-23151: Programfix för CQ-4217511
+* Problem med Dynamic Media Encode Video - startaren för ändring/återöverföring. NPR-23237: Programfix för CQ-4240260
 * Korrigering för proxyhantering för HTTP-vidarebefordrare i Dynamic Media S7. NPR-24001: Programfix för CQ-244140
 
 ### Sites {#sites-8}
 
-* Frågebyggaren-diskrepanser som resulterar i en annan xPath-översättning mellan 6.2 och 6.3. NPR-23245: Programfix för CQ-4240396
-* Fliken Miniatyrbilder i sidegenskapen fungerar inte när du utökar dialogrutan. NPR-22844: Programfix för CQ-4241474
+* Frågebyggaren-diskrepanser som härrör från olika xPath-översättning mellan 6.2 och 6.3. NPR-23245: Programfix för CQ-4240396
+* Fliken med miniatyrbilder i sidegenskapen fungerar inte när du utökar dialogrutan. NPR-22844: Programfix för CQ-4241474
 * Parsys bryter emulatorenhetens bildrutebredd och beskär alla komponenter som läggs till i den. NPR-22926: Programfix för CQ-4238224
 * När du kör flera starter befordras starten i Författare, men ändringarna replikeras inte på publiceringsservern på grund av att replikeringsbehörighet saknas. NPR-22934: Programfix för CQ-4234746
-* En sida som är låst av en användare i den första sessionen kan ändras av en annan användare i en annan session. NPR-23057; programfix för CQ-4199017
-* Åtgärda omsorterbara alternativ i listvyn. NPR-23065: Programfix för CQ-4239321
+* En annan användare i en annan session kan ändra en sida som låsts av en användare i den första sessionen. NPR-23057; programfix för CQ-4199017
+* Åtgärda det omordningsbara alternativet i listvyn. NPR-23065: Programfix för CQ-4239321
 * (Sidredigerare) Bild på en bildkomponent försvinner när du öppnar dialogrutan igen. NPR-23156: Programfix för CQ-4239978
 * Mallredigeraren visar bara upp till 20 mallar/mappar och läser inte in de andra när du bläddrar till sidans nedre del. NPR-23185: Programfix för CQ-4238483
 * (Klassiskt användargränssnitt) Ett fel genereras när sidorna flyttas eller byter namn. NPR-23213: Programfix för CQ-4240971
 * Det går inte att redigera/skapa ContextHub-segment. NPR-23218: Programfix för CQ-4226948
 * (RTF-redigerare) - Åtgärden Ersätt ändrar ett ords format. NPR-23271: Programfix för CQ-4239677
-* Knappen Övergång saknas på fliken Utskrift för XF-variationer. NPR-23320: Programfix för CQ-4240404
+* utrullningsknappen saknas på fliken Utskrift för XF-variationer. NPR-23320: Programfix för CQ-4240404
 * Klassiskt användargränssnitt kan inte redigera CUG på grund av borttagning. NPR-24122: Programfix för 4241823
 * Förebyggande åtgärder som skyddar mot oönskat innehåll. NPR-24387: Programfix för 4244993
-* En gång. 80 fragment läggs till i en mapp i Assets, fel som uppstår när arbetsflödet aktiveras från tidslinjekonsolen. NPR-23393; programfix för CQ-4211216
+* En gång. 80 fragment läggs till i en mapp i Assets. Fel uppstår när arbetsflödet aktiveras från tidslinjekonsolen. NPR-23393; programfix för CQ-4211216
 * Det går inte att dra och släppa bilder till dialogrutan RTF-redigerare från innehållssökaren. NPR-23403: Programfix för CQ-4242094
 * Felet &#39;Ogiltigt värde för rekursionsväljare&#39; uppstod när en komponent skulle migreras från AEM 6.0 till AEM 6.2. NPR-23532: Programfix för CQ-4241258
-* (RTF-redigerare) Verktygstips visar variabelnamnet för plugin-programmet i stället för det läsbara plugin-programnamnet. NPR-23550: Programfix för CQ-4243269
+* (RTF-redigerare) Verktygstips visar plugin-programmets variabelnamn i stället för det läsbara plugin-programnamnet. NPR-23550: Programfix för CQ-4243269
 * Det går inte att spara dialogrutan med den obligatoriska listrutan för mobil/surfplatta. NPR-23904: Programfix för CQ-4243096
 * Alternativ för formatsystem visas på alla sidor efter 6.3.2.1-installation. NPR-23972: Programfix för CQ-4244394
 * Klassiskt användargränssnitt kan inte redigera CUG på grund av borttagning. NPR-24122: Programfix för 4241823
@@ -895,15 +895,15 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 
 * Smart samling visar inte resultat efter spara om taggpredikatet används i sökfunktionen. NPR-23401: Programfix för Granite-21278
 * Patch jQuery 1.12.4 from clientlib to include security fix. NPR-24128: Programfix för Granite-20058
-* Internationaliseringsöversättningar uppdateras inte om inte paketet startas om. NPR-23193: Programfix för Sling-7190
+* Översättningar av internationalisering uppdateras nu när paketet startas om. NPR-23193: Programfix för Sling-7190
 * Resurslösaren som inte stängts i ReplicationEventListener. NPR-23240: Programfix för CQ-4241350
 * Stöd för STARTTLS i&quot;Day CQ Mail Service.&quot; NPR-23941: Programfix för CQ-4240397
 * JCR-adresstaggens namn ska fyllas i automatiskt baserat på taggtiteln. NPR-24173: Programfix för CQ-4199411
 
 ### Integrering {#integration-4}
 
-* (Mål) Kampanjer aktiveras inte när API-typen används som XML. NPR-23199: Programfix för CQ-4240936****
-* Konfigurationsreferensreplikeringen misslyckas med den mellanliggande mappstrukturen. NPR-23485: Programfix för CQ-4242751
+* (Mål) Kampanjer aktiveras inte när en API-typ som XML används. NPR-23199: Programfix för CQ-4240936****
+* Konfigurationsreferensreplikeringen misslyckas med en mellanliggande mappstruktur. NPR-23485: Programfix för CQ-4242751
 
 ### Sårbarhet {#vulnerability-2}
 
@@ -920,9 +920,9 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 
 ### Användargränssnitt {#user-interface-1}
 
-* DatePicker har inte stöd för att manuellt ange ett externt texttips som angetts av dolda fält. Om du ändrar typtipset uppstår ett konverteringsfel. NPR-23371: Programfix för Granite-21194
+* DatePicker har inte stöd för att manuellt ange ett externt texttips som angetts av ett dolt fält. Om du ändrar typtipset uppstår ett konverteringsfel. NPR-23371: Programfix för Granite-21194
 * Coral.ColumnView: Lägg till stöd för Skift+klicka. NPR-23404: Programfix för Granite-13338
-* Markeringsdatatypen validerar inte när ett objekt med ett tomt värde är markerat. NPR-23405: Programfix för Granite-21283
+* Markeringsdatatypen validerar inte när ett objekt med ett tomt värde markeras. NPR-23405: Programfix för Granite-21283
 * (OMEGA) Rapportera &quot;Feature&quot; (Funktion) endast på engelska. NPR-23990: Programfix för Granite-21231
 * Korrigerar till Coral.Autocomplete API. NPR-23516
 
@@ -952,7 +952,7 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 * Text på sorteringsknappen visar inte det markerade standardvärdet trots att du har valt standardsorteringsordningen. NPR-23881: Programfix för CQ-4243375
 * Webb- och e-postmeddelanden utlöses inte på grund av ett meddelandefel för grupperna. NPR-23934: Programfix för CQ-4242880
 * Ingen information om flagganvändare och orsaker visas med DSRP-konfigurationen. NPR-23973: Programfix för CQ-4243205
-* Flaggorsaker från oflaggade användare förblir synliga/NPR-23974: Programfix för CQ-4243822
+* Flaggorsaker från användare som inte är flaggade förblir synliga. NPR-23974: Programfix för CQ-4243822
 * Om två filer med samma namn bifogas två gånger till ett formulärinlägg uppstår ett serverfel. NPR-24166: Programfix för CQ-4244367
 * Det går inte att lagra bilagor med MIME-typer som är längre än 15 tecken med hjälp av DSRP (Database Storage Resource Developer). NPR-24174
 * När en bild som bryter mot överföringsvillkoren dras och släpps i posttexten, genereras ett serverfel och ett generiskt felmeddelande visas för användaren. NPR-24243
@@ -979,7 +979,7 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 #### Adaptiv Forms {#adaptive-forms-1}
 
 * Flytta `ReCaptchaConfigService` till det interna paketet. Programfix för CQ-4217459
-* Numeriskt fält uppfyller inte minimivärdet. NPR-23967: Programfix för CQ-4244830
+* Ett numeriskt fält uppfyller inte ett minimivärde. NPR-23967: Programfix för CQ-4244830
 * Stöd för Multi Shard i adaptiv Forms-integrering med Adobe Sign. NPR-23383
 
 #### Integrering med backend {#backend-integration}
@@ -1026,7 +1026,7 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 
 * Den inbyggda databasen (Apache Jackrabbit Oak) uppdateras till version 1.6.10.
 * Förbättrad rendering av Parsys-komponenter i Classic UI.
-* Uppdaterade paket med segmentmodeller för att inkludera teckenuppsättningskorrigering.
+* Uppdaterade Sling Models-paket med korrigering av teckenuppsättning.
 * Publicera asynkront på Brand Portal för alla resurstyper.
 * Uppdaterat coralui-component-richtexteditor.git från 0.1.15 till 0.1.16
 * Korrigeringar i funktionerna för att visa/dölja i nedrullningsbara komponenter.
@@ -1037,55 +1037,55 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 
 ### Assets {#assets-9}
 
-* När du ändrar titeln eller miniatyrbilden i Resursmappsinställningar åsidosätts mappens ursprungliga grupp och behörigheter. NPR-22171: Programfix för CQ-4216080
-* Användargränssnittet genererar det falska felet&quot;Publish till Brand Portal misslyckades&quot; medan jobbet läggs till i replikeringskön och resurser publiceras i Brand Portal. NPR-22179: Programfix för CQ-4205273
+* När du ändrar titeln eller miniatyrbilden i inställningarna för resursmappen åsidosätts den ursprungliga gruppen och behörigheterna för mappen. NPR-22171: Programfix för CQ-4216080
+* Användargränssnittet returnerar felmeddelandet&quot;Publish till Brand Portal misslyckades&quot; medan jobbet läggs till i replikeringskön och resurser publiceras i Brand Portal. NPR-22179: Programfix för CQ-4205273
 * (Touch UI) Standardplats för överföring av resurser i kolumnvyn. NPR-22465: Programfix för CQ-4237057
-* AEM genererar ett StackOverflow-fel vid försök att kopiera ett objektschema från /conf/global till /conf/mytenant. NPR-22489: Programfix för CQ-4235875
+* AEM genererar ett StackOverflow-fel vid försök att kopiera ett resursschema från `/conf/global` till `/conf/mytenant`. NPR-22489: Programfix för CQ-4235875
 * Ett försök att packa upp ett ZIP-arkiv misslyckas på grund av att utrymmet i slutet av mappnamnet är slut. NPR-22522: Programfix för CQ-4238036
 * Det går inte att sortera med resursens titelkolumn för sökresultat. NPR-22908: Programfix för CQ-4239076
 * YouTube-video taggas med den fullständiga sökvägen i stället för själva taggnamnet. NPR-22976: Programfix för CQ-4238669
 * Det går inte att ändra ordning på mappar under en omordningsbar mapp. NPR-23125: Programfix för CQ-4231761
-* HTTP 504: Gateway-timeoutfel vid försök att dela samlingar med hjälp av delningslänk. NPR-21928: Programfix för CQ-4234507
-* PDF-nyckelordsmetadata extraheras och ändras inte korrekt när flera nyckelord är associerade med en PDF-resurs. För att lösa problemet har metadataegenskapen för ämnesfältet tagits bort för PDF Assets. Du kan emellertid redigera metadatarammet och lägga till ett textfält med flera värden för ämnesfältet. NPR-21972: Programfix för 4215741***
+* HTTP 504: Gateway-timeoutfel vid försök att dela samlingar med hjälp av en delningslänk. NPR-21928: Programfix för CQ-4234507
+* PDF-nyckelordsmetadata extraheras och ändras inte korrekt när flera nyckelord är associerade med en PDF-resurs. För att lösa problemet har metadataegenskapen för ämnesfältet tagits bort för PDF Assets. Du kan emellertid redigera metadataschemat för att lägga till ett textfält med flera värden för ämnesfältet. NPR-21972: Programfix för 4215741***
 * Fel resurser tas bort om den valda mappen ändras mellan den tidpunkt då de två popup-fönstren visas. NPR-21980: Programfix för CQ-4233675
-* (DAM) Flera XSS-säkerhetsluckor (Cross-site Scripting) när du lägger till i samlingsguiden. NPR-22432: Programfix för CQ-4327086
-* Det går inte att hämta resurser när du använder Digital Rights Management i Assets på Safari. Användare kan inte hämta resurser med ansvarsfriskrivning och långa filnamn. NPR-22747: Programfix för CQ-4236460 och CQ-4235274
-* Gör offentlig delning till standardalternativ när du publicerar material till Brand Portal. NPR-21931: Programfix för CQ-4218816
+* (DAM) Flera XSS-problem (Cross-Site Scripting) när du lägger till i samlingsguiden. NPR-22432: Programfix för CQ-4327086
+* Det går inte att hämta resurser när du använder Digital Rights Management i Assets på Safari. Användarna kan inte hämta resurser med ansvarsfriskrivning och långa filnamn. NPR-22747: Programfix för CQ-4236460 och CQ-4235274
+* Använd offentlig delning som standardalternativ när du publicerar material till Brand Portal. NPR-21931: Programfix för CQ-4218816
 
 ### Sites {#sites-9}
 
-* Ett nytt objekt i inkorgen för arbetsflöden visar sidsökvägen i stället för sidans rubrik. NPR-21634: Programfix för CQ-4230672
-* Redigerbara strukturkomponenter förlorar CSS-klassnamn som behövs för det responsiva rutnätet när de redigeras. NPR-21741: Programfix för CQ-4232374
-* (TouchUI) Sårbarheter med XSS (Multiple Cross-site scripting) för HTML-komponenter. NPR-21899: Programfix för CQ-4232511
-* Det går inte att ändra innehållets fragmentresurstyp för blandad mediabild. NPR-21907: Programfix för CQ-4233401
-* RTE-helskärm I dialogrutan Touch UI döljer RTE-plugin-program. NPR-2034: Programfix för CQ-4235457
+* Ett nytt objekt i Inkorgen för arbetsflöde visar sidsökvägen i stället för sidans rubrik. NPR-21634: Programfix för CQ-4230672
+* De redigerbara strukturkomponenterna förlorar CSS-klassnamnen som behövs för det responsiva rutnätet när de redigeras. NPR-21741: Programfix för CQ-4232374
+* (TouchUI) Sårbarheter med XSS (Multiple Cross-Site Scripting) för HTML-komponenter. NPR-21899: Programfix för CQ-4232511
+* Det går inte att ändra resurstypen för blandade mediabilder för innehållsfragment. NPR-21907: Programfix för CQ-4233401
+* RTE-helskärm För dialogrutan Touch UI döljs plugin-program för RTE. NPR-2034: Programfix för CQ-4235457
 * (Touch-gränssnittet) RTF-redigeraren tar bort alla andra attribut än id från taggen &lt;a>. NPR-2044: Programfix för CQ-4234133
 * Flera staplade parsyer på grund av långvariga frågor (fler än 6) gör AEM trög. NPR-22134: Programfix för CQ-4233904
 * Det går inte att ändra behörigheter för noder som har kolon i namnet. NPR-22136: Programfix för CQ-4236221
-* (Klassiskt användargränssnitt) I RTF-redigerarutdata i html läggs &quot;list-position-style: inside;&quot; till som infogat format i &lt;ul>-taggen. NPR-22145: Programfix för CRTE-114
+* (Klassiskt användargränssnitt) I RTF-redigerarens utdata-html läggs &quot;list-position-style: inside;&quot; till som infogat format i &lt;ul>-taggen. NPR-22145: Programfix för CRTE-114
 * Låt TreeNode återgå till namnattributet när texten är tom. NPR-22146: Programfix för CQ-4234724/CQ-4236300
 * RSS-flödesproblem, port -1 till AEM 6.3. NPR-22176: Programfix för CQ-423339
 * (Klassiskt användargränssnitt) Kortkommando för inklistring av text (Ctrl+V) fungerar inte för OTB-text-komponenten (RTF). NPR-2224: Programfix för CQ-4236224
-* Taggfältets filtrering fungerar inte som förväntat när texten skrivs. NPR-22236: Programfix för CQ-4236655
+* Taggfältets filtrering fungerar inte som förväntat när text skrivs. NPR-22236: Programfix för CQ-4236655
 * (Page Editor) När du klistrar in textdata i en bildschemakomponent klistras även textkomponenten in när du klistrar in textdata i en bildschemakomponent. NPR-22264: Programfix för CQ-4236230
 * Det obligatoriska fältet Dialog FileUpload orsakar problem när dialogrutor skickas. NPR-22464: Programfix för CQ-4222192
 * Om du flyttar utan replikeringsbehörigheter startar en begäran om aktiveringsarbetsflöde om den flyttade sidan eller dess referenter inte kan aktiveras. NPR-22467: Programfix för CQ-4211765
 * Prestandaproblem vid inläsning av en sida med stora (2 000+) målgrupper. NPR-22478; programfix för CQ-4209567
-* Persistensproblem när ContextHub lagrar överskrivningar av standardlager för beständighet under initieringen. NPR-22479: Programfix för CQ-4218399
-* Launch med flera sidor publicerar inte undersidor till publiceringsservrar om Inkludera undersidor inte är markerat i den första innehållets rot. NPR-22482: Programfix för CQ-4237818
+* Persistensproblem när ContextHub lagrar överskrivningar av standardbeständighetslagret under initieringen. NPR-22479: Programfix för CQ-4218399
+* Launch med flera sidor publicerar inte undersidor till publiceringsservrar om &quot;include subpages&quot; inte är markerat i den första innehållsroten. NPR-22482: Programfix för CQ-4237818
 * (Touchgränssnitt) Borttagning av starter med hjälp av den klassiska användargränssnittskonsolen gör att alla sidor inte kan redigeras. NPR-22491: Programfix för CQ-4225074
 * Problem med bildkomponenten på grund av extra utrymme i dialogrutan. NPR-22528: Programfix för CQ-4238183
-* När komponenten öppnas i infogat läge visas inte plugin-program som lästs in tidigare vid andra gången. NPR-22591: Programfix för CQ-4236850
+* När komponenten öppnas i textbundet läge syns inte plugin-program som lästs in tidigare vid andra gången. NPR-22591: Programfix för CQ-4236850
 * Om du tar bort en start i en kapslad start blir delstarterna överblivna. NPR-22621; programfix för CQ-4202639
 * (Klassiskt användargränssnitt) Fliken Arbetsflöde är inaktiverad när sidan är i arbetsflödets låsstadium. NPR-22722: Programfix för CQ-4237557
 * När du har bläddrat en bild som lagts till i bildkomponenten på en sida sparas inte ändringarna och originalbilden visas på sidan. Återgivningsstöd har lagts till i bildkärnkomponenten via [https://github.com/adobe/aem-core-wcm-components/pull/141](https://github.com/adobe/aem-core-wcm-components/pull/141). NPR-22801: Programfix för CQ-4221539
-* När användaren försöker ta bort den befintliga ankarpunkten från ankarmenyn stängs komponentfönstret för textredigeraren och ändringarna sparas inte. NPR-22802: Programfix för CQ-4238167
+* När användaren försöker ta bort det befintliga ankaret från ankarmenyn stängs komponentfönstret för textredigeraren och ändringarna sparas inte. NPR-22802: Programfix för CQ-4238167
 * Omsökningsfiltret visar inte alla åtgärder i webbplatskonsolen. NPR-22804: Programfix för CQ-4239007
 * Problem med kopiera/klistra in i Touch-gränssnittet med operativsystemets Urklipp och det interna AEM Urklipp. NPR-22807: Programfix för CQ-4220383
 * Inkonsekvent markering av utdrag som returnerats av Lucene Search. NPR-22879: Programfix för CQ-4238513
-* Om du aktiverar en sida med publiceringsinstanser inaktiverade blir resultatet grönt i stället för gul. NPR-22927: Programfix för CQ-4236310
+* När du aktiverar en sida med publiceringsinstanser får du en grön status i stället för att bli gul. NPR-22927: Programfix för CQ-4236310
 * (StyleSystem) Skärmpositionen hoppar när du väljer format på popup-menyn. NPR-23183: Programfix för CQ-4238867
-* (Hantera publikation) Om du vill gå till nästa kalendermånad måste du klicka flera gånger. NPR-23508: Programfix för CQ-4242732
+* (Hantera publikation) Om du vill gå till nästa månad i kalendern måste du klicka flera gånger. NPR-23508: Programfix för CQ-4242732
 
 ### Plattform {#platform-2}
 
@@ -1098,23 +1098,23 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 
 * Resurslösaren är inte stängd i com.day.cq.analytics.sitecatalyst. NPR-22323: Programfix för CQ-4236515
 * TargetContentImpl gör AEM trög under långvariga frågor. NPR-22361: Programfix för CQ-4236907
-* Målmotorn (mbox.js, at.js) använder inte inbyggda URL:er och URL:er som innehåller kolon som kan misslyckas vid vissa distributioner. NPR-22366: Programfix för CQ-4237854
+* Målmotorn (mbox.js, at.js) använder inte anpassade URL:er. Dessutom används URL:er som innehåller kolon som kan misslyckas vid vissa distributioner. NPR-22366: Programfix för CQ-4237854
 * När du anger en anpassad at.js eller mbox.js skrivs det inkluderade skriptet på sidan som text i stället för HTML-taggar. NPR-22441: Programfix för CQ-4203691
 * I målläget kan författare ändra en komponent som ärvts från utkastet utan att avbryta arvet. NPR-22751: Programfix för CQ-4237907
-* PersonalizationDataSource genererar ett Null-pekarundantag på grund av att noden `jcr:content` saknas. NPR-22850: Programfix för CQ-4222122
-* AEM misslyckas när icke-engelskt språk används. NPR-22917: Programfix för CQ-4218213
+* PersonalizationDataSource genererar ett null-pekarundantag på grund av att noden `jcr:content` saknas. NPR-22850: Programfix för CQ-4222122
+* AEM misslyckas när det icke-engelska språket används. NPR-22917: Programfix för CQ-4218213
 * Relaterade resurser saknas när en sida med riktat innehåll publiceras. NPR-23064: Programfix för CQ-4227119
-* Användare kan inte se testvärden för statiska parametrar i mbox-anropet som kan ses när de testar med AT.js som klientbibliotek i molnkonfiguration. NPR-21930: Programfix för CQ-4234520
+* Användare kan inte se testvärden för statiska parametrar i mbox-anropet, som kan ses när de testar med AT.js som klientbibliotek i molnkonfiguration. NPR-21930: Programfix för CQ-4234520
 
 ### WCM-Foundation-komponenter {#wcm-foundation-components-1}
 
-* iParsys skapar positionsförflyttningen efter avmarkering av kryssrutan Avbryt/inaktivera arv. NPR-21905: Programfix för CQ-4230951
+* iParsys skapar positionsförflyttningen efter att kryssrutan för att avbryta/inaktivera arv har avmarkerats. NPR-21905: Programfix för CQ-4230951
 * Visa/dölj-funktionen för den nedrullningsbara formulärkomponenten fungerar inte som förväntat. NPR-22327: Programfix för CQ-422853
-* CAPTCHA-komponenten har tagits bort för bättre säkerhet, och om du använder CAPTCHA-komponenten visas meddelandet&quot;Captcha-komponenten är föråldrad och bör inte längre användas&quot;. kommer att visas när 6.3.2.1-versionen eller senare har installerats. AEM kan anpassas så att de innehåller reCAPTCHA för bättre säkerhet NPR-22151: programfix för CQ-4220052
+* CAPTCHA-komponenten har tagits bort för bättre säkerhet. Om du använder CAPTCHA-komponenten visas meddelandet&quot;Captcha-komponenten är föråldrad och bör inte längre användas&quot; efter installation av version 6.3.2.1 eller senare. AEM kan anpassas så att de innehåller reCAPTCHA för bättre säkerhet NPR-22151: programfix för CQ-4220052
 
 ### WCM - sidredigeraren {#wcm-page-editor}
 
-* XSS (Cross-site scripting) speglades när en ogiltig väljare användes. Programfix för CQ-4270397
+* Speglade XSS (Cross-Site Scripting) när en ogiltig väljare används. Programfix för CQ-4270397
 
 ### Översättning {#translation-4}
 
@@ -1123,14 +1123,14 @@ Viktiga högdagrar i **AEM Cumulative Fix Pack** är:
 ### Användargränssnitt {#user-interface-2}
 
 * Problem med kalenderns månadsväljare när datumintervallet min och max har angetts. NPR-22716: Programfix för CUI-7187
-* (Klassiskt användargränssnitt) Komponenten visar standardvärdena även om den associerade datamodelltjänsten för formulär är inställd på ett tomt fält. NPR-22272: Programfix för GRANITE-19744
+* (Klassiskt användargränssnitt) Komponenten visar standardvärdena även om den associerade datamodelltjänsten är inställd på ett tomt fält. NPR-22272: Programfix för GRANITE-19744
 
 ### Granit {#granite-2}
 
 * Stabilitetsproblem med utgivarinstansen AEM resursresursen orsakade av minnesläckage. NPR-22205, NPR-23178: Programfix för Sling-5668, Sling-7292 och Sling-7470.
 * Det går inte att använda ett instabilt tjänst-ID för sessionsattributnamn. NPR-22821: Programfix för Granite-21059
 * När en http whiteboard-hanterad session ogiltigförklaras blir behållarsessionen också ogiltig om sessionen inte har några andra sessionsattribut. NPR-23059: Programfix för FELIX-5819
-* LogbackManager kan sakna OSGi-konfigurationen när programmet startas. NPR-23060: Programfix för Granite-19791
+* LogbackManager kan sakna en OSGi-konfiguration när programmet startas. NPR-23060: Programfix för Granite-19791
 
 ### Commerce {#commerce-3}
 
@@ -1163,7 +1163,7 @@ AEM Forms i korthet:
 
 #### Forms-administratörsgränssnitt {#forms-admin-ui}
 
-* Lösenordet visas i oformaterad text vid kontroll av lösenordsfält för konfigurationssidor för ECM Connectors. NPR-22508: Programfix för CQ-4236065
+* Lösenordet visas med oformaterad text när du kontrollerar lösenordsfältet på konfigurationssidorna för ECM Connectors. NPR-22508: Programfix för CQ-4236065
 
 #### Forms Service {#forms-service}
 
@@ -1175,20 +1175,20 @@ AEM Forms i korthet:
 
 #### Adaptiv Forms {#adaptive-forms-2}
 
-* Anpassade funktioner för regelredigeraren lägger till en extra funktion. Efter funktionsanrop misslyckas valideringen även om den anpassade funktionen returnerar true. NPR-22481: Programfix för CQ-4235499
+* Anpassade funktioner för Regelredigeraren lägger till ett extra, efter funktionsanropet. Därför misslyckas valideringen även om den anpassade funktionen returnerar true. NPR-22481: Programfix för CQ-4235499
 * Oavsett vilket datummönster som valts följer datumväljarkomponenten inte mönstret när min- och maxvalideringsmeddelanden visas. NPR-22444: Programfix för CQ-4236269
-* Datumformatet som skickas i en förfrågan bör anpassas till mönstret som anges i datumväljarkomponenten. NPR-22384
+* Datumformatet som skickas i sändningsbegäran bör anpassas till mönstret som anges i datumväljarkomponenten. NPR-22384
 * Det angivna maximala antalet tecken för en textruta med anpassningsbara formulär stöds inte på Android™ 6.0 Samsung-enheter. NPR-22363, NPR-22364: Programfix för CQ-4235205
-* (Microsoft® Edge) (IE11) Textfältskomponenten Adaptiv form med flerradsfält visar &quot;Null&quot; som standardvärde i stället för tomt. NPR-22284: Programfix för CQ-69107
+* (Microsoft® Edge) (IE11) Textfältskomponent för adaptivt formulär med flera rader visar `Null` som standardvärde i stället för tomt. NPR-22284: Programfix för CQ-69107
 * SOAP UTF-8 Input Encoding in Adaptive Forms returnerar fel med felaktig sidnumrering. NPR-20105: Programfix för CQ-422669
-* AEM Forms Container Component kan inte redigeras när fel formulär har konfigurerats på AEM Sites-sidan. Programfix för CQ-4237456
+* AEM Forms Container-komponenten kan inte redigeras när fel formulär har konfigurerats på AEM Sites-sidan. Programfix för CQ-4237456
 * Utvecklingstester misslyckas när de körs på JEE-servrar. Programfix för CQ-422082
 * AF-tester misslyckades på JEE-servrar på grund av minifieringsproblem i Calvin-ramverket. Programfix för CQ-4217220
 
 #### Forms Manager {#forms-manager}
 
 * (Firefox) Det går inte att uppdatera XML-schemaegenskaperna för Adaptiv Forms eftersom alternativen i DOR (Document of Record) inte kommer som de är förinställda på egenskapssidan. NPR-22298: Programfix för CQ-4237402
-* Forms som ändras efter att sidan har publicerats publiceras inte igen när webbplatsen publiceras. NPR-23013: Programfix för CQ-4236566
+* Forms som ändras efter att sidan har publicerats publiceras inte igen. NPR-23013: Programfix för CQ-4236566
 
 #### Integrering med backend {#backend-integration-1}
 
@@ -1213,13 +1213,13 @@ AEM Forms i korthet:
 
 * (HTML Workspace) Skärmstorlek problem med rullningslister. NPR-23288
 * (HTML Workspace) Processstartpunkter sorteras inte i alfanumerisk ordning. Programfix NPR-22841 för CQ-4238944
-* (HTML Workspace) Förbered data aktiveras när formuläret stängs på arbetsytan. NPR-21127: Programfix för CQ-4224574
+* (HTML Workspace) Förbered data aktiveras när ett formulär stängs på arbetsytan. NPR-21127: Programfix för CQ-4224574
 * (HTML Workspace) När du anropar en process som kräver anteckningar med långa beskrivningar fungerar inte expanderingsknappen Anteckningar. Programfix för CQ-4241488
 
 #### Core {#core-1}
 
 * Ett fel uppstod vid start när schemaläggaren startades. NPR-22990
-* Förhindra att webbläsare lagrar inloggningsuppgifter som anges i HTML-formulär. NPR-21762: Programfix för CQ-4206543
+* Webbläsare kan inte lagra inloggningsuppgifter som anges i HTML-formulär. NPR-21762: Programfix för CQ-4206543
 * De problem som rapporteras i den statiska kodanalysen av Core bör åtgärdas. Programfix för CQ-10446
 
 #### PDFG-tjänst {#pdfg-service-3}
@@ -1229,10 +1229,10 @@ AEM Forms i korthet:
 
 #### Forms Designer {#forms-designer-1}
 
-* PDF/UA-identifierare saknas när den sparas som PDF från Designer. NPR-23137
+* PDF/UA-identifieraren saknas när den sparas som PDF från Designer. NPR-23137
 * Banobjekt, till exempel: kanter, understrykningar och hyperlänkar, taggas inte när de sparas som PDF från Designer. NPR-23136
 * Bildobjektet har ingen begränsningsram när det sparas som PDF från Designer. NPR-23134
-* Textbundna hyperlänkar som definieras i Designer taggas inte och de har ingen alternativ text när de sparas som PDF från Designer. NPR-23133
+* Textbundna hyperlänkar som definieras i Designer taggas inte, eller så har de alternativ text när de sparas som PDF från Designer. NPR-23133
 * Om du öppnar XML-datapaketet med AEM 6.3 tar Forms Designer bort XHTML-formatering från XML-källan. NPR-21178: Programfix för LC-3917046
 
 #### Installera LCM {#install-lcm}
@@ -1241,7 +1241,7 @@ AEM Forms i korthet:
 
 #### Signaturtjänst {#signatures-service}
 
-* Ett undantag uppstod vid försök att digitalt signera/certifiera ett PDF-dokument med HSM. NPR-21154: Programfix för CQ-4226978
+* Ett undantag påträffades när ett PDF-dokument signerades digitalt via HSM. NPR-21154: Programfix för CQ-4226978
 
 ### OSGI-paket och innehållspaket i 6.3.2.1 {#osgi-bundles-and-content-packages-included-in-5}
 
@@ -1267,32 +1267,32 @@ Viktiga faktorer i AEM Cumulative Fix Pack är:
 * Ett problem uppstår om du överför en resurs som en direkt underordnad nod till sig själv med Touch-gränssnittet. Resursen överförs som direkt underordnad till den tidigare valda resursen. NPR-19736
 * Datumintervallpredikat och intervallpredikat fungerar inte när en sparad sökning/smart samling läses in. NPR-19844: Programfix för CQ-4220808
 * AEM blir trög när flera resurser (fler än 4) publiceras till Brand Portal. NPR-2009: Programfix för CQ-4213426
-* Det går inte att hämta resurser med blanksteg från licenskontrollsidan. NPR-20067: Programfix för CQ-4216557
+* Det går inte att hämta resurser med mellanslag från sidan för licenskontroll. NPR-20067: Programfix för CQ-4216557
 * Bearbeta problem vid överföring av PSB-filer med flera alfalager. NPR-20250: Programfix för CQ-4220869
-* Användare som inte kan hämta resurser med långa filnamn och en ansvarsfriskrivning har definierats. NPR-20254
-* ProductAssetsUploader lämnar de temporära filerna för Java™-cache i Java™ TEMP-mappen. NPR-20256: Programfix för CQ-4221801
+* Användarna kan inte hämta resurser med långa filnamn och en ansvarsfriskrivning har definierats. NPR-20254
+* ProductAssetsUploader lämnar de temporära filerna för Java™-cachen i Java™ TEMP-mappen. NPR-20256: Programfix för CQ-4221801
 * Ersätt versionsjämförelsekod med Adobe på grund av licensproblem. NPR-20272: Programfix för CQ-4223758
 * Metadata för en strängegenskap, documentNumber, visas som ett datum medan det bör vara ett tal. NPR-20291: Programfix för CQ-4223991
 * Textextraheringen fastnar för en skadad PDF. NPR-20416: Programfix för CTG-4150375
 * Komprimerade filer som innehåller resurser med icke-UTF-8-kompatibla namn hämtas inte korrekt. NPR-20420: Programfix för CQ-4219961
 * För många tecken i OmniSearch kan göra att AEM kraschar. NPR-20434: Programfix för CQ-4223602
-* API-metadatadefekten för DAM-resurser bryter API:erna för xmp -write-back. NPR-20607: Programfix för CQ-4220455
+* API-metadatadefekten för DAM-resurser bryter API:erna för xmp-write-back. NPR-20607: Programfix för CQ-4220455
 * Prestandaproblem när användare läggs till i samlingar. NPR-20699: Programfix för CQ-4225733
 * Publish till Brand Portal från AEM får inte användas för Dynamic Media-uppsättningar. NPR-20320: Programfix för CQ-4221147
 * Video med mellanslag och accent ger ingen video för återgivningssidan. NPR-19961: Programfix för CQ-4221014
 * Löste flera problem med mapphantering med Assets API:er. NPR-20569
-* AEM Dynamic Media Classic (tidigare Scene7) kan inte synkronisera resurser från AEM när målsökvägen i molntjänstkonfigurationen pekar på en undermapp i rotsökvägen. CQ-4228265
+* AEM Dynamic Media Classic (tidigare Scene7) kan inte synkronisera resurser från AEM. Detta problem uppstår när målsökvägen i Cloud Servicens konfiguration pekar på en rotsökvägsundermapp. CQ-4228265
 * E-postpaketet med Apache-kommandon `{org.apache.commons/commons-email/1.5}` har lagts till som ersättning för `{com.day.commons.osgi.wrapper/com.day.commons.osgi.wrapper.commons-email/1.2.0-0002}`.
 
 ### Sites {#sites-10}
 
 * Problem med administratörsbehörighet: Det går inte att ta bort medlemmar i en stängd användargrupp från sidegenskaperna. NPR-20631
-* Det angivna arbetsflödets namn ska vara tillgängligt i rutan Meddelande när sidan publiceras via Hantera publikation. NPR-20046: Programfix för CQ-4221586
+* Det angivna arbetsflödesnamnet ska vara tillgängligt i rutan Meddelande när du publicerar en sida via Hantera publikation. NPR-20046: Programfix för CQ-4221586
 * Om du använder formaterad text på två rader i RTF-redigeraren och sedan sammanfogar dem i ett stycke tas de formaterade intervallen bort. NPR-2010: Programfix för CQ-4223051
 * Ändringar som görs i fältegenskaper på flera flikar i dialogrutan Redigera egenskap sparas ibland inte. NPR-20286
-* Oväntad tagg i slutet av det inklistrade innehållet i innehållsfragmentet. NPR-2013: Programfix för CQ-4224014
+* Oväntad tagg i slutet av det inklistrade innehållet i innehållsfragment. NPR-2013: Programfix för CQ-4224014
 * Implementerade en mekanism i Adobe Campaign för att hämta principen för en innehållsresurs från en extern målinriktningsresurs. NPR-20667
-* Plugin-programmet RTF fungerar inte för både textbundet fält och helskärmsfält i multifältsgränssnittet. NPR-20973
+* Plugin-programmet RTF fungerar inte för både textbundna fält och helskärmsfält i multifältsgränssnittet. NPR-20973
 
 ### Campaign {#campaign-1}
 
@@ -1319,11 +1319,11 @@ Viktiga faktorer i AEM Cumulative Fix Pack är:
 * Migrerar befintliga autentiseringsuppgifter för Analytics till WSSE Authentication. NPR-19962: Programfix för CQ-4218071
 * Återaktivering av segmentet efter att en ändring har misslyckats och ett fel uppstår. NPR-20054: Programfix för CQ-4218401
 * Konfigurationen av molntjänsten ignorerar formulärhämtningsmetoden, vilket gör den oanvändbar på författarinstansen. NPR-20447: Programfix för CQ-4206076
-* Tvetydig filterdefinition i innehållspaket gör att sökvägar skrivs över när Search &amp; Promote installeras. NPR-20808
+* Tvetydig filterdefinition i innehållspaketet gör att sökvägar skrivs över när Search &amp; Promote installeras. NPR-20808
 
 ### Mobile On-Demand {#mobile-on-demand}
 
-* Metadataegenskaper för resurser av typen TXT som visas i olika metadataredigerare varje gång deras egenskaper visas. NPR-20239
+* Metadataegenskaper för resurser av typen TXT visas i olika metadataredigerare varje gång deras egenskaper visas. NPR-20239
 
 ### Plattform {#platform-3}
 
@@ -1331,14 +1331,14 @@ Viktiga faktorer i AEM Cumulative Fix Pack är:
 * Begäran om att anpassade kort ska visas tillsammans med standardhälsokontroller på kontrollpanelen för åtgärder. NPR-20145
 * Anteckningslagret i sidredigeraren fungerar inte korrekt i Internet Explorer 11. NPR-2022: Programfix för CQ-422818
 * Sessionsläckor när användaragenten ställs in som administratör i replikeringsagenten. NPR-20578
-* requestAttributes har inte tagits bort för de andra programsatserna för datasynlig resurs. NPR-20639: Programfix för 4226206
+* requestAttributes har nu tagits bort för de andra programsatserna för datasystem. NPR-20639: Programfix för 4226206
 * Korrigerade problem med begäran om OTB-resurser i AEM. NPR-20781: Programfix för CQ-4221520
 
 ### Projekt {#projects-1}
 
 * Det tar längre tid att läsa in åtkomst till olika projekt från projektkonsolen. NPR-20314
 * Om AEM 6.3.0.1 installeras tas nyckelbehållaren för användaren `dam-update-service` bort. NPR-2018
-* I vissa anpassade distributioner tar det längre tid för användare som försöker välja tilldelad i modulen addTask att fylla i listan i användarväljaren. NPR-20283: Programfix för CQ-4224193
+* I vissa anpassade distributioner tar det längre tid för användare som försöker välja en tilldelad i modulen addTask att fylla i listan i användarväljaren. NPR-20283: Programfix för CQ-4224193
 
 ### Användargränssnitt {#user-interface-3}
 
@@ -1369,7 +1369,7 @@ AEM Forms-korrigeringar levereras via tilläggspaket och andra patch-installerar
 
 #### Integrering med backend {#backend-integration-2}
 
-* Det går inte att ange ett värde för växlingskomponenten mellan sant/falskt. NPR-21111
+* Det går inte att ange värdet för Switch-komponenten mellan true och false. NPR-21111
 
 #### OSGI-arbetsflöde {#osgi-workflow}
 
@@ -1377,13 +1377,13 @@ AEM Forms-korrigeringar levereras via tilläggspaket och andra patch-installerar
 
 #### HTML5 Forms {#html-forms-3}
 
-* Namnet på ett XDP-formulärobjekt som delformulär visas som verktygstips när det inte är definierat i tillgänglighetskonfigurationerna. NPR-20523
+* Namnet på ett XDP-formulärobjekt som ett delformulär visas som dess verktygstips när det inte är definierat i tillgänglighetskonfigurationerna. NPR-20523
 
 ### Forms JEE-installationsprogram {#forms-jee-installer-9}
 
 #### Processhantering {#process-management-2}
 
-* Startpunkten för FormSetPrefillApp förifyller inte formuläruppsättningsfält i AEM Forms-appen. NPR-20950
+* Startpunkten för FormSetPrefillApp fyller inte i formuläruppsättningsfält i förväg i AEM Forms-appen. NPR-20950
 
 #### Forms - AEM (LiveCycle) {#forms-aem-livecycle}
 
@@ -1408,11 +1408,11 @@ AEM Cumulative Fix Pack 6.3.1.1 är en viktig uppdatering som innehåller flera 
 
 Viktiga faktorer i AEM Cumulative Fix Pack är:
 
-* Aktiverad publicering till Brand Portal-åtgärd för standardmetadatamatchformulär.
-* Beteendeändring i visning av titlar på bildkort för bild med dc: title-egenskapen inställd på String [] (multifield).
-* Ersatte tidsåtergivning på serversidan med komponenten Foundation-time.
-* Aktiverade publiceringstaggar från AEM till Brand Portal från tagadmin/tagging-konsolen.
-* Publicerade JSON API för att använda innehållsfragment.
+* Aktiverad publicering till Brand Portal-åtgärd för standardformuläret för metadatamatchning.
+* Beteendeändring i visning av titlar på bildkort för bild med dc: title-egenskapen inställd på `String [] (multifield)`.
+* Ersatte tidsåtergivning på serversidan med en komponent för grundtid.
+* Publiceringstaggar från AEM till Brand Portal har aktiverats från tagadmin/tagging-konsolen.
+* Publicerat JSON API för att använda innehållsfragment.
 * Den inbyggda databasen (Apache Jackrabbit Oak) uppdateras till version 1.6.5.
 
 ### Assets {#assets-11}
@@ -1435,7 +1435,7 @@ Viktiga faktorer i AEM Cumulative Fix Pack är:
 * Anpassad at at.js-fil publiceras inte när den används av den anonyma användaren. NPR-19542: Programfix för CQ-4219592
 * Fältet Målmotor i konfigurationsguiden är inställt på ContextHub (AEM) i stället för Adobe Target. NPR-19320: HF för CQ-4218465
 * Målgruppsavsnittet skadas när upplevelsen skapas. NPR-19110
-* Måldialogrutan visas inte i målinriktningsläge när en målmodul redigeras och du sparar mer än en gång. NPR-19144: Programfix för CQ-4216708
+* Dialogrutan Mål visas inte i målinriktningsläge när en målmodul redigeras och sparas mer än en gång. NPR-19144: Programfix för CQ-4216708
 * Åtkomstegenskaper för artiklar som inte har angetts korrekt i Adobe Digital Publishing Solution för Classic UI. NPR-19367
 * Felaktigt beteende för automatisk vikning vid personalisering av erbjudanden via Campaign om användarna har tillgång till flera områden. NPR-19290: Programfix för CQ-4218029
 
@@ -1443,12 +1443,12 @@ Viktiga faktorer i AEM Cumulative Fix Pack är:
 
 * Listrutevärden för flersammansatta fält fylls inte i igen på grund av att koden i Sidekick.js har ändrats efter att instansen uppgraderats till AEM 6.1SP2-CFP3. NPR-19450: HF för CQ-4194771
 * WCMMode.EDIT fungerar inte för målkomponenter i redigeringsläge. NPR-19387
-* Publicerade JSON API för att använda innehållsfragment. NPR-19500
+* Publicerat JSON API för att använda innehållsfragment. NPR-19500
 * Funktionen fet, kursiv och understrykning fungerar inte för textredigeringsfält i författardialogrutan. NPR-19670: NPR-19718: Programfix för CQ-4219088
 
 ### Mobile On-Demand {#mobile-on-demand-1}
 
-* Renderingsproblem med AEM artikelkonsol som användning av bilder i full storlek gör det trögt. NPR-1908
+* Renderingsproblem med den AEM artikelkonsolen som att använda bilder i full storlek gör den trög. NPR-1908
 
 ### Översättning {#translation-5}
 
@@ -1466,7 +1466,7 @@ Viktiga faktorer i AEM Cumulative Fix Pack är:
 ### Plattform {#platform-4}
 
 * Stabilitetsproblem AEM driftsättningen av produktionsservrar. NPR-19707
-* Anpassad tagg som refererar till taggar som implementerats som skript hittas inte efter uppgradering till AEM 6.3. NPR-19087
+* Ett anpassat tagg-lib som refererar till taggar som implementerats som ett skript hittas inte efter uppgradering till AEM 6.3. NPR-19087
 * HTML-felkorrigeringar för AEM 6.3.1. NPR-1916
 * RTF-fält kan inte redigeras i flerfältskomponenter. NPR-19604: Programfix för Granite-16755
 * Tjänsten Adobe Email Template lägger till taggar i anpassade användarmallar. NPR-1919
@@ -1478,22 +1478,22 @@ Viktiga faktorer i AEM Cumulative Fix Pack är:
 
 ### Projekt {#projects-2}
 
-* Projektredigerare kan inte kopiera/klistra in resurser i projektresursmappen. NPR-19619: Programfix för CQ-4215321
+* Projektredigerare kan inte kopiera och klistra in resurser i projektresursmappen. NPR-19619: Programfix för CQ-4215321
 
 ### Web Content Management {#web-content-management}
 
 * På skärmen Rollout kan kryssrutor som motsvarar sidor i Live Copy inte markeras eller avmarkeras. NPR-19518
 * Massredigering av sidegenskaper kan inte användas korrekt eftersom alla flikar och fält är tillgängliga för massutgåva. NPR-19451
-* OTB-egenskaper och bildjusteringsegenskaper visas inte när du redigerar en bild i ett klassiskt användargränssnitt. NPR-19488: HF för CQ-4217914
+* OTB-egenskaper och bildjusteringsegenskaper visas inte när du redigerar en bild i det klassiska användargränssnittet. NPR-19488: HF för CQ-4217914
 
 ### Användargränssnitt {#user-interface-4}
 
-* När du använder webbläsaren Google Chrome kan användare inte läsa in den fullständiga listan över sidor/resurser med kolumnvyn i TouchUI. NPR-19566: Programfix för CQ-4214248
+* När du använder webbläsaren Google Chrome kan användare inte läsa in den fullständiga listan med sidor/resurser med hjälp av kolumnvyn i TouchUI. NPR-19566: Programfix för CQ-4214248
 
 ### Brand Portal {#brand-portal-1}
 
 * Det går inte att publicera resurser från AEM med kommentarer och anteckningar. NPR-19590: Programfix för CQ-4218386
-* Aktivera publiceringstaggar från AEM till Brand Portal från tagadmin/tagging-konsolen. NPR-20271: Programfix för CQ-4223948
+* Aktivera publiceringstaggar från AEM till Brand Portal från taggadmin-/taggningskonsolen. NPR-20271: Programfix för CQ-4223948
 * Åtgärda fältet&quot;aktiverat&quot; i Brand Portal molntjänstkonfigurations-användargränssnitt. Programfix för CQ-4211101
 * Replikering av sökformulär misslyckades. Programfix för CQ-4220080
 
@@ -1507,10 +1507,10 @@ AEM Forms-korrigeringar levereras via tilläggspaket och andra patch-installerar
 
 * Skicka till JEE-arbetsflödet returnerar inte utdataparametern från JEE-sidan till AEM och returnerar felet&quot;Ignorerar eftersom värdet inte är primitivt&quot;. NPR-20265
 * Adaptiv Forms tillåter inte PDF som bilaga i Safari. NPR-19625
-* RestoreGuideState skriver över anpassad kontextegenskapskarta. CQ-422877
-* När du konfigurerar Google `reCaptcha` med Cloud Service verkar det som att POST inte anropar PROXY i miljöer som kräver konfiguration av org.apache.http.proxyconfigurator för externa anslutningar. NPR-20454
-* Adaptiv Forms baserad på XSD-scheman skickar felaktiga XML-värden för numeriska fält i installationer med andra språkversioner än &quot;.&quot; vilket resulterar i fel. NPR-20444
-* Proxyinställningarna som angetts för Proxykonfigurationen för Apache HTTP Components respekteras inte när HTTP-begäran görs till tredjepartsserver. Timeoutproblem vid anslutning med HTTP-GET eller POST-anrop. NPR-20457, NPR-20456, NPR-20455, NPR-20451
+* RestoreGuideState skriver över den anpassade kontextegenskapskartan. CQ-422877
+* När du konfigurerar Google `reCaptcha` med Cloud Service, i miljöer som kräver konfigurering av org.apache.http.proxyconfigurator för externa anslutningar, verkar inte POST-anrop gå igenom PROXY. NPR-20454
+* Adaptiv Forms baserad på XSD-scheman skickar felaktiga XML-värden för numeriska fält i installationer med andra språkversioner än punkt (.) vilket resulterar i fel. NPR-20444
+* Proxyinställningarna som angetts för Proxykonfigurationen för Apache HTTP Components respekteras inte när en HTTP-begäran görs till en tredjepartsserver. Timeoutproblem vid anslutning med HTTP-GET eller POST-anrop. NPR-20457, NPR-20456, NPR-20455, NPR-20451
 
 #### Forms dataintegrering {#forms-data-integration}
 
@@ -1537,7 +1537,7 @@ AEM Forms-korrigeringar levereras via tilläggspaket och andra patch-installerar
 #### Processhantering {#process-management-3}
 
 * Bifogade arbetsflöden, anteckningar och informationsflikar fungerar inte på arbetsytan när formuläret maximeras/minimeras och sparas som ett utkast eller vidarebefordras. NPR-20243
-* Flerradigt textfält (TextArea) behåller inte nya radtecken eller radbrytningar i text när data har skickats till arbetsytan HTML. NPR-20085
+* Flerradigt textfält (TextArea) behåller inte nya radtecken eller radbrytningar i text när data har skickats i HTML Workspace. NPR-20085
 
 #### Processrapportering {#process-reporting}
 
@@ -1545,7 +1545,7 @@ AEM Forms-korrigeringar levereras via tilläggspaket och andra patch-installerar
 
 >[!NOTE]
 >
->Installera LiveCyclets inbäddningspaket som listas i artikeln [AEM Forms Releases](aem-forms-releases.md) för att åtgärda problemet.
+>Installera LiveCyclets inbäddningspaket som visas i artikeln [AEM Forms Releases](aem-forms-releases.md) för att åtgärda problemet.
 
 #### Standardtjänster {#standard-services}
 
@@ -1557,7 +1557,7 @@ AEM Forms-korrigeringar levereras via tilläggspaket och andra patch-installerar
 
 ### Funktionspaket ingår {#feature-packs-included-1}
 
-* Det går inte att göra ett nedrullningsbart metadatafält obligatoriskt eftersom obligatorisk fältvalidering saknas för resurser. NPR-17882: FP för CQ-4208373
+* Det nedrullningsbara fältet Metadata Schema kan inte göras obligatoriskt eftersom obligatorisk fältvalidering saknas för resurser. NPR-17882: FP för CQ-4208373
 
 ### OSGI-paket och innehållspaket som ingår i 6.3.1.1 {#osgi-bundles-and-content-packages-included-in-7}
 
@@ -1578,7 +1578,7 @@ Viktiga faktorer i AEM Cumulative Fix Pack är:
 * Löste problem med icke stängd resurslösare
 * Förenklad konfiguration för smarta innehållstjänster
 * Lösta problem med validering av innehållsfragment
-* Förbättrad redigering av metadatamappningar på hybridenheter
+* Förbättrad redigering av metadatamodeller på hybridenheter
 * Löste problem med synkronisering på komponentnivå i live-kopior
 * Förbättrad användbarhet för innehållsrika sidor i kolumnvyn
 * Förbättrad överensstämmelse med sidnamnskonvention för sidor med långa titlar
@@ -1601,10 +1601,10 @@ Viktiga faktorer i AEM Cumulative Fix Pack är:
 * Ostängd resurslösare i com.day.cq.dam.s7dam.common.analytics.impl.SiteCatalystReportRunner. NPR-17598: CFP för CQ-4209018
 * Begäran om att skapa flera replikeringsagenter för publicering av resurser på Brand Portal. NPR-17189
 * Granskningsaktiviteten för resurser under den japanska språkmappen fungerar inte. CQ-4204782
-* Null-pekarundantag inträffar när en resurs flyttas från sin egenskapssida. CQ-4204251
+* Ett null-pekarundantag inträffar när en resurs flyttas från sin egenskapssida. CQ-4204251
 * AEM kan inte spåra efterföljande referenser till en resurs på egenskapssidan om den är länkad till ett InDesign-dokument flera gånger. CQ-4204186
-* Problem med att lägga till nya flikar i schemaformuläret för metadata när det redigeras i Chrome på hybridenheter. CQ-4201810
-* När duplicerade resurser överförs används alternativet (ta bort/behåll) för alla resurser även när det inte är markerat i en identifierad dialogruta. CQ-4201673
+* Problem med att lägga till nya flikar i formuläret Metadata Schema när det redigeras i Chrome på hybridenheter. CQ-4201810
+* När duplicerade resurser överförs används alternativet (ta bort/behåll) för alla resurser även när det inte är markerat i dialogrutan som identifieras. CQ-4201673
 * Ett null-pekarundantag genereras när en resursmapp med fler än 150 inkommande referenser flyttas. CQ-4200981
 * Om det uppstår en konflikt när innehållet i ZIP-filen extraheras i en resursmapp visas standardalternativet som Skapa version i stället för Behåll båda. CQ-97800
 * Användare med skrivskyddad behörighet till programmet kan inte förhandsgranska innehåll från AEM Mobile innehållshantering. NPR-17486: CFP for CQ-4209690
@@ -1613,7 +1613,7 @@ Viktiga faktorer i AEM Cumulative Fix Pack är:
 ### Sites {#sites-12}
 
 * Problem med inbäddning av bild-/videokomponenter med hjälp av attribut för data-sly-resource. NPR-18182: CFP for CQ-4212100
-* Ändrade lokaliserade komponenter återställs inte till det ursprungliga formuläret när arv tillämpas på nytt i en LiveCopy. NPR-18172: Programfix för CQ-4211379
+* Ändrade lokaliserade komponenter återställs inte till originalformuläret när arv tillämpas på nytt i en LiveCopy. NPR-18172: Programfix för CQ-4211379
 * Problem med att navigera på en innehållskrävande sida i kolumnvyn i Touch-gränssnittet. NPR-17799: Programfix för CQ-4199611
 * Resurslösaren som inte stängts i `com.day.cq.wcm.core.impl.VersionManagerImpl`. NPR-17789: CFP for CQ-4211152
 * Sidnamnet genereras inte som per konvention för långa sidrubriker. NPR-17633: Programfix för CQ-4209056
@@ -1636,7 +1636,7 @@ Viktiga faktorer i AEM Cumulative Fix Pack är:
 
 * I ett icke-tillfälligt arbetsflöde bevaras inte processhistoriken och metadataändringar som gjorts innan ett externt processsteg. NPR-17848: Programfix för GRANITE-17757
 * Värden från dialogrutefält i arbetsflödet sparas inte i noden för arbetsobjekt. NPR-17734: Programfix för CQ-4210369
-* Ett otolkbart datumfel inträffar när en åtgärd redigeras från inkorgen. CQ-4208749
+* Otolkningsbart datumfel inträffar när en uppgift redigeras från inkorgen. CQ-4208749
 
 ### Projekt {#projects-3}
 
@@ -1655,7 +1655,7 @@ AEM Forms-korrigeringar levereras via Forms tilläggspaket och andra patch-insta
 
 AEM Forms i korthet:
 
-* Korrigeringar i textmoduler för korrespondenshantering, förhandsgranskningar av brev och programstart skapar gränssnitt för korrespondenshantering.
+* Korrigeringar i textmoduler för korrespondenshantering, förhandsgranskning av brev och programstart för att skapa ett gränssnitt för korrespondenshantering.
 * Korrigeringar för PDF/A-1b-validering, konvertering av stora bildfiler till PDF och PDF-dokument på japanska i PDF Generator.
 * Korrigeringar för korrespondenshantering, dokumentsäkerhet och Forms Workflow.
 * Stöd har lagts till för att samla in granskningshändelser för signaturfältet i klotter.
@@ -1664,9 +1664,9 @@ AEM Forms i korthet:
 
 **Korrespondenshantering**
 
-* När du redigerar ett korrespondenshanteringsfragment visas textredigeraren textbundna villkor tillsammans med den bearbetade texten. CQ-4211930
+* När du redigerar ett korrespondenshanteringsfragment visas textbundna villkor tillsammans med den bearbetade texten i textredigeraren. CQ-4211930
 * Beskrivningen av brevet sparas inte när ett brev skapas. NPR-18089
-* Extra marginal ovanför och under en punktlista visas i textredigeraren men inte i HTML och PDF. NPR-18126
+* Den extra marginalen ovanför och under en punktlista visas i textredigeraren men inte i HTML och PDF. NPR-18126
 * När HTML har skickat in POSTEN går det inte att starta gränssnittet för att skapa korrespondens. NPR-18202
 * När en textmodul sparas och ett uttryck i textmodulen inte innehåller inledande eller avslutande uttryckstaggar, visas inget felmeddelande. Textmodulen visar ett felmeddelande och kan inte återges i brevet. NPR-18535
 * När nytt innehåll läggs till eller tangenten `Enter` trycks ned läggs en div-tagg till i textmodulen. NPR-18240
@@ -1696,7 +1696,7 @@ JavaDocs har lagts till för klassen com.adobe.livecycle.content. NPR-18468
 
 **PDF Generator**
 
-* PDF Generator kan inte konvertera bilder som är större än 100 MB till PDF-dokument. Ref# CQ-4208628
+* Tjänsten PDF Generator kan inte konvertera bilder som är större än 100 MB till PDF-dokument. CQ-4208628
 * När du använder tjänsten PDF Generator med en japansk OCR-läsare genereras en inverterad PDF. NPR-17602
 
 **Processhantering**
@@ -1744,13 +1744,13 @@ I det här avsnittet går du igenom kraven och stegen för att installera bestru
 
 >[!NOTE]
 >
->Vi rekommenderar att du kör valideringen på alla nya installationspaket innan du försöker installera paketet. Vid förvalideringen analyseras och alla fel som påträffats före installationen rapporteras. Användarna varnas aktivt för sådana fel.
+>Adobe rekommenderar att du kör valideringen på alla nya installationspaket innan du försöker installera paketet. Vid förvalideringen analyseras och alla fel som påträffats före installationen rapporteras. Användarna varnas aktivt för sådana fel.
 >
->Dokumentation om valideringsalternativ finns på [https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions)
+>Dokumentation om alternativet Validera finns på [https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions)
 
-* AEM 6.3.3.0 är en förutsättning för den gemensamma fiskeripolitiken. Gå till [Uppgraderingsdokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions) om du vill ha detaljerade anvisningar om hur du uppgraderar en AEM till AEM 6.3.
+* AEM 6.3.3.0 är en förutsättning för den gemensamma fiskeripolitiken. Se [Uppgraderingsdokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions) för detaljerade anvisningar om hur du uppgraderar en AEM till AEM 6.3.
 * För en klusterdistribution med RDBMK eller MongoDB kan CFP-paketet installeras på alla Author-instanser som använder Package Manager.
-* Innan du installerar det kumulativa korrigeringspaketet bör du ta en ögonblicksbild eller skapa en säkerhetskopia av AEM.
+* Innan du installerar Cumulative Fix Pack bör du ta en ögonblicksbild eller skapa en säkerhetskopia av din AEM.
 * Avinstallation av CFP stöds inte.
 
 ### Lägga till nya loggare {#adding-new-loggers}
@@ -1764,7 +1764,7 @@ Om du vill konfigurera loggning på felsökningsnivå och hämta en aktivitetslo
    * Loggfil: logs/activity.log
    * Logger: org.apache.jackrabbit.vault.packaging.impl.ActivityLog
 
-activity.log skapas i mappen crx -quickstart /logs.
+activity.log skapas i mappen crx-quickstart /logs.
 
 ### Installera det ackumulerade korrigeringspaketet via programvarudistribution {#install-the-cumulative-fix-pack-via-package-share}
 
@@ -1820,7 +1820,7 @@ Korrigeringar i AEM Forms JEE levereras via ett separat installationsprogram. Me
 
 >[!NOTE]
 >
->Om du installerar version 6.3.3.0 eller senare utför du nedanstående procedur för att konfigurera inställningar för JBoss®-programservern. Om du installerar 6.3.3.0 på AEM Forms Server som körs på Oracle WebLogic- eller IBM® WebSpehere-servrar krävs ingen ytterligare konfiguration. Mer information finns i [AEM 6.3.3.0 Versionsinformation](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions).
+>Om du installerar version 6.3.3.0 eller senare utför du följande procedur för att konfigurera inställningar för JBoss®-programservern. Om du installerar 6.3.3.0 på AEM Forms Server som körs på Oracle WebLogic- eller IBM® WebSpehere-servrar krävs ingen ytterligare konfiguration. Mer information finns i [AEM 6.3.3.0 Versionsinformation](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions).
 
 ## Konfigurationsuppdateringar för integrering av Search &amp; Promote {#configuration-updates-for-search-promote-integration}
 
@@ -1849,7 +1849,7 @@ Med AEM Cumulative Fix Pack 6.3.0.2 och senare versioner är den OSGi-konfigurat
 >
 >Om du påverkas av något av dessa två problem kan du kontakta [AEM kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support).
 
-* Hög processoranvändning observeras på grund av många förfrågningar i administratörssökningsfunktionen. NPR-24229
+* Hög processoranvändning observeras på grund av många förfrågningar i funktionen för administratörssökning. NPR-24229
 * PathField markeras inte i pathBrowser när komponenten öppnas igen. NPR-24177
 
 ## Konfigurationsinställningar som krävs för NPR-27692 {#configuration-settings-required-for-npr}
@@ -1870,7 +1870,7 @@ Följ stegen nedan för att uppdatera ändringar i adobe- LiveCycle® cq -author
 
    * Efter ovanstående ändring bör init-param se ut så här:
 
-   * &lt;init-param>
+     &lt;init-param>
 &lt;param-name>sling.bootDelegering.ibm&lt;/param-name> &lt;param-value>com.ibm.xml.&#42;,com.ibm.crypto.pkcs11impl.provider,com.ibm.pkcs11,com.ibm.pkcs11.nat&lt;/param-value>
 &lt;/init-param>
 
@@ -1922,21 +1922,21 @@ Begränsningar : rep:glob=&quot;/&#42;/jcr:content/&#42;&quot;
 
 Egenskapen styr det maximala djupet för nodunderträdet under noden ` /jcr:content`, tills noderna som finns i databasen ska användas för att hämta sidegenskaperna. Alla noder under det angivna djupet i den här egenskapen ignoreras.
 
-Standardvärdet är 1. Åsidosätt värdet genom att åsidosätta filens constants.js (`/libs/cq/ui/widgets/source/constants.js`) som avkommenterar CQ.PAGE_PROPERTIES_MAX_RECURSION_LEVEL-egenskapen och tilldela den det värde som krävs (det största djupet under sidans `/jcr:content` som sidegenskapens data lagras på).
+Standardvärdet är 1. Åsidosätt värdet genom att åsidosätta filen constants.js (`/libs/cq/ui/widgets/source/constants.js`) som avkommenterar egenskapen `CQ.PAGE_PROPERTIES_MAX_RECURSION_LEVEL`. Tilldela sedan det värde som krävs (det maximala djupet under sidans `/jcr:content`, som sidegenskapernas data lagras).
 
 **Om användaren måste skapa flera sidvarianter så att antalet noder under sidans `/jcr:content`-nod blir större än 1000, ska du göra konfigurationsändringar enligt följande:**
 
-* Konfigurera egenskapen JSON Max-resultat för Apache Sling
-* Hämta serverutrymme med `/system/console/ configMgr`
+* Konfigurera egenskapen JSON Max-resultat för Apache Sling.
+* Hämta servlet med `/system/console/ configMgr`.
 * Ange ett värde >1000 (som är det aktuella standardvärdet) så att det här värdet är större än det totala antalet noder i underträdet `/jcr:content` tills det konfigurerade djupet ovan.
 
-På så sätt kan den GET-server som har Sets returnera alla noder som krävs.
+Den här processen gör att den säljande GETEN kan returnera alla nödvändiga noder.
 
 ## Uber Jar {#uber-jar}
 
-Uber Jar för 6.3.3.8 finns i Adobe Public Maven-arkivet
+Uber Jar för 6.3.3.8 finns i Adobe Public Maven-databasen
 
-Om du vill använda Uber Jar i ett Maven-projekt kan du läsa artikeln [Använda Uber jar](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions) och inkludera följande beroende i projektstrukturen:
+Om du vill använda Uber Jar i ett Maven-projekt ska du läsa [Så här använder du Uber Jar](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions) och ta med följande beroende i ditt projekt-POM:
 
 ```TXT
 <dependency>
@@ -1954,7 +1954,7 @@ I det här avsnittet listas funktioner som har tagits bort eller tagits bort fr�
 
 | Område | Funktion | Ersättning | Version |
 |----|-----|-----|-----|
-| Integrering med Assets och Adobe Creative Cloud | [AEM till mappdelning i Creative Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions) introducerades i AEM 6.2 som ett sätt att ge kreativa användare åtkomst till resurser från AEM. En ny funktion i Creative Cloud, Adobe Asset Link, ger en bättre användarupplevelse och kraftfullare åtkomst till AEM direkt inifrån Photoshop, InDesign och Illustrator.</br></br> Adobe gör inga fler förbättringar av mappdelningsfunktionen. Funktionen ingår i AEM, men kunderna rekommenderas att använda den. | Adobe Asset Link eller Desktop App. Mer information finns i artikeln [AEM integrering av Creative Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions). | AEM 6.3.3.x |
+| Integrering med Assets och Adobe Creative Cloud | [AEM till mappdelning i Creative Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions) introducerades i AEM 6.2 som ett sätt att ge kreativa användare åtkomst till resurser från AEM. En ny funktion i Creative Cloud, Adobe Asset Link, ger en bättre användarupplevelse. Det ger också kraftfullare åtkomst till material från AEM direkt inifrån Photoshop, InDesign och Illustrator.</br></br> Adobe gör inga fler förbättringar av mappdelningsfunktionen. Funktionen ingår i AEM, men kunderna rekommenderas att använda den. | Adobe Asset Link eller Desktop App. Mer information finns i artikeln [AEM Creative Cloud integration](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions). | AEM 6.3.3.x |
 
 ## OSGi-paket och innehållspaket som ingår {#osgi-bundles-and-content-packages-included-1}
 
@@ -1971,4 +1971,4 @@ Följande textdokument innehåller en lista över de OSGi-paket och innehållspa
 >* [AEM 6.3 versionsinformation](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions)
 >* [AEM produktsida](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)
 >* [AEM 6.3-dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions)
->* Prenumerera på [produktuppdateringar med Adobe prioritet](https://www.adobe.com/subscription/priority-product-update.html)
+>* Prenumerera på [Adobe Priority-produktuppdateringar](https://www.adobe.com/subscription/priority-product-update.html)
