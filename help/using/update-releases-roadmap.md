@@ -2,9 +2,9 @@
 title: "[!DNL Adobe Experience Manager] släpper färdplan"
 description: "[!DNL Adobe Experience Manager] släpper färdplan"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 7a300dffbb161c37e8c88712ff4f3681ceb93a65
+source-git-commit: c53f3d28c02939b953a1b817314399ba399b8041
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,15 @@ De kommande versionerna för [!DNL Experience Manager] som en [!DNL Cloud Servic
 | Funktionsversion [2024.5.0](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/2024/release-notes-2024-5-0) | Aktivering av funktioner | 30 maj 2024 | Aktiverad |
 | Underhållsutgåva [16544](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-6-0#release-16544) | Automatisk uppdatering | 10-12 juni 2024 | Uppdaterat |
 | Underhållsutgåva [16799](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-6-0#release-16799) | Automatisk uppdatering | 24-26 juni 2024 | Uppdaterat |
-| Funktionsversion [2024.6.0](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) | Aktivering av funktioner | 27 juni 2024 | Aktiverad |
+| Funktionsversion [2024.6.0](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/2024/release-notes-2024-6-0) | Aktivering av funktioner | 27 juni 2024 | Aktiverad |
 | Underhållsutgåva [16971](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-7-0#release-16971) | Automatisk uppdatering | 8-10 juli 2024 | Uppdaterat |
+| Underhållsutgåva [17098](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Automatisk uppdatering | 22-24 juli 2024 | Uppdaterat |
+| Funktionsversion [2024.7.0](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) | Aktivering av funktioner | 25 juli 2024 | Aktiverad |
 
 ### Kommande versioner {#upcoming}
 
 | Frigör | Händelse | Schema | Status |
 |---|---|---|---|
-| Underhållsutgåva [17098](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Automatisk uppdatering | 22-24 juli 2024 | Mål |
-| Feature Release 2024.7.0 | Aktivering av funktioner | 25 juli 2024 | Mål |
 | Underhållsrelease | Automatisk uppdatering | 5-7 augusti 2024 | Mål |
 | Underhållsrelease | Automatisk uppdatering | 19-21 augusti 2024 | Mål |
 | Feature Release 2024.8.0 | Aktivering av funktioner | 29 augusti 2024 | Mål |
