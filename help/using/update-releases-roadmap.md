@@ -2,9 +2,9 @@
 title: "[!DNL Adobe Experience Manager] släpper färdplan"
 description: "[!DNL Adobe Experience Manager] släpper färdplan"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: c53f3d28c02939b953a1b817314399ba399b8041
+source-git-commit: ef01ba25b04e890eb58c59dff08e677ecbce6cf1
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,13 @@ De kommande versionerna för [!DNL Experience Manager] som en [!DNL Cloud Servic
 
 | Frigör | Händelse | Schema | Status |
 |---|---|---|---|
-| Underhållsrelease | Automatisk uppdatering | 5-7 augusti 2024 | Mål |
-| Underhållsrelease | Automatisk uppdatering | 19-21 augusti 2024 | Mål |
-| Feature Release 2024.8.0 | Aktivering av funktioner | 29 augusti 2024 | Mål |
-| Underhållsrelease | Automatisk uppdatering | 2-4 september 2024 | Mål |
-| Underhållsrelease | Automatisk uppdatering | 16-18 september 2024 | Mål |
-| Feature Release 2024.9.0 | Aktivering av funktioner | 26 september 2024 | Mål |
+
+| Underhållsutgåva [17258](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest#release-17258)|Automatisk uppdatering|5-7 augusti 2024|Mål|
+| Underhållsrelease|Automatisk uppdatering|19-21 augusti 2024|Mål|
+| Feature Release 2024.8.0 |Aktivering av funktioner|29 augusti 2024 |Mål|
+| Underhållsrelease|Automatisk uppdatering|2-4 september 2024|Mål|
+| Underhållsrelease|Automatisk uppdatering|16-18 september 2024|Mål|
+| Feature Release 2024.9.0 |Aktivering av funktioner|26 september 2024 |Mål|
 
 ## [!DNL Experience Manager] Lokal och Managed Services {#aem-on-prem-managed-services}
 
