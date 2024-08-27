@@ -2,9 +2,9 @@
 title: "[!DNL Adobe Experience Manager] släpper färdplan"
 description: "[!DNL Adobe Experience Manager] släpper färdplan"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 8283fce635bbd46a877047ed4fd89bab5c18a180
+source-git-commit: 554160056b91f09616c923fbd3d8244e3ea1b190
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Produktuppdateringar med nya funktioner, förbättringar och felkorrigeringar f�
 
 ### [!DNL Experience Manager] 6.5 {#aem65}
 
-[!DNL Experience Manager] 6.5 produktuppdateringar levereras via kvartalsvisa Service Packs. Det gäller nya funktioner, förbättringar och felkorrigeringar. Mer information om det senaste släppta Service Pack-versionen finns i [[!DNL Experience Manager] 6.5 versionsinformation för Service Pack](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
+[!DNL Experience Manager] 6.5 produktuppdateringar levereras via Service Packs. Det gäller nya funktioner, förbättringar och felkorrigeringar. Mer information om det senaste släppta Service Pack-versionen finns i [[!DNL Experience Manager] 6.5 versionsinformation för Service Pack](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
 
 | Frigör | Version | Typ | Schema | Status |
 |---|---|---|---|---|
@@ -63,6 +63,10 @@ Produktuppdateringar med nya funktioner, förbättringar och felkorrigeringar f�
 | [!DNL Experience Manager] 6.5 [Service Pack 20](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/service-pack/6-5-20) | 6.5.20.0 | Service Pack | 22 februari 2024 | Aktiverad |
 | [!DNL Experience Manager] 6.5 [Service Pack 21](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes) | 6.5.21.0 | Service Pack | 6 juni 2024 | Aktiverad |
 | [!DNL Experience Manager] 6.5 Service Pack 22 | 6.5.22.0 | Service Pack | 21 november 2024 | Mål |
+
+>[!NOTE]
+>
+> Lanseringsdatumen för AEM 6.5 Service Pack kommer nu att planeras separat, i stället för på de fasta kvartalsvisa cyklerna som tidigare. Håll dig informerad om kommande Service Pack-versioner på den här sidan.
 
 >[!NOTE]
 >
