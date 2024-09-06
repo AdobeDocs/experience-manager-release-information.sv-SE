@@ -3,9 +3,9 @@ title: Tidigare dokumentationsuppdateringar
 description: Läs mer om äldre viktiga dokumentationsändringar och uppdateringar för  [!DNL Adobe Experience Manager].
 contentOwner: alvawb
 exl-id: e68cdadf-43c1-47d9-99cf-420d582cb575
-source-git-commit: 2aac500e8b094977f5431d213dbe658f5ff58729
+source-git-commit: 617da2f08f7ae168f57b90517a4feb6be5145075
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
   <tr>
    <td>10 oktober 2019</td> 
    <td>Cloud Manager</td> 
-   <td><p>Cloud Manager version 2019.10.0 släpptes den 10 oktober 2019.</p> <p>Se <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/release-notes/2019/2019-10-0">Versionsinformation för 2019.10.0</a> som visar <i>Nyheter</i> och uppdateringar om distributionssteg och versionshantering för maven-projekt.<br /> </p> </td> 
+   <td><p>Cloud Manager 2019.10.0 släpptes 10 oktober 2019.</p> <p>Se <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/release-notes/rn-2019/2019-10-0">Versionsinformation för 2019.10.0</a> som visar <i>Nyheter</i> och uppdateringar om distributionssteg och versionshantering för maven-projekt.<br /> </p> </td> 
   </tr>
   <tr>
    <td>8 oktober 2019</td> 
@@ -237,7 +237,7 @@ På den här sidan visas äldre viktiga dokumentationsändringar och uppdatering
 
 ## Äldre innehåll {#legacy-content}
 
-Från och med den 1 maj 2023 har äldre versioner av AEM flyttats till en ny plats på [Äldre versioner av Adobe Experience Manager, CQ och CRX](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions).
+Från och med 1 maj 2023 har äldre versioner av AEM flyttats till en ny plats på [Äldre versioner av Adobe Experience Manager, CQ och CRX](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions).
 
 Följande versioner har flyttats:
 
