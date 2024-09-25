@@ -2,9 +2,9 @@
 title: "[!DNL Adobe Experience Manager] släpper färdplan"
 description: "[!DNL Adobe Experience Manager] släpper färdplan"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: ef4bfe03707b2ae76899adab06e093e0df21fa52
+source-git-commit: dd035a73bbb70bf5067b15b39cd49472d3a34481
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -40,14 +40,14 @@ De kommande versionerna för [!DNL Experience Manager] som en [!DNL Cloud Servic
 | Underhållsutgåva [17465](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-8-0#release-17465) | Automatisk uppdatering | 19-21 augusti 2024 | Uppdaterat |
 | Funktionsversion [2024.8.0](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) | Aktivering av funktioner | 29 augusti 2024 | Aktiverad |
 | Underhållsutgåva [17569](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-9-0#release-17569) | Automatisk uppdatering | 2-4 september 2024 | Uppdaterat |
+| Underhållsutgåva [17689](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-9-0#release-17689) | Automatisk uppdatering | 16-18 september 2024 | Uppdaterat |
 
 ### Kommande versioner {#upcoming}
 
 | Frigör | Händelse | Schema | Status |
 |---|---|---|---|
-| Underhållsutgåva [17689](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Automatisk uppdatering | 16-18 september 2024 | Mål |
 | Feature Release 2024.9.0 | Aktivering av funktioner | 26 september 2024 | Mål |
-| Underhållsrelease | Automatisk uppdatering | 30 september - 2 oktober 2024 | Mål |
+| Underhållsutgåva [17964](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Automatisk uppdatering | 30 september - 2 oktober 2024 | Mål |
 | Underhållsrelease | Automatisk uppdatering | 14-16 oktober 2024 | Mål |
 | Underhållsrelease | Automatisk uppdatering | 28-30 oktober 2024 | Mål |
 | Feature Release 2024.10.0 | Aktivering av funktioner | 31 oktober 2024 | Mål |
