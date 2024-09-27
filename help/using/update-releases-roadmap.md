@@ -2,7 +2,7 @@
 title: "[!DNL Adobe Experience Manager] släpper färdplan"
 description: "[!DNL Adobe Experience Manager] släpper färdplan"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 9b7f56179e06a291fa9095e0b5718aacda10d60b
+source-git-commit: 0a01342f5510d13dde08e2908070278adefe8b94
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -51,8 +51,8 @@ De kommande versionerna för [!DNL Experience Manager] som en [!DNL Cloud Servic
 | Underhållsrelease | Automatisk uppdatering | 14-16 oktober 2024 | Mål |
 | Underhållsrelease | Automatisk uppdatering | 28-30 oktober 2024 | Mål |
 | Feature Release 2024.10.0 | Aktivering av funktioner | 31 oktober 2024 | Mål |
-| Feature Release 2024.11.0 | Aktivering av funktioner | 11 november 2024 | Mål |
 | Underhållsrelease | Automatisk uppdatering | 11-13 november 2024 | Mål |
+| Feature Release 2024.11.0 | Aktivering av funktioner | 21 november 2024 | Mål |
 | Feature Release 2024.12.0 | Aktivering av funktioner | 12 december 2024 | Mål |
 
 >[!CAUTION]
