@@ -2,9 +2,9 @@
 title: "[!DNL Adobe Experience Manager] släpper färdplan"
 description: "[!DNL Adobe Experience Manager] släpper färdplan"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 46de4fbe4ead1aaa501b162b68f38b3d90fb0789
+source-git-commit: 43a49d554a43b8f6959ca92c01732c8e6f534f3e
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -27,12 +27,6 @@ De kommande versionerna för [!DNL Experience Manager] som en [!DNL Cloud Servic
 
 | Frigör | Händelse | Schema | Status |
 |---|---|---|---|
-| Underhållsutgåva [16145](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-5-0#release-16145) | Automatisk uppdatering | 6-8 maj 2024 | Uppdaterat |
-| Underhållsutgåva [16461](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-5-0#release-16461) | Automatisk uppdatering | 27 maj-3 juni 2024 | Uppdaterat |
-| Funktionsversion [2024.5.0](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/2024/release-notes-2024-5-0) | Aktivering av funktioner | 30 maj 2024 | Aktiverad |
-| Underhållsutgåva [16544](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-6-0#release-16544) | Automatisk uppdatering | 10-12 juni 2024 | Uppdaterat |
-| Underhållsutgåva [16799](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-6-0#release-16799) | Automatisk uppdatering | 24-26 juni 2024 | Uppdaterat |
-| Funktionsversion [2024.6.0](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/2024/release-notes-2024-6-0) | Aktivering av funktioner | 27 juni 2024 | Aktiverad |
 | Underhållsutgåva [16971](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-7-0#release-16971) | Automatisk uppdatering | 8-10 juli 2024 | Uppdaterat |
 | Underhållsutgåva [17098](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-7-0#release-17098) | Automatisk uppdatering | 22-24 juli 2024 | Uppdaterat |
 | Funktionsversion [2024.7.0](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/2024/release-notes-2024-7-0) | Aktivering av funktioner | 25 juli 2024 | Aktiverad |
@@ -43,13 +37,13 @@ De kommande versionerna för [!DNL Experience Manager] som en [!DNL Cloud Servic
 | Underhållsutgåva [17689](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-9-0#release-17689) | Automatisk uppdatering | 16-18 september 2024 | Uppdaterat |
 | Funktionsversion [2024.9.0](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) | Aktivering av funktioner | 26 september 2024 | Aktiverad |
 | Underhållsutgåva [17964](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-10-0#release-17964) | Automatisk uppdatering | 30 september - 2 oktober 2024 | Uppdaterat |
+| Underhållsutgåva [18175](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-10-0#release-18175) | Automatisk uppdatering | 14-16 oktober 2024 | Uppdaterat |
 
 ### Kommande versioner {#upcoming}
 
 | Frigör | Händelse | Schema | Status |
 |---|---|---|---|
-| Underhållsutgåva [18099](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Automatisk uppdatering | 14-16 oktober 2024 | Mål |
-| Underhållsrelease | Automatisk uppdatering | 28-30 oktober 2024 | Mål |
+| Underhållsutgåva [18311](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Automatisk uppdatering | 28-30 oktober 2024 | Mål |
 | Feature Release 2024.10.0 | Aktivering av funktioner | 31 oktober 2024 | Mål |
 | Underhållsrelease | Automatisk uppdatering | 11-13 november 2024 | Mål |
 | Feature Release 2024.11.0 | Aktivering av funktioner | 21 november 2024 | Mål |
