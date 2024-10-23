@@ -2,9 +2,9 @@
 title: "[!DNL Adobe Experience Manager] släpper färdplan"
 description: "[!DNL Adobe Experience Manager] släpper färdplan"
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 43a49d554a43b8f6959ca92c01732c8e6f534f3e
+source-git-commit: 139cdaab2d3d0a7d47809538501a92d13ba4dfdb
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 [!DNL Experience Manager] som [!DNL Cloud Service] nya funktioner levereras via en [månadsvis funktionsaktivering](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current), medan förbättringar och felkorrigeringar levereras två gånger i månaden via [underhållsutgåvor](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest).
 De kommande versionerna för [!DNL Experience Manager] som en [!DNL Cloud Service] planeras enligt följande:
 
-### Tidigare versioner {#past}
+### Senaste [!DNL Cloud Service] releaser {#past}
 
 | Frigör | Händelse | Schema | Status |
 |---|---|---|---|
@@ -39,7 +39,7 @@ De kommande versionerna för [!DNL Experience Manager] som en [!DNL Cloud Servic
 | Underhållsutgåva [17964](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-10-0#release-17964) | Automatisk uppdatering | 30 september - 2 oktober 2024 | Uppdaterat |
 | Underhållsutgåva [18175](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2024/2024-10-0#release-18175) | Automatisk uppdatering | 14-16 oktober 2024 | Uppdaterat |
 
-### Kommande versioner {#upcoming}
+### Kommande [!DNL Cloud Service] versioner {#upcoming}
 
 | Frigör | Händelse | Schema | Status |
 |---|---|---|---|
@@ -68,7 +68,6 @@ Produktuppdateringar med nya funktioner, förbättringar och felkorrigeringar f�
 
 | Frigör | Version | Typ | Schema | Status |
 |---|---|---|---|---|
-| [!DNL Experience Manager] 6.5 [Service Pack 18](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/service-pack/6-5-18) | 6.5.18.0 | Service Pack | 24 augusti 2023 | Aktiverad |
 | [!DNL Experience Manager] 6.5 [Service Pack 19](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/service-pack/6-5-19) | 6.5.19.0 | Service Pack | 30 november 2023 | Aktiverad |
 | [!DNL Experience Manager] 6.5 [Service Pack 20](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/service-pack/6-5-20) | 6.5.20.0 | Service Pack | 22 februari 2024 | Aktiverad |
 | [!DNL Experience Manager] 6.5 [Service Pack 21](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes) | 6.5.21.0 | Service Pack | 6 juni 2024 | Aktiverad |
