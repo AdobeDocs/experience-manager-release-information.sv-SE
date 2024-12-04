@@ -1,10 +1,10 @@
 ---
-title: "[!DNL Adobe Experience Manager] släpper färdplan"
-description: "[!DNL Adobe Experience Manager] släpper färdplan"
+title: '[!DNL Adobe Experience Manager] släpper färdplan'
+description: '[!DNL Adobe Experience Manager] släpper färdplan'
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 657fecf2d8df9bdf5f50daa63aadc42a828218ef
+source-git-commit: db8324576d462426bddec6a90cb67d03805ac478
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -62,11 +62,11 @@ De kommande versionerna för [!DNL Experience Manager] som en [!DNL Cloud Servic
 
 ## [!DNL Experience Manager] Lokal och Managed Services {#aem-on-prem-managed-services}
 
-Produktuppdateringar med nya funktioner, förbättringar och felkorrigeringar för [!DNL Experience Manager] på plats och Managed Services som stöds levereras via kvartalsvisa Service Packs och Cumulative Fix Packs (CFP). Det gör det möjligt att snabbare ta till sig produktuppdateringar genom ofta förekommande releaser. Schemat för kommande produktuppdateringar är följande.
+Produktuppdateringar med nya funktioner, förbättringar och felkorrigeringar för [!DNL Experience Manager] på plats och Managed Services som stöds levereras via Service Packs och Cumulative Fix Packs (CFP). Det gör det möjligt att snabbare ta till sig produktuppdateringar genom ofta förekommande releaser. Schemat för kommande produktuppdateringar är följande.
 
 ### [!DNL Experience Manager] 6.5 {#aem65}
 
-[!DNL Experience Manager] 6.5 produktuppdateringar levereras via kvartalsvisa Service Packs. Det gäller nya funktioner, förbättringar och felkorrigeringar. Mer information om det senaste släppta Service Pack-versionen finns i [[!DNL Experience Manager] 6.5 versionsinformation för Service Pack](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
+[!DNL Experience Manager] 6.5 produktuppdateringar levereras via Service Packs. Det gäller nya funktioner, förbättringar och felkorrigeringar. Mer information om det senaste släppta Service Pack-versionen finns i [[!DNL Experience Manager] 6.5 versionsinformation för Service Pack](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
 
 | Frigör | Version | Typ | Schema | Status |
 |---|---|---|---|---|
