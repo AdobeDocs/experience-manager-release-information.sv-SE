@@ -3,7 +3,7 @@ title: AEM Forms-versioner
 description: Läs mer om alla AEM Forms-utgåvor och motsvarande paket.
 contentOwner: khsingh
 exl-id: 65cb9c6b-fb3f-4bf1-aa42-2d724914439a
-source-git-commit: eb67b512739390912f148199be2f082bdcaef6d5
+source-git-commit: 1c00252ff9c14591369cbddf0c24ef2134990c7e
 workflow-type: tm+mt
 source-wordcount: '3159'
 ht-degree: 0%
@@ -67,7 +67,7 @@ The following list contains all the AEM [!DNL Forms] add-in packages released un
       <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/Designer-Patch/sp22_x64/Designer6.5.0_Spanish_Cumulative_QF.msp">Språkinstallationsprogram för spanska</a> </li>
       </ul> 
       </td>
-    <td><p>AEM Forms JEE patch installer: 6.5.0-00891 <br/><p>AEM Forms Packages-tillägg: 6.0.1328 <br/></p><p>AEM Forms-kompatibilitetspaket: 2.0.50 </td>
+    <td><p>AEM Forms JEE patch installer: 6.5.0-0093 <br/><p>AEM Forms Packages-tillägg: 6.0.1328 <br/></p><p>AEM Forms-kompatibilitetspaket: 2.0.50 </td>
    </tr>
   <tr>
     <td>13 juni 2024</td>
@@ -460,7 +460,7 @@ The following list contains all the AEM [!DNL Forms] add-in packages released un
       <br><b>SDK</b></br>
       <li><a href="https://mvnrepository.com/artifact/com.adobe.aemfd/aemfd-client-sdk">AEM Forms Client SDK</a></li>
      </ul> </td>
-    <td><p>AEM Forms JEE-installationsprogram: AEMForms-6.5.0-0037<br /> </p> AEM Forms Packages-tillägg: 6.0.566</p> <p>Klient-SDK: 6.0.566<br /></td>
+    <td><p>AEM Forms JEE-installationsprogram: AEMForms-6.5.0-0037<br /> </p> AEM Forms Packages-tillägg: 6.0.566</p> <p>Client SDK: 6.0.566<br /></td>
    </tr>
    <tr>
    <tr>
@@ -488,7 +488,7 @@ The following list contains all the AEM [!DNL Forms] add-in packages released un
       <br><b>SDK</b></br>
       <li><a href="https://mvnrepository.com/artifact/com.adobe.aemfd/aemfd-client-sdk">AEM Forms Client SDK</a></li>
      </ul> </td>
-    <td><p>AEM Forms JEE-installationsprogram: AEMForms-6.5.0-0032<br /> </p> AEM Forms Packages-tillägg: 6.0.490</p> <p>Klient-SDK: 6.0.490<br /> </p><p>AEM Forms-kompatibilitetspaket: 2.0.40</p><p>AEM Forms Designer Patch: 650.017</p><p>AEM Forms on JEE embed package: 5.0.18</p></td>
+    <td><p>AEM Forms JEE-installationsprogram: AEMForms-6.5.0-0032<br /> </p> AEM Forms Packages-tillägg: 6.0.490</p> <p>Client SDK: 6.0.490<br /> </p><p>AEM Forms-kompatibilitetspaket: 2.0.40</p><p>AEM Forms Designer Patch: 650.017</p><p>AEM Forms on JEE embed package: 5.0.18</p></td>
    </tr>
    <tr>
     <td>3 juni 2021</td>
@@ -514,7 +514,7 @@ The following list contains all the AEM [!DNL Forms] add-in packages released un
       <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/aemforms-6-5-0-0028/websphere/aix/AEMForms-6.5.0-0028_websphere_aix.tar.gz">WebSphere® AIX®</a></li>
       <li>AEM Forms Client SDK [1]</li>  
      </ul> </td>
-    <td><p>AEM Forms JEE-installationsprogram: AEMForms-6.5.0-0028<br /> </p> AEM Forms Packages-tillägg: 6.0.434</p> <p>Klient-SDK: 6.0.434<br /> </p><p>AEM Forms Workbench: 6.5.0.20210524.1.938669</p><p>AEM Forms on JEE embed package: 5.0.14</p></td>
+    <td><p>AEM Forms JEE-installationsprogram: AEMForms-6.5.0-0028<br /> </p> AEM Forms Packages-tillägg: 6.0.434</p> <p>Client SDK: 6.0.434<br /> </p><p>AEM Forms Workbench: 6.5.0.20210524.1.938669</p><p>AEM Forms on JEE embed package: 5.0.14</p></td>
    </tr>
    <tr>
     <td>18 mars 2021</td>
@@ -540,7 +540,7 @@ The following list contains all the AEM [!DNL Forms] add-in packages released un
       <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEMForms-6-5-0-0025/WebSphere/AIX/AEMForms-6.5.0-0025_websphere_aix.tar.gz">WebSphere® AIX®</a></li>
       <li>AEM Forms Client SDK [1]</li>  
      </ul> </td>
-    <td><p>AEM Forms JEE-installationsprogram: AEMForms-6.5.0-0025<br /> </p> AEM Forms Packages-tillägg: 6.0.334</p> <p>AEM Forms-kompatibilitetspaket: 2.0.36</p><p>Klient-SDK: 6.0.334<br /> </p><p>AEM Forms Designer Patch: 650.014</p></td>
+    <td><p>AEM Forms JEE-installationsprogram: AEMForms-6.5.0-0025<br /> </p> AEM Forms Packages-tillägg: 6.0.334</p> <p>AEM Forms-kompatibilitetspaket: 2.0.36</p><p>Client SDK: 6.0.334<br /> </p><p>AEM Forms Designer Patch: 650.014</p></td>
    </tr>
    <tr>
    <tr>
@@ -567,7 +567,7 @@ The following list contains all the AEM [!DNL Forms] add-in packages released un
       <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEMForms-6-5-0-0020/Websphere/AIX/AEMForms-6.5.0-0020_websphere_aix.tar.gz">WebSphere® AIX®</a></li>
       <li>AEM Forms Client SDK [1]</li>  
      </ul> </td>
-    <td><p>AEM Forms JEE-installationsprogram: AEMForms-6.5.0-0020<br /> </p> AEM Forms Packages-tillägg: 6.0.234</p> <p>AEM Forms-kompatibilitetspaket: 2.0.32</p><p>Klient-SDK: 6.0.234<br /> </p></td>
+    <td><p>AEM Forms JEE-installationsprogram: AEMForms-6.5.0-0020<br /> </p> AEM Forms Packages-tillägg: 6.0.234</p> <p>AEM Forms-kompatibilitetspaket: 2.0.32</p><p>Client SDK: 6.0.234<br /> </p></td>
    </tr>
    <tr>
     <td>3 september 2020</td>
@@ -581,7 +581,7 @@ The following list contains all the AEM [!DNL Forms] add-in packages released un
       <li>AEM Forms Client SDK [1]</li>
       <li>AEM Forms JEE-installationsprogram [1]</li>
      </ul> </td>
-    <td><p>AEM Forms JEE-installationsprogram: 6.5.0-0018<br /> </p> AEM Forms Packages-tillägg: 6.0.192</p> <p>Klient-SDK: 6.0.192<br /> </p> <p>AEM Forms Designer Patch: 650.012<br /> </p> </td>
+    <td><p>AEM Forms JEE-installationsprogram: 6.5.0-0018<br /> </p> AEM Forms Packages-tillägg: 6.0.192</p> <p>Client SDK: 6.0.192<br /> </p> <p>AEM Forms Designer Patch: 650.012<br /> </p> </td>
    </tr>
    <tr>
     <td>4 juni 2020</td>
@@ -595,7 +595,7 @@ The following list contains all the AEM [!DNL Forms] add-in packages released un
       <li>AEM Forms Client SDK [1]</li>
       <li>AEM Forms JEE-installationsprogram [1]</li>
      </ul> </td>
-    <td><p>AEM Forms JEE-installationsprogram: 6.5.0-0014<br /> </p> <p>AEM Forms Packages-tillägg: 6.0.160</p> <p>Klient-SDK: 6.0.160<br /> </p> <p>AEM Forms Designer Patch: 650.008<br /> </p> </td>
+    <td><p>AEM Forms JEE-installationsprogram: 6.5.0-0014<br /> </p> <p>AEM Forms Packages-tillägg: 6.0.160</p> <p>Client SDK: 6.0.160<br /> </p> <p>AEM Forms Designer Patch: 650.008<br /> </p> </td>
    </tr>
    <tr>
     <td>5 mars 2020</td>
@@ -611,7 +611,7 @@ The following list contains all the AEM [!DNL Forms] add-in packages released un
       <li>AEM Forms Client SDK [1]</li>
       <li>AEM Forms JEE-installationsprogram [1]</li>
      </ul> </td>
-    <td><p>AEM Forms JEE-installationsprogram: 6.5.0-0011<br /> </p> <p>AEM Forms-kompatibilitetspaket: 2.0.26<br /> AEM Forms-paket, tillägg: 6.0.138</p> <p>Klient-SDK: 6.0.136<br /> </p> <p>AEM Forms Workbench: 6.5.0.2019119.1.935956<br /> </p> </td>
+    <td><p>AEM Forms JEE-installationsprogram: 6.5.0-0011<br /> </p> <p>AEM Forms-kompatibilitetspaket: 2.0.26<br /> AEM Forms-paket, tillägg: 6.0.138</p> <p>Client SDK: 6.0.136<br /> </p> <p>AEM Forms Workbench: 6.5.0.2019119.1.935956<br /> </p> </td>
    </tr>
    <tr>
     <td>12 december 2019</td>
@@ -627,7 +627,7 @@ The following list contains all the AEM [!DNL Forms] add-in packages released un
       <li>AEM Forms Client SDK [1]</li>
       <li>AEM Forms JEE-installationsprogram [1]</li>
      </ul> </td>
-    <td><p>AEM Forms JEE-installationsprogram: 6.5.0-0007</p> <p>AEM Forms-kompatibilitetspaket: 2.0.26</p> <p>AEM Forms Packages-tillägg och klient-SDK: 6.0.122</p> <p>AEM Forms Workbench: 6.5.0.2019119.1.935956</p> </td>
+    <td><p>AEM Forms JEE-installationsprogram: 6.5.0-0007</p> <p>AEM Forms-kompatibilitetspaket: 2.0.26</p> <p>AEM Forms Packages-tillägg och Client SDK: 6.0.122</p> <p>AEM Forms Workbench: 6.5.0.2019119.1.935956</p> </td>
    </tr>
    <tr>
     <td>19 september 2019</td>
@@ -643,7 +643,7 @@ The following list contains all the AEM [!DNL Forms] add-in packages released un
       <li>AEM Forms Client SDK [1]</li>
       <li>AEM Forms JEE-installationsprogram<sup> [1]</sup></li>
      </ul> </td>
-    <td><p>AEM Forms JEE-installationsprogram: 6.5.0-0004_3</p> <p>AEM Forms-kompatibilitetspaket: 2.0.22</p> <p>AEM Forms Packages-tillägg och klient-SDK: 6.0.106</p> <p>AEM Forms Workbench: 6.5.0.20190917.1.337048</p> </td>
+    <td><p>AEM Forms JEE-installationsprogram: 6.5.0-0004_3</p> <p>AEM Forms-kompatibilitetspaket: 2.0.22</p> <p>AEM Forms Packages-tillägg och Client SDK: 6.0.106</p> <p>AEM Forms Workbench: 6.5.0.20190917.1.337048</p> </td>
    </tr>
    <tr>
     <td>3 juli 2019</td>
@@ -677,7 +677,7 @@ The following list contains all the AEM [!DNL Forms] add-in packages released un
       <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/fd/AEM-FORMS-6.5-FSI-REF-SITE">AEM Forms FSI Reference Site Package</a></li>
       <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/fd/AEM-FORMS-6.5-GOV-REF-SITE">AEM Forms GOV Reference Site Package</a></li>
      </ul> </td>
-    <td><p>AEM Forms Packages-tillägg och klient-SDK: 6.0.80</p> <p>AEM WebSphere® Global Security Configuration Package: 6.5.0.20190329.1.935745</p> <p>AEM Forms App Source: 5.0.16</p> <p> </p> </td>
+    <td><p>AEM Forms Packages-tillägg och Client SDK: 6.0.80</p> <p>AEM WebSphere® Global Security Configuration Package: 6.5.0.20190329.1.935745</p> <p>AEM Forms App Source: 5.0.16</p> <p> </p> </td>
    </tr>
   </tbody>
  </table>
