@@ -2,9 +2,9 @@
 title: '[!DNL Adobe Experience Manager] släpper färdplan'
 description: '[!DNL Adobe Experience Manager] släpper färdplan'
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: c7dfe54cbb913afbf09ea38b9dcdeb9345362b8e
+source-git-commit: 11ecba7047019b1d4508bfb0926f7d0f7c526dcc
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -44,17 +44,12 @@ De kommande versionerna för [!DNL Experience Manager] som en [!DNL Cloud Servic
 | Underhållsrelease | Automatisk uppdatering | 24-26 februari 2025 | Mål |
 | Feature Release 2025.2.0 | Aktivering av funktioner | 27 februari 2025 | Mål |
 | Underhållsrelease | Automatisk uppdatering | 10-12 mars 2025 | Mål |
-| Underhållsrelease | Automatisk uppdatering | 24-26 mars 2025 | Mål |
 | Feature Release 2025.3.0 | Aktivering av funktioner | 27 mars 2025 | Mål |
-
->[!CAUTION]
->
->**Planerad undantagsperiod för underhåll**
->
-> Inget automatiskt AEMaaCS-underhåll kommer att utföras under följande tidsramar med början och slut vid midnatt (00:00) CET:
->
->* Måndagen den 25 november 2024 till tisdagen den 3 december 2024.
->* Måndagen den 16 december 2024 till fredag den 3 januari 2025.
+| Underhållsrelease | Automatisk uppdatering | 31 mars-2 april 2025 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 14-16 april 2025 | Mål |
+| Feature Release 2025.4.0 | Aktivering av funktioner | 24 april 2025 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 28-30 april 2025 | Mål |
+| Underhållsrelease | Automatisk uppdatering | 12-14 maj 2025 | Mål |
 
 ## [!DNL Experience Manager] Lokal och Managed Services {#aem-on-prem-managed-services}
 
