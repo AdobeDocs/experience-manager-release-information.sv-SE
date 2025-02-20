@@ -1,8 +1,9 @@
 ---
 title: Ladda ned äldre versioner av AEM, CQ och CRX dokumentation
 description: Ladda ned dokumentationspaket för äldre versioner av Adobe Experience Manager, CQ och CRX.
+recommendations: noCatalog
 exl-id: c210eadb-58ec-4d40-ba72-5e4b11564510
-source-git-commit: b599547324e6c750050801ee64b9602d5068e4ef
+source-git-commit: 21b1429ca747fdef9a2d1ffe441c86d07ae281c7
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 2%
@@ -11,11 +12,11 @@ ht-degree: 2%
 
 # Äldre versioner av [!DNL Adobe Experience Manager]-, CQ- och CRX-dokumentation {#older-versions-aem-cq-crx}
 
-Hitta tidigare hjälpguider för äldre versioner av AEM, CQ och CRX.
+Här hittar du guider för äldre versioner av AEM, CQ och CRX.
 
 ## Äldre versioner av [!DNL Experience Manager]-dokumentation {#older-version-aem-documentation}
 
-Versionerna av [!DNL Adobe Experience Manager], CQ och CRX på den här sidan är End of Life och säljs inte längre officiellt av Adobe. Adobe senaste versioner av officiell dokumentation för dessa äldre versioner finns att tillgå för självhjälp. Adobe rekommenderar att du uppgraderar till den senaste versionen - [[!DNL Adobe Experience Manager] as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service).
+Versionerna av [!DNL Adobe Experience Manager], CQ och CRX på den här sidan är End of Life och säljs inte längre officiellt av Adobe. Adobe senaste versioner av officiell dokumentation för dessa äldre versioner finns att tillgå för dina självhjälpsbehov. Adobe rekommenderar att du uppgraderar till den senaste versionen - [[!DNL Adobe Experience Manager] as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service).
 
 >[!NOTE]
 >
@@ -26,11 +27,11 @@ Versionerna av [!DNL Adobe Experience Manager], CQ och CRX på den här sidan ä
 Innan du laddar ned paketet bör du avgöra vem som förbrukar innehållet. Det här beslutet avgör hur det distribueras:
 
 * Utvecklare kan installera lokalt för snabb referens.
-* För större behov av organisationsdokumentation rekommenderar Adobe att paketet distribueras på en internt tillgänglig, icke-produktionsbaserad AEM Author-instans.
+* För större dokumentationsbehov rekommenderar Adobe att paketet distribueras på en internt tillgänglig, icke-produktionsbaserad AEM Author-instans.
 
 >[!NOTE]
 >
->Användare måste vara inloggade i instansen [!DNL Experience Manager] för att komma åt det här innehållet på författaren till [!DNL Experience Manager]. Det här innehållet är inte tillgängligt som standard på AEM Publish (som det finns under /libs).
+>Användare måste vara inloggade i instansen [!DNL Experience Manager] för att komma åt det här innehållet på författaren till [!DNL Experience Manager]. Det här innehållet är inte tillgängligt som standard i AEM Publish (som det finns under /libs).
 
 ## Platser för programdistribution {#software-distribution-locations}
 
@@ -62,7 +63,7 @@ Om du vill installera ett äldre dokumentationspaket måste du ha [!DNL Experien
 
 ### Hämta dokumentationspaketet {#download-documentation-package}
 
-1. I tabellen ovan väljer du länken för den [!DNL Experience Manager]-dokumentationsversion som ska hämtas. AEM 5.6.1.
+1. I tabellen ovan väljer du länken för den [!DNL Experience Manager]-dokumentationsversion som ska hämtas. Exempel: AEM 5.6.1.
 
 1. Logga in med din Adobe ID. Om du inte har något ID skapar du ett.
 
@@ -76,7 +77,7 @@ Om du vill installera ett äldre dokumentationspaket måste du ha [!DNL Experien
 
 >[!NOTE]
 >
->För AEM 6.2 kan du starta den lokala instansen med en ökad maxheap-storlek med det här kommandot, till exempel: ` java -jar -XX:MaxPermSize=2048m aem-author.jar`
+>För AEM 6.2 startar du den lokala instansen med en ökad maxstackstorlek genom att använda det här kommandot, till exempel: ` java -jar -XX:MaxPermSize=2048m aem-author.jar`
 
 1. Öppna användargränssnittet för [!DNL Experience Manager]. Ange `http://localhost:4502/` i en webbläsare. Logga in som administratör.
 
@@ -84,7 +85,7 @@ Om du vill installera ett äldre dokumentationspaket måste du ha [!DNL Experien
 
 1. Välj **[!UICONTROL Upload Package]** i pakethanterarens användargränssnitt.
 
-1. Bläddra till den plats där du hämtade AEM.
+1. Bläddra till den plats där du hämtade AEM-paketet.
 
 1. Markera paketet och klicka på **[!UICONTROL OK]**.
 
@@ -94,7 +95,7 @@ Om du vill installera ett äldre dokumentationspaket måste du ha [!DNL Experien
 
 1. Välj **[!UICONTROL Install]** igen i bekräftelsedialogrutan. Installationen tar några minuter.
 
-1. Starta dokumentationssidan i en webbläsare. Med hjälp av AEM 5.6.1 blir URL:en: http://localhost:4502/libs/aem-docs/content/en/cq/5-6-1.html.
+1. Starta dokumentationssidan i en webbläsare. Med hjälp av AEM 5.6.1-exemplet blir URL:en: http://localhost:4502/libs/aem-docs/content/en/cq/5-6-1.html.
 
 ## Få hjälp från communityn [!DNL Experience Manager] {#get-help-from-aem-community}
 
