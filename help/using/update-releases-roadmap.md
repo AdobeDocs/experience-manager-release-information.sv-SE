@@ -2,7 +2,7 @@
 title: '[!DNL Adobe Experience Manager] släpper färdplan'
 description: '[!DNL Adobe Experience Manager] släpper färdplan'
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: 0e7ee37bb33347b968a9ece5d0d880d860d20ab1
+source-git-commit: 753ed2e44a1af21917f28c0ef33c478346e9d1f4
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -42,7 +42,7 @@ De kommande versionerna för [!DNL Experience Manager] som en [!DNL Cloud Servic
 | Frigör | Händelse | Schema | Status |
 |---|---|---|---|
 | Underhållsutgåva [19586](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Automatisk uppdatering | 24-26 februari 2025 | Mål |
-| Feature Release 2025.2.0 | Aktivering av funktioner | 27 februari 2025 | Mål |
+| Feature Release 2025.2.0 | Aktivering av funktioner | 4 mars 2025 | Mål |
 | Underhållsrelease | Automatisk uppdatering | 10-12 mars 2025 | Mål |
 | Feature Release 2025.3.0 | Aktivering av funktioner | 27 mars 2025 | Mål |
 | Underhållsrelease | Automatisk uppdatering | 31 mars-2 april 2025 | Mål |
