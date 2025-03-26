@@ -1,11 +1,11 @@
 ---
-title: "[!DNL Adobe Experience Manager] släpper uppdateringar"
-description: "[!DNL Adobe Experience Manager] släpper uppdateringar"
+title: '[!DNL Adobe Experience Manager] uppdateringar'
+description: '[!DNL Adobe Experience Manager] uppdateringar'
 contentOwner: AK
 exl-id: 103e1c40-364e-450d-92d3-6b952e33d47c
-source-git-commit: 10cbece451b46e8d4dbf473d728a20994a5e42cd
+source-git-commit: 6a1200fcc366ec68118c1016a7321d8d16f354f7
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ![[!DNL Experience Manager] nya versioner](assets/new-aem-releases1.jpeg)
 
-[!DNL Adobe Experience Manager] släpper kontinuerliga uppdateringar som innehåller funktioner, förbättringar och felkorrigeringar för [!DNL Cloud Service]s, Adobe Managed Services och lokalerbjudanden.
+[!DNL Adobe Experience Manager] släpper kontinuerliga uppdateringar med funktioner, förbättringar och felkorrigeringar för sina [!DNL Cloud Service]s-, Adobe Managed Services- och lokalerbjudanden.
 
 I den här artikeln listas den senaste versionen för varje versionskategori och du uppmanas att läsa dokumentationen för dessa versioner.
 
@@ -30,6 +30,13 @@ För Managed Services och lokalt installerade produkter listas den senaste kumul
 
 ### [!DNL Experience Manager] 6.5 {#aem-65}
 
-[!DNL Experience Manager] 6.5 produktuppdateringar levereras via kvartalsvisa servicepaket. Det gäller nya funktioner, förbättringar och felkorrigeringar.
+[!DNL Experience Manager] 6.5-produktuppdateringar levereras via halvårspaket med nya funktioner, förbättringar och felkorrigeringar.
 
 Information om den senaste versionen finns i [[!DNL Experience Manager] 6.5 Senaste funktionspaket](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes). Därifrån kan du även navigera till information om tidigare versioner (ordnade kronologiskt).
+
+### [!DNL Experience Manager] 6.5 LTS {#aem-65-lts}
+
+[!DNL Experience Manager] 6.5 LTS-produktuppdateringar levereras via kvartalsvisa servicepaket och innehåller nya funktioner, förbättringar och felkorrigeringar.
+
+Se [[!DNL Experience Manager] 6.5 LTS senaste funktionspaket](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/release-notes/release-notes?lang=en) för mer information om den aktuella/senaste versionen.
+
