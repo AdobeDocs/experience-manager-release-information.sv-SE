@@ -3,16 +3,16 @@ title: AEM Forms-versioner
 description: Läs mer om alla AEM Forms-utgåvor och motsvarande paket.
 contentOwner: khsingh
 exl-id: 65cb9c6b-fb3f-4bf1-aa42-2d724914439a
-source-git-commit: 1c00252ff9c14591369cbddf0c24ef2134990c7e
+source-git-commit: 42410da78ff4efcafa86893d907c800ee98c1b5f
 workflow-type: tm+mt
-source-wordcount: '3159'
+source-wordcount: '3226'
 ht-degree: 0%
 
 ---
 
 # AEM [!DNL Forms]-versioner {#aem-forms-releases}
 
-Adobe Experience Manager [!DNL Forms] är ett program som distribueras till AEM. Det förbättrar webb- och mobilupplevelsen för företagsformulär och dokument. Med den här funktionen kan organisationer slutföra komplexa digitala interaktioner, förbättra användarupplevelser och utöka sin affärsräckvidd. AEM [!DNL Forms], som är färdig, ingår i AEM snabbstart, men har en begränsad uppsättning funktioner. AEM [!DNL Forms]-tilläggspaketet innehåller avancerade funktioner som integrering med [!DNL Adobe Analytics], [!DNL Adobe Sign], dokumenttjänster, arbetsflödesmotor och många andra.
+Adobe Experience Manager [!DNL Forms] är ett program som distribueras till AEM. Det förbättrar webb- och mobilupplevelsen för företagsformulär och dokument. Med den här funktionen kan organisationer slutföra komplexa digitala interaktioner, förbättra användarupplevelser och utöka sin affärsräckvidd. AEM [!DNL Forms] ingår i AEM Quick Start, men har en begränsad uppsättning funktioner. AEM [!DNL Forms]-tilläggspaketet innehåller avancerade funktioner som integrering med [!DNL Adobe Analytics], [!DNL Adobe Sign], dokumenttjänster, arbetsflödesmotor och många andra.
 
 >[!NOTE]
 >
@@ -33,15 +33,30 @@ The following list contains all the AEM [!DNL Forms] add-in packages released un
   <tbody>
   <tr>
     <td><strong>Datum</strong></td>
-    <td><strong>AEM</strong></td>
+    <td><strong>AEM-blanketter</strong></td>
     <td><strong>Förutsättning</strong></td>
     <td><strong>Tillgängliga paket</strong></td>
     <td><strong>Skapa versioner</strong></td>
    </tr>
   </tr>
+   <tr>
+    <td>7 mars 2025</td>
+    <td><a href="https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/release-notes/release-notes">AEM 6.5 LTS Forms</a></td>
+    <td><a href="https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/release-notes/release-notes">AEM 6.5 LTS Forms</a></td>
+    <td>
+     <ul>
+     <br><b>AEM Forms 6.5 LTS on OSGi Full Installers</b></br>
+      <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/fd/adobe-aemfd-linux-pkg-6.1.152.zip">AEM Forms 6.5 LTS Add-on för Linux®</a></li>
+      <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/fd/adobe-aemfd-win-pkg-6.1.152.zip">AEM Forms 6.5 LTS-tillägg för Windows</a></li>
+      <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/fd/adobe-aemfd-osx-pkg-6.1.152.zip">AEM Forms 6.5 LTS Add-on for mac OSX</a></li>
+      <li><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/compatpack/adobe-aemfd-compat-pkg-2.1.2.zip">Kompatibilitetspaket för AEM Forms 6.5 LTS</a></li>
+      </ul> 
+      </td>
+    <td><p>AEM Forms 6.5 LTS-paket, tillägg: 6.1.152 <br/></p><p>Kompatibilitetspaket för AEM Forms 6.5 LTS: 2.1.2 </td>
+   </tr>
   <tr>
     <td>29 november 2024</td>
-    <td><a href="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes">AEM 6.5 Forms Service Pack 22 Forms tilläggspaket för AEM 6.5.22.0</a></td>
+    <td><a href="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes">AEM 6.5 Forms Service Pack 2 Forms tilläggspaket för AEM 6.5.22.0</a></td>
     <td><a href="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes">AEM 6.5.22.0</a></td>
     <td>
      <ul>
@@ -684,13 +699,13 @@ The following list contains all the AEM [!DNL Forms] add-in packages released un
 
 `[1]` Kontakta [Adobe Support](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support) om du vill ha installationsprogram för Workbench, Rights Management SDK, Portable Protection Library (PPL) och Enhanced PPL.
 
-`[2]` AEM [!DNL Forms]-tilläggspaket för macOS X stöds inte i produktionsmiljön och bör endast användas i demonstrationssyfte. Funktionen PDF Generator är inte tillgänglig för macOS X-paketet.
+`[2]` AEM [!DNL Forms]-tilläggspaket för macOS X stöds inte i produktionsmiljön och bör endast användas i demonstrationssyfte. PDF Generator-funktioner är inte tillgängliga för macOS X-paketet.
 
-`[3]` AEM [!DNL Forms] Kompatibilitetspaketet för 6.5.4.0 är fortfarande detsamma som i version 6.5.3.0.
+`[3]` AEM [!DNL Forms] Kompatibilitetspaket för 6.5.4.0 är fortfarande detsamma som i 6.5.3.0-versionen.
 
 ## Saker att komma ihåg {#things-to-remember}
 
-* De AEM Forms-paket som anges ovan gäller för både AEM [!DNL Forms] i OSGi och AEM [!DNL Forms] i JEE.
+* De AEM Forms-paket som anges ovan gäller både AEM [!DNL Forms] i OSGi och AEM [!DNL Forms] i JEE.
 * Alla AEM [!DNL Forms]-paket och snabbkorrigeringar är kumulativa, det vill säga ett paket och snabbkorrigering som innehåller alla föregående tillägg och snabbkorrigeringar för en komponent för motsvarande version. Om du till exempel installerar Quick Fix 2.4.50 innehåller den redan AEM [!DNL Forms]-tilläggspaketet 2.4.26.
 
   >[!NOTE]
@@ -698,5 +713,5 @@ The following list contains all the AEM [!DNL Forms] add-in packages released un
   >Kumulativa tilläggspaket och snabbkorrigeringar innebär att versionens två första nummer är identiska.
 
 * Installera alltid det senaste tillgängliga tillägget Service Pack/Feature Pack. Vi rekommenderar det eftersom det omfattar säkerhet, prestanda, stabilitet och viktiga kundkorrigeringar och förbättringar som har släppts sedan grundversionen blev allmänt tillgänglig.
-* När du installerar ett Service Pack eller uppgraderar från en tidigare version av AEM till en nyare version ska du alltid installera motsvarande AEM [!DNL Forms]-tilläggspaket. Om du till exempel uppgraderar från AEM 6.1 [!DNL Forms] tilläggspaket version 2.2.4 till AEM 6.1 Service Pack 1 installerar du AEM [!DNL Forms] tilläggspaket version 2.4.50 efter installation av AEM 6.1 Service Pack 1.
+* När du installerar ett Service Pack eller uppgraderar från en tidigare version av AEM till en nyare version ska du alltid installera motsvarande AEM [!DNL Forms]-tilläggspaket. Om du till exempel uppgraderar från AEM 6.1 [!DNL Forms] tilläggspaket 2.2.4 till AEM 6.1 Service Pack 1 installerar du AEM [!DNL Forms] tilläggspaket 2.4.50 när du har installerat AEM 6.1 Service Pack 1.
 * Avinstallation av AEM [!DNL Forms]-tilläggspaketet stöds inte.
