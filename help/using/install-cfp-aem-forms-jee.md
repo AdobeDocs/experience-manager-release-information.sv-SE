@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Utför följande steg för att installera det kumulativa korrigeringspaketet på AEM 6.3 [!DNL Forms JEE].
 
-1. Om du vill få installationsprogrammet för AEM 6.3 [!DNL Forms JEE] för CFP kontaktar du [Adobe Support](https://experienceleague.adobe.com/?support-solution=General&support-tab=home#support).
+1. Om du vill få installationsprogrammet för AEM 6.3 [!DNL Forms JEE] för CFP kontaktar du [Adobe Support](https://experienceleague.adobe.com/sv?support-solution=General&support-tab=home#support).
 1. Kör CFP-installationsprogrammet och konfigurera AEM [!DNL Forms JEE] enligt beskrivningen i [Installera och konfigurera AEM [!DNL Forms JEE]](#install-and-configure-aem-forms-jee).
 1. Installera senaste AEM CFP 6.3.3.x
 1. Installera tilläggspaketet [!DNL Forms] för AEM CFP [ 6.3.3.x](aem-forms-releases.md)
@@ -42,7 +42,7 @@ Om du använder AEM 6.3 [!DNL Forms JEE]-servern med Oracle-databasen konfigurer
 
 Utför följande steg för att installera det kumulativa korrigeringspaketet på AEM 6.2 [!DNL Forms JEE].
 
-1. Om du vill få installationsprogrammet för AEM 6.2 [!DNL Forms JEE] för CFP kontaktar du [Adobe Support](https://experienceleague.adobe.com/?support-solution=General&support-tab=home#support).
+1. Om du vill få installationsprogrammet för AEM 6.2 [!DNL Forms JEE] för CFP kontaktar du [Adobe Support](https://experienceleague.adobe.com/sv?support-solution=General&support-tab=home#support).
 1. Kör CFP-installationsprogrammet och konfigurera AEM [!DNL Forms JEE] enligt beskrivningen i [Installera och konfigurera AEM [!DNL Forms JEE]](install-cfp-aem-forms-jee.md#install-and-configure-aem-forms-jee).
 1. Installera AEM Hotfix 12785 version 7.0.
 1. Installera AEM 6.2 Service Pack 1.
