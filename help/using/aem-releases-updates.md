@@ -21,7 +21,7 @@ I den här artikeln listas den senaste versionen för varje versionskategori och
 
 [!DNL Experience Manager] som [!DNL Cloud Service] har vanligtvis som mål en månatlig lanseringsgräns för nya funktioner.
 
-Information om den aktuella/senaste versionen finns i [Aktuell versionsinformation för [!DNL Experience Manager] som en [!DNL Cloud Service]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current). Därifrån kan du även navigera till information om tidigare versioner (ordnade kronologiskt).
+Information om den aktuella/senaste versionen finns i [Aktuell versionsinformation för [!DNL Experience Manager] som en [!DNL Cloud Service]](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current). Därifrån kan du även navigera till information om tidigare versioner (ordnade kronologiskt).
 
 ## [!DNL Experience Manager] lokalt och Managed Services {#aem-on-prem-managed-services}
 
@@ -31,11 +31,11 @@ För Managed Services och lokalt installerade produkter listas den senaste kumul
 
 [!DNL Experience Manager] 6.5-produktuppdateringar levereras via Service Pack och innehåller nya funktioner, förbättringar och felkorrigeringar.
 
-Information om den senaste versionen finns i [[!DNL Experience Manager] 6.5 Senaste funktionspaket](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes). Därifrån kan du även navigera till information om tidigare versioner (ordnade kronologiskt).
+Information om den senaste versionen finns i [[!DNL Experience Manager] 6.5 Senaste funktionspaket](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/release-notes/release-notes). Därifrån kan du även navigera till information om tidigare versioner (ordnade kronologiskt).
 
 ### [!DNL Experience Manager] 6.5 LTS {#aem-65-lts}
 
 [!DNL Experience Manager] 6.5 LTS-produktuppdateringar levereras via Service Pack och innehåller nya funktioner, förbättringar och felkorrigeringar.
 
-Se [[!DNL Experience Manager] 6.5 LTS senaste funktionspaket](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/release-notes/release-notes) för mer information om den aktuella/senaste versionen.
+Se [[!DNL Experience Manager] 6.5 LTS senaste funktionspaket](https://experienceleague.adobe.com/sv/docs/experience-manager-65-lts/content/release-notes/release-notes) för mer information om den aktuella/senaste versionen.
 
