@@ -19,7 +19,7 @@ Utför följande steg för att installera det kumulativa korrigeringspaketet på
 1. Om du vill få installationsprogrammet för AEM 6.3 [!DNL Forms JEE] för CFP kontaktar du [Adobe Support](https://experienceleague.adobe.com/sv?support-solution=General&support-tab=home#support).
 1. Kör CFP-installationsprogrammet och konfigurera AEM [!DNL Forms JEE] enligt beskrivningen i [Installera och konfigurera AEM [!DNL Forms JEE]](#install-and-configure-aem-forms-jee).
 1. Installera senaste AEM CFP 6.3.3.x
-1. Installera tilläggspaketet [!DNL Forms] för AEM CFP [ 6.3.3.x](aem-forms-releases.md)
+1. Installera tilläggspaketet [!DNL Forms] för AEM CFP [&#x200B; 6.3.3.x](aem-forms-releases.md)
 
 ### Installera AEM [!DNL Forms JEE]-paketpaket {#install-aem-forms-jee-bundles-package}
 
