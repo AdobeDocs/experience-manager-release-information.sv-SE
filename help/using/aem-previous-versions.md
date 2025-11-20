@@ -5,7 +5,7 @@ recommendations: noCatalog
 exl-id: c210eadb-58ec-4d40-ba72-5e4b11564510
 source-git-commit: 21b1429ca747fdef9a2d1ffe441c86d07ae281c7
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '570'
 ht-degree: 2%
 
 ---
@@ -16,11 +16,11 @@ Här hittar du guider för äldre versioner av AEM, CQ och CRX.
 
 ## Äldre versioner av [!DNL Experience Manager]-dokumentation {#older-version-aem-documentation}
 
-Versionerna av [!DNL Adobe Experience Manager], CQ och CRX på den här sidan är End of Life och säljs inte längre officiellt av Adobe. Adobe senaste versioner av officiell dokumentation för dessa äldre versioner finns att tillgå för dina självhjälpsbehov. Adobe rekommenderar att du uppgraderar till den senaste versionen - [[!DNL Adobe Experience Manager] as a Cloud Service](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service).
+Versionerna av [!DNL Adobe Experience Manager], CQ och CRX på den här sidan är End of Life och säljs inte längre officiellt av Adobe. Adobe senaste versioner av officiell dokumentation för dessa äldre versioner finns att tillgå för dina självhjälpsbehov. Adobe rekommenderar att du uppgraderar till den senaste versionen - [[!DNL Adobe Experience Manager] as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service).
 
 >[!NOTE]
 >
->Om du vill veta när en [!DNL Experience Manager]-version har nått slutet av kärnsupporten läser du [produkter och perioder för teknisk support](https://helpx.adobe.com/se/support/programs/eol-matrix.html) och söker efter `AEM`.
+>Om du vill veta när en [!DNL Experience Manager]-version har nått slutet av kärnsupporten läser du [produkter och perioder för teknisk support](https://helpx.adobe.com/support/programs/eol-matrix.html) och söker efter `AEM`.
 
 ### Innan du installerar {#before-installation}
 
@@ -38,11 +38,11 @@ Innan du laddar ned paketet bör du avgöra vem som förbrukar innehållet. Det 
 Ett giltigt Adobe ID krävs:
 
 * Om du inte har någon Adobe ID kan du skapa en på https://www.adobe.com/
-Om du behöver hjälp med att skapa eller hantera din Adobe ID kan du [läsa den här handboken](https://helpx.adobe.com/se/manage-account.html)
+Om du behöver hjälp med att skapa eller hantera din Adobe ID kan du [läsa den här handboken](https://helpx.adobe.com/manage-account.html)
 
 | [!DNL Experience Manager] version | Software Distribution Link |
 |:-----------:|:--------------------------------------------------:|
-| [!DNL Experience Manager] 6.4 | [Adobe Experience Manager 6.4-dokumentation](https://experienceleague.adobe.com/sv/docs/experience-manager-64) |
+| [!DNL Experience Manager] 6.4 | [Adobe Experience Manager 6.4-dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-64) |
 | [!DNL Experience Manager] 6.3 | [Hämta AEM-DOCS-6.3 från programvarudistribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem-docs/aem-docs-6-3.zip) |
 | [!DNL Experience Manager] 6.2 | [Hämta AEM-DOCS-6.2 från programvarudistribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem-docs/aem-docs-6-2.zip) |
 | [!DNL Experience Manager] 6.1 | [Hämta AEM-DOCS-6.1 från programvarudistribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem-docs/aem-docs-6-1.zip) |
@@ -95,7 +95,7 @@ Om du vill installera ett äldre dokumentationspaket måste du ha [!DNL Experien
 
 1. Välj **[!UICONTROL Install]** igen i bekräftelsedialogrutan. Installationen tar några minuter.
 
-1. Starta dokumentationssidan i en webbläsare. Med hjälp av AEM 5.6.1-exemplet blir URL:en: http://localhost:4502/libs/aem-docs/content/en/cq/5-6-1.html.
+1. Starta dokumentationssidan i en webbläsare. Om du använder AEM 5.6.1-exemplet blir URL:en: http://localhost:4502/libs/aem-docs/content/en/cq/5-6-1.html.
 
 ## Få hjälp från communityn [!DNL Experience Manager] {#get-help-from-aem-community}
 
