@@ -33,7 +33,7 @@ De kommande versionerna för [!DNL Experience Manager] som en [!DNL Cloud Servic
 | Underhållsutgåva [22758](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-10-0#22758) | Automatisk uppdatering | 6-8 oktober 2025 | Uppdaterat |
 | Underhållsutgåva [22943](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-10-0#22943) | Automatisk uppdatering | 20-22 oktober 2025 | Uppdaterat |
 | Funktionsversion [2025.10.0](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/release-notes/2025/release-notes-2025-10-0) | Aktivering av funktioner | 30 oktober 2025 | Aktiverad |
-| Underhållsutgåva [23385](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-11-0#23385) | Automatisk uppdatering | 17-19 november 2025 | Uppdaterat |
+| Underhållsutgåva [23385](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-11-0#23385) | Automatisk uppdatering | 17-19 november 2025 | Uppdaterat |
 | Funktionsversion [2025.11.0](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) | Aktivering av funktioner | 20 november 2025 | Aktiverad |
 
 ### Kommande [!DNL Cloud Service] versioner {#upcoming}
