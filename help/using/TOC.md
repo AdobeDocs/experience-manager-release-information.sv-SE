@@ -10,10 +10,10 @@ feature-set: Experience Manager
 feature: Release Information
 role: Leader, Architect, Developer, Data Architect, Data Engineer, Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: ce1026216ccb79a3c268b3f6b24698fa3a3388dc
+source-git-commit: 1ecab683c9f72e1077b1ca2ace9c0bcd54d5bdcc
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 32%
+source-wordcount: '63'
+ht-degree: 36%
 
 ---
 
@@ -29,6 +29,3 @@ ht-degree: 32%
 + Uppdateringar om AEM Forms {#forms-updates}
    + [AEM Forms-versioner](aem-forms-releases.md)
    + [Installera kumulativa korrigeringspaket på AEM Forms JEE](install-cfp-aem-forms-jee.md)
-+ Dokumentation {#doc-updates}
-   + [Senaste dokumentationsuppdateringar](documentation-updates.md)
-   + [Tidigare dokumentationsuppdateringar](previous-documentation-updates.md)
