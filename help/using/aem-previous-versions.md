@@ -99,4 +99,4 @@ Om du vill installera ett äldre dokumentationspaket måste du ha [!DNL Experien
 
 ## Få hjälp från communityn [!DNL Experience Manager] {#get-help-from-aem-community}
 
-Om du har frågor om hur du använder Experience Manager rekommenderar Adobe att du [kontaktar erfarna community-experter i [!DNL Experience Manager] forumen](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
+Om du har frågor om hur du använder Experience Manager rekommenderar Adobe att du [kontaktar erfarna community-experter i [!DNL Experience Manager] forumen](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=sv).
