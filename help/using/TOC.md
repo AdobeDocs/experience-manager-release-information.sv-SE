@@ -3,22 +3,22 @@ cloud: Experience Cloud
 product: experience manager
 solution: Experience Manager
 audience: end-user
-user-guide-title: Versionsuppdateringar och färdplan för Adobe Experience Manager
-breadcrumb-title: Versionsinformation om AEM
-user-guide-description: Se de senaste versionsinformationerna om AEM.
+user-guide-title: Adobe Experience Manager Release Updates and Roadmap
+breadcrumb-title: AEM versionsinformation
+user-guide-description: Se de senaste AEM-uppdateringarna.
 feature-set: Experience Manager
 feature: Release Information
-role: Leader, Architect, Developer, Data Architect, Data Engineer, Admin, User
+role: Leader, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 1ecab683c9f72e1077b1ca2ace9c0bcd54d5bdcc
+source-git-commit: bbca238b99f4c72d65418f224103c37d417793d6
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 36%
+ht-degree: 0%
 
 ---
 
 
-# Versionsuppdateringar och färdplan för Adobe Experience Manager {#aem-release-updates}
+# Adobe Experience Manager Release Updates and Roadmap {#aem-release-updates}
 
 + [Startsida för versionsinformation](home.md)
 + [AEM släpper uppdateringar](aem-releases-updates.md)
