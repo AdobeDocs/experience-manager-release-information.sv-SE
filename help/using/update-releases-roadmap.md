@@ -2,9 +2,9 @@
 title: '[!DNL Adobe Experience Manager] släpper färdplan'
 description: '[!DNL Adobe Experience Manager] släpper färdplan'
 exl-id: c106d7a1-8810-4328-b99d-dad862a50640
-source-git-commit: a3dd62dc98c1331a7140ad392ebbcd19a215c165
+source-git-commit: 87c25263911440c2de776cbc4642c32240d66bc4
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1201'
 ht-degree: 1%
 
 ---
@@ -20,12 +20,12 @@ ht-degree: 1%
 
 ## [!DNL Experience Manager] som en [!DNL Cloud Service] {#aem-as-cloud-service}
 
-[!DNL Experience Manager] som [!DNL Cloud Service] nya funktioner levereras via en [månadsvis funktionsaktivering](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current), medan förbättringar och felkorrigeringar levereras två gånger i månaden via [underhållsutgåvor](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest).
+[!DNL Experience Manager] som [!DNL Cloud Service] nya funktioner levereras via en [månadsvis funktionsaktivering](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current), medan förbättringar och felkorrigeringar levereras två gånger i månaden via [underhållsutgåvor](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest).
 De kommande versionerna för [!DNL Experience Manager] som en [!DNL Cloud Service] planeras enligt följande:
 
 >[!IMPORTANT]
 >
->För kunder som har inaktuella versioner: för att säkerställa säkerheten och stabiliteten i dina AEM-miljöer och relaterade instanser måste dina program uppdateras till den senaste [!DNL Experience Manager] som en [!DNL Cloud Service]-version.
+>För kunder med gamla versioner: för att säkerställa säkerheten och stabiliteten i dina AEM-miljöer och relaterade instanser måste dina program uppdateras till den senaste [!DNL Experience Manager] som en [!DNL Cloud Service]-version.
 >
 >Kontakta Adobe tekniska representant (CSME, TAM) för att samordna en plan för att få tillgång till den aktuella versionen. Äldre versioner som ligger **mer än sex månader** efter den aktuella versionen kräver steg-för-steg-planerade uppdateringar med Adobe hjälp.
 >
@@ -35,28 +35,28 @@ De kommande versionerna för [!DNL Experience Manager] som en [!DNL Cloud Servic
 
 | Frigör | Händelse | Schema | Status |
 |---|---|---|---|
-| Underhållsutgåva [22758](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-10-0#22758) | Automatisk uppdatering | 6-8 oktober 2025 | Uppdaterat |
-| Underhållsutgåva [22943](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-10-0#22943) | Automatisk uppdatering | 20-22 oktober 2025 | Uppdaterat |
-| Funktionsversion [2025.10.0](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/release-notes/2025/release-notes-2025-10-0) | Aktivering av funktioner | 30 oktober 2025 | Aktiverad |
-| Underhållsutgåva [23385](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-11-0#23385) | Automatisk uppdatering | 17-19 november 2025 | Uppdaterat |
-| Funktionsversion [2025.11.0](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/release-notes/2025/release-notes-2025-11-0) | Aktivering av funktioner | 20 november 2025 | Aktiverad |
-| Underhållsutgåva [23482](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-12-0#23482) | Automatisk uppdatering | 8-10 december 2025 | Uppdaterat |
-| Funktionsversion [2025.12.0](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/release-notes/2025/release-notes-2025-12-0) | Aktivering av funktioner | 11 december 2025 | Aktiverad |
-| Underhållsutgåva [23963](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-1-0#23963) | Automatisk uppdatering | 26-28 januari 2026 | Uppdaterat |
-| Funktionsversion [2026.1.0](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/release-notes/2026/2026-1-0) | Aktivering av funktioner | 29 januari 2026 | Aktiverad |
-| Underhållsutgåva [24288](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-2-0#24288) | Automatisk uppdatering | 9-11 februari 2026 | Uppdaterat |
-| Underhållsutgåva [24464](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Automatisk uppdatering | 23-25 februari 2026 | Uppdaterat |
-| Funktionsversion [2026.2.0](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/release-notes/2026/2026-2-0) | Aktivering av funktioner | 3 mars 2026 | Aktiverad |
-| Underhållsutgåva [24678](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-3-0#24678) | Automatisk uppdatering | 9-11 mars 2026 | Uppdaterat |
-| Funktionsversion [2026.3.0](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) | Aktivering av funktioner | 26 mars 2026 | Aktiverad |
-| Underhållsutgåva [25194](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-4-0#25194) | Automatisk uppdatering | 6-8 april 2026 | Uppdaterat |
+| Underhållsutgåva [22758](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-10-0#22758) | Automatisk uppdatering | 6-8 oktober 2025 | Uppdaterat |
+| Underhållsutgåva [22943](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-10-0#22943) | Automatisk uppdatering | 20-22 oktober 2025 | Uppdaterat |
+| Funktionsversion [2025.10.0](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/2025/release-notes-2025-10-0) | Aktivering av funktioner | 30 oktober 2025 | Aktiverad |
+| Underhållsutgåva [23385](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-11-0#23385) | Automatisk uppdatering | 17-19 november 2025 | Uppdaterat |
+| Funktionsversion [2025.11.0](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/2025/release-notes-2025-11-0) | Aktivering av funktioner | 20 november 2025 | Aktiverad |
+| Underhållsutgåva [23482](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-12-0#23482) | Automatisk uppdatering | 8-10 december 2025 | Uppdaterat |
+| Funktionsversion [2025.12.0](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/2025/release-notes-2025-12-0) | Aktivering av funktioner | 11 december 2025 | Aktiverad |
+| Underhållsutgåva [23963](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-1-0#23963) | Automatisk uppdatering | 26-28 januari 2026 | Uppdaterat |
+| Funktionsversion [2026.1.0](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/2026/2026-1-0) | Aktivering av funktioner | 29 januari 2026 | Aktiverad |
+| Underhållsutgåva [24288](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-2-0#24288) | Automatisk uppdatering | 9-11 februari 2026 | Uppdaterat |
+| Underhållsutgåva [24464](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Automatisk uppdatering | 23-25 februari 2026 | Uppdaterat |
+| Funktionsversion [2026.2.0](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/2026/2026-2-0) | Aktivering av funktioner | 3 mars 2026 | Aktiverad |
+| Underhållsutgåva [24678](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-3-0#24678) | Automatisk uppdatering | 9-11 mars 2026 | Uppdaterat |
+| Funktionsversion [2026.3.0](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/2026/2026-3-0) | Aktivering av funktioner | 26 mars 2026 | Aktiverad |
+| Underhållsutgåva [25194](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-4-0#25194) | Automatisk uppdatering | 6-8 april 2026 | Uppdaterat |
+| Underhållsutgåva [25520](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Automatisk uppdatering | 27-29 april 2026 | Uppdaterat |
+| Funktionsversion [2026.4.0](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) | Aktivering av funktioner | 30 april 2026 | Aktiverad |
 
 ### Kommande [!DNL Cloud Service] versioner {#upcoming}
 
 | Frigör | Händelse | Schema | Status |
 |---|---|---|---|
-| Underhållsutgåva [25520](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Automatisk uppdatering | 27-29 april 2026 | Target |
-| Feature Release 2026.4.0 | Aktivering av funktioner | 30 april 2026 | Target |
 | Underhållsrelease | Automatisk uppdatering | 11-13 maj 2026 | Target |
 | Underhållsrelease | Automatisk uppdatering | 25-27 maj 2026 | Target |
 | Feature Release 2026.5.0 | Aktivering av funktioner | 28 maj 2026 | Target |
@@ -70,24 +70,24 @@ Produktuppdateringar med nya funktioner, förbättringar och felkorrigeringar f�
 
 ### [!DNL Experience Manager] 6.5 LTS {#aem65lts}
 
-[!DNL Experience Manager] 6.5 LTS-produktuppdateringar levereras via Service Packs. Dessa Service Pack innehåller nya funktioner, förbättringar och felkorrigeringar. Mer information om det senaste släppta Service Pack-meddelandet finns i [[!DNL Experience Manager] 6.5 Versionsinformation för LTS](https://experienceleague.adobe.com/sv/docs/experience-manager-65-lts/content/release-notes/release-notes).
+[!DNL Experience Manager] 6.5 LTS-produktuppdateringar levereras via Service Packs. Dessa Service Pack innehåller nya funktioner, förbättringar och felkorrigeringar. Mer information om det senaste släppta Service Pack-meddelandet finns i [[!DNL Experience Manager] 6.5 Versionsinformation för LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/release-notes/release-notes).
 
 | Frigör | Version | Typ | Schema | Status |
 |---|---|---|---|---|
-| [!DNL Experience Manager] 6.5 LTS [Service Pack 1](https://experienceleague.adobe.com/sv/docs/experience-manager-65-lts/content/release-notes/release-notes) | 6.5.LTS.SP1 | Service Pack | 28 augusti 2025 | Aktiverad |
-| [!DNL Experience Manager] 6.5 LTS [Service Pack 2](https://experienceleague.adobe.com/sv/docs/experience-manager-65-lts/content/release-notes/release-notes) | 6.5.LTS.SP2 | Service Pack | 19 februari 2026 | Aktiverad |
+| [!DNL Experience Manager] 6.5 LTS [Service Pack 1](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/release-notes/release-notes) | 6.5.LTS.SP1 | Service Pack | 28 augusti 2025 | Aktiverad |
+| [!DNL Experience Manager] 6.5 LTS [Service Pack 2](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/release-notes/release-notes) | 6.5.LTS.SP2 | Service Pack | 19 februari 2026 | Aktiverad |
 | [!DNL Experience Manager] 6.5 LTS Service Pack 3 | 6.5.LTS.SP3 | Service Pack | 20 augusti 2026 | Target |
 
 ### [!DNL Experience Manager] 6.5 {#aem65}
 
-[!DNL Experience Manager] 6.5 produktuppdateringar levereras via Service Packs. Dessa Service Pack innehåller nya funktioner, förbättringar och felkorrigeringar. Mer information om det senaste släppta Service Pack-versionen finns i [[!DNL Experience Manager] 6.5 versionsinformation för Service Pack](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/release-notes/release-notes).
+[!DNL Experience Manager] 6.5 produktuppdateringar levereras via Service Packs. Dessa Service Pack innehåller nya funktioner, förbättringar och felkorrigeringar. Mer information om det senaste släppta Service Pack-versionen finns i [[!DNL Experience Manager] 6.5 versionsinformation för Service Pack](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
 
 | Frigör | Version | Typ | Schema | Status |
 |---|---|---|---|---|
-| [!DNL Experience Manager] 6.5 [Service Pack 21](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/release-notes/service-pack/6-5-21) | 6.5.21.0 | Service Pack | 6 juni 2024 | Aktiverad |
-| [!DNL Experience Manager] 6.5 [Service Pack 22](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/release-notes/release-notes) | 6.5.22.0 | Service Pack | 21 november 2024 | Aktiverad |
-| [!DNL Experience Manager] 6.5 [Service Pack 23](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/release-notes/service-pack/6-5-23) | 6.5.23.0 | Service Pack | 22 maj 2025 | Aktiverad |
-| [!DNL Experience Manager] 6.5 [Service Pack 24](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/release-notes/release-notes) | 6.5.24.0 | Service Pack | 26 november 2025 | Aktiverad |
+| [!DNL Experience Manager] 6.5 [Service Pack 21](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/service-pack/6-5-21) | 6.5.21.0 | Service Pack | 6 juni 2024 | Aktiverad |
+| [!DNL Experience Manager] 6.5 [Service Pack 22](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes) | 6.5.22.0 | Service Pack | 21 november 2024 | Aktiverad |
+| [!DNL Experience Manager] 6.5 [Service Pack 23](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/service-pack/6-5-23) | 6.5.23.0 | Service Pack | 22 maj 2025 | Aktiverad |
+| [!DNL Experience Manager] 6.5 [Service Pack 24](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes) | 6.5.24.0 | Service Pack | 26 november 2025 | Aktiverad |
 | [!DNL Experience Manager] 6.5 Service Pack 25 | 6.5.25.0 | Service Pack | 21 maj 2026 | Target |
 | [!DNL Experience Manager] 6.5 Service Pack 26 | 6.5.26.0 | Service Pack | 19 november 2026 | Target |
 
@@ -106,7 +106,7 @@ Produktuppdateringar med nya funktioner, förbättringar och felkorrigeringar f�
 
 >[!MORELIKETHIS]
 >
->* [EOL-matris](https://helpx.adobe.com/se/support/programs/eol-matrix.html)
->* [[!DNL Experience Manager] releaser och uppdateringar](https://experienceleague.adobe.com/sv/docs/experience-manager-release-information/aem-release-updates/aem-releases-updates)
->* [[!DNL Experience Manager] Lär dig mer och support](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service)
+>* [EOL-matris](https://helpx.adobe.com/support/programs/eol-matrix.html)
+>* [[!DNL Experience Manager] releaser och uppdateringar](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/aem-releases-updates)
+>* [[!DNL Experience Manager] Lär dig mer och support](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service)
 >* [[!DNL Experience Manager] Uppdatera definitioner för frisläppande av fordon](/help/using/update-release-vehicle-definitions.md)
